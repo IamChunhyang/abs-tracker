@@ -84,6 +84,7 @@ function FullRankingPage() {
   const [searched, setSearched] = useState(false);
   const [history, setHistory] = useState<string[]>([]);
   const [copied, setCopied] = useState(false);
+  const [tableFilter, setTableFilter] = useState("");
 
   function setPage(p: number) {
     setPageState(p);
@@ -104,7 +105,11 @@ function FullRankingPage() {
 
   useEffect(() => {
     const saved = localStorage.getItem("rank_history");
-    if (saved) setHistory(JSON.parse(saved));
+    if (saved) {
+      const parsed = JSON.parse(saved).slice(0, 10);
+      setHistory(parsed);
+      localStorage.setItem("rank_history", JSON.stringify(parsed));
+    }
     const initQ = searchParams.get("q");
     if (initQ) doSearch(initQ);
   }, []);
@@ -154,22 +159,23 @@ function FullRankingPage() {
 
   async function handleSearch(e: React.FormEvent) {
     e.preventDefault();
+    setTableFilter(query);
     doSearch(query);
   }
 
   const filtered = useMemo(() => {
-    if (!query.trim()) return wallets;
-    const q = query.trim().toLowerCase();
+    if (!tableFilter.trim()) return wallets;
+    const q = tableFilter.trim().toLowerCase();
     return wallets.filter(
       (w) => w.name.toLowerCase().includes(q) || w.address.toLowerCase().includes(q)
     );
-  }, [wallets, query]);
+  }, [wallets, tableFilter]);
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const currentPage = Math.min(page, totalPages);
   const pageWallets = filtered.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
 
-  useEffect(() => { setPageState(1); }, [query]);
+  useEffect(() => { setPageState(1); }, [tableFilter]);
 
   const tierColor: Record<string, string> = {
     Obsidian: "from-purple-600 to-purple-800",
@@ -201,7 +207,7 @@ function FullRankingPage() {
               {query && (
                 <button
                   type="button"
-                  onClick={() => { setQuery(""); setSearched(false); setRankResult(null); }}
+                  onClick={() => { setQuery(""); setTableFilter(""); setSearched(false); setRankResult(null); }}
                   className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 hover:text-white transition-colors"
                 >
                   <X className="h-4 w-4" />
