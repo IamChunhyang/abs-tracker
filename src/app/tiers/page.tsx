@@ -73,7 +73,6 @@ function FullRankingPage() {
   // Full ranking state
   const [wallets, setWallets] = useState<WalletRank[]>([]);
   const [rankLoading, setRankLoading] = useState(true);
-  const [tableSearch, setTableSearch] = useState("");
   const pageParam = parseInt(searchParams.get("page") || "1", 10);
   const [page, setPageState] = useState(pageParam || 1);
 
@@ -158,18 +157,18 @@ function FullRankingPage() {
   }
 
   const filtered = useMemo(() => {
-    if (!tableSearch.trim()) return wallets;
-    const q = tableSearch.trim().toLowerCase();
+    if (!query.trim()) return wallets;
+    const q = query.trim().toLowerCase();
     return wallets.filter(
       (w) => w.name.toLowerCase().includes(q) || w.address.toLowerCase().includes(q)
     );
-  }, [wallets, tableSearch]);
+  }, [wallets, query]);
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const currentPage = Math.min(page, totalPages);
   const pageWallets = filtered.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
 
-  useEffect(() => { setPageState(1); }, [tableSearch]);
+  useEffect(() => { setPageState(1); }, [query]);
 
   const tierColor: Record<string, string> = {
     Obsidian: "from-purple-600 to-purple-800",
@@ -416,20 +415,8 @@ function FullRankingPage() {
 
       {/* Full Ranking Table */}
       <div className="space-y-4">
-        <div className="flex gap-3">
-          <div className="relative flex-1">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-500" />
-            <input
-              type="text"
-              value={tableSearch}
-              onChange={(e) => setTableSearch(e.target.value)}
-              placeholder={t("tiers.searchPlaceholder", lang)}
-              className="w-full pl-10 pr-4 py-2.5 rounded-lg bg-gray-900 border border-gray-700 text-white placeholder:text-gray-600 focus:outline-none focus:border-pink-500 focus:ring-1 focus:ring-pink-500 text-sm"
-            />
-          </div>
-          <div className="flex items-center gap-2 text-sm text-gray-500">
-            {filtered.length.toLocaleString()}{lang === "ko" ? "명" : " wallets"}
-          </div>
+        <div className="flex items-center gap-2 text-sm text-gray-500">
+          {filtered.length.toLocaleString()}{lang === "ko" ? "명" : " wallets"}
         </div>
 
         {rankLoading ? (
