@@ -76,6 +76,28 @@ export function findWallet(address: string): Wallet | undefined {
 
 export const TIER_ORDER = ["Obsidian", "Diamond", "Platinum", "Gold"] as const;
 
+interface CustomWalletData {
+  address: string;
+  name: string;
+  tier: string;
+  total_tx_count: number;
+  [period: string]: unknown;
+}
+
+let _customCache: Record<string, CustomWalletData> | null = null;
+
+export function loadCustomWalletCache(): Record<string, CustomWalletData> {
+  if (_customCache) return _customCache;
+  const filepath = join(DATA_DIR, "custom-wallet-cache.json");
+  if (!existsSync(filepath)) return {};
+  try {
+    _customCache = JSON.parse(readFileSync(filepath, "utf-8"));
+    return _customCache!;
+  } catch {
+    return {};
+  }
+}
+
 export function getTierCounts(): Record<string, number> {
   const wallets = loadAllWallets();
   const counts: Record<string, number> = {};

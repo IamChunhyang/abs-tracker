@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
-import { readCache, writeCache } from "@/lib/cache";
-import { loadAllWallets } from "@/lib/load-wallets";
-import { getTxCount, getCurrentBlock, fetchTransactions, periodToBlocks } from "@/lib/abstract-api";
+import { readCache } from "@/lib/cache";
+import { loadAllWallets, loadCustomWalletCache } from "@/lib/load-wallets";
+import { getTxCount } from "@/lib/abstract-api";
 import { getContractName } from "@/lib/data";
 
 interface WalletRank {
@@ -54,13 +54,8 @@ export async function GET(request: NextRequest) {
     return NextResponse.json(cached.data);
   }
 
-  const allRanking = readCache<{
-    wallet_ranking: WalletRank[];
-  }>(`rankings_${period}_all`);
-
-  const tierRanking = readCache<{
-    wallet_ranking: WalletRank[];
-  }>(`rankings_${period}_${wallet.tier}`);
+  const allRanking = readCache<{ wallet_ranking: WalletRank[] }>(`rankings_${period}_all`);
+  const tierRanking = readCache<{ wallet_ranking: WalletRank[] }>(`rankings_${period}_${wallet.tier}`);
 
   let overallRank: number | null = null;
   let overallTotal = 0;
@@ -74,13 +69,10 @@ export async function GET(request: NextRequest) {
     if (idx !== -1) {
       overallRank = idx + 1;
       periodTxCount = sorted[idx].tx_count;
-
       const start = Math.max(0, idx - 100);
       const end = Math.min(sorted.length, idx + 101);
       nearby = sorted.slice(start, end).map((w, i) => ({
-        ...w,
-        rank: start + i + 1,
-        isTarget: w.address.toLowerCase() === wallet.address,
+        ...w, rank: start + i + 1, isTarget: w.address.toLowerCase() === wallet.address,
       }));
     }
   }
@@ -103,11 +95,6 @@ export async function GET(request: NextRequest) {
     totalTxCount = await getTxCount(wallet.address);
   } catch {}
 
-  const topPercent =
-    overallRank && overallTotal
-      ? Math.round((overallRank / overallTotal) * 100)
-      : null;
-
   interface TopContract {
     contract_address: string;
     contract_name: string;
@@ -118,109 +105,69 @@ export async function GET(request: NextRequest) {
   }
 
   let topContracts: TopContract[] = [];
-  const walletCache = readCache<{
-    top_contracts: TopContract[];
-  }>(`wallet_${wallet.address}_${period}`);
+  const walletCache = readCache<{ top_contracts: TopContract[] }>(`wallet_${wallet.address}_${period}`);
   if (walletCache?.top_contracts) {
     topContracts = walletCache.top_contracts.slice(0, 10);
   }
 
-  // Live fetch if wallet not found in cache
+  // Use pre-fetched custom wallet data if not in ranking cache
   if (!overallRank && !tierRank) {
-    try {
-      const currentBlock = await getCurrentBlock();
-      const startBlock = periodToBlocks(period, currentBlock);
-      const txs = await fetchTransactions(wallet.address, startBlock);
-      periodTxCount = txs.length;
+    const customCache = loadCustomWalletCache();
+    const cd = customCache[wallet.address];
+    if (cd) {
+      const pd = cd[period] as { tx_count: number; top_contracts?: { address: string; tx_count: number; top_method: string }[] } | undefined;
+      if (pd) {
+        periodTxCount = pd.tx_count;
+        if (!totalTxCount) totalTxCount = cd.total_tx_count;
 
-      if (topContracts.length === 0) {
-        const cMap: Record<string, { count: number; methods: Record<string, number> }> = {};
-        for (const tx of txs) {
-          const to = (tx.to || "").toLowerCase();
-          if (!to || to === wallet.address) continue;
-          if (!cMap[to]) cMap[to] = { count: 0, methods: {} };
-          cMap[to].count++;
-          const method = tx.functionName || tx.methodId || "unknown";
-          cMap[to].methods[method] = (cMap[to].methods[method] || 0) + 1;
-        }
-        topContracts = Object.entries(cMap)
-          .map(([addr, stats]) => {
-            const info = getContractName(addr);
-            const topMethod = Object.entries(stats.methods).sort((a, b) => b[1] - a[1])[0];
+        if (topContracts.length === 0 && pd.top_contracts) {
+          topContracts = pd.top_contracts.map((c) => {
+            const info = getContractName(c.address);
             return {
-              contract_address: addr,
+              contract_address: c.address,
               contract_name: info.name,
               category: info.category,
               is_unknown: info.is_unknown,
-              tx_count: stats.count,
-              top_method: topMethod ? topMethod[0] : "",
+              tx_count: c.tx_count,
+              top_method: c.top_method,
             };
-          })
-          .sort((a, b) => b.tx_count - a.tx_count)
-          .slice(0, 10);
-      }
-
-      // Compute rank by inserting into cached ranking
-      if (periodTxCount > 0 && allRanking) {
-        const sorted = allRanking.wallet_ranking;
-        const insertIdx = sorted.findIndex((w) => w.tx_count <= periodTxCount);
-        overallRank = insertIdx === -1 ? sorted.length + 1 : insertIdx + 1;
-        overallTotal = sorted.length + 1;
-
-        const me: WalletRank = { address: wallet.address, name: wallet.name, tier: wallet.tier, tx_count: periodTxCount };
-        const withMe = [...sorted.slice(0, insertIdx === -1 ? sorted.length : insertIdx), me, ...sorted.slice(insertIdx === -1 ? sorted.length : insertIdx)];
-        const myIdx = withMe.findIndex((w) => w.address === wallet.address);
-        const start = Math.max(0, myIdx - 100);
-        const end = Math.min(withMe.length, myIdx + 101);
-        nearby = withMe.slice(start, end).map((w, i) => ({
-          ...w,
-          rank: start + i + 1,
-          isTarget: w.address === wallet.address,
-        }));
-      }
-
-      if (periodTxCount > 0 && tierRanking) {
-        const sorted = tierRanking.wallet_ranking;
-        const insertIdx = sorted.findIndex((w) => w.tx_count <= periodTxCount);
-        tierRank = insertIdx === -1 ? sorted.length + 1 : insertIdx + 1;
-        tierTotal = sorted.length + 1;
-      }
-
-      // Cache result for next time
-      if (periodTxCount > 0) {
-        try {
-          writeCache(`wallet_${wallet.address}_${period}`, {
-            address: wallet.address,
-            name: wallet.name,
-            tier: wallet.tier,
-            tier_v2: wallet.tier_v2,
-            badges: wallet.badges,
-            streaming: wallet.streaming,
-            portal_link: wallet.portal_link,
-            total_tx_count: totalTxCount,
-            period_tx_count: periodTxCount,
-            period,
-            top_contracts: topContracts,
           });
-        } catch {}
+        }
       }
-    } catch {}
+    }
+
+    // Compute rank by inserting into cached ranking
+    if (periodTxCount > 0 && allRanking) {
+      const sorted = allRanking.wallet_ranking;
+      const insertIdx = sorted.findIndex((w) => w.tx_count <= periodTxCount);
+      overallRank = insertIdx === -1 ? sorted.length + 1 : insertIdx + 1;
+      overallTotal = sorted.length + 1;
+
+      const me: WalletRank = { address: wallet.address, name: wallet.name, tier: wallet.tier, tx_count: periodTxCount };
+      const pos = insertIdx === -1 ? sorted.length : insertIdx;
+      const withMe = [...sorted.slice(0, pos), me, ...sorted.slice(pos)];
+      const myIdx = withMe.findIndex((w) => w.address === wallet.address);
+      const start = Math.max(0, myIdx - 100);
+      const end = Math.min(withMe.length, myIdx + 101);
+      nearby = withMe.slice(start, end).map((w, i) => ({
+        ...w, rank: start + i + 1, isTarget: w.address === wallet.address,
+      }));
+    }
+
+    if (periodTxCount > 0 && tierRanking) {
+      const sorted = tierRanking.wallet_ranking;
+      const insertIdx = sorted.findIndex((w) => w.tx_count <= periodTxCount);
+      tierRank = insertIdx === -1 ? sorted.length + 1 : insertIdx + 1;
+      tierTotal = sorted.length + 1;
+    }
   }
 
-  const topPercent2 =
-    overallRank && overallTotal
-      ? Math.round((overallRank / overallTotal) * 100)
-      : null;
+  const topPercent = overallRank && overallTotal
+    ? Math.round((overallRank / overallTotal) * 100) : null;
 
   const result = {
     found: true,
-    wallet: {
-      address: wallet.address,
-      name: wallet.name,
-      tier: wallet.tier,
-      badges: wallet.badges,
-      streaming: wallet.streaming,
-    },
+    wallet: { address: wallet.address, name: wallet.name, tier: wallet.tier, badges: wallet.badges, streaming: wallet.streaming },
     period,
     overall_rank: overallRank,
     overall_total: overallTotal,
@@ -228,7 +175,7 @@ export async function GET(request: NextRequest) {
     tier_total: tierTotal,
     period_tx_count: periodTxCount,
     total_tx_count: totalTxCount,
-    top_percent: topPercent2 ?? topPercent,
+    top_percent: topPercent,
     nearby,
     top_contracts: topContracts,
   };

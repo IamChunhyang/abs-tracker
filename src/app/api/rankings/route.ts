@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getCurrentBlock, fetchTransactions, periodToBlocks } from "@/lib/abstract-api";
 import { getContractName } from "@/lib/data";
-import { loadAllWallets } from "@/lib/load-wallets";
+import { loadAllWallets, loadCustomWalletCache } from "@/lib/load-wallets";
 import { RankingEntry } from "@/lib/types";
 import { readCache } from "@/lib/cache";
 
@@ -41,6 +41,23 @@ export async function GET(request: NextRequest) {
   const fileCache = readCache(`rankings_${period}_${tier}`) as any;
   if (fileCache) {
     fileCache.rankings = groupRankings(fileCache.rankings || []);
+
+    // Merge custom wallets into wallet_ranking
+    const customCache = loadCustomWalletCache();
+    const walletRanking: { address: string; name: string; tier: string; tx_count: number }[] = fileCache.wallet_ranking || [];
+    const existingAddrs = new Set(walletRanking.map((w: any) => w.address.toLowerCase()));
+
+    for (const [addr, cd] of Object.entries(customCache)) {
+      if (existingAddrs.has(addr)) continue;
+      const pd = cd[period] as { tx_count: number } | undefined;
+      if (!pd || (tier !== "all" && cd.tier !== tier)) continue;
+      walletRanking.push({ address: addr, name: cd.name, tier: cd.tier, tx_count: pd.tx_count });
+    }
+
+    walletRanking.sort((a: any, b: any) => b.tx_count - a.tx_count);
+    fileCache.wallet_ranking = walletRanking;
+    fileCache.total_wallets = walletRanking.length;
+
     return NextResponse.json(fileCache);
   }
 
