@@ -8,7 +8,7 @@ import { WalletSearch } from "@/components/wallet-search";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Period, RankingEntry } from "@/lib/types";
-import { isKoreanUser } from "@/lib/data";
+import { isKoreanUser, getContractName } from "@/lib/data";
 import { useLang } from "@/lib/language-context";
 import { t, tCat } from "@/lib/i18n";
 import { useSearchParams, useRouter } from "next/navigation";
@@ -78,7 +78,8 @@ function Dashboard() {
   const activeWallets = data?.wallet_ranking?.filter((w) => w.tx_count > 0).length || 0;
   const totalWallets = data?.total_wallets || 0;
   const activePct = totalWallets > 0 ? Math.round((activeWallets / totalWallets) * 100) : 0;
-  const topDapp = data?.rankings?.[0]?.contract_name || "-";
+  const topEntry = data?.rankings?.[0];
+  const topDapp = topEntry ? getContractName(topEntry.contract_address, lang).name : "-";
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 space-y-6">
