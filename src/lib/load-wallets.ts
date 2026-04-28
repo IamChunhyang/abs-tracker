@@ -1,4 +1,4 @@
-import { readFileSync } from "fs";
+import { readFileSync, existsSync } from "fs";
 import { join } from "path";
 import { Wallet } from "./types";
 
@@ -22,17 +22,46 @@ function parseCsv(filename: string): Wallet[] {
   });
 }
 
+function loadCustomWallets(): Wallet[] {
+  const filepath = join(DATA_DIR, "custom-wallets.json");
+  if (!existsSync(filepath)) return [];
+  try {
+    const raw = readFileSync(filepath, "utf-8");
+    const items = JSON.parse(raw) as Array<{
+      address: string; name: string; tier: string;
+      tier_v2?: number; badges?: number; streaming?: boolean; portal_link?: string;
+    }>;
+    return items.map((w) => ({
+      address: w.address.toLowerCase(),
+      name: w.name,
+      tier: w.tier as Wallet["tier"],
+      tier_v2: w.tier_v2 ?? 0,
+      badges: w.badges ?? 0,
+      streaming: w.streaming ?? false,
+      portal_link: w.portal_link ?? `https://portal.abs.xyz/profile/${w.address}`,
+    }));
+  } catch {
+    return [];
+  }
+}
+
 let _cached: Wallet[] | null = null;
 
 export function loadAllWallets(): Wallet[] {
   if (_cached) return _cached;
 
-  _cached = [
+  const csvWallets = [
     ...parseCsv("obsidian.csv"),
     ...parseCsv("diamond.csv"),
     ...parseCsv("platinum.csv"),
     ...parseCsv("gold.csv"),
   ];
+
+  const custom = loadCustomWallets();
+  const customAddrs = new Set(custom.map((w) => w.address));
+  const filtered = csvWallets.filter((w) => !customAddrs.has(w.address));
+
+  _cached = [...filtered, ...custom];
   return _cached;
 }
 

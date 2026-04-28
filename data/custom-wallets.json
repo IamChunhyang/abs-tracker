@@ -1,0 +1,20 @@
+[
+  {
+    "address": "0x51f6597d191f171cf2104b3a763f5a7202f7300c",
+    "name": "2SPRINGG3",
+    "tier": "Platinum",
+    "tier_v2": 10,
+    "badges": 18,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x51f6597d191f171cf2104b3a763f5a7202f7300c"
+  },
+  {
+    "address": "0xdb65734df1db12ee8027d774c3228753d568fd9a",
+    "name": "YOUNGE",
+    "tier": "Platinum",
+    "tier_v2": 10,
+    "badges": 12,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0xdb65734df1db12ee8027d774c3228753d568fd9a"
+  }
+]

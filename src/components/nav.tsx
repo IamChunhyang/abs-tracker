@@ -14,7 +14,6 @@ export function Nav() {
     { href: "/", label: t("nav.dashboard", lang), icon: Home },
     { href: "/ranking", label: t("nav.ranking", lang), icon: BarChart3 },
     { href: "/tiers", label: t("nav.tiers", lang), icon: Users },
-    { href: "/rank", label: t("nav.myRank", lang), icon: Trophy },
   ];
 
   return (

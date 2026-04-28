@@ -59,6 +59,9 @@ function RankingPage() {
             <TabsTrigger value="Diamond" className="data-[state=active]:bg-cyan-600/30 data-[state=active]:text-cyan-300">
               Diamond
             </TabsTrigger>
+            <TabsTrigger value="Platinum" className="data-[state=active]:bg-gray-500/30 data-[state=active]:text-gray-300">
+              Platinum
+            </TabsTrigger>
             <TabsTrigger value="all" className="data-[state=active]:bg-gray-700 data-[state=active]:text-white">
               {t("dash.allTiers", lang)}
             </TabsTrigger>
