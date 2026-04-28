@@ -1,9 +1,8 @@
 "use client";
 
-import { useState, useEffect, useMemo, useCallback, Suspense, useRef } from "react";
+import { useState, useEffect, useMemo, Suspense } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { TierBadge } from "@/components/tier-badge";
-import { PeriodSelector } from "@/components/period-selector";
 import { Badge } from "@/components/ui/badge";
 import { Search, ChevronLeft, ChevronRight, Trophy, Medal, TrendingUp, Hash, X, Clock, ExternalLink, Copy, Check } from "lucide-react";
 import { Period } from "@/lib/types";
@@ -78,7 +77,7 @@ function FullRankingPage() {
 
   // Rank search state
   const [query, setQuery] = useState(searchParams.get("q") || "");
-  const [period, setPeriodState] = useState<Period>((searchParams.get("period") as Period) || "7d");
+  const period: Period = "7d";
   const [rankResult, setRankResult] = useState<RankResult | null>(null);
   const [searchLoading, setSearchLoading] = useState(false);
   const [searched, setSearched] = useState(false);
@@ -93,16 +92,6 @@ function FullRankingPage() {
     router.replace(`/tiers?${params.toString()}`, { scroll: false });
   }
 
-  function setPeriod(p: Period) {
-    setPeriodState(p);
-    if (query.trim()) {
-      const params = new URLSearchParams(searchParams.toString());
-      params.set("q", query.trim());
-      params.set("period", p);
-      router.replace(`/tiers?${params.toString()}`, { scroll: false });
-    }
-  }
-
   useEffect(() => {
     const saved = localStorage.getItem("rank_history");
     if (saved) {
@@ -111,7 +100,7 @@ function FullRankingPage() {
       localStorage.setItem("rank_history", JSON.stringify(parsed));
     }
     const initQ = searchParams.get("q");
-    if (initQ) doSearch(initQ);
+    if (initQ) fetchRank(initQ);
   }, []);
 
   useEffect(() => {
@@ -137,16 +126,10 @@ function FullRankingPage() {
     localStorage.setItem("rank_history", JSON.stringify(updated));
   }
 
-  const doSearch = useCallback(async (q: string) => {
+  async function fetchRank(q: string) {
     if (!q.trim()) return;
-    setQuery(q);
     setSearchLoading(true);
     setSearched(true);
-    saveHistory(q);
-    const params = new URLSearchParams(searchParams.toString());
-    params.set("q", q.trim());
-    params.set("period", period);
-    router.replace(`/tiers?${params.toString()}`, { scroll: false });
     try {
       const res = await fetch(`/api/rank?q=${encodeURIComponent(q.trim())}&period=${period}`);
       const data = await res.json();
@@ -155,12 +138,21 @@ function FullRankingPage() {
       setRankResult({ found: false } as RankResult);
     }
     setSearchLoading(false);
-  }, [period, history]);
+  }
 
   async function handleSearch(e: React.FormEvent) {
     e.preventDefault();
+    if (!query.trim()) return;
     setTableFilter(query);
-    doSearch(query);
+    saveHistory(query);
+    fetchRank(query);
+  }
+
+  function handleRowClick(name: string) {
+    setQuery(name);
+    saveHistory(name);
+    fetchRank(name);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   const filtered = useMemo(() => {
@@ -225,7 +217,7 @@ function FullRankingPage() {
                 key={h}
                 className="group flex items-center gap-1 px-3 py-1 rounded-full bg-gray-800 border border-gray-700 text-xs text-gray-400 hover:text-white hover:border-gray-600 transition-colors"
               >
-                <span onClick={() => doSearch(h)}>{h}</span>
+                <span onClick={() => { setQuery(h); fetchRank(h); }}>{h}</span>
                 <X
                   className="h-3 w-3 text-gray-600 hover:text-red-400 transition-colors"
                   onClick={(e) => { e.stopPropagation(); removeHistory(h); }}
@@ -420,20 +412,7 @@ function FullRankingPage() {
           {!rankResult.overall_rank && (
             <Card className="bg-gray-900 border-gray-800">
               <CardContent className="py-6 text-center">
-                {rankResult.wallet.tier === "Platinum" && (period === "14d" || period === "30d") ? (
-                  <>
-                    <p className="text-gray-400">
-                      {lang === "ko"
-                        ? "Platinum 티어는 1일, 7일 데이터만 지원됩니다"
-                        : "Platinum tier only supports 1-day and 7-day data"}
-                    </p>
-                    <p className="text-gray-600 text-sm mt-1">
-                      {lang === "ko"
-                        ? "기간을 1일 또는 7일로 변경해주세요"
-                        : "Please change the period to 1d or 7d"}
-                    </p>
-                  </>
-                ) : rankResult.wallet.tier === "Gold" ? (
+                {rankResult.wallet.tier === "Gold" ? (
                   <>
                     <p className="text-gray-400">
                       {lang === "ko"
@@ -493,7 +472,7 @@ function FullRankingPage() {
                       <div
                         key={w.address}
                         className="flex items-center justify-between px-3 py-2.5 rounded-lg hover:bg-gray-800/50 transition-colors cursor-pointer"
-                        onClick={() => { doSearch(w.name); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+                        onClick={() => handleRowClick(w.name)}
                       >
                         <div className="flex items-center gap-3">
                           <span className="text-sm font-mono text-gray-600 w-10 text-right">{rank}</span>
