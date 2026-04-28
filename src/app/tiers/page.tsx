@@ -5,12 +5,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { TierBadge } from "@/components/tier-badge";
 import { PeriodSelector } from "@/components/period-selector";
 import { Badge } from "@/components/ui/badge";
-import { Search, ChevronLeft, ChevronRight, Trophy, Medal, TrendingUp, Hash, X, Clock } from "lucide-react";
+import { Search, ChevronLeft, ChevronRight, Trophy, Medal, TrendingUp, Hash, X, Clock, ExternalLink } from "lucide-react";
 import { Period } from "@/lib/types";
 import { CATEGORY_COLORS, getContractName } from "@/lib/data";
 import { useLang } from "@/lib/language-context";
 import { t, tCat } from "@/lib/i18n";
-import Link from "next/link";
 import { useSearchParams, useRouter } from "next/navigation";
 
 interface WalletRank {
@@ -46,6 +45,7 @@ interface RankResult {
     tier: string;
     badges: number;
     streaming: boolean;
+    portal_link?: string;
   };
   period: string;
   overall_rank: number | null;
@@ -262,6 +262,26 @@ function FullRankingPage() {
                   <p className="text-white/60 text-sm font-mono">
                     {rankResult.wallet.address.slice(0, 10)}...{rankResult.wallet.address.slice(-6)}
                   </p>
+                  <div className="flex gap-2 pt-1">
+                    <a
+                      href={rankResult.wallet.portal_link || `https://portal.abs.xyz/profile/${rankResult.wallet.address}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-white/15 hover:bg-white/25 text-white text-xs transition-colors"
+                    >
+                      <ExternalLink className="h-3 w-3" />
+                      Portal
+                    </a>
+                    <a
+                      href={`https://abscan.org/address/${rankResult.wallet.address}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-white/15 hover:bg-white/25 text-white text-xs transition-colors"
+                    >
+                      <ExternalLink className="h-3 w-3" />
+                      Abscan
+                    </a>
+                  </div>
                 </div>
                 {rankResult.overall_rank && (
                   <div className="text-right">
@@ -439,22 +459,21 @@ function FullRankingPage() {
                     const globalIdx = wallets.indexOf(w);
                     const rank = globalIdx !== -1 ? globalIdx + 1 : "-";
                     return (
-                      <Link
+                      <div
                         key={w.address}
-                        href={`/wallet/${w.address}`}
-                        className="flex items-center justify-between px-3 py-2.5 rounded-lg hover:bg-gray-800/50 transition-colors group"
+                        className="flex items-center justify-between px-3 py-2.5 rounded-lg"
                       >
                         <div className="flex items-center gap-3">
                           <span className="text-sm font-mono text-gray-600 w-10 text-right">{rank}</span>
                           <TierBadge tier={w.tier} />
-                          <span className="text-sm text-gray-300 group-hover:text-white transition-colors">
+                          <span className="text-sm text-gray-300">
                             {w.name.startsWith("0x") ? `${w.name.slice(0, 6)}...${w.name.slice(-4)}` : w.name}
                           </span>
                         </div>
                         <span className="text-sm font-mono text-gray-500">
                           {w.tx_count >= 100000 ? "100,000+" : w.tx_count.toLocaleString()}
                         </span>
-                      </Link>
+                      </div>
                     );
                   })}
                   {pageWallets.length === 0 && (

@@ -167,7 +167,7 @@ export async function GET(request: NextRequest) {
 
   const result = {
     found: true,
-    wallet: { address: wallet.address, name: wallet.name, tier: wallet.tier, badges: wallet.badges, streaming: wallet.streaming },
+    wallet: { address: wallet.address, name: wallet.name, tier: wallet.tier, badges: wallet.badges, streaming: wallet.streaming, portal_link: wallet.portal_link },
     period,
     overall_rank: overallRank,
     overall_total: overallTotal,
