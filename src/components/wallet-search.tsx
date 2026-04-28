@@ -55,12 +55,16 @@ export function WalletSearch() {
       </form>
       {snippet && (
         <div className="mt-2 text-sm">
-          {snippet.found && snippet.wallet && snippet.overall_rank ? (
+          {snippet.found && snippet.wallet ? (
             <Link href={`/wallet/${snippet.wallet.address}`} className="text-gray-300 hover:text-white transition-colors">
               <span className="text-pink-400 font-medium">{snippet.wallet.name}</span>
-              {lang === "ko"
-                ? <>{" "}({snippet.wallet.tier}) — 7d 기준 전체 <span className="text-white font-semibold">#{snippet.overall_rank}</span>위 / {snippet.overall_total}명</>
-                : <>{" "}({snippet.wallet.tier}) — Rank <span className="text-white font-semibold">#{snippet.overall_rank}</span> / {snippet.overall_total} (7d)</>}
+              {snippet.overall_rank ? (
+                lang === "ko"
+                  ? <>{" "}({snippet.wallet.tier}) — 7d 기준 전체 <span className="text-white font-semibold">#{snippet.overall_rank}</span>위 / {snippet.overall_total}명</>
+                  : <>{" "}({snippet.wallet.tier}) — Rank <span className="text-white font-semibold">#{snippet.overall_rank}</span> / {snippet.overall_total} (7d)</>
+              ) : (
+                <>{" "}({snippet.wallet.tier})</>
+              )}
               <span className="text-gray-600 ml-2">→</span>
             </Link>
           ) : (
