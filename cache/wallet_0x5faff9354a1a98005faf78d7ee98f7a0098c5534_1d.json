@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.823Z",
+  "data": {
+    "address": "0x5faff9354a1a98005faf78d7ee98f7a0098c5534",
+    "name": "SleepWin",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 17,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x5faff9354a1a98005faf78d7ee98f7a0098c5534",
+    "total_tx_count": 2238,
+    "period_tx_count": 0,
+    "period": "1d",
+    "top_contracts": []
+  }
+}

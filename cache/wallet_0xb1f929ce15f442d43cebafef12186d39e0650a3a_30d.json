@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.608Z",
+  "data": {
+    "address": "0xb1f929ce15f442d43cebafef12186d39e0650a3a",
+    "name": "Booblino",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 33,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0xb1f929ce15f442d43cebafef12186d39e0650a3a",
+    "total_tx_count": 2993,
+    "period_tx_count": 1,
+    "period": "30d",
+    "top_contracts": []
+  }
+}

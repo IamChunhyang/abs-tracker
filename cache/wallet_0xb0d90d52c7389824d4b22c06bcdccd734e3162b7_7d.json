@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.784Z",
+  "data": {
+    "address": "0xb0d90d52c7389824d4b22c06bcdccd734e3162b7",
+    "name": "ezsnipe",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 26,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0xb0d90d52c7389824d4b22c06bcdccd734e3162b7",
+    "total_tx_count": 9876,
+    "period_tx_count": 0,
+    "period": "7d",
+    "top_contracts": []
+  }
+}

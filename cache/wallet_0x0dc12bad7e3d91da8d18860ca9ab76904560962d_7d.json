@@ -1,0 +1,97 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.458Z",
+  "data": {
+    "address": "0x0dc12bad7e3d91da8d18860ca9ab76904560962d",
+    "name": "MindfulMarketsOG",
+    "tier": "Obsidian",
+    "tier_v2": 16,
+    "badges": 39,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x0dc12bad7e3d91da8d18860ca9ab76904560962d",
+    "total_tx_count": 24610,
+    "period_tx_count": 542,
+    "period": "7d",
+    "top_contracts": [
+      {
+        "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
+        "name": "Token Claim",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 252,
+        "top_method": "0x16c5aa5e"
+      },
+      {
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Madness Assets",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 252,
+        "top_method": "0xf5298aca"
+      },
+      {
+        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
+        "name": "Tollan Random Seed",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 12,
+        "top_method": "0x8708c7fd"
+      },
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Item Market System",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 11,
+        "top_method": "0x2752571e"
+      },
+      {
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
+        "category": "Governance",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x7ac09bf7"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0x4f8c2395f105d29dae90531f36c7d1d14e22acb9",
+        "name": "0x4f8c...acb9",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x3de1eb66dbd7ebef0cba9c81b41cca33572224de",
+        "name": "0x3de1...24de",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xa688a6a53a26b6f0702a9a518482151415be1ff7",
+        "name": "0xa688...1ff7",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      }
+    ]
+  }
+}

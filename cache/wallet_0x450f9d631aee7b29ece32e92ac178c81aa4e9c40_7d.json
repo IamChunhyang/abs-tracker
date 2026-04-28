@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.843Z",
+  "data": {
+    "address": "0x450f9d631aee7b29ece32e92ac178c81aa4e9c40",
+    "name": "0x450f9d631aee7b29ece32e92ac178c81aa4e9c40",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 3,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x450f9d631aee7b29ece32e92ac178c81aa4e9c40",
+    "total_tx_count": 12,
+    "period_tx_count": 0,
+    "period": "7d",
+    "top_contracts": []
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.552Z",
+  "data": {
+    "address": "0x4e887cd45a3c561f16f03d6678fcd093dac001e8",
+    "name": "ericzalusky",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 39,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x4e887cd45a3c561f16f03d6678fcd093dac001e8",
+    "total_tx_count": 8284,
+    "period_tx_count": 111,
+    "period": "14d",
+    "top_contracts": [
+      {
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Madness Assets",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 22,
+        "top_method": "0xf5298aca"
+      },
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Item Market System",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 17,
+        "top_method": "0x2752571e"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 16,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
+        "name": "Portal Proxy",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 14,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
+        "name": "Token Claim",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 14,
+        "top_method": "0x16c5aa5e"
+      },
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "0x0000...b395",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 7,
+        "top_method": "0xe7acab24"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0x0e5ca01b63acd1841489ca87d0ab33f692e5a7ba",
+        "name": "0x0e5c...a7ba",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x52ce66cc"
+      },
+      {
+        "address": "0x13a59f08f11e38e4766bf206a31473a510c83475",
+        "name": "0x13a5...3475",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xd64abc3c"
+      },
+      {
+        "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
+        "name": "0x4001...1d02",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x219e0149"
+      },
+      {
+        "address": "0x28ba72b92f1d2dce20f8cf096e4203b4daa1c720",
+        "name": "0x28ba...c720",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xa22cb465"
+      },
+      {
+        "address": "0x40148d9aec2d0aed12ccf556cd7cd79c15197644",
+        "name": "0x4014...7644",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xa22cb465"
+      },
+      {
+        "address": "0x2ce5d332ea25e892c7eadeb9f81ffbe54ad1ccc7",
+        "name": "0x2ce5...ccc7",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xa22cb465"
+      },
+      {
+        "address": "0xa3bcbf9cc63af6fd578f7fff508640868f6091bf",
+        "name": "0xa3bc...91bf",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xa22cb465"
+      },
+      {
+        "address": "0x53b5633b6233008b117232664db57a525b71eac8",
+        "name": "0x53b5...eac8",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xa22cb465"
+      }
+    ]
+  }
+}

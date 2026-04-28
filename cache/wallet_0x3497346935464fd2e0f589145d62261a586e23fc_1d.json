@@ -1,0 +1,97 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.564Z",
+  "data": {
+    "address": "0x3497346935464fd2e0f589145d62261a586e23fc",
+    "name": "Elusive",
+    "tier": "Diamond",
+    "tier_v2": 14,
+    "badges": 39,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x3497346935464fd2e0f589145d62261a586e23fc",
+    "total_tx_count": 130735,
+    "period_tx_count": 5078,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Bakery",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 5017,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
+        "name": "러그풀 베이커리 (부스트&러그)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 43,
+        "top_method": "0xf20c3fb4"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 7,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x55e1c2da46c36e18a956151ec1b4b2f39bd8571a",
+        "name": "0x55e1...571a",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0xd8182233"
+      },
+      {
+        "address": "0x911dbdd9841b53ee5a08170109daf7ad82684108",
+        "name": "Shiny RWA",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x92971a31"
+      },
+      {
+        "address": "0x5c9ce8be7aa92fd089be31b154be47a0e59d4282",
+        "name": "Shiny Orders",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0xf23a27bd"
+      },
+      {
+        "address": "0x89e9d9b7d87591875359247f7d8eb786e7ea6910",
+        "name": "코나 포인트 파밍",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x3ac795de"
+      },
+      {
+        "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",
+        "name": "0xbde2...2916",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xb32820e9"
+      },
+      {
+        "address": "0x68c137f435e8de633b9d80d914e6b7f858b2af30",
+        "name": "0x68c1...af30",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "0xd9f3...0694",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x0962ef79"
+      }
+    ]
+  }
+}

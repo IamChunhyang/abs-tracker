@@ -1,0 +1,25 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.738Z",
+  "data": {
+    "address": "0x0532e2bf1c162cd5c371db5b229bcded1816f399",
+    "name": "TRUMPBIG",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 26,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x0532e2bf1c162cd5c371db5b229bcded1816f399",
+    "total_tx_count": 4301,
+    "period_tx_count": 3,
+    "period": "14d",
+    "top_contracts": [
+      {
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
+        "category": "Governance",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x7ac09bf7"
+      }
+    ]
+  }
+}

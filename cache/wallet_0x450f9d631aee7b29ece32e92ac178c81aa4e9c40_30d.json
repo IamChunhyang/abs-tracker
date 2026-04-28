@@ -1,0 +1,25 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.844Z",
+  "data": {
+    "address": "0x450f9d631aee7b29ece32e92ac178c81aa4e9c40",
+    "name": "0x450f9d631aee7b29ece32e92ac178c81aa4e9c40",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 3,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x450f9d631aee7b29ece32e92ac178c81aa4e9c40",
+    "total_tx_count": 12,
+    "period_tx_count": 1,
+    "period": "30d",
+    "top_contracts": [
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      }
+    ]
+  }
+}

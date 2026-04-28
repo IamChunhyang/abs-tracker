@@ -1,0 +1,65 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.602Z",
+  "data": {
+    "address": "0x49826f26fd526c52c7b18d0f2866b6e158328eec",
+    "name": "VibeX",
+    "tier": "Diamond",
+    "tier_v2": 14,
+    "badges": 34,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x49826f26fd526c52c7b18d0f2866b6e158328eec",
+    "total_tx_count": 82655,
+    "period_tx_count": 430,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Bakery",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 406,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
+        "name": "러그풀 베이커리 (부스트&러그)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 14,
+        "top_method": "0xb3648e8f"
+      },
+      {
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Madness Assets",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0xf5298aca"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x89e9d9b7d87591875359247f7d8eb786e7ea6910",
+        "name": "코나 포인트 파밍",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x3ac795de"
+      },
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "0xd9f3...0694",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x0962ef79"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.600Z",
+  "data": {
+    "address": "0xa8a956a5690cc81bb367da2c2f6f1796be2b3c30",
+    "name": "scottco",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 32,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0xa8a956a5690cc81bb367da2c2f6f1796be2b3c30",
+    "total_tx_count": 28879,
+    "period_tx_count": 4,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "0xd9f3...0694",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x0962ef79"
+      }
+    ]
+  }
+}

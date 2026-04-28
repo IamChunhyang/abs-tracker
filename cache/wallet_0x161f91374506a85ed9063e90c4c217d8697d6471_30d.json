@@ -1,0 +1,145 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.450Z",
+  "data": {
+    "address": "0x161f91374506a85ed9063e90c4c217d8697d6471",
+    "name": "Ely",
+    "tier": "Obsidian",
+    "tier_v2": 16,
+    "badges": 37,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x161f91374506a85ed9063e90c4c217d8697d6471",
+    "total_tx_count": 31679,
+    "period_tx_count": 1000,
+    "period": "30d",
+    "top_contracts": [
+      {
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Bakery",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 956,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
+        "name": "러그풀 베이커리 (부스트&러그)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 16,
+        "top_method": "0xf20c3fb4"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 12,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
+        "name": "Portal Proxy",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x0e5ca01b63acd1841489ca87d0ab33f692e5a7ba",
+        "name": "0x0e5c...a7ba",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x52ce66cc"
+      },
+      {
+        "address": "0x465738e6d8ded1384c3e8402658257d4ae8ed17d",
+        "name": "0x4657...d17d",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xa736a89d"
+      },
+      {
+        "address": "0x0709f39376deee2a2dfc94a58edeb2eb9df012bd",
+        "name": "0x0709...12bd",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Item Market System",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x2752571e"
+      },
+      {
+        "address": "0x42ab8092bfb701f34c47273df83d90d8169ad982",
+        "name": "Free Managed Reward",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xf5f8d365"
+      },
+      {
+        "address": "0x28811d25429e66ebbde9cc87c9a8ee9366e1efae",
+        "name": "0x2881...efae",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x56574df0"
+      },
+      {
+        "address": "0x3870dc3029b75ba086fa5ec23ae1b88e7bbefdf5",
+        "name": "0x3870...fdf5",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x6e553f65"
+      },
+      {
+        "address": "0x0035b877c3ab50cffa9ed52ba05282c7045f78dd",
+        "name": "0x0035...78dd",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0x845f90efae770dc5a793466af210d02bff5da757",
+        "name": "0x845f...a757",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xba087652"
+      },
+      {
+        "address": "0xe30b2b690ca3da5a5c96fbaaca22256d7ad371e0",
+        "name": "0xe30b...71e0",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x6e553f65"
+      },
+      {
+        "address": "0xda26442e3c2f3e542479812543c4bb2c18023fec",
+        "name": "0xda26...3fec",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0xf0fd7c5fbb3d59f75664b0874d29ffc61fa67b6c",
+        "name": "0xf0fd...7b6c",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xba087652"
+      }
+    ]
+  }
+}

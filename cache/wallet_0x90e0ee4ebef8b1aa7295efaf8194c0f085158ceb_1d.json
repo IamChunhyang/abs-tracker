@@ -1,0 +1,33 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.693Z",
+  "data": {
+    "address": "0x90e0ee4ebef8b1aa7295efaf8194c0f085158ceb",
+    "name": "0x90e0ee4ebef8b1aa7295efaf8194c0f085158ceb",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 25,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x90e0ee4ebef8b1aa7295efaf8194c0f085158ceb",
+    "total_tx_count": 7446,
+    "period_tx_count": 5,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Item Market System",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x807ef825"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      }
+    ]
+  }
+}

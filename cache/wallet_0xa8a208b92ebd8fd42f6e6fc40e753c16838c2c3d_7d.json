@@ -1,0 +1,49 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.562Z",
+  "data": {
+    "address": "0xa8a208b92ebd8fd42f6e6fc40e753c16838c2c3d",
+    "name": "ber",
+    "tier": "Diamond",
+    "tier_v2": 14,
+    "badges": 39,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0xa8a208b92ebd8fd42f6e6fc40e753c16838c2c3d",
+    "total_tx_count": 47771,
+    "period_tx_count": 210,
+    "period": "7d",
+    "top_contracts": [
+      {
+        "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
+        "name": "Token Claim",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 100,
+        "top_method": "0x16c5aa5e"
+      },
+      {
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Madness Assets",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 100,
+        "top_method": "0xf5298aca"
+      },
+      {
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
+        "category": "Governance",
+        "is_unknown": false,
+        "tx_count": 8,
+        "top_method": "0x7ac09bf7"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x5a0694d2"
+      }
+    ]
+  }
+}

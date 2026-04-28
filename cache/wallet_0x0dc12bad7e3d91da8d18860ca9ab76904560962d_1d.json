@@ -1,0 +1,33 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.458Z",
+  "data": {
+    "address": "0x0dc12bad7e3d91da8d18860ca9ab76904560962d",
+    "name": "MindfulMarketsOG",
+    "tier": "Obsidian",
+    "tier_v2": 16,
+    "badges": 39,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x0dc12bad7e3d91da8d18860ca9ab76904560962d",
+    "total_tx_count": 24610,
+    "period_tx_count": 102,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
+        "name": "Token Claim",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 51,
+        "top_method": "0x16c5aa5e"
+      },
+      {
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Madness Assets",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 51,
+        "top_method": "0xf5298aca"
+      }
+    ]
+  }
+}

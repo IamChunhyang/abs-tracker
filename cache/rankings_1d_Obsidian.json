@@ -1,0 +1,356 @@
+{
+  "fetched_at": "2026-04-28T11:39:16.267Z",
+  "data": {
+    "period": "1d",
+    "tier": "Obsidian",
+    "total_wallets": 13,
+    "rankings": [
+      {
+        "contract_address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "contract_name": "Rugpull Bakery (베이킹)",
+        "category": "Gaming",
+        "tx_count": 7173,
+        "unique_users": 4,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
+        "contract_name": "Moody Drops (수령,NFT)",
+        "category": "Rewards",
+        "tx_count": 337,
+        "unique_users": 3,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "contract_name": "Moody Drops (사용)",
+        "category": "Arcade",
+        "tx_count": 331,
+        "unique_users": 3,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x1859072d67fdd26c8782c90a1e4f078901c0d763",
+        "contract_name": "Blinko & Moonsheep Cannon",
+        "category": "Arcade",
+        "tx_count": 75,
+        "unique_users": 3,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x27edd16ee56958fddcba08947f12c43ddec2b20c",
+        "contract_name": "데스 펀",
+        "category": "Arcade",
+        "tx_count": 21,
+        "unique_users": 2,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x4f97015601863c256892e0a5e2710b48e149948c",
+        "contract_name": "러그풀 베이커리 (부스트&러그)",
+        "category": "Gaming",
+        "tx_count": 17,
+        "unique_users": 3,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "contract_name": "Abstract Voting",
+        "category": "Abstract",
+        "tx_count": 12,
+        "unique_users": 6,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "contract_name": "기가버스",
+        "category": "Gaming",
+        "tx_count": 12,
+        "unique_users": 3,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x270bbb21b1187bc6e694f428dcb51432958eb3d9",
+        "contract_name": "러그풀 베이커리",
+        "category": "Gaming",
+        "tx_count": 10,
+        "unique_users": 1,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",
+        "contract_name": "온체인 히어로즈",
+        "category": "Gaming",
+        "tx_count": 10,
+        "unique_users": 1,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x911dbdd9841b53ee5a08170109daf7ad82684108",
+        "contract_name": "Shiny RWA",
+        "category": "NFT",
+        "tx_count": 8,
+        "unique_users": 3,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x5c9ce8be7aa92fd089be31b154be47a0e59d4282",
+        "contract_name": "Shiny Orders",
+        "category": "NFT",
+        "tx_count": 8,
+        "unique_users": 3,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0xf5005cca582cb510d15d4d025f78c9258ec07f4b",
+        "contract_name": "ERC1967Proxy V2",
+        "category": "NFT",
+        "tx_count": 8,
+        "unique_users": 1,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "contract_name": "세션키 서명",
+        "category": "Abstract",
+        "tx_count": 6,
+        "unique_users": 4,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0xc85ce8ffda27b646d269516b8d0fa6ec2e958b55",
+        "contract_name": "Morpho",
+        "category": "DeFi",
+        "tx_count": 6,
+        "unique_users": 1,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
+        "contract_name": "Tollan Random Seed",
+        "category": "Gaming",
+        "tx_count": 5,
+        "unique_users": 1,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "contract_name": "DEX Voter",
+        "category": "Abstract",
+        "tx_count": 4,
+        "unique_users": 1,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0xc74d5002c10c13d2ad258b4584690829387f84dc",
+        "contract_name": "DYLI Marketplace",
+        "category": "NFT",
+        "tx_count": 3,
+        "unique_users": 1,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x55e1c2da46c36e18a956151ec1b4b2f39bd8571a",
+        "contract_name": "0x55e1...571a",
+        "category": "NFT",
+        "tx_count": 2,
+        "unique_users": 2,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0x0e5ca01b63acd1841489ca87d0ab33f692e5a7ba",
+        "contract_name": "0x0e5c...a7ba",
+        "category": "Unknown",
+        "tx_count": 1,
+        "unique_users": 1,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0x27b04370d8087e714a9f557c1eff7901cea6bb63",
+        "contract_name": "ve-Lock",
+        "category": "DeFi",
+        "tx_count": 1,
+        "unique_users": 1,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0xca8f7a25a4b25aa378c03cc2051bc732d497d828",
+        "contract_name": "0xca8f...d828",
+        "category": "Unknown",
+        "tx_count": 1,
+        "unique_users": 1,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0x9ad684023258cc4e61fe229e1854e827c4f84e60",
+        "contract_name": "CLGauge V2",
+        "category": "DeFi",
+        "tx_count": 1,
+        "unique_users": 1,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x1a0a49927e0deef872316819aac1a7a07622d420",
+        "contract_name": "0x1a0a...d420",
+        "category": "Unknown",
+        "tx_count": 1,
+        "unique_users": 1,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0xce44d52431be9de26f4c59fa23ed3fcb26da51aa",
+        "contract_name": "0xce44...51aa",
+        "category": "Unknown",
+        "tx_count": 1,
+        "unique_users": 1,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0x6affe011ff40742b383e952a2c7542419e305821",
+        "contract_name": "0x6aff...5821",
+        "category": "Unknown",
+        "tx_count": 1,
+        "unique_users": 1,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
+        "contract_name": "Swap Router",
+        "category": "DeFi",
+        "tx_count": 1,
+        "unique_users": 1,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
+        "contract_name": "Portal Proxy",
+        "category": "Infra",
+        "tx_count": 1,
+        "unique_users": 1,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "contract_name": "뎁쓰 프로토콜",
+        "category": "DeFi",
+        "tx_count": 1,
+        "unique_users": 1,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x268031de8363401d61b6a256bea009bb57277619",
+        "contract_name": "0x2680...7619",
+        "category": "Unknown",
+        "tx_count": 1,
+        "unique_users": 1,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0x516dce03bbb9d686e567a15ba3b7d061e394ab7a",
+        "contract_name": "0x516d...ab7a",
+        "category": "Unknown",
+        "tx_count": 1,
+        "unique_users": 1,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0xa8752e1ceeab44cd84214ebfcefd9c8cb535fb98",
+        "contract_name": "0xa875...fb98",
+        "category": "Unknown",
+        "tx_count": 1,
+        "unique_users": 1,
+        "is_unknown": true
+      }
+    ],
+    "wallet_ranking": [
+      {
+        "address": "0x7fd643b7da56b3acb6a5a4e83a8818b14f195a50",
+        "name": "marlomarlo",
+        "tier": "Obsidian",
+        "tx_count": 4205
+      },
+      {
+        "address": "0xba5257e72de3901db065e340f96bea9479b45b5e",
+        "name": "sayyes",
+        "tier": "Obsidian",
+        "tx_count": 2746
+      },
+      {
+        "address": "0xc9f27e68912aae40bb60c17b5634b3e74bbb16ab",
+        "name": "Minebuu",
+        "tier": "Obsidian",
+        "tx_count": 612
+      },
+      {
+        "address": "0x69c4cc0147fbc23965896fb18a1ccea92230ed1b",
+        "name": "afropengu",
+        "tier": "Obsidian",
+        "tx_count": 388
+      },
+      {
+        "address": "0x0dc12bad7e3d91da8d18860ca9ab76904560962d",
+        "name": "MindfulMarketsOG",
+        "tier": "Obsidian",
+        "tx_count": 102
+      },
+      {
+        "address": "0x7a84af82a3d5c913fc42f333d709fe706160e258",
+        "name": "FroggyCyborg",
+        "tier": "Obsidian",
+        "tx_count": 9
+      },
+      {
+        "address": "0xd82311e0ddcff7cad1be090763d4f6d7ba1c290a",
+        "name": "0xd82311e0ddcff7cad1be090763d4f6d7ba1c290a",
+        "tier": "Obsidian",
+        "tx_count": 5
+      },
+      {
+        "address": "0xfb6954ea6b0f8e9eea008a2cffc26eadce0e69aa",
+        "name": "greenchain",
+        "tier": "Obsidian",
+        "tx_count": 1
+      },
+      {
+        "address": "0x161f91374506a85ed9063e90c4c217d8697d6471",
+        "name": "Ely",
+        "tier": "Obsidian",
+        "tx_count": 1
+      },
+      {
+        "address": "0xc3ae9ac69d672368539413235938277ce19fc270",
+        "name": "Bollin",
+        "tier": "Obsidian",
+        "tx_count": 1
+      },
+      {
+        "address": "0x90d644bafa0dad528d89ebca2b2d2d51379a428c",
+        "name": "Rebornmf",
+        "tier": "Obsidian",
+        "tx_count": 0
+      },
+      {
+        "address": "0x886cbee36be572f21187b384b0ac716c560a4ccb",
+        "name": "PudgyGang",
+        "tier": "Obsidian",
+        "tx_count": 0
+      },
+      {
+        "address": "0x122572e5a9ac036292a113c65f1d8c62d4f95f2e",
+        "name": "Amyqueen",
+        "tier": "Obsidian",
+        "tx_count": 0
+      }
+    ],
+    "category_breakdown": {
+      "Gaming": 7200,
+      "Rewards": 337,
+      "Arcade": 427,
+      "Infra": 18,
+      "Abstract": 22,
+      "Unknown": 18,
+      "NFT": 29,
+      "DeFi": 10
+    }
+  }
+}

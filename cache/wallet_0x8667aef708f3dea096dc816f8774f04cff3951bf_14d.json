@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.580Z",
+  "data": {
+    "address": "0x8667aef708f3dea096dc816f8774f04cff3951bf",
+    "name": "BlackApple",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 28,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x8667aef708f3dea096dc816f8774f04cff3951bf",
+    "total_tx_count": 7813,
+    "period_tx_count": 0,
+    "period": "14d",
+    "top_contracts": []
+  }
+}

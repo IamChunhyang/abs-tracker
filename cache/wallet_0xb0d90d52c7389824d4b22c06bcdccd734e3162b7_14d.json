@@ -1,0 +1,49 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.785Z",
+  "data": {
+    "address": "0xb0d90d52c7389824d4b22c06bcdccd734e3162b7",
+    "name": "ezsnipe",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 26,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0xb0d90d52c7389824d4b22c06bcdccd734e3162b7",
+    "total_tx_count": 9876,
+    "period_tx_count": 8,
+    "period": "14d",
+    "top_contracts": [
+      {
+        "address": "0xb5ec907d0e80f9a1ca9c1942d69fb558e01140d4",
+        "name": "0xb5ec...40d4",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0xf242432a"
+      },
+      {
+        "address": "0xc914a7ce4a2af6a6d56de29aeeab9c615ed93123",
+        "name": "0xc914...3123",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x42ebba25ba063d78839913005e628dbc03ae4212",
+        "name": "0x42eb...4212",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "0x0000...b395",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xe7acab24"
+      }
+    ]
+  }
+}

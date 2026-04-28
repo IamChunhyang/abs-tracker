@@ -1,0 +1,1155 @@
+{
+  "fetched_at": "2026-04-28T15:38:05.661Z",
+  "data": {
+    "period": "7d",
+    "tier": "Diamond",
+    "total_wallets": 122,
+    "rankings": [
+      {
+        "contract_address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "contract_name": "Rugpull Bakery (베이킹)",
+        "category": "Gaming",
+        "tx_count": 826647,
+        "unique_users": 28,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "contract_name": "Moody Drops (사용)",
+        "category": "Arcade",
+        "tx_count": 10456,
+        "unique_users": 39,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
+        "contract_name": "Moody Drops (수령,NFT)",
+        "category": "Rewards",
+        "tx_count": 10070,
+        "unique_users": 31,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x4f97015601863c256892e0a5e2710b48e149948c",
+        "contract_name": "러그풀 베이커리 (부스트&러그)",
+        "category": "Gaming",
+        "tx_count": 4271,
+        "unique_users": 25,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x1859072d67fdd26c8782c90a1e4f078901c0d763",
+        "contract_name": "Blinko & Moonsheep Cannon",
+        "category": "Arcade",
+        "tx_count": 4059,
+        "unique_users": 11,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x5f8abf7f164fbed5c51f696ddf3c2c17bcbc8fbb",
+        "contract_name": "Duel Arena Battle",
+        "category": "Gaming",
+        "tx_count": 1244,
+        "unique_users": 12,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x911dbdd9841b53ee5a08170109daf7ad82684108",
+        "contract_name": "Shiny RWA",
+        "category": "NFT",
+        "tx_count": 938,
+        "unique_users": 13,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "contract_name": "기가버스",
+        "category": "Gaming",
+        "tx_count": 742,
+        "unique_users": 31,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "contract_name": "Abstract Voting",
+        "category": "Abstract",
+        "tx_count": 656,
+        "unique_users": 83,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
+        "contract_name": "Tollan Random Seed",
+        "category": "Gaming",
+        "tx_count": 522,
+        "unique_users": 24,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "contract_name": "세션키 서명",
+        "category": "Abstract",
+        "tx_count": 362,
+        "unique_users": 71,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x27edd16ee56958fddcba08947f12c43ddec2b20c",
+        "contract_name": "데스 펀",
+        "category": "Arcade",
+        "tx_count": 352,
+        "unique_users": 8,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x5c9ce8be7aa92fd089be31b154be47a0e59d4282",
+        "contract_name": "Shiny Orders",
+        "category": "NFT",
+        "tx_count": 289,
+        "unique_users": 13,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",
+        "contract_name": "온체인 히어로즈",
+        "category": "Gaming",
+        "tx_count": 283,
+        "unique_users": 32,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0xafca524dc2cdd7c21cd1de4e837c8c813c8322cc",
+        "contract_name": "쿠가 배쉬",
+        "category": "Gaming",
+        "tx_count": 169,
+        "unique_users": 3,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "contract_name": "뎁쓰 프로토콜",
+        "category": "DeFi",
+        "tx_count": 165,
+        "unique_users": 38,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x89e9d9b7d87591875359247f7d8eb786e7ea6910",
+        "contract_name": "코나 포인트 파밍",
+        "category": "Others",
+        "tx_count": 122,
+        "unique_users": 15,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "contract_name": "DEX Voter",
+        "category": "Abstract",
+        "tx_count": 105,
+        "unique_users": 26,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
+        "contract_name": "DEX Router",
+        "category": "DeFi",
+        "tx_count": 93,
+        "unique_users": 29,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x0000000000000068f116a894984e2db1123eb395",
+        "contract_name": "0x0000...b395",
+        "category": "Unknown",
+        "tx_count": 75,
+        "unique_users": 21,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
+        "contract_name": "0x4001...1d02",
+        "category": "Unknown",
+        "tx_count": 72,
+        "unique_users": 39,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0x270bbb21b1187bc6e694f428dcb51432958eb3d9",
+        "contract_name": "러그풀 베이커리",
+        "category": "Gaming",
+        "tx_count": 72,
+        "unique_users": 4,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x55e1c2da46c36e18a956151ec1b4b2f39bd8571a",
+        "contract_name": "0x55e1...571a",
+        "category": "NFT",
+        "tx_count": 71,
+        "unique_users": 14,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0xa4890b89dc628bae614780079acc951fb0ecdc5f",
+        "contract_name": "NFT Position Manager",
+        "category": "DeFi",
+        "tx_count": 69,
+        "unique_users": 11,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
+        "contract_name": "WETH9",
+        "category": "Others",
+        "tx_count": 66,
+        "unique_users": 24,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
+        "contract_name": "Portal Proxy",
+        "category": "Infra",
+        "tx_count": 64,
+        "unique_users": 19,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x8f16b5713f412c5de4951aaf678eb8409101f819",
+        "contract_name": "0x8f16...f819",
+        "category": "Unknown",
+        "tx_count": 59,
+        "unique_users": 4,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0x99bb83ae9bb0c0a6be865cacf67760947f91cb70",
+        "contract_name": "0x99bb...cb70",
+        "category": "Unknown",
+        "tx_count": 57,
+        "unique_users": 6,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0xec27d2237432d06981e1f18581494661517e1bd3",
+        "contract_name": "0xec27...1bd3",
+        "category": "Unknown",
+        "tx_count": 55,
+        "unique_users": 2,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0x3272596f776470d2d7c3f7dff3dc50888b7d8967",
+        "contract_name": "0x3272...8967",
+        "category": "Arcade",
+        "tx_count": 54,
+        "unique_users": 4,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
+        "contract_name": "Swap Router",
+        "category": "DeFi",
+        "tx_count": 42,
+        "unique_users": 13,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0xa688a6a53a26b6f0702a9a518482151415be1ff7",
+        "contract_name": "0xa688...1ff7",
+        "category": "Unknown",
+        "tx_count": 41,
+        "unique_users": 16,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "contract_name": "USDC",
+        "category": "Others",
+        "tx_count": 40,
+        "unique_users": 22,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0xa171bb8b0805ddccc8721ccb1e13f6dd09633cfc",
+        "contract_name": "0xa171...3cfc",
+        "category": "Unknown",
+        "tx_count": 40,
+        "unique_users": 10,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0x42ab8092bfb701f34c47273df83d90d8169ad982",
+        "contract_name": "Free Managed Reward",
+        "category": "Rewards",
+        "tx_count": 40,
+        "unique_users": 6,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x58aefe35438fe160309c2729602e668d89cabcbf",
+        "contract_name": "0x58ae...bcbf",
+        "category": "Unknown",
+        "tx_count": 38,
+        "unique_users": 3,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0x219260d8470d8211ad66eb69206bdf72a4218b65",
+        "contract_name": "0x2192...8b65",
+        "category": "Unknown",
+        "tx_count": 32,
+        "unique_users": 10,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0x125c13e12bd40bc7eb4f129d3f8443091d443b7e",
+        "contract_name": "CL Gauge",
+        "category": "DeFi",
+        "tx_count": 30,
+        "unique_users": 5,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0xc74d5002c10c13d2ad258b4584690829387f84dc",
+        "contract_name": "DYLI Marketplace",
+        "category": "NFT",
+        "tx_count": 29,
+        "unique_users": 5,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0xc85ce8ffda27b646d269516b8d0fa6ec2e958b55",
+        "contract_name": "Morpho",
+        "category": "DeFi",
+        "tx_count": 27,
+        "unique_users": 4,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x4237d126713bf1faba29ed8a55a6a0634886e223",
+        "contract_name": "0x4237...e223",
+        "category": "Unknown",
+        "tx_count": 26,
+        "unique_users": 7,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0x458422e93bf89a109afc4fac00aacf2f18fcf541",
+        "contract_name": "DYLI",
+        "category": "NFT",
+        "tx_count": 25,
+        "unique_users": 5,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x7c47ea32fd27d1a74fc6e9f31ce8162e6ce070eb",
+        "contract_name": "0x7c47...70eb",
+        "category": "Unknown",
+        "tx_count": 25,
+        "unique_users": 5,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0xca4a7c4a191de94af2c91487d0be34a0205b89ab",
+        "contract_name": "NFT Staking",
+        "category": "NFT",
+        "tx_count": 24,
+        "unique_users": 13,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x68c137f435e8de633b9d80d914e6b7f858b2af30",
+        "contract_name": "0x68c1...af30",
+        "category": "Unknown",
+        "tx_count": 22,
+        "unique_users": 4,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0x0e4ee35190f16efdfd1aa9be802ca546fcce5a81",
+        "contract_name": "0x0e4e...5a81",
+        "category": "Unknown",
+        "tx_count": 17,
+        "unique_users": 6,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0x7edd91c4dd202032872bfbfcd3a4e4f71cb4b8bc",
+        "contract_name": "0x7edd...b8bc",
+        "category": "Unknown",
+        "tx_count": 17,
+        "unique_users": 5,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0xe1b076ea612db28a0d768660e4d81346c02ed75e",
+        "contract_name": "0xe1b0...d75e",
+        "category": "Unknown",
+        "tx_count": 17,
+        "unique_users": 2,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0xad1eca41e6f772be3cb5a48a6141f9bcc1af9f7c",
+        "contract_name": "0xad1e...9f7c",
+        "category": "Unknown",
+        "tx_count": 16,
+        "unique_users": 6,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0x1cfd3e48812daed359574529caaed4b075b5e89d",
+        "contract_name": "0x1cfd...e89d",
+        "category": "Unknown",
+        "tx_count": 16,
+        "unique_users": 2,
+        "is_unknown": true
+      }
+    ],
+    "wallet_ranking": [
+      {
+        "address": "0xb5748a472adfa371244cdc5a0a13189410cf8097",
+        "name": "AziNo",
+        "tier": "Diamond",
+        "tx_count": 166605
+      },
+      {
+        "address": "0x6052354efe95df428da38efa36be764d3eea6bdb",
+        "name": "Massine",
+        "tier": "Diamond",
+        "tx_count": 151735
+      },
+      {
+        "address": "0xfc61f1b7701f6765ff548b3bca403cdaa723d260",
+        "name": "curtis",
+        "tier": "Diamond",
+        "tx_count": 85310
+      },
+      {
+        "address": "0x7390022cbff03b8501084ca8fa72cdb932a415d6",
+        "name": "blairbear",
+        "tier": "Diamond",
+        "tx_count": 80686
+      },
+      {
+        "address": "0x164cb4eacf03e4635f7c040d28e2fb2f129bb462",
+        "name": "TheVs",
+        "tier": "Diamond",
+        "tx_count": 74582
+      },
+      {
+        "address": "0xc60a6d12a073957b403abf414fe7b0c6abab67ca",
+        "name": "absforever",
+        "tier": "Diamond",
+        "tx_count": 72922
+      },
+      {
+        "address": "0xabf793be9dbc4c6fb90485552dd223d242166984",
+        "name": "northkorea",
+        "tier": "Diamond",
+        "tx_count": 57000
+      },
+      {
+        "address": "0xda2ca34d57242cbe18f3046925645668b9e60292",
+        "name": "CRYPT0BRO",
+        "tier": "Diamond",
+        "tx_count": 52184
+      },
+      {
+        "address": "0xe89509a4c5412ad68aa8e0dfbad5b81a6154f924",
+        "name": "Pablomaque",
+        "tier": "Diamond",
+        "tx_count": 42941
+      },
+      {
+        "address": "0xcf6a641c04dc513743eb415581e142997729cbde",
+        "name": "EthBurakEth",
+        "tier": "Diamond",
+        "tx_count": 42316
+      },
+      {
+        "address": "0x3497346935464fd2e0f589145d62261a586e23fc",
+        "name": "Elusive",
+        "tier": "Diamond",
+        "tx_count": 18609
+      },
+      {
+        "address": "0x2a8c750c49674ab43d078ded37087ff47851b468",
+        "name": "Woo",
+        "tier": "Diamond",
+        "tx_count": 16375
+      },
+      {
+        "address": "0xa0ed173df43f23902a6be2710b823359211151b1",
+        "name": "Thank4762",
+        "tier": "Diamond",
+        "tx_count": 15916
+      },
+      {
+        "address": "0x2c53d33fd90fc8d5fe5cac986db81ba7f3b9aae6",
+        "name": "Hoangry",
+        "tier": "Diamond",
+        "tx_count": 15080
+      },
+      {
+        "address": "0xc2b5252581849d437c0f4d67d6392617fc93037a",
+        "name": "onlinelink",
+        "tier": "Diamond",
+        "tx_count": 12839
+      },
+      {
+        "address": "0x4ebc17059cfc143d86fb92ed707805d68142e3ec",
+        "name": "nomorever",
+        "tier": "Diamond",
+        "tx_count": 8391
+      },
+      {
+        "address": "0x49826f26fd526c52c7b18d0f2866b6e158328eec",
+        "name": "VibeX",
+        "tier": "Diamond",
+        "tx_count": 7850
+      },
+      {
+        "address": "0xe472b3db47fd9864d64ed5fb4037880a11634950",
+        "name": "JeffT",
+        "tier": "Diamond",
+        "tx_count": 7598
+      },
+      {
+        "address": "0x0a42a67154221c44c9eae98eb7f9cbff2d269a0e",
+        "name": "cassowary",
+        "tier": "Diamond",
+        "tx_count": 4322
+      },
+      {
+        "address": "0x8045784a3a7209a24eb09a5a2bc4f9e6fb67782b",
+        "name": "KangBokSoon",
+        "tier": "Diamond",
+        "tx_count": 3690
+      },
+      {
+        "address": "0x68d8c0524a2175fba446adf3fbace949c9023be4",
+        "name": "FirstMover",
+        "tier": "Diamond",
+        "tx_count": 2802
+      },
+      {
+        "address": "0x5bb347443887e595820f74f028e837c3766f5923",
+        "name": "Itero",
+        "tier": "Diamond",
+        "tx_count": 2757
+      },
+      {
+        "address": "0x414bb44850b3b428b283235091917cb254305954",
+        "name": "rosty",
+        "tier": "Diamond",
+        "tx_count": 2730
+      },
+      {
+        "address": "0xa8cf07d10b478f15e2e0c00eb49b56ffcebcaca5",
+        "name": "coolgolfer1",
+        "tier": "Diamond",
+        "tx_count": 2287
+      },
+      {
+        "address": "0x33d893d2b910efabada37015efb7ebeddff44e07",
+        "name": "3343",
+        "tier": "Diamond",
+        "tx_count": 2176
+      },
+      {
+        "address": "0x4f8c2395f105d29dae90531f36c7d1d14e22acb9",
+        "name": "PhanGu",
+        "tier": "Diamond",
+        "tx_count": 1845
+      },
+      {
+        "address": "0xc2a71b6d16b502375c8b40a82e08477655d75f2d",
+        "name": "vibes",
+        "tier": "Diamond",
+        "tx_count": 1567
+      },
+      {
+        "address": "0x6707fbe9c1dafb185ddf52a5e6c9fdd1ee69c46e",
+        "name": "deb",
+        "tier": "Diamond",
+        "tx_count": 1476
+      },
+      {
+        "address": "0x6c55280706ddc3477b80fe6e2f1e5be479a74182",
+        "name": "Breezeonhodl",
+        "tier": "Diamond",
+        "tx_count": 1287
+      },
+      {
+        "address": "0x962d1bd455668a379c7676018f3371fb44a10090",
+        "name": "Shaz",
+        "tier": "Diamond",
+        "tx_count": 1270
+      },
+      {
+        "address": "0xda0d86ff957c528b3b0f81f06efd8249010a8bd6",
+        "name": "OxDuck",
+        "tier": "Diamond",
+        "tx_count": 1235
+      },
+      {
+        "address": "0x6910f17437a0b78f6d9f3281e27977cc534a5165",
+        "name": "l2oju",
+        "tier": "Diamond",
+        "tx_count": 1225
+      },
+      {
+        "address": "0x15c821c18ff36b24efd0a338989281107ae26f90",
+        "name": "Cody",
+        "tier": "Diamond",
+        "tx_count": 1090
+      },
+      {
+        "address": "0x0804f0d4f5d3794539af6a8a8a6a6da31383bb20",
+        "name": "Brighty",
+        "tier": "Diamond",
+        "tx_count": 859
+      },
+      {
+        "address": "0x991b87ec4fe400178c3f54ea26ae445c2351e1ec",
+        "name": "Cyro",
+        "tier": "Diamond",
+        "tx_count": 633
+      },
+      {
+        "address": "0xc28f9e50946a03c73c65ed0a47abf9d32b92e237",
+        "name": "B92e237",
+        "tier": "Diamond",
+        "tx_count": 533
+      },
+      {
+        "address": "0xe40e973d556d233ee39e3d9ada02f3c16d4f8e70",
+        "name": "0xE4",
+        "tier": "Diamond",
+        "tx_count": 469
+      },
+      {
+        "address": "0xa97a257e04a0da6b5146bf8a22796ec73049570f",
+        "name": "1mpal",
+        "tier": "Diamond",
+        "tx_count": 440
+      },
+      {
+        "address": "0x917c1aae361c00520d5afea7277338bbb7edd68c",
+        "name": "dosaklon",
+        "tier": "Diamond",
+        "tx_count": 307
+      },
+      {
+        "address": "0xa8a208b92ebd8fd42f6e6fc40e753c16838c2c3d",
+        "name": "ber",
+        "tier": "Diamond",
+        "tx_count": 210
+      },
+      {
+        "address": "0x0f1ee30d0d2fb1e02826b5910d48167751c8d271",
+        "name": "healyoga",
+        "tier": "Diamond",
+        "tx_count": 205
+      },
+      {
+        "address": "0x9e3e81c9603423796315318a7558ab16d84bb2b8",
+        "name": "77ai",
+        "tier": "Diamond",
+        "tx_count": 190
+      },
+      {
+        "address": "0x531a75ed2a7dea237ded2fc2c14ee878fc723eaa",
+        "name": "thepeengwin",
+        "tier": "Diamond",
+        "tx_count": 180
+      },
+      {
+        "address": "0x04f567f2d3b293fd86a235b12648a3804f8147e1",
+        "name": "guccii",
+        "tier": "Diamond",
+        "tx_count": 169
+      },
+      {
+        "address": "0x633a05cc1ee8deb99caa0f6f143c1662796beed0",
+        "name": "gigaz",
+        "tier": "Diamond",
+        "tx_count": 160
+      },
+      {
+        "address": "0xe8bc685af85c96eed4a6235eb11930df48121a81",
+        "name": "JogaNifty",
+        "tier": "Diamond",
+        "tx_count": 103
+      },
+      {
+        "address": "0xa43073b5eb85bbf66a41066e01529360dc1cddbe",
+        "name": "veermay",
+        "tier": "Diamond",
+        "tx_count": 92
+      },
+      {
+        "address": "0x439a339d6c89163af57834b26e1e40f29e65a188",
+        "name": "DreadPiratesRob",
+        "tier": "Diamond",
+        "tx_count": 81
+      },
+      {
+        "address": "0x90c1ed16e9b16db7d031f573d20bead430feb107",
+        "name": "Jablko",
+        "tier": "Diamond",
+        "tx_count": 81
+      },
+      {
+        "address": "0xeed7c6b2af48249a040c9e5d59437670889c7e07",
+        "name": "lilwassie",
+        "tier": "Diamond",
+        "tx_count": 80
+      },
+      {
+        "address": "0xe4c92dfd2b82ff488ee4e0744e78959f8cc2c24c",
+        "name": "Jonh",
+        "tier": "Diamond",
+        "tx_count": 75
+      },
+      {
+        "address": "0xe1a8d2f301c7df6a1c12460a7b61037c00475792",
+        "name": "Guigne",
+        "tier": "Diamond",
+        "tx_count": 71
+      },
+      {
+        "address": "0xd678b718f70389dbdd2d447df23333641e8f7480",
+        "name": "yanik",
+        "tier": "Diamond",
+        "tx_count": 67
+      },
+      {
+        "address": "0xd2bb5bcaaaa9d2d77a50598055397916780972ca",
+        "name": "Sinet",
+        "tier": "Diamond",
+        "tx_count": 64
+      },
+      {
+        "address": "0x4e887cd45a3c561f16f03d6678fcd093dac001e8",
+        "name": "ericzalusky",
+        "tier": "Diamond",
+        "tx_count": 62
+      },
+      {
+        "address": "0x4bb77f54088c2a876af66720d0298cbb96023f3f",
+        "name": "pepp",
+        "tier": "Diamond",
+        "tx_count": 54
+      },
+      {
+        "address": "0x9714a649f3ff075dca25386e98e384daf3abb323",
+        "name": "jellothefox",
+        "tier": "Diamond",
+        "tx_count": 52
+      },
+      {
+        "address": "0x90e0ee4ebef8b1aa7295efaf8194c0f085158ceb",
+        "name": "0x90e0ee4ebef8b1aa7295efaf8194c0f085158ceb",
+        "tier": "Diamond",
+        "tx_count": 48
+      },
+      {
+        "address": "0x94692aeb630122b221b2950c2fef4f4f4a5fdf78",
+        "name": "RubiksGus",
+        "tier": "Diamond",
+        "tx_count": 46
+      },
+      {
+        "address": "0x81223fbb85c4c7e2abef9abbc9508dfc97a731b3",
+        "name": "Buster",
+        "tier": "Diamond",
+        "tx_count": 46
+      },
+      {
+        "address": "0x494327a08a826f235c68fb6698eda11dffffb0f8",
+        "name": "Pixelcollector",
+        "tier": "Diamond",
+        "tx_count": 41
+      },
+      {
+        "address": "0xb2042611b4987ba8be9efd6cc1165f09e7c694a8",
+        "name": "JoblessGambler",
+        "tier": "Diamond",
+        "tx_count": 39
+      },
+      {
+        "address": "0xec753a52496b5bd36a7bec9e6631ae94a867786d",
+        "name": "KanaArima",
+        "tier": "Diamond",
+        "tx_count": 38
+      },
+      {
+        "address": "0x3a50d5f2a0913ba6b7cb744f0b10d9becf6a1479",
+        "name": "Sp3d",
+        "tier": "Diamond",
+        "tx_count": 37
+      },
+      {
+        "address": "0xd17fc951befa64fe6b4bc9de67e65d3ca3477ff0",
+        "name": "Antony",
+        "tier": "Diamond",
+        "tx_count": 33
+      },
+      {
+        "address": "0xb747190b7394ed19dca4aa4ba7f4bea90790f8dc",
+        "name": "LaaLaa",
+        "tier": "Diamond",
+        "tx_count": 29
+      },
+      {
+        "address": "0x917a67de1a4e29d8820e1aeafd1e7e53f19f2df7",
+        "name": "coffee",
+        "tier": "Diamond",
+        "tx_count": 28
+      },
+      {
+        "address": "0xa8a956a5690cc81bb367da2c2f6f1796be2b3c30",
+        "name": "scottco",
+        "tier": "Diamond",
+        "tx_count": 28
+      },
+      {
+        "address": "0xf23aeb17ff2418b832c47fce57659886e1b99ba3",
+        "name": "Shakejr",
+        "tier": "Diamond",
+        "tx_count": 26
+      },
+      {
+        "address": "0x22c6d67e8434653c740fbabd1bf5961402a6f1de",
+        "name": "MantuPengu",
+        "tier": "Diamond",
+        "tx_count": 25
+      },
+      {
+        "address": "0x27db47dbb87e66af0b27d4746aa718acc977de75",
+        "name": "Xen",
+        "tier": "Diamond",
+        "tx_count": 23
+      },
+      {
+        "address": "0x18faad5ee2bd3b77ac08df67c66416670c5e734c",
+        "name": "Cubsfan",
+        "tier": "Diamond",
+        "tx_count": 22
+      },
+      {
+        "address": "0x5f3e5f2532cbc7ace86b05ac5a8eddec09f44ff4",
+        "name": "UkrBot",
+        "tier": "Diamond",
+        "tx_count": 19
+      },
+      {
+        "address": "0xb2de832014a5bf1c499e5dff9d92ef0e1e5e5a80",
+        "name": "LiLPudgyWhale",
+        "tier": "Diamond",
+        "tx_count": 18
+      },
+      {
+        "address": "0xa0f78f02d4534fd7c7026514a27ef231e39f0300",
+        "name": "elev8blyss",
+        "tier": "Diamond",
+        "tx_count": 13
+      },
+      {
+        "address": "0x5297cbb47a11232634b3f56de075a8641958de67",
+        "name": "Gee24",
+        "tier": "Diamond",
+        "tx_count": 11
+      },
+      {
+        "address": "0xf3143c8e4469a271fa2be6d8775ca2b3bdccf4e2",
+        "name": "RRPCX",
+        "tier": "Diamond",
+        "tx_count": 11
+      },
+      {
+        "address": "0xe55fc1366a59462b5bf0d269a977be9d5488d627",
+        "name": "debuddha",
+        "tier": "Diamond",
+        "tx_count": 10
+      },
+      {
+        "address": "0x6edc0c4c7186917208adf33f4c54410f1d15bff4",
+        "name": "ScottyStarburst",
+        "tier": "Diamond",
+        "tx_count": 10
+      },
+      {
+        "address": "0x3dc88b8884153ddfb76d177f9bb8d1b5bf377917",
+        "name": "girlonabstract",
+        "tier": "Diamond",
+        "tx_count": 10
+      },
+      {
+        "address": "0xde26e9c780d85ae165ac7ca579c50bd42bcb4fe6",
+        "name": "Graildoteth",
+        "tier": "Diamond",
+        "tx_count": 9
+      },
+      {
+        "address": "0x9abbb418ddb0189b432d1b51c234345b10a9e566",
+        "name": "Cavent",
+        "tier": "Diamond",
+        "tx_count": 7
+      },
+      {
+        "address": "0x8167e4df2177dcd06d9d0261f759fdacf7cdce40",
+        "name": "HappyTV",
+        "tier": "Diamond",
+        "tx_count": 7
+      },
+      {
+        "address": "0x1269e524a4fea18f23b0280e540555dc08181ef7",
+        "name": "Paradisiak",
+        "tier": "Diamond",
+        "tx_count": 6
+      },
+      {
+        "address": "0x68223cf647fd62635c606c6964bf3e46a4e5cc92",
+        "name": "murec",
+        "tier": "Diamond",
+        "tx_count": 6
+      },
+      {
+        "address": "0xaa9f002000c4f34727e1f0407f363e4ee0be4c27",
+        "name": "cardman",
+        "tier": "Diamond",
+        "tx_count": 5
+      },
+      {
+        "address": "0x1ae6b0937c3bb452cab89b8f984a335f41d0ec37",
+        "name": "captainobvious",
+        "tier": "Diamond",
+        "tx_count": 5
+      },
+      {
+        "address": "0x28cfe81381060ea23d7baa72b51b7116f99d9bb1",
+        "name": "jsteezy",
+        "tier": "Diamond",
+        "tx_count": 4
+      },
+      {
+        "address": "0x67016b9194c606a23d14b893e63fb1bb24632bfc",
+        "name": "skarly",
+        "tier": "Diamond",
+        "tx_count": 3
+      },
+      {
+        "address": "0x9e382ec0328b91f489b4f4ff332b24cf5d935a8b",
+        "name": "Sonyblack65",
+        "tier": "Diamond",
+        "tx_count": 3
+      },
+      {
+        "address": "0x5faff9354a1a98005faf78d7ee98f7a0098c5534",
+        "name": "SleepWin",
+        "tier": "Diamond",
+        "tx_count": 3
+      },
+      {
+        "address": "0x2a2376e5e9981c19b15af64d2cdb57c9b94eb1f6",
+        "name": "xiskool",
+        "tier": "Diamond",
+        "tx_count": 2
+      },
+      {
+        "address": "0x0532e2bf1c162cd5c371db5b229bcded1816f399",
+        "name": "TRUMPBIG",
+        "tier": "Diamond",
+        "tx_count": 2
+      },
+      {
+        "address": "0x5f22c06221b4afa44b3f642c40ea7e5c8eecd53b",
+        "name": "nathnnfts",
+        "tier": "Diamond",
+        "tx_count": 1
+      },
+      {
+        "address": "0x42d55a413bd1d547e41a4c948c3a808ee8b6b73d",
+        "name": "LucasNetz",
+        "tier": "Diamond",
+        "tx_count": 1
+      },
+      {
+        "address": "0x731cf176c2cf1190503f30c7572898f4ec17ad2f",
+        "name": "nishseq",
+        "tier": "Diamond",
+        "tx_count": 1
+      },
+      {
+        "address": "0x69459a29537cb75751f0d4f0ac9bdb2241ba9aa6",
+        "name": "dragonfarmer",
+        "tier": "Diamond",
+        "tx_count": 0
+      },
+      {
+        "address": "0xb9dd657b037a94043f0c5a95c20f255d199ebd11",
+        "name": "loyal",
+        "tier": "Diamond",
+        "tx_count": 0
+      },
+      {
+        "address": "0x8667aef708f3dea096dc816f8774f04cff3951bf",
+        "name": "BlackApple",
+        "tier": "Diamond",
+        "tx_count": 0
+      },
+      {
+        "address": "0xb1f929ce15f442d43cebafef12186d39e0650a3a",
+        "name": "Booblino",
+        "tier": "Diamond",
+        "tx_count": 0
+      },
+      {
+        "address": "0x0c5618c08ef39776818922d3e710de102ac16de6",
+        "name": "oolaps",
+        "tier": "Diamond",
+        "tx_count": 0
+      },
+      {
+        "address": "0x598da7a9442f75387c0b3495656f000120ff0eea",
+        "name": "0x598da7a9442f75387c0b3495656f000120ff0eea",
+        "tier": "Diamond",
+        "tx_count": 0
+      },
+      {
+        "address": "0xf337990d94ddd0fb08c299b3055a8c708c3e536a",
+        "name": "0x0is0",
+        "tier": "Diamond",
+        "tx_count": 0
+      },
+      {
+        "address": "0xb2d77fe350edd06f23f48cc29b2432bc94d49d56",
+        "name": "TrieuTiger",
+        "tier": "Diamond",
+        "tx_count": 0
+      },
+      {
+        "address": "0xb0654f3ce4753c908a853d68a062d8a33bcb8fb8",
+        "name": "leonx",
+        "tier": "Diamond",
+        "tx_count": 0
+      },
+      {
+        "address": "0xaeac3186758f3f1a0f4c69ee5b6fb7e4e143afac",
+        "name": "PlayMaker",
+        "tier": "Diamond",
+        "tx_count": 0
+      },
+      {
+        "address": "0xbff1df04ed51aa3d4259d0b7cc882ba071bafa1f",
+        "name": "ANONS",
+        "tier": "Diamond",
+        "tx_count": 0
+      },
+      {
+        "address": "0xdbcc080ad58e850b24d3fd75fac1adf5de9d47fc",
+        "name": "jiko",
+        "tier": "Diamond",
+        "tx_count": 0
+      },
+      {
+        "address": "0xd67eb6b6254b48acd89ea84b5d51afc68b7378c1",
+        "name": "lancelot",
+        "tier": "Diamond",
+        "tx_count": 0
+      },
+      {
+        "address": "0x182a53c2492ad2576fa7a5c33cee0062ecf5a50e",
+        "name": "FHMRemy",
+        "tier": "Diamond",
+        "tx_count": 0
+      },
+      {
+        "address": "0xb0d90d52c7389824d4b22c06bcdccd734e3162b7",
+        "name": "ezsnipe",
+        "tier": "Diamond",
+        "tx_count": 0
+      },
+      {
+        "address": "0x1f7afac6014f37897e4af75c959bea15bce9caf9",
+        "name": "BlockCap",
+        "tier": "Diamond",
+        "tx_count": 0
+      },
+      {
+        "address": "0x8740085f7f36925743bfb68715aadd626f452e82",
+        "name": "Fairbanks",
+        "tier": "Diamond",
+        "tx_count": 0
+      },
+      {
+        "address": "0x5f299c00e439765a6f12a97f160ec9b3a9a78a30",
+        "name": "WarrenNakamoto",
+        "tier": "Diamond",
+        "tx_count": 0
+      },
+      {
+        "address": "0xc073b64442c69f0f2a09b91bb0de9f1a4e0a75b9",
+        "name": "ethermonk",
+        "tier": "Diamond",
+        "tx_count": 0
+      },
+      {
+        "address": "0x3400a6918f8414bf31cc01d5d3087868aefb33b5",
+        "name": "0x3400a6918f8414bf31cc01d5d3087868aefb33b5",
+        "tier": "Diamond",
+        "tx_count": 0
+      },
+      {
+        "address": "0x4713458838451de7fc5f18b6fd1cd270b1f41def",
+        "name": "0x4713458838451de7fc5f18b6fd1cd270b1f41def",
+        "tier": "Diamond",
+        "tx_count": 0
+      },
+      {
+        "address": "0x07484da0b968e4ca353d0a1fae0572a453768279",
+        "name": "changhyuk",
+        "tier": "Diamond",
+        "tx_count": 0
+      },
+      {
+        "address": "0x1602b8ca9d0f9aa3b6f854b5944336ac2a363af3",
+        "name": "0x1602b8ca9d0f9aa3b6f854b5944336ac2a363af3",
+        "tier": "Diamond",
+        "tx_count": 0
+      },
+      {
+        "address": "0xcb3f943244b58987747c378cd9cd44efb3a4ab99",
+        "name": "0xcb3f943244b58987747c378cd9cd44efb3a4ab99",
+        "tier": "Diamond",
+        "tx_count": 0
+      },
+      {
+        "address": "0x66b64eb3b8b7fd6e8dba618999117014512bb6ad",
+        "name": "0x66b64eb3b8b7fd6e8dba618999117014512bb6ad",
+        "tier": "Diamond",
+        "tx_count": 0
+      },
+      {
+        "address": "0x450f9d631aee7b29ece32e92ac178c81aa4e9c40",
+        "name": "0x450f9d631aee7b29ece32e92ac178c81aa4e9c40",
+        "tier": "Diamond",
+        "tx_count": 0
+      }
+    ],
+    "category_breakdown": {
+      "Gaming": 829607,
+      "Arcade": 14921,
+      "Rewards": 10110,
+      "Infra": 4335,
+      "NFT": 1351,
+      "Abstract": 1123,
+      "DeFi": 426,
+      "Others": 228,
+      "Unknown": 722
+    }
+  }
+}

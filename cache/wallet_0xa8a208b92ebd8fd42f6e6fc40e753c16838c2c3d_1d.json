@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.562Z",
+  "data": {
+    "address": "0xa8a208b92ebd8fd42f6e6fc40e753c16838c2c3d",
+    "name": "ber",
+    "tier": "Diamond",
+    "tier_v2": 14,
+    "badges": 39,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0xa8a208b92ebd8fd42f6e6fc40e753c16838c2c3d",
+    "total_tx_count": 47771,
+    "period_tx_count": 0,
+    "period": "1d",
+    "top_contracts": []
+  }
+}

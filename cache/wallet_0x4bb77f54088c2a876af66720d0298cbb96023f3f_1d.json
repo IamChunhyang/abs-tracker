@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.550Z",
+  "data": {
+    "address": "0x4bb77f54088c2a876af66720d0298cbb96023f3f",
+    "name": "pepp",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 37,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x4bb77f54088c2a876af66720d0298cbb96023f3f",
+    "total_tx_count": 20526,
+    "period_tx_count": 0,
+    "period": "1d",
+    "top_contracts": []
+  }
+}

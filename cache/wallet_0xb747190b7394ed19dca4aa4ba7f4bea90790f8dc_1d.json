@@ -1,0 +1,33 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.534Z",
+  "data": {
+    "address": "0xb747190b7394ed19dca4aa4ba7f4bea90790f8dc",
+    "name": "LaaLaa",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 40,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0xb747190b7394ed19dca4aa4ba7f4bea90790f8dc",
+    "total_tx_count": 8932,
+    "period_tx_count": 2,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "0xd9f3...0694",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x0962ef79"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.548Z",
+  "data": {
+    "address": "0x67016b9194c606a23d14b893e63fb1bb24632bfc",
+    "name": "skarly",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 12,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x67016b9194c606a23d14b893e63fb1bb24632bfc",
+    "total_tx_count": 1413,
+    "period_tx_count": 4,
+    "period": "14d",
+    "top_contracts": [
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x7060a227"
+      }
+    ]
+  }
+}

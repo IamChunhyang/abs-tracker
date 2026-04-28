@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.825Z",
+  "data": {
+    "address": "0x731cf176c2cf1190503f30c7572898f4ec17ad2f",
+    "name": "nishseq",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 14,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x731cf176c2cf1190503f30c7572898f4ec17ad2f",
+    "total_tx_count": 3130,
+    "period_tx_count": 0,
+    "period": "1d",
+    "top_contracts": []
+  }
+}

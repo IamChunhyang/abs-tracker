@@ -1,0 +1,57 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.497Z",
+  "data": {
+    "address": "0xfc61f1b7701f6765ff548b3bca403cdaa723d260",
+    "name": "curtis",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 31,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0xfc61f1b7701f6765ff548b3bca403cdaa723d260",
+    "total_tx_count": 351857,
+    "period_tx_count": 85310,
+    "period": "7d",
+    "top_contracts": [
+      {
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Bakery",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 85136,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
+        "name": "러그풀 베이커리 (부스트&러그)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 170,
+        "top_method": "0xf20c3fb4"
+      },
+      {
+        "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
+        "name": "Swap Router",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xac9650d8"
+      },
+      {
+        "address": "0xa171bb8b0805ddccc8721ccb1e13f6dd09633cfc",
+        "name": "0xa171...3cfc",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xc00007b0"
+      },
+      {
+        "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
+        "name": "0x4001...1d02",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x219e0149"
+      }
+    ]
+  }
+}

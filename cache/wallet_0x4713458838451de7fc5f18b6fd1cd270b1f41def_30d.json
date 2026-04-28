@@ -1,0 +1,57 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.838Z",
+  "data": {
+    "address": "0x4713458838451de7fc5f18b6fd1cd270b1f41def",
+    "name": "0x4713458838451de7fc5f18b6fd1cd270b1f41def",
+    "tier": "Diamond",
+    "tier_v2": 14,
+    "badges": 7,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x4713458838451de7fc5f18b6fd1cd270b1f41def",
+    "total_tx_count": 981,
+    "period_tx_count": 36,
+    "period": "30d",
+    "top_contracts": [
+      {
+        "address": "0xa4890b89dc628bae614780079acc951fb0ecdc5f",
+        "name": "NFT Position Manager",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 10,
+        "top_method": "0x219f5d17"
+      },
+      {
+        "address": "0x1cfd3e48812daed359574529caaed4b075b5e89d",
+        "name": "0x1cfd...e89d",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 9,
+        "top_method": "0x1c4b774b"
+      },
+      {
+        "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
+        "name": "Swap Router",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 6,
+        "top_method": "0xa026383e"
+      },
+      {
+        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
+        "name": "DEX Router",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 6,
+        "top_method": "0xcac88ea9"
+      },
+      {
+        "address": "0x9a71f27b1ee40ab7ff2c84a755ac9d8a4b17f572",
+        "name": "0x9a71...f572",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0xc00007b0"
+      }
+    ]
+  }
+}

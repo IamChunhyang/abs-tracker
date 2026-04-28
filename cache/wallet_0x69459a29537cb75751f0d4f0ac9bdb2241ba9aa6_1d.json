@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.573Z",
+  "data": {
+    "address": "0x69459a29537cb75751f0d4f0ac9bdb2241ba9aa6",
+    "name": "dragonfarmer",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 22,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x69459a29537cb75751f0d4f0ac9bdb2241ba9aa6",
+    "total_tx_count": 3808,
+    "period_tx_count": 0,
+    "period": "1d",
+    "top_contracts": []
+  }
+}

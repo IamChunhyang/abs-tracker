@@ -1,0 +1,25 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.777Z",
+  "data": {
+    "address": "0xd678b718f70389dbdd2d447df23333641e8f7480",
+    "name": "yanik",
+    "tier": "Diamond",
+    "tier_v2": 14,
+    "badges": 21,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0xd678b718f70389dbdd2d447df23333641e8f7480",
+    "total_tx_count": 7808,
+    "period_tx_count": 1,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Item Market System",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x807ef825"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.769Z",
+  "data": {
+    "address": "0x8167e4df2177dcd06d9d0261f759fdacf7cdce40",
+    "name": "HappyTV",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 18,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x8167e4df2177dcd06d9d0261f759fdacf7cdce40",
+    "total_tx_count": 3841,
+    "period_tx_count": 0,
+    "period": "1d",
+    "top_contracts": []
+  }
+}

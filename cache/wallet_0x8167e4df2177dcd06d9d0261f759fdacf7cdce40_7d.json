@@ -1,0 +1,41 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.769Z",
+  "data": {
+    "address": "0x8167e4df2177dcd06d9d0261f759fdacf7cdce40",
+    "name": "HappyTV",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 18,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x8167e4df2177dcd06d9d0261f759fdacf7cdce40",
+    "total_tx_count": 3841,
+    "period_tx_count": 7,
+    "period": "7d",
+    "top_contracts": [
+      {
+        "address": "0x89e9d9b7d87591875359247f7d8eb786e7ea6910",
+        "name": "코나 포인트 파밍",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x7b0472f0"
+      },
+      {
+        "address": "0x1a506c4a525d66bf62cf74b1202dd6bf7fae970f",
+        "name": "0x1a50...970f",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      }
+    ]
+  }
+}

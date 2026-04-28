@@ -1,0 +1,33 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.527Z",
+  "data": {
+    "address": "0xc2a71b6d16b502375c8b40a82e08477655d75f2d",
+    "name": "vibes",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 38,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0xc2a71b6d16b502375c8b40a82e08477655d75f2d",
+    "total_tx_count": 87672,
+    "period_tx_count": 4,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "0x0000...b395",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xe7acab24"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      }
+    ]
+  }
+}

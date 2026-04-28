@@ -1,0 +1,129 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.681Z",
+  "data": {
+    "address": "0xe1a8d2f301c7df6a1c12460a7b61037c00475792",
+    "name": "Guigne",
+    "tier": "Diamond",
+    "tier_v2": 14,
+    "badges": 37,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0xe1a8d2f301c7df6a1c12460a7b61037c00475792",
+    "total_tx_count": 5533,
+    "period_tx_count": 945,
+    "period": "30d",
+    "top_contracts": [
+      {
+        "address": "0x080f7ad315ab65f02a821f072170d469d444a6c4",
+        "name": "0x080f...a6c4",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 726,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x1cfd3e48812daed359574529caaed4b075b5e89d",
+        "name": "0x1cfd...e89d",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 54,
+        "top_method": "0x1c4b774b"
+      },
+      {
+        "address": "0xa4890b89dc628bae614780079acc951fb0ecdc5f",
+        "name": "NFT Position Manager",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 40,
+        "top_method": "0x219f5d17"
+      },
+      {
+        "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
+        "name": "Swap Router",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 36,
+        "top_method": "0xa026383e"
+      },
+      {
+        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
+        "name": "DEX Router",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 36,
+        "top_method": "0xcac88ea9"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 17,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x42ab8092bfb701f34c47273df83d90d8169ad982",
+        "name": "Free Managed Reward",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0xf5f8d365"
+      },
+      {
+        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "name": "Signature Minter",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x29efcf80"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0xa8752e1ceeab44cd84214ebfcefd9c8cb535fb98",
+        "name": "0xa875...fb98",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x571d3dc7"
+      },
+      {
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Item Market System",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x807ef825"
+      },
+      {
+        "address": "0x0000000000c2d145a2526bd8c716263bfebe1a72",
+        "name": "0x0000...1a72",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x32389b71"
+      },
+      {
+        "address": "0x663d69ecff14b4dbd245cdac03f2e1deb68ed250",
+        "name": "0x663d...d250",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x6d705ebb"
+      }
+    ]
+  }
+}

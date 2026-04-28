@@ -1,0 +1,49 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.788Z",
+  "data": {
+    "address": "0xda2ca34d57242cbe18f3046925645668b9e60292",
+    "name": "CRYPT0BRO",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 33,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0xda2ca34d57242cbe18f3046925645668b9e60292",
+    "total_tx_count": 285371,
+    "period_tx_count": 203,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Bakery",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 197,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Madness Assets",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0xf5298aca"
+      },
+      {
+        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
+        "name": "WETH9",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xa9059cbb"
+      }
+    ]
+  }
+}

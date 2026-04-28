@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.770Z",
+  "data": {
+    "address": "0xdbcc080ad58e850b24d3fd75fac1adf5de9d47fc",
+    "name": "jiko",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 5,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0xdbcc080ad58e850b24d3fd75fac1adf5de9d47fc",
+    "total_tx_count": 101,
+    "period_tx_count": 0,
+    "period": "14d",
+    "top_contracts": []
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.601Z",
+  "data": {
+    "address": "0xa8a956a5690cc81bb367da2c2f6f1796be2b3c30",
+    "name": "scottco",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 32,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0xa8a956a5690cc81bb367da2c2f6f1796be2b3c30",
+    "total_tx_count": 28879,
+    "period_tx_count": 1000,
+    "period": "30d",
+    "top_contracts": [
+      {
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Bakery",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 948,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Item Market System",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 15,
+        "top_method": "0x807ef825"
+      },
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "0xd9f3...0694",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 9,
+        "top_method": "0x0962ef79"
+      },
+      {
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
+        "category": "Governance",
+        "is_unknown": false,
+        "tx_count": 5,
+        "top_method": "0x7ac09bf7"
+      },
+      {
+        "address": "0x911dbdd9841b53ee5a08170109daf7ad82684108",
+        "name": "Shiny RWA",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x92971a31"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      }
+    ]
+  }
+}

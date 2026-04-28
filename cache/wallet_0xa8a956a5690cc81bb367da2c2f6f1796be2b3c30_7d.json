@@ -1,0 +1,41 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.600Z",
+  "data": {
+    "address": "0xa8a956a5690cc81bb367da2c2f6f1796be2b3c30",
+    "name": "scottco",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 32,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0xa8a956a5690cc81bb367da2c2f6f1796be2b3c30",
+    "total_tx_count": 28879,
+    "period_tx_count": 28,
+    "period": "7d",
+    "top_contracts": [
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Item Market System",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 8,
+        "top_method": "0x807ef825"
+      },
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "0xd9f3...0694",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 5,
+        "top_method": "0x0962ef79"
+      },
+      {
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
+        "category": "Governance",
+        "is_unknown": false,
+        "tx_count": 5,
+        "top_method": "0x7ac09bf7"
+      }
+    ]
+  }
+}

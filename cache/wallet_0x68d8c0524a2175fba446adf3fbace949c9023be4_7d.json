@@ -1,0 +1,177 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.536Z",
+  "data": {
+    "address": "0x68d8c0524a2175fba446adf3fbace949c9023be4",
+    "name": "FirstMover",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 41,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x68d8c0524a2175fba446adf3fbace949c9023be4",
+    "total_tx_count": 164455,
+    "period_tx_count": 2802,
+    "period": "7d",
+    "top_contracts": [
+      {
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Bakery",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 2402,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x1859072d67fdd26c8782c90a1e4f078901c0d763",
+        "name": "CommitReveal (Game)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 210,
+        "top_method": "0xf01d14b2"
+      },
+      {
+        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
+        "name": "Tollan Random Seed",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 74,
+        "top_method": "0x8708c7fd"
+      },
+      {
+        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
+        "name": "러그풀 베이커리 (부스트&러그)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 28,
+        "top_method": "0xf20c3fb4"
+      },
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Item Market System",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 15,
+        "top_method": "0x807ef825"
+      },
+      {
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
+        "category": "Governance",
+        "is_unknown": false,
+        "tx_count": 11,
+        "top_method": "0x7ac09bf7"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 10,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x81f6c8e971c77dff0346ef2e037088b635ef912a",
+        "name": "0x81f6...912a",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 4,
+        "top_method": "0xc00007b0"
+      },
+      {
+        "address": "0xa688a6a53a26b6f0702a9a518482151415be1ff7",
+        "name": "0xa688...1ff7",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 4,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0xac875d3bc8bca493889c880d6c1c03d8f7a8da5e",
+        "name": "0xac87...da5e",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0xc00007b0"
+      },
+      {
+        "address": "0xa171bb8b0805ddccc8721ccb1e13f6dd09633cfc",
+        "name": "0xa171...3cfc",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0xc00007b0"
+      },
+      {
+        "address": "0x91d421946ac01379b57be5bd80bd828d0b2fa877",
+        "name": "0x91d4...a877",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0xc00007b0"
+      },
+      {
+        "address": "0x9a71f27b1ee40ab7ff2c84a755ac9d8a4b17f572",
+        "name": "0x9a71...f572",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0xc00007b0"
+      },
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "0x0000...b395",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0xe7acab24"
+      },
+      {
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0xa9059cbb"
+      },
+      {
+        "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
+        "name": "Swap Router",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0xac9650d8"
+      },
+      {
+        "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",
+        "name": "0xbde2...2916",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0xb32820e9"
+      },
+      {
+        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
+        "name": "DEX Router",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0xc6b7f1b6"
+      },
+      {
+        "address": "0x911dbdd9841b53ee5a08170109daf7ad82684108",
+        "name": "Shiny RWA",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x92971a31"
+      }
+    ]
+  }
+}

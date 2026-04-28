@@ -1,0 +1,25 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.745Z",
+  "data": {
+    "address": "0xaeac3186758f3f1a0f4c69ee5b6fb7e4e143afac",
+    "name": "PlayMaker",
+    "tier": "Diamond",
+    "tier_v2": 14,
+    "badges": 24,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0xaeac3186758f3f1a0f4c69ee5b6fb7e4e143afac",
+    "total_tx_count": 809,
+    "period_tx_count": 11,
+    "period": "30d",
+    "top_contracts": [
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 11,
+        "top_method": "0x7060a227"
+      }
+    ]
+  }
+}

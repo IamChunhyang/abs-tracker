@@ -1,0 +1,25 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.551Z",
+  "data": {
+    "address": "0x4e887cd45a3c561f16f03d6678fcd093dac001e8",
+    "name": "ericzalusky",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 39,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x4e887cd45a3c561f16f03d6678fcd093dac001e8",
+    "total_tx_count": 8284,
+    "period_tx_count": 1,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      }
+    ]
+  }
+}

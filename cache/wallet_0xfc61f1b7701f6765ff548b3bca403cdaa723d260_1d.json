@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.491Z",
+  "data": {
+    "address": "0xfc61f1b7701f6765ff548b3bca403cdaa723d260",
+    "name": "curtis",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 31,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0xfc61f1b7701f6765ff548b3bca403cdaa723d260",
+    "total_tx_count": 351857,
+    "period_tx_count": 0,
+    "period": "1d",
+    "top_contracts": []
+  }
+}

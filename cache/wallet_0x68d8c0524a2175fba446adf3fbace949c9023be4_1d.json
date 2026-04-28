@@ -1,0 +1,113 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.535Z",
+  "data": {
+    "address": "0x68d8c0524a2175fba446adf3fbace949c9023be4",
+    "name": "FirstMover",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 41,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x68d8c0524a2175fba446adf3fbace949c9023be4",
+    "total_tx_count": 164455,
+    "period_tx_count": 239,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Bakery",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 207,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
+        "name": "Tollan Random Seed",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 10,
+        "top_method": "0x8708c7fd"
+      },
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Item Market System",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x807ef825"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x1859072d67fdd26c8782c90a1e4f078901c0d763",
+        "name": "CommitReveal (Game)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x4d07ec64"
+      },
+      {
+        "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
+        "name": "Swap Router",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0xac9650d8"
+      },
+      {
+        "address": "0x81f6c8e971c77dff0346ef2e037088b635ef912a",
+        "name": "0x81f6...912a",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x2e1a7d4d"
+      },
+      {
+        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
+        "name": "러그풀 베이커리 (부스트&러그)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0xf20c3fb4"
+      },
+      {
+        "address": "0xac875d3bc8bca493889c880d6c1c03d8f7a8da5e",
+        "name": "0xac87...da5e",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xc00007b0"
+      },
+      {
+        "address": "0xa171bb8b0805ddccc8721ccb1e13f6dd09633cfc",
+        "name": "0xa171...3cfc",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xc00007b0"
+      },
+      {
+        "address": "0x91d421946ac01379b57be5bd80bd828d0b2fa877",
+        "name": "0x91d4...a877",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xc00007b0"
+      },
+      {
+        "address": "0x9a71f27b1ee40ab7ff2c84a755ac9d8a4b17f572",
+        "name": "0x9a71...f572",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xc00007b0"
+      }
+    ]
+  }
+}

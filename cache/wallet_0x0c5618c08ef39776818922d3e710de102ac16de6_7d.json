@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.634Z",
+  "data": {
+    "address": "0x0c5618c08ef39776818922d3e710de102ac16de6",
+    "name": "oolaps",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 20,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x0c5618c08ef39776818922d3e710de102ac16de6",
+    "total_tx_count": 3118,
+    "period_tx_count": 0,
+    "period": "7d",
+    "top_contracts": []
+  }
+}

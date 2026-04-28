@@ -1,0 +1,57 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.672Z",
+  "data": {
+    "address": "0xa43073b5eb85bbf66a41066e01529360dc1cddbe",
+    "name": "veermay",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 16,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0xa43073b5eb85bbf66a41066e01529360dc1cddbe",
+    "total_tx_count": 5424,
+    "period_tx_count": 24,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Item Market System",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 17,
+        "top_method": "0x305a67a8"
+      },
+      {
+        "address": "0xca4a7c4a191de94af2c91487d0be34a0205b89ab",
+        "name": "NFT Staking",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0xfe939afc"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x0e5ca01b63acd1841489ca87d0ab33f692e5a7ba",
+        "name": "0x0e5c...a7ba",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x52ce66cc"
+      },
+      {
+        "address": "0x7c47ea32fd27d1a74fc6e9f31ce8162e6ce070eb",
+        "name": "0x7c47...70eb",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xb88d4fde"
+      }
+    ]
+  }
+}

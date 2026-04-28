@@ -1,0 +1,81 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.663Z",
+  "data": {
+    "address": "0xf23aeb17ff2418b832c47fce57659886e1b99ba3",
+    "name": "Shakejr",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 25,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0xf23aeb17ff2418b832c47fce57659886e1b99ba3",
+    "total_tx_count": 6044,
+    "period_tx_count": 26,
+    "period": "7d",
+    "top_contracts": [
+      {
+        "address": "0xc74d5002c10c13d2ad258b4584690829387f84dc",
+        "name": "DYLI Marketplace",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 13,
+        "top_method": "0xf7344a59"
+      },
+      {
+        "address": "0x270bbb21b1187bc6e694f428dcb51432958eb3d9",
+        "name": "러그풀 베이커리",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0xb27a78e3"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x0e4ee35190f16efdfd1aa9be802ca546fcce5a81",
+        "name": "0x0e4e...5a81",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0xa694fc3a"
+      },
+      {
+        "address": "0x516dc288e26b34557f68ea1c1ff13576eff8a168",
+        "name": "0x516d...a168",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xb88d4fde"
+      },
+      {
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0x458422e93bf89a109afc4fac00aacf2f18fcf541",
+        "name": "DYLI",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x91eb290e"
+      },
+      {
+        "address": "0x7627994b4b2d56a05cb2978b813ca0e1ccb22f97",
+        "name": "0x7627...2f97",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x52c61a61"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.624Z",
+  "data": {
+    "address": "0xa0f78f02d4534fd7c7026514a27ef231e39f0300",
+    "name": "elev8blyss",
+    "tier": "Diamond",
+    "tier_v2": 14,
+    "badges": 35,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0xa0f78f02d4534fd7c7026514a27ef231e39f0300",
+    "total_tx_count": 38171,
+    "period_tx_count": 0,
+    "period": "1d",
+    "top_contracts": []
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.471Z",
+  "data": {
+    "address": "0xd82311e0ddcff7cad1be090763d4f6d7ba1c290a",
+    "name": "0xd82311e0ddcff7cad1be090763d4f6d7ba1c290a",
+    "tier": "Obsidian",
+    "tier_v2": 16,
+    "badges": 27,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0xd82311e0ddcff7cad1be090763d4f6d7ba1c290a",
+    "total_tx_count": 6325,
+    "period_tx_count": 80,
+    "period": "14d",
+    "top_contracts": [
+      {
+        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
+        "name": "DEX Router",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 21,
+        "top_method": "0xcac88ea9"
+      },
+      {
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
+        "category": "Governance",
+        "is_unknown": false,
+        "tx_count": 17,
+        "top_method": "0x7ac09bf7"
+      },
+      {
+        "address": "0x42ab8092bfb701f34c47273df83d90d8169ad982",
+        "name": "Free Managed Reward",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 15,
+        "top_method": "0xf5f8d365"
+      },
+      {
+        "address": "0x4c68e4102c0f120cce9f08625bd12079806b7c4d",
+        "name": "0x4c68...7c4d",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 4,
+        "top_method": "0xa9059cbb"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x27b04370d8087e714a9f557c1eff7901cea6bb63",
+        "name": "ve-Lock",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0xb52c05fe"
+      },
+      {
+        "address": "0x9fdb8e3c8e5800d2f762919a34d9c0f1b63668a3",
+        "name": "0x9fdb...68a3",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x2e1a7d4d"
+      },
+      {
+        "address": "0xa171bb8b0805ddccc8721ccb1e13f6dd09633cfc",
+        "name": "0xa171...3cfc",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x2e1a7d4d"
+      },
+      {
+        "address": "0xc197e61538b5cb7bafa28ee328931c4a9091f2b4",
+        "name": "0xc197...f2b4",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x2e1a7d4d"
+      },
+      {
+        "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
+        "name": "Swap Router",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xc04b8d59"
+      },
+      {
+        "address": "0x36cbf77d8f8355d7a077d670c29e290e41367072",
+        "name": "Rewards Claim",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x379607f5"
+      },
+      {
+        "address": "0xad1eca41e6f772be3cb5a48a6141f9bcc1af9f7c",
+        "name": "0xad1e...9f7c",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x02751cec"
+      }
+    ]
+  }
+}

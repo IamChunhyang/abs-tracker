@@ -1,0 +1,113 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.451Z",
+  "data": {
+    "address": "0x90d644bafa0dad528d89ebca2b2d2d51379a428c",
+    "name": "Rebornmf",
+    "tier": "Obsidian",
+    "tier_v2": 16,
+    "badges": 40,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x90d644bafa0dad528d89ebca2b2d2d51379a428c",
+    "total_tx_count": 36555,
+    "period_tx_count": 353,
+    "period": "14d",
+    "top_contracts": [
+      {
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Bakery",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 292,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xc74d5002c10c13d2ad258b4584690829387f84dc",
+        "name": "DYLI Marketplace",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 8,
+        "top_method": "0xf7344a59"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 8,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x458422e93bf89a109afc4fac00aacf2f18fcf541",
+        "name": "DYLI",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 5,
+        "top_method": "0x7f58b4bf"
+      },
+      {
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
+        "category": "Governance",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x7ac09bf7"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0x42ab8092bfb701f34c47273df83d90d8169ad982",
+        "name": "Free Managed Reward",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0xf5f8d365"
+      },
+      {
+        "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
+        "name": "Swap Router",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xc04b8d59"
+      },
+      {
+        "address": "0xa4890b89dc628bae614780079acc951fb0ecdc5f",
+        "name": "NFT Position Manager",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xac9650d8"
+      },
+      {
+        "address": "0x9ad684023258cc4e61fe229e1854e827c4f84e60",
+        "name": "CLGauge V2",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x2e1a7d4d"
+      },
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "0xd9f3...0694",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x0962ef79"
+      },
+      {
+        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
+        "name": "Portal Proxy",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x"
+      }
+    ]
+  }
+}

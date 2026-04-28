@@ -1,0 +1,25 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.526Z",
+  "data": {
+    "address": "0xe55fc1366a59462b5bf0d269a977be9d5488d627",
+    "name": "debuddha",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 37,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0xe55fc1366a59462b5bf0d269a977be9d5488d627",
+    "total_tx_count": 3225,
+    "period_tx_count": 1,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.830Z",
+  "data": {
+    "address": "0xe8bc685af85c96eed4a6235eb11930df48121a81",
+    "name": "JogaNifty",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 22,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0xe8bc685af85c96eed4a6235eb11930df48121a81",
+    "total_tx_count": 13397,
+    "period_tx_count": 15,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 8,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "0xd9f3...0694",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x0962ef79"
+      },
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Item Market System",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x2752571e"
+      },
+      {
+        "address": "0xca8f7a25a4b25aa378c03cc2051bc732d497d828",
+        "name": "0xca8f...d828",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x1c4b774b"
+      },
+      {
+        "address": "0xa171bb8b0805ddccc8721ccb1e13f6dd09633cfc",
+        "name": "0xa171...3cfc",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xc00007b0"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.469Z",
+  "data": {
+    "address": "0x886cbee36be572f21187b384b0ac716c560a4ccb",
+    "name": "PudgyGang",
+    "tier": "Obsidian",
+    "tier_v2": 16,
+    "badges": 27,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x886cbee36be572f21187b384b0ac716c560a4ccb",
+    "total_tx_count": 6563,
+    "period_tx_count": 0,
+    "period": "1d",
+    "top_contracts": []
+  }
+}

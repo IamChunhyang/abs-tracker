@@ -1,0 +1,113 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.535Z",
+  "data": {
+    "address": "0xb747190b7394ed19dca4aa4ba7f4bea90790f8dc",
+    "name": "LaaLaa",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 40,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0xb747190b7394ed19dca4aa4ba7f4bea90790f8dc",
+    "total_tx_count": 8932,
+    "period_tx_count": 1218,
+    "period": "30d",
+    "top_contracts": [
+      {
+        "address": "0x080f7ad315ab65f02a821f072170d469d444a6c4",
+        "name": "0x080f...a6c4",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1080,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 38,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "0xd9f3...0694",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 23,
+        "top_method": "0x0962ef79"
+      },
+      {
+        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
+        "name": "DEX Router",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 20,
+        "top_method": "0x12bc3aca"
+      },
+      {
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
+        "category": "Governance",
+        "is_unknown": false,
+        "tx_count": 20,
+        "top_method": "0x7ac09bf7"
+      },
+      {
+        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
+        "name": "Portal Proxy",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 15,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xbb8c7575f798a82ef02b428ab4693dffe258e266",
+        "name": "0xbb8c...e266",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0xf23a27bd"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "name": "Signature Minter",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x29efcf80"
+      },
+      {
+        "address": "0x1afa21bef41b61b198b1782d4f806e163c8f291d",
+        "name": "0x1afa...291d",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x911dbdd9841b53ee5a08170109daf7ad82684108",
+        "name": "Shiny RWA",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x92971a31"
+      },
+      {
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x095ea7b3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.758Z",
+  "data": {
+    "address": "0x6052354efe95df428da38efa36be764d3eea6bdb",
+    "name": "Massine",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 34,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x6052354efe95df428da38efa36be764d3eea6bdb",
+    "total_tx_count": 365821,
+    "period_tx_count": 100000,
+    "period": "14d",
+    "top_contracts": [
+      {
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Bakery",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 98328,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
+        "name": "러그풀 베이커리 (부스트&러그)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 1143,
+        "top_method": "0xb3648e8f"
+      },
+      {
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Madness Assets",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 233,
+        "top_method": "0xf5298aca"
+      },
+      {
+        "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
+        "name": "Token Claim",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 221,
+        "top_method": "0x16c5aa5e"
+      },
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Item Market System",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 28,
+        "top_method": "0x807ef825"
+      },
+      {
+        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
+        "name": "Tollan Random Seed",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 15,
+        "top_method": "0x8708c7fd"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 7,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
+        "name": "DEX Router",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x88cd821e"
+      },
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "0xd9f3...0694",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 4,
+        "top_method": "0x0962ef79"
+      },
+      {
+        "address": "0x30ebfb2eb34492b2bd5e68bda4138366844ef0bc",
+        "name": "0x30eb...f0bc",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 4,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
+        "name": "Portal Proxy",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x7a39349e1f9271db8d7b330c211af484c273ed46",
+        "name": "0x7a39...ed46",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xa9059cbb"
+      }
+    ]
+  }
+}

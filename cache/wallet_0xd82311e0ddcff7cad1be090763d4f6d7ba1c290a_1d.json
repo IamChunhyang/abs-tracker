@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.470Z",
+  "data": {
+    "address": "0xd82311e0ddcff7cad1be090763d4f6d7ba1c290a",
+    "name": "0xd82311e0ddcff7cad1be090763d4f6d7ba1c290a",
+    "tier": "Obsidian",
+    "tier_v2": 16,
+    "badges": 27,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0xd82311e0ddcff7cad1be090763d4f6d7ba1c290a",
+    "total_tx_count": 6325,
+    "period_tx_count": 0,
+    "period": "1d",
+    "top_contracts": []
+  }
+}

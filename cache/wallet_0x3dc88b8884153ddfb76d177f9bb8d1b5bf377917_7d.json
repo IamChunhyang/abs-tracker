@@ -1,0 +1,41 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.717Z",
+  "data": {
+    "address": "0x3dc88b8884153ddfb76d177f9bb8d1b5bf377917",
+    "name": "girlonabstract",
+    "tier": "Diamond",
+    "tier_v2": 14,
+    "badges": 38,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x3dc88b8884153ddfb76d177f9bb8d1b5bf377917",
+    "total_tx_count": 19483,
+    "period_tx_count": 10,
+    "period": "7d",
+    "top_contracts": [
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 7,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "0x0000...b395",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xe7acab24"
+      },
+      {
+        "address": "0x458422e93bf89a109afc4fac00aacf2f18fcf541",
+        "name": "DYLI",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x91eb290e"
+      }
+    ]
+  }
+}

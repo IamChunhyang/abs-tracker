@@ -1,0 +1,177 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.453Z",
+  "data": {
+    "address": "0x7fd643b7da56b3acb6a5a4e83a8818b14f195a50",
+    "name": "marlomarlo",
+    "tier": "Obsidian",
+    "tier_v2": 16,
+    "badges": 37,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x7fd643b7da56b3acb6a5a4e83a8818b14f195a50",
+    "total_tx_count": 132172,
+    "period_tx_count": 4206,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Bakery",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 3724,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Madness Assets",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 180,
+        "top_method": "0xf5298aca"
+      },
+      {
+        "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
+        "name": "Token Claim",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 174,
+        "top_method": "0x16c5aa5e"
+      },
+      {
+        "address": "0x1859072d67fdd26c8782c90a1e4f078901c0d763",
+        "name": "CommitReveal (Game)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 50,
+        "top_method": "0x4d07ec64"
+      },
+      {
+        "address": "0x27edd16ee56958fddcba08947f12c43ddec2b20c",
+        "name": "0x27ed...b20c",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 13,
+        "top_method": "0x001308d8"
+      },
+      {
+        "address": "0x270bbb21b1187bc6e694f428dcb51432958eb3d9",
+        "name": "러그풀 베이커리",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 10,
+        "top_method": "0xb27a78e3"
+      },
+      {
+        "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",
+        "name": "0xbde2...2916",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 10,
+        "top_method": "0xb32820e9"
+      },
+      {
+        "address": "0xf5005cca582cb510d15d4d025f78c9258ec07f4b",
+        "name": "ERC1967Proxy V2",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 8,
+        "top_method": "0x2e599054"
+      },
+      {
+        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
+        "name": "러그풀 베이커리 (부스트&러그)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 6,
+        "top_method": "0xf20c3fb4"
+      },
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Item Market System",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 6,
+        "top_method": "0x807ef825"
+      },
+      {
+        "address": "0x911dbdd9841b53ee5a08170109daf7ad82684108",
+        "name": "Shiny RWA",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 5,
+        "top_method": "0x92971a31"
+      },
+      {
+        "address": "0x5c9ce8be7aa92fd089be31b154be47a0e59d4282",
+        "name": "Shiny Orders",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 5,
+        "top_method": "0xf23a27bd"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0x55e1c2da46c36e18a956151ec1b4b2f39bd8571a",
+        "name": "0x55e1...571a",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xd8182233"
+      },
+      {
+        "address": "0x27b04370d8087e714a9f557c1eff7901cea6bb63",
+        "name": "ve-Lock",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xb52c05fe"
+      },
+      {
+        "address": "0xca8f7a25a4b25aa378c03cc2051bc732d497d828",
+        "name": "0xca8f...d828",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x1c4b774b"
+      },
+      {
+        "address": "0x9ad684023258cc4e61fe229e1854e827c4f84e60",
+        "name": "CLGauge V2",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x1c4b774b"
+      },
+      {
+        "address": "0x1a0a49927e0deef872316819aac1a7a07622d420",
+        "name": "0x1a0a...d420",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x1c4b774b"
+      },
+      {
+        "address": "0xce44d52431be9de26f4c59fa23ed3fcb26da51aa",
+        "name": "0xce44...51aa",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x1c4b774b"
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.826Z",
+  "data": {
+    "address": "0x731cf176c2cf1190503f30c7572898f4ec17ad2f",
+    "name": "nishseq",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 14,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x731cf176c2cf1190503f30c7572898f4ec17ad2f",
+    "total_tx_count": 3130,
+    "period_tx_count": 2525,
+    "period": "30d",
+    "top_contracts": [
+      {
+        "address": "0x080f7ad315ab65f02a821f072170d469d444a6c4",
+        "name": "0x080f...a6c4",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2454,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xf5005cca582cb510d15d4d025f78c9258ec07f4b",
+        "name": "ERC1967Proxy V2",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 55,
+        "top_method": "0x2e599054"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 6,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0xce2fbf6edfa8b759c4e0c80d73f1aff2a93b054b",
+        "name": "0xce2f...054b",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Bakery",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x0000000000c2d145a2526bd8c716263bfebe1a72",
+        "name": "0x0000...1a72",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x32389b71"
+      },
+      {
+        "address": "0x99b9007f3c8732b9bff2ed68ab7f73f27c4a0c53",
+        "name": "0x99b9...0c53",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xa22cb465"
+      },
+      {
+        "address": "0x3d72ddd35cadb4e5b22cdb20b36f98077be84284",
+        "name": "0x3d72...4284",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xa9059cbb"
+      },
+      {
+        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "name": "Signature Minter",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x29efcf80"
+      },
+      {
+        "address": "0xad1eca41e6f772be3cb5a48a6141f9bcc1af9f7c",
+        "name": "0xad1e...9f7c",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x791ac947"
+      },
+      {
+        "address": "0x663d69ecff14b4dbd245cdac03f2e1deb68ed250",
+        "name": "0x663d...d250",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x6d705ebb"
+      }
+    ]
+  }
+}

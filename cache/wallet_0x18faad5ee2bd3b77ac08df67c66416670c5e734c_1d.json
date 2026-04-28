@@ -1,0 +1,25 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.625Z",
+  "data": {
+    "address": "0x18faad5ee2bd3b77ac08df67c66416670c5e734c",
+    "name": "Cubsfan",
+    "tier": "Diamond",
+    "tier_v2": 14,
+    "badges": 8,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x18faad5ee2bd3b77ac08df67c66416670c5e734c",
+    "total_tx_count": 13464,
+    "period_tx_count": 2,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      }
+    ]
+  }
+}

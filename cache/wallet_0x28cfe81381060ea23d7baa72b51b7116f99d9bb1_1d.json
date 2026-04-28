@@ -1,0 +1,25 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.670Z",
+  "data": {
+    "address": "0x28cfe81381060ea23d7baa72b51b7116f99d9bb1",
+    "name": "jsteezy",
+    "tier": "Diamond",
+    "tier_v2": 15,
+    "badges": 14,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x28cfe81381060ea23d7baa72b51b7116f99d9bb1",
+    "total_tx_count": 9991,
+    "period_tx_count": 1,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      }
+    ]
+  }
+}

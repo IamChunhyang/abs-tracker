@@ -1,0 +1,177 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.575Z",
+  "data": {
+    "address": "0x81223fbb85c4c7e2abef9abbc9508dfc97a731b3",
+    "name": "Buster",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 32,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x81223fbb85c4c7e2abef9abbc9508dfc97a731b3",
+    "total_tx_count": 16995,
+    "period_tx_count": 1000,
+    "period": "30d",
+    "top_contracts": [
+      {
+        "address": "0x080f7ad315ab65f02a821f072170d469d444a6c4",
+        "name": "0x080f...a6c4",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 817,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 33,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "0xd9f3...0694",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 26,
+        "top_method": "0x0962ef79"
+      },
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Item Market System",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 11,
+        "top_method": "0x6d0ba1d3"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 10,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0xa4890b89dc628bae614780079acc951fb0ecdc5f",
+        "name": "NFT Position Manager",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 7,
+        "top_method": "0xac9650d8"
+      },
+      {
+        "address": "0xd40a07c0f951f564a3d9eb9dcf6850734fe77cfc",
+        "name": "0xd40a...7cfc",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 7,
+        "top_method": "0x1c4b774b"
+      },
+      {
+        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
+        "name": "DEX Router",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 6,
+        "top_method": "0xc6b7f1b6"
+      },
+      {
+        "address": "0xa171bb8b0805ddccc8721ccb1e13f6dd09633cfc",
+        "name": "0xa171...3cfc",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 6,
+        "top_method": "0xb6b55f25"
+      },
+      {
+        "address": "0xa5ddc4afa9bd73ea4afe36ee0ddae69cca3d061e",
+        "name": "0xa5dd...061e",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 4,
+        "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
+        "category": "Governance",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x7ac09bf7"
+      },
+      {
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0xa9059cbb"
+      },
+      {
+        "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
+        "name": "0x4001...1d02",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x219e0149"
+      },
+      {
+        "address": "0x219260d8470d8211ad66eb69206bdf72a4218b65",
+        "name": "0x2192...8b65",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xf7345f9c"
+      },
+      {
+        "address": "0x1a0a49927e0deef872316819aac1a7a07622d420",
+        "name": "0x1a0a...d420",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x2e1a7d4d"
+      },
+      {
+        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
+        "name": "WETH9",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0x34f24235015894fc9543e6e9c4936a17d70fd478",
+        "name": "0x34f2...d478",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x125c13e12bd40bc7eb4f129d3f8443091d443b7e",
+        "name": "CL Gauge",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x1c4b774b"
+      },
+      {
+        "address": "0x02c80c310a2b0266d0c57b6461f2d5f043c9b11a",
+        "name": "0x02c8...b11a",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x1c4b774b"
+      },
+      {
+        "address": "0xb5237a5db203d76872384d39a8b7b5235c2ac6e6",
+        "name": "0xb523...c6e6",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x1c4b774b"
+      }
+    ]
+  }
+}

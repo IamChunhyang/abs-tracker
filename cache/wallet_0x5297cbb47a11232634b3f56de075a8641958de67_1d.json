@@ -1,0 +1,33 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.557Z",
+  "data": {
+    "address": "0x5297cbb47a11232634b3f56de075a8641958de67",
+    "name": "Gee24",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 20,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x5297cbb47a11232634b3f56de075a8641958de67",
+    "total_tx_count": 4361,
+    "period_tx_count": 5,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
+        "name": "0x4001...1d02",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x219e0149"
+      }
+    ]
+  }
+}

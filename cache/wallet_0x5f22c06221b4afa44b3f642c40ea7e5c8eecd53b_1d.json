@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.628Z",
+  "data": {
+    "address": "0x5f22c06221b4afa44b3f642c40ea7e5c8eecd53b",
+    "name": "nathnnfts",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 31,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x5f22c06221b4afa44b3f642c40ea7e5c8eecd53b",
+    "total_tx_count": 16233,
+    "period_tx_count": 0,
+    "period": "1d",
+    "top_contracts": []
+  }
+}

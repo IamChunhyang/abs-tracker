@@ -1,0 +1,49 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.531Z",
+  "data": {
+    "address": "0xb2de832014a5bf1c499e5dff9d92ef0e1e5e5a80",
+    "name": "LiLPudgyWhale",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 39,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0xb2de832014a5bf1c499e5dff9d92ef0e1e5e5a80",
+    "total_tx_count": 4027,
+    "period_tx_count": 18,
+    "period": "7d",
+    "top_contracts": [
+      {
+        "address": "0x13a59f08f11e38e4766bf206a31473a510c83475",
+        "name": "0x13a5...3475",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 7,
+        "top_method": "0xd64abc3c"
+      },
+      {
+        "address": "0x7edd91c4dd202032872bfbfcd3a4e4f71cb4b8bc",
+        "name": "0x7edd...b8bc",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 6,
+        "top_method": "0xbed90f9b"
+      },
+      {
+        "address": "0xc74d5002c10c13d2ad258b4584690829387f84dc",
+        "name": "DYLI Marketplace",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0xf7344a59"
+      },
+      {
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xa9059cbb"
+      }
+    ]
+  }
+}

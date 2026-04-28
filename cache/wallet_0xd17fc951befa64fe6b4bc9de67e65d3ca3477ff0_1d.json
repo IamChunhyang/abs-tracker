@@ -1,0 +1,57 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.545Z",
+  "data": {
+    "address": "0xd17fc951befa64fe6b4bc9de67e65d3ca3477ff0",
+    "name": "Antony",
+    "tier": "Diamond",
+    "tier_v2": 15,
+    "badges": 31,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0xd17fc951befa64fe6b4bc9de67e65d3ca3477ff0",
+    "total_tx_count": 13581,
+    "period_tx_count": 10,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0x125c13e12bd40bc7eb4f129d3f8443091d443b7e",
+        "name": "CL Gauge",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0xb6b55f25"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0xa4890b89dc628bae614780079acc951fb0ecdc5f",
+        "name": "NFT Position Manager",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0xb5007d1f"
+      },
+      {
+        "address": "0x4d3e646f6b494e01a51f1c31970c33df121da5f1",
+        "name": "0x4d3e...a5f1",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x1c4b774b"
+      },
+      {
+        "address": "0xc31385a5da212294254367bb1f3be6af4b6dad8a",
+        "name": "0xc313...ad8a",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x1c4b774b"
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.541Z",
+  "data": {
+    "address": "0x2c53d33fd90fc8d5fe5cac986db81ba7f3b9aae6",
+    "name": "Hoangry",
+    "tier": "Diamond",
+    "tier_v2": 15,
+    "badges": 36,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x2c53d33fd90fc8d5fe5cac986db81ba7f3b9aae6",
+    "total_tx_count": 161968,
+    "period_tx_count": 3989,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Bakery",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 3928,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
+        "name": "러그풀 베이커리 (부스트&러그)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 33,
+        "top_method": "0xf20c3fb4"
+      },
+      {
+        "address": "0x1859072d67fdd26c8782c90a1e4f078901c0d763",
+        "name": "CommitReveal (Game)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 16,
+        "top_method": "0xf01d14b2"
+      },
+      {
+        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
+        "name": "Tollan Random Seed",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 5,
+        "top_method": "0x8708c7fd"
+      },
+      {
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Madness Assets",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0xf5298aca"
+      },
+      {
+        "address": "0x13a59f08f11e38e4766bf206a31473a510c83475",
+        "name": "0x13a5...3475",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xd64abc3c"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      }
+    ]
+  }
+}

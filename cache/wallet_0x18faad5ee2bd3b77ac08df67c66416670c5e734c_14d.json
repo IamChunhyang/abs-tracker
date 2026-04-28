@@ -1,0 +1,89 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.626Z",
+  "data": {
+    "address": "0x18faad5ee2bd3b77ac08df67c66416670c5e734c",
+    "name": "Cubsfan",
+    "tier": "Diamond",
+    "tier_v2": 14,
+    "badges": 8,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x18faad5ee2bd3b77ac08df67c66416670c5e734c",
+    "total_tx_count": 13464,
+    "period_tx_count": 49,
+    "period": "14d",
+    "top_contracts": [
+      {
+        "address": "0x14f926d2751f4bb0200e9b016b6ae4a1e4b207bd",
+        "name": "0x14f9...07bd",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 9,
+        "top_method": "0xf242432a"
+      },
+      {
+        "address": "0x219260d8470d8211ad66eb69206bdf72a4218b65",
+        "name": "0x2192...8b65",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 6,
+        "top_method": "0x3c28402b"
+      },
+      {
+        "address": "0x7c47ea32fd27d1a74fc6e9f31ce8162e6ce070eb",
+        "name": "0x7c47...70eb",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 5,
+        "top_method": "0xb88d4fde"
+      },
+      {
+        "address": "0x4f6a21a541c4cf18f4641eaf726f4a3e84a714d5",
+        "name": "0x4f6a...14d5",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 5,
+        "top_method": "0xdb7fd408"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x610a92436b9fdfc7d0c3686bb2cbe7b3bae22904",
+        "name": "0x610a...2904",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0xb88d4fde"
+      },
+      {
+        "address": "0x58aefe35438fe160309c2729602e668d89cabcbf",
+        "name": "0x58ae...bcbf",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x42842e0e"
+      },
+      {
+        "address": "0xca4a7c4a191de94af2c91487d0be34a0205b89ab",
+        "name": "NFT Staking",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xfe939afc"
+      }
+    ]
+  }
+}

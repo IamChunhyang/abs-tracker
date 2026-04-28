@@ -1,0 +1,33 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.549Z",
+  "data": {
+    "address": "0x68223cf647fd62635c606c6964bf3e46a4e5cc92",
+    "name": "murec",
+    "tier": "Diamond",
+    "tier_v2": 14,
+    "badges": 29,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x68223cf647fd62635c606c6964bf3e46a4e5cc92",
+    "total_tx_count": 25166,
+    "period_tx_count": 9,
+    "period": "14d",
+    "top_contracts": [
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x7060a227"
+      }
+    ]
+  }
+}

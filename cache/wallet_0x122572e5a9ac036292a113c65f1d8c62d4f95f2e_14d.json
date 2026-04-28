@@ -1,0 +1,25 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.476Z",
+  "data": {
+    "address": "0x122572e5a9ac036292a113c65f1d8c62d4f95f2e",
+    "name": "Amyqueen",
+    "tier": "Obsidian",
+    "tier_v2": 16,
+    "badges": 26,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x122572e5a9ac036292a113c65f1d8c62d4f95f2e",
+    "total_tx_count": 7143,
+    "period_tx_count": 3,
+    "period": "14d",
+    "top_contracts": [
+      {
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
+        "category": "Governance",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x7ac09bf7"
+      }
+    ]
+  }
+}

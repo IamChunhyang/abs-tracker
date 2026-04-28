@@ -1,0 +1,41 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.662Z",
+  "data": {
+    "address": "0x9e382ec0328b91f489b4f4ff332b24cf5d935a8b",
+    "name": "Sonyblack65",
+    "tier": "Diamond",
+    "tier_v2": 14,
+    "badges": 20,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x9e382ec0328b91f489b4f4ff332b24cf5d935a8b",
+    "total_tx_count": 2278,
+    "period_tx_count": 3,
+    "period": "30d",
+    "top_contracts": [
+      {
+        "address": "0x516dc288e26b34557f68ea1c1ff13576eff8a168",
+        "name": "0x516d...a168",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xb88d4fde"
+      },
+      {
+        "address": "0x0000000000c2d145a2526bd8c716263bfebe1a72",
+        "name": "0x0000...1a72",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x32389b71"
+      },
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "0x0000...b395",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x87201b41"
+      }
+    ]
+  }
+}

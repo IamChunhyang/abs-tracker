@@ -1,0 +1,129 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.606Z",
+  "data": {
+    "address": "0x494327a08a826f235c68fb6698eda11dffffb0f8",
+    "name": "Pixelcollector",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 31,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x494327a08a826f235c68fb6698eda11dffffb0f8",
+    "total_tx_count": 25866,
+    "period_tx_count": 317,
+    "period": "30d",
+    "top_contracts": [
+      {
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Madness Assets",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 123,
+        "top_method": "0xf5298aca"
+      },
+      {
+        "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
+        "name": "Token Claim",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 108,
+        "top_method": "0x16c5aa5e"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 42,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Item Market System",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 11,
+        "top_method": "0x807ef825"
+      },
+      {
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
+        "category": "Governance",
+        "is_unknown": false,
+        "tx_count": 8,
+        "top_method": "0x7ac09bf7"
+      },
+      {
+        "address": "0xa688a6a53a26b6f0702a9a518482151415be1ff7",
+        "name": "0xa688...1ff7",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 6,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 5,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
+        "name": "Tollan Random Seed",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x8708c7fd"
+      },
+      {
+        "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",
+        "name": "0xbde2...2916",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0xb32820e9"
+      },
+      {
+        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
+        "name": "Portal Proxy",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x0e5ca01b63acd1841489ca87d0ab33f692e5a7ba",
+        "name": "0x0e5c...a7ba",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x52ce66cc"
+      },
+      {
+        "address": "0x36cbf77d8f8355d7a077d670c29e290e41367072",
+        "name": "Rewards Claim",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x379607f5"
+      },
+      {
+        "address": "0x27b04370d8087e714a9f557c1eff7901cea6bb63",
+        "name": "ve-Lock",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xb52c05fe"
+      },
+      {
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xa9059cbb"
+      }
+    ]
+  }
+}

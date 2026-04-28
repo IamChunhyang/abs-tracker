@@ -1,0 +1,25 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.634Z",
+  "data": {
+    "address": "0x6edc0c4c7186917208adf33f4c54410f1d15bff4",
+    "name": "ScottyStarburst",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 30,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x6edc0c4c7186917208adf33f4c54410f1d15bff4",
+    "total_tx_count": 6061,
+    "period_tx_count": 3,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x7060a227"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.487Z",
+  "data": {
+    "address": "0x917a67de1a4e29d8820e1aeafd1e7e53f19f2df7",
+    "name": "coffee",
+    "tier": "Diamond",
+    "tier_v2": 15,
+    "badges": 39,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x917a67de1a4e29d8820e1aeafd1e7e53f19f2df7",
+    "total_tx_count": 35464,
+    "period_tx_count": 5,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0xd44abe71c312fcaf73cc20f7df61c39a89c203eb",
+        "name": "0xd44a...03eb",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0xa0712d68"
+      },
+      {
+        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
+        "name": "DEX Router",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x12bc3aca"
+      },
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "0xd9f3...0694",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x0962ef79"
+      }
+    ]
+  }
+}

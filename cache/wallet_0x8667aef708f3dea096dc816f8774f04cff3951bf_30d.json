@@ -1,0 +1,25 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.580Z",
+  "data": {
+    "address": "0x8667aef708f3dea096dc816f8774f04cff3951bf",
+    "name": "BlackApple",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 28,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x8667aef708f3dea096dc816f8774f04cff3951bf",
+    "total_tx_count": 7813,
+    "period_tx_count": 3,
+    "period": "30d",
+    "top_contracts": [
+      {
+        "address": "0x0e4ee35190f16efdfd1aa9be802ca546fcce5a81",
+        "name": "0x0e4e...5a81",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0xa694fc3a"
+      }
+    ]
+  }
+}

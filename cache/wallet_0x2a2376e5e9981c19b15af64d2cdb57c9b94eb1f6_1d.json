@@ -1,0 +1,33 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.627Z",
+  "data": {
+    "address": "0x2a2376e5e9981c19b15af64d2cdb57c9b94eb1f6",
+    "name": "xiskool",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 24,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x2a2376e5e9981c19b15af64d2cdb57c9b94eb1f6",
+    "total_tx_count": 3770,
+    "period_tx_count": 2,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0x13a59f08f11e38e4766bf206a31473a510c83475",
+        "name": "0x13a5...3475",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xd64abc3c"
+      },
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Item Market System",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x807ef825"
+      }
+    ]
+  }
+}

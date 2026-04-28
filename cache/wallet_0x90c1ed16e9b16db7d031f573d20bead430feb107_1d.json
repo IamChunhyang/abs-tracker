@@ -1,0 +1,49 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.786Z",
+  "data": {
+    "address": "0x90c1ed16e9b16db7d031f573d20bead430feb107",
+    "name": "Jablko",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 27,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x90c1ed16e9b16db7d031f573d20bead430feb107",
+    "total_tx_count": 31210,
+    "period_tx_count": 17,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0x5f8abf7f164fbed5c51f696ddf3c2c17bcbc8fbb",
+        "name": "Duel Arena Battle",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 12,
+        "top_method": "0x37d8b79d"
+      },
+      {
+        "address": "0xad1eca41e6f772be3cb5a48a6141f9bcc1af9f7c",
+        "name": "0xad1e...9f7c",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0xb6f9de95"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x4f8c2395f105d29dae90531f36c7d1d14e22acb9",
+        "name": "0x4f8c...acb9",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.549Z",
+  "data": {
+    "address": "0x68223cf647fd62635c606c6964bf3e46a4e5cc92",
+    "name": "murec",
+    "tier": "Diamond",
+    "tier_v2": 14,
+    "badges": 29,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x68223cf647fd62635c606c6964bf3e46a4e5cc92",
+    "total_tx_count": 25166,
+    "period_tx_count": 4,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      }
+    ]
+  }
+}

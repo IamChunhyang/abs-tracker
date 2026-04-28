@@ -1,0 +1,25 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.580Z",
+  "data": {
+    "address": "0x22c6d67e8434653c740fbabd1bf5961402a6f1de",
+    "name": "MantuPengu",
+    "tier": "Diamond",
+    "tier_v2": 14,
+    "badges": 36,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x22c6d67e8434653c740fbabd1bf5961402a6f1de",
+    "total_tx_count": 15563,
+    "period_tx_count": 1,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      }
+    ]
+  }
+}

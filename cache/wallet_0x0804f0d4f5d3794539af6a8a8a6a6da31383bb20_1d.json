@@ -1,0 +1,49 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.539Z",
+  "data": {
+    "address": "0x0804f0d4f5d3794539af6a8a8a6a6da31383bb20",
+    "name": "Brighty",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 37,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x0804f0d4f5d3794539af6a8a8a6a6da31383bb20",
+    "total_tx_count": 8228,
+    "period_tx_count": 11,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x911dbdd9841b53ee5a08170109daf7ad82684108",
+        "name": "Shiny RWA",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x92971a31"
+      },
+      {
+        "address": "0x5c9ce8be7aa92fd089be31b154be47a0e59d4282",
+        "name": "Shiny Orders",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xf23a27bd"
+      },
+      {
+        "address": "0x42ab8092bfb701f34c47273df83d90d8169ad982",
+        "name": "Free Managed Reward",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xf5f8d365"
+      }
+    ]
+  }
+}

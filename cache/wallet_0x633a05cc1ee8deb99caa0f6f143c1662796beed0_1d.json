@@ -1,0 +1,41 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.776Z",
+  "data": {
+    "address": "0x633a05cc1ee8deb99caa0f6f143c1662796beed0",
+    "name": "gigaz",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 9,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x633a05cc1ee8deb99caa0f6f143c1662796beed0",
+    "total_tx_count": 14041,
+    "period_tx_count": 21,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Item Market System",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 17,
+        "top_method": "0x2752571e"
+      },
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "0x0000...b395",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0xfd9f1e10"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      }
+    ]
+  }
+}

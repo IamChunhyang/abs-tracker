@@ -1,0 +1,19 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.844Z",
+  "data": {
+    "last_prefetch": "2026-04-28T16:32:11.844Z",
+    "wallets_count": 1599,
+    "periods": [
+      "1d",
+      "7d",
+      "14d",
+      "30d"
+    ],
+    "tiers": [
+      "Obsidian",
+      "Diamond",
+      "Platinum"
+    ],
+    "duration_ms": 18572533
+  }
+}

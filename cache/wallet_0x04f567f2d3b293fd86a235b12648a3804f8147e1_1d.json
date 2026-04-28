@@ -1,0 +1,41 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.695Z",
+  "data": {
+    "address": "0x04f567f2d3b293fd86a235b12648a3804f8147e1",
+    "name": "guccii",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 40,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x04f567f2d3b293fd86a235b12648a3804f8147e1",
+    "total_tx_count": 75432,
+    "period_tx_count": 64,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0x5f8abf7f164fbed5c51f696ddf3c2c17bcbc8fbb",
+        "name": "Duel Arena Battle",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 60,
+        "top_method": "0xce55803f"
+      },
+      {
+        "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",
+        "name": "0xbde2...2916",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0xb32820e9"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x7060a227"
+      }
+    ]
+  }
+}

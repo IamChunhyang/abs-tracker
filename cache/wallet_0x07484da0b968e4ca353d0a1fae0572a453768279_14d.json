@@ -1,0 +1,33 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.839Z",
+  "data": {
+    "address": "0x07484da0b968e4ca353d0a1fae0572a453768279",
+    "name": "changhyuk",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 13,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x07484da0b968e4ca353d0a1fae0572a453768279",
+    "total_tx_count": 191,
+    "period_tx_count": 3,
+    "period": "14d",
+    "top_contracts": [
+      {
+        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
+        "name": "DEX Router",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xb7e0d4c0"
+      },
+      {
+        "address": "0x6affe011ff40742b383e952a2c7542419e305821",
+        "name": "0x6aff...5821",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xc00007b0"
+      }
+    ]
+  }
+}

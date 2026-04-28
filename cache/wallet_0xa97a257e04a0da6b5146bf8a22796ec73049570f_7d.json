@@ -1,0 +1,177 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.525Z",
+  "data": {
+    "address": "0xa97a257e04a0da6b5146bf8a22796ec73049570f",
+    "name": "1mpal",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 41,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0xa97a257e04a0da6b5146bf8a22796ec73049570f",
+    "total_tx_count": 34044,
+    "period_tx_count": 440,
+    "period": "7d",
+    "top_contracts": [
+      {
+        "address": "0x1859072d67fdd26c8782c90a1e4f078901c0d763",
+        "name": "CommitReveal (Game)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 146,
+        "top_method": "0xf01d14b2"
+      },
+      {
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Madness Assets",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 116,
+        "top_method": "0xf5298aca"
+      },
+      {
+        "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
+        "name": "Token Claim",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 101,
+        "top_method": "0x16c5aa5e"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 10,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x89e9d9b7d87591875359247f7d8eb786e7ea6910",
+        "name": "코나 포인트 파밍",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 10,
+        "top_method": "0x3ac795de"
+      },
+      {
+        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
+        "name": "Portal Proxy",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 8,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x9ad684023258cc4e61fe229e1854e827c4f84e60",
+        "name": "CLGauge V2",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 6,
+        "top_method": "0x1c4b774b"
+      },
+      {
+        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
+        "name": "DEX Router",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 6,
+        "top_method": "0x12bc3aca"
+      },
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "0xd9f3...0694",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 6,
+        "top_method": "0x0962ef79"
+      },
+      {
+        "address": "0x4237d126713bf1faba29ed8a55a6a0634886e223",
+        "name": "0x4237...e223",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 5,
+        "top_method": "0xbf90f63a"
+      },
+      {
+        "address": "0x27edd16ee56958fddcba08947f12c43ddec2b20c",
+        "name": "0x27ed...b20c",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 5,
+        "top_method": "0x001308d8"
+      },
+      {
+        "address": "0x8f16b5713f412c5de4951aaf678eb8409101f819",
+        "name": "0x8f16...f819",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0x617ba037"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0x4f8c9056bb8a3616693a76922fa35d53c056e5b3",
+        "name": "0x4f8c...e5b3",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0xaf7060fd"
+      },
+      {
+        "address": "0x24ebed9c44ecfca47321037c3041fbbbe984094a",
+        "name": "0x24eb...094a",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x5a91eae9"
+      },
+      {
+        "address": "0x0709f39376deee2a2dfc94a58edeb2eb9df012bd",
+        "name": "0x0709...12bd",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0xccc88a9d1b4ed6b0eaba998850414b24f1c315be",
+        "name": "0xccc8...15be",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xf9e4bab4"
+      },
+      {
+        "address": "0x4c68e4102c0f120cce9f08625bd12079806b7c4d",
+        "name": "0x4c68...7c4d",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0x09a4518945c9cd484b5eac3facf4a5b0bdd3a5bc",
+        "name": "0x09a4...a5bc",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x290d565c"
+      },
+      {
+        "address": "0x59cf6d4027761bd560216e08981e7746106e7c4e",
+        "name": "0x59cf...7c4e",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xc04a8a10"
+      }
+    ]
+  }
+}

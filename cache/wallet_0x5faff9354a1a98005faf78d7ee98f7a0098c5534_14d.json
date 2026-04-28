@@ -1,0 +1,25 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.823Z",
+  "data": {
+    "address": "0x5faff9354a1a98005faf78d7ee98f7a0098c5534",
+    "name": "SleepWin",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 17,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x5faff9354a1a98005faf78d7ee98f7a0098c5534",
+    "total_tx_count": 2238,
+    "period_tx_count": 4,
+    "period": "14d",
+    "top_contracts": [
+      {
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
+        "category": "Governance",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x7ac09bf7"
+      }
+    ]
+  }
+}

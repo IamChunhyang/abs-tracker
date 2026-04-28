@@ -1,0 +1,73 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.777Z",
+  "data": {
+    "address": "0x633a05cc1ee8deb99caa0f6f143c1662796beed0",
+    "name": "gigaz",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 9,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x633a05cc1ee8deb99caa0f6f143c1662796beed0",
+    "total_tx_count": 14041,
+    "period_tx_count": 338,
+    "period": "14d",
+    "top_contracts": [
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Item Market System",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 313,
+        "top_method": "0x2752571e"
+      },
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "0x0000...b395",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 15,
+        "top_method": "0xfd9f1e10"
+      },
+      {
+        "address": "0x0c0a71e32e1954635e2dde143ed9e59fe471fb94",
+        "name": "0x0c0a...fb94",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x37a651e645061ca7f6ab65a425c3fcc68a07ebaa",
+        "name": "0x37a6...ebaa",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x13a59f08f11e38e4766bf206a31473a510c83475",
+        "name": "0x13a5...3475",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xd64abc3c"
+      },
+      {
+        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
+        "name": "WETH9",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xa9059cbb"
+      }
+    ]
+  }
+}

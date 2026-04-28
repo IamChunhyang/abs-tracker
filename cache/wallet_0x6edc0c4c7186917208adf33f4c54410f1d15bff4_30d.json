@@ -1,0 +1,33 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.635Z",
+  "data": {
+    "address": "0x6edc0c4c7186917208adf33f4c54410f1d15bff4",
+    "name": "ScottyStarburst",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 30,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x6edc0c4c7186917208adf33f4c54410f1d15bff4",
+    "total_tx_count": 6061,
+    "period_tx_count": 45,
+    "period": "30d",
+    "top_contracts": [
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 43,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "name": "Signature Minter",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x29efcf80"
+      }
+    ]
+  }
+}

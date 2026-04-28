@@ -1,0 +1,25 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.772Z",
+  "data": {
+    "address": "0xd67eb6b6254b48acd89ea84b5d51afc68b7378c1",
+    "name": "lancelot",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 23,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0xd67eb6b6254b48acd89ea84b5d51afc68b7378c1",
+    "total_tx_count": 2845,
+    "period_tx_count": 1,
+    "period": "30d",
+    "top_contracts": [
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      }
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.777Z",
+  "data": {
+    "address": "0xd678b718f70389dbdd2d447df23333641e8f7480",
+    "name": "yanik",
+    "tier": "Diamond",
+    "tier_v2": 14,
+    "badges": 21,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0xd678b718f70389dbdd2d447df23333641e8f7480",
+    "total_tx_count": 7808,
+    "period_tx_count": 67,
+    "period": "7d",
+    "top_contracts": [
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Item Market System",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 20,
+        "top_method": "0x807ef825"
+      },
+      {
+        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
+        "name": "Tollan Random Seed",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 14,
+        "top_method": "0x8708c7fd"
+      },
+      {
+        "address": "0xa688a6a53a26b6f0702a9a518482151415be1ff7",
+        "name": "0xa688...1ff7",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 9,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "0x0000...b395",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 5,
+        "top_method": "0xe7acab24"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0xd07524b8463d2b121039c533c7beec2b576e155c",
+        "name": "0xd075...155c",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x59b43fc6"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0x6aba0f2e864e268c9580868944ec9c4fccf9446d",
+        "name": "0x6aba...446d",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0xa22cb465"
+      },
+      {
+        "address": "0xb9ad10b590bcd2b0db23d0005b2db0d53d9a1cf0",
+        "name": "0xb9ad...1cf0",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x50a5eb2b3b289d4cfda0e307609b655175a275b1",
+        "name": "0x50a5...75b1",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xf242432a"
+      },
+      {
+        "address": "0x90091bb66a3e88a6b4b1b86af600596b698128a1",
+        "name": "0x9009...28a1",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x1012609473373c03701a4842070e87a8af4869c8",
+        "name": "0x1012...69c8",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
+        "name": "WETH9",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x2e1a7d4d"
+      }
+    ]
+  }
+}

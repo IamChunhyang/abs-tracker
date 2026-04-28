@@ -1,0 +1,33 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.472Z",
+  "data": {
+    "address": "0x7a84af82a3d5c913fc42f333d709fe706160e258",
+    "name": "FroggyCyborg",
+    "tier": "Obsidian",
+    "tier_v2": 16,
+    "badges": 39,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x7a84af82a3d5c913fc42f333d709fe706160e258",
+    "total_tx_count": 78329,
+    "period_tx_count": 9,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
+        "name": "Tollan Random Seed",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 5,
+        "top_method": "0x8708c7fd"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x7060a227"
+      }
+    ]
+  }
+}

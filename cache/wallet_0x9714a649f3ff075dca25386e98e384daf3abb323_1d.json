@@ -1,0 +1,33 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.521Z",
+  "data": {
+    "address": "0x9714a649f3ff075dca25386e98e384daf3abb323",
+    "name": "jellothefox",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 36,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x9714a649f3ff075dca25386e98e384daf3abb323",
+    "total_tx_count": 19431,
+    "period_tx_count": 2,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Madness Assets",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xf5298aca"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      }
+    ]
+  }
+}

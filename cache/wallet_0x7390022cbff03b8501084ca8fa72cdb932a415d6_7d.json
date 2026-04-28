@@ -1,0 +1,113 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.808Z",
+  "data": {
+    "address": "0x7390022cbff03b8501084ca8fa72cdb932a415d6",
+    "name": "blairbear",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 24,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x7390022cbff03b8501084ca8fa72cdb932a415d6",
+    "total_tx_count": 495051,
+    "period_tx_count": 82681,
+    "period": "7d",
+    "top_contracts": [
+      {
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Bakery",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 82000,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
+        "name": "러그풀 베이커리 (부스트&러그)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 496,
+        "top_method": "0xf20c3fb4"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 7,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0xa9059cbb"
+      },
+      {
+        "address": "0x2cb8fcb5a4d05c73aea6166c9383da7d8733f86d",
+        "name": "0x2cb8...f86d",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xf0e2667d49f71d8a5f42492643a7926e935d4210",
+        "name": "0xf0e2...4210",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x5c2a0b64591e3a228ca2d0d281dfe0dfe55666b5",
+        "name": "0x5c2a...66b5",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x355871f5a1fd8f39ec088443fad80b3020b1f34a",
+        "name": "0x3558...f34a",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x69c7ed0f6145dcbb5aed30254494b1d24755d51e",
+        "name": "0x69c7...d51e",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x99f32a7fecd5523231e9cc5f3a3cec04187c2409",
+        "name": "0x99f3...2409",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "0xd9f3...0694",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x0962ef79"
+      }
+    ]
+  }
+}

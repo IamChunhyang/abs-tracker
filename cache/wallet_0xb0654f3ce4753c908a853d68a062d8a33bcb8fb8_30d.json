@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.721Z",
+  "data": {
+    "address": "0xb0654f3ce4753c908a853d68a062d8a33bcb8fb8",
+    "name": "leonx",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 15,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0xb0654f3ce4753c908a853d68a062d8a33bcb8fb8",
+    "total_tx_count": 2887,
+    "period_tx_count": 0,
+    "period": "30d",
+    "top_contracts": []
+  }
+}

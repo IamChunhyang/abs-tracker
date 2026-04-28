@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.681Z",
+  "data": {
+    "address": "0xe4c92dfd2b82ff488ee4e0744e78959f8cc2c24c",
+    "name": "Jonh",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 41,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0xe4c92dfd2b82ff488ee4e0744e78959f8cc2c24c",
+    "total_tx_count": 24552,
+    "period_tx_count": 0,
+    "period": "1d",
+    "top_contracts": []
+  }
+}

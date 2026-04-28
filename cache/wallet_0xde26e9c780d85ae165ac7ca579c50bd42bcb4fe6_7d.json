@@ -1,0 +1,49 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.786Z",
+  "data": {
+    "address": "0xde26e9c780d85ae165ac7ca579c50bd42bcb4fe6",
+    "name": "Graildoteth",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 5,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0xde26e9c780d85ae165ac7ca579c50bd42bcb4fe6",
+    "total_tx_count": 9932,
+    "period_tx_count": 9,
+    "period": "7d",
+    "top_contracts": [
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "name": "Signature Minter",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x29efcf80"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
+        "name": "0x4001...1d02",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x219e0149"
+      }
+    ]
+  }
+}

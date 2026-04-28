@@ -1,0 +1,73 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.513Z",
+  "data": {
+    "address": "0x6c55280706ddc3477b80fe6e2f1e5be479a74182",
+    "name": "Breezeonhodl",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 38,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x6c55280706ddc3477b80fe6e2f1e5be479a74182",
+    "total_tx_count": 14756,
+    "period_tx_count": 1287,
+    "period": "7d",
+    "top_contracts": [
+      {
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Bakery",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 1259,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
+        "name": "러그풀 베이커리 (부스트&러그)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 15,
+        "top_method": "0xf20c3fb4"
+      },
+      {
+        "address": "0x0e4ee35190f16efdfd1aa9be802ca546fcce5a81",
+        "name": "0x0e4e...5a81",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0xa694fc3a"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
+        "name": "DEX Router",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x12bc3aca"
+      },
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "0xd9f3...0694",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x0962ef79"
+      }
+    ]
+  }
+}

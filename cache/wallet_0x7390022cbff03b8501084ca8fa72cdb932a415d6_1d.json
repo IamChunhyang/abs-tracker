@@ -1,0 +1,41 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.804Z",
+  "data": {
+    "address": "0x7390022cbff03b8501084ca8fa72cdb932a415d6",
+    "name": "blairbear",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 24,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x7390022cbff03b8501084ca8fa72cdb932a415d6",
+    "total_tx_count": 495051,
+    "period_tx_count": 16078,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Bakery",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 15940,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
+        "name": "러그풀 베이커리 (부스트&러그)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 137,
+        "top_method": "0xf20c3fb4"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      }
+    ]
+  }
+}

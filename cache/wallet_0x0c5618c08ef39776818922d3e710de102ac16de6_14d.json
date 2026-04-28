@@ -1,0 +1,41 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.634Z",
+  "data": {
+    "address": "0x0c5618c08ef39776818922d3e710de102ac16de6",
+    "name": "oolaps",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 20,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x0c5618c08ef39776818922d3e710de102ac16de6",
+    "total_tx_count": 3118,
+    "period_tx_count": 8,
+    "period": "14d",
+    "top_contracts": [
+      {
+        "address": "0xa171bb8b0805ddccc8721ccb1e13f6dd09633cfc",
+        "name": "0xa171...3cfc",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0xb6b55f25"
+      },
+      {
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
+        "category": "Governance",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7ac09bf7"
+      },
+      {
+        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
+        "name": "DEX Router",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xb7e0d4c0"
+      }
+    ]
+  }
+}

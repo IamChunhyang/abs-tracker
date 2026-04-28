@@ -1,0 +1,81 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.821Z",
+  "data": {
+    "address": "0x1f7afac6014f37897e4af75c959bea15bce9caf9",
+    "name": "BlockCap",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 18,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x1f7afac6014f37897e4af75c959bea15bce9caf9",
+    "total_tx_count": 5855,
+    "period_tx_count": 26,
+    "period": "30d",
+    "top_contracts": [
+      {
+        "address": "0x218e6574193e6654a779172bf70dc0fbd149ebf9",
+        "name": "0x218e...ebf9",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 5,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xce2fbf6edfa8b759c4e0c80d73f1aff2a93b054b",
+        "name": "0xce2f...054b",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0xa9059cbb"
+      },
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "0x0000...b395",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0xe7acab24"
+      },
+      {
+        "address": "0x99b9007f3c8732b9bff2ed68ab7f73f27c4a0c53",
+        "name": "0x99b9...0c53",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x42842e0e"
+      },
+      {
+        "address": "0x7c47ea32fd27d1a74fc6e9f31ce8162e6ce070eb",
+        "name": "0x7c47...70eb",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xa22cb465"
+      },
+      {
+        "address": "0xca4a7c4a191de94af2c91487d0be34a0205b89ab",
+        "name": "NFT Staking",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x05202ac1"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x5a0694d2"
+      }
+    ]
+  }
+}

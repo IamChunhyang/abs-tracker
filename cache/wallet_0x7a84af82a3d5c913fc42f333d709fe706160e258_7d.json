@@ -1,0 +1,105 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.472Z",
+  "data": {
+    "address": "0x7a84af82a3d5c913fc42f333d709fe706160e258",
+    "name": "FroggyCyborg",
+    "tier": "Obsidian",
+    "tier_v2": 16,
+    "badges": 39,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x7a84af82a3d5c913fc42f333d709fe706160e258",
+    "total_tx_count": 78329,
+    "period_tx_count": 150,
+    "period": "7d",
+    "top_contracts": [
+      {
+        "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
+        "name": "Token Claim",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 45,
+        "top_method": "0x16c5aa5e"
+      },
+      {
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Madness Assets",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 45,
+        "top_method": "0xf5298aca"
+      },
+      {
+        "address": "0x5f8abf7f164fbed5c51f696ddf3c2c17bcbc8fbb",
+        "name": "Duel Arena Battle",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 26,
+        "top_method": "0xce55803f"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 15,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
+        "name": "Tollan Random Seed",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 12,
+        "top_method": "0x8708c7fd"
+      },
+      {
+        "address": "0x42ab8092bfb701f34c47273df83d90d8169ad982",
+        "name": "Free Managed Reward",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0xf5f8d365"
+      },
+      {
+        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
+        "name": "Portal Proxy",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x125c13e12bd40bc7eb4f129d3f8443091d443b7e",
+        "name": "CL Gauge",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x1c4b774b"
+      },
+      {
+        "address": "0x4237d126713bf1faba29ed8a55a6a0634886e223",
+        "name": "0x4237...e223",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xbf90f63a"
+      },
+      {
+        "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
+        "name": "0x4001...1d02",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x219e0149"
+      },
+      {
+        "address": "0x56053bdb06c2f996924f0f8785200a73262b49ac",
+        "name": "0x5605...49ac",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xbc11f894"
+      }
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.577Z",
+  "data": {
+    "address": "0xb2042611b4987ba8be9efd6cc1165f09e7c694a8",
+    "name": "JoblessGambler",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 40,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0xb2042611b4987ba8be9efd6cc1165f09e7c694a8",
+    "total_tx_count": 8541,
+    "period_tx_count": 703,
+    "period": "30d",
+    "top_contracts": [
+      {
+        "address": "0x080f7ad315ab65f02a821f072170d469d444a6c4",
+        "name": "0x080f...a6c4",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 510,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x219260d8470d8211ad66eb69206bdf72a4218b65",
+        "name": "0x2192...8b65",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 23,
+        "top_method": "0x3c28402b"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 13,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x14f926d2751f4bb0200e9b016b6ae4a1e4b207bd",
+        "name": "0x14f9...07bd",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 11,
+        "top_method": "0xf242432a"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 10,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
+        "name": "WETH9",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 8,
+        "top_method": "0xa9059cbb"
+      },
+      {
+        "address": "0xe0cb34b700f7cf942aa9a233d22a173977f8f9c4",
+        "name": "0xe0cb...f9c4",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 8,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Item Market System",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 8,
+        "top_method": "0x2752571e"
+      },
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "0x0000...b395",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 7,
+        "top_method": "0xe7acab24"
+      },
+      {
+        "address": "0xca4a7c4a191de94af2c91487d0be34a0205b89ab",
+        "name": "NFT Staking",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 6,
+        "top_method": "0xfe939afc"
+      },
+      {
+        "address": "0x7c47ea32fd27d1a74fc6e9f31ce8162e6ce070eb",
+        "name": "0x7c47...70eb",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 5,
+        "top_method": "0xb88d4fde"
+      },
+      {
+        "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
+        "name": "0x4001...1d02",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 5,
+        "top_method": "0x219e0149"
+      },
+      {
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
+        "category": "Governance",
+        "is_unknown": false,
+        "tx_count": 5,
+        "top_method": "0x7ac09bf7"
+      },
+      {
+        "address": "0x686bfe70f061507065f3e939c12ac9ee5a564dcf",
+        "name": "0x686b...4dcf",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 4,
+        "top_method": "0xb88d4fde"
+      },
+      {
+        "address": "0x50a5eb2b3b289d4cfda0e307609b655175a275b1",
+        "name": "0x50a5...75b1",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0xf242432a"
+      },
+      {
+        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "name": "Signature Minter",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x29efcf80"
+      },
+      {
+        "address": "0xce183ff36bfa31d004186bcecedc85394bd1d876",
+        "name": "0xce18...d876",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0xf514be74"
+      },
+      {
+        "address": "0xb193e9cf5235eb81b98103a64546f723bf80b9d2",
+        "name": "0xb193...b9d2",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xa592221a516dc29a427a57b6951b26962605709c",
+        "name": "0xa592...709c",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x0e4ee35190f16efdfd1aa9be802ca546fcce5a81",
+        "name": "0x0e4e...5a81",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x6548b7ae"
+      }
+    ]
+  }
+}

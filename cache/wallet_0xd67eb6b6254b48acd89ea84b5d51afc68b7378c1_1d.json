@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.771Z",
+  "data": {
+    "address": "0xd67eb6b6254b48acd89ea84b5d51afc68b7378c1",
+    "name": "lancelot",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 23,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0xd67eb6b6254b48acd89ea84b5d51afc68b7378c1",
+    "total_tx_count": 2845,
+    "period_tx_count": 0,
+    "period": "1d",
+    "top_contracts": []
+  }
+}

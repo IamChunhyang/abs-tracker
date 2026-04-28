@@ -1,0 +1,177 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.682Z",
+  "data": {
+    "address": "0xe4c92dfd2b82ff488ee4e0744e78959f8cc2c24c",
+    "name": "Jonh",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 41,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0xe4c92dfd2b82ff488ee4e0744e78959f8cc2c24c",
+    "total_tx_count": 24552,
+    "period_tx_count": 1505,
+    "period": "30d",
+    "top_contracts": [
+      {
+        "address": "0x080f7ad315ab65f02a821f072170d469d444a6c4",
+        "name": "0x080f...a6c4",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 930,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x911dbdd9841b53ee5a08170109daf7ad82684108",
+        "name": "Shiny RWA",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 218,
+        "top_method": "0x92971a31"
+      },
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Item Market System",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 126,
+        "top_method": "0x807ef825"
+      },
+      {
+        "address": "0xbb8c7575f798a82ef02b428ab4693dffe258e266",
+        "name": "0xbb8c...e266",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 108,
+        "top_method": "0xf23a27bd"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 53,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x5c9ce8be7aa92fd089be31b154be47a0e59d4282",
+        "name": "Shiny Orders",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 12,
+        "top_method": "0xf23a27bd"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 9,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0x55e1c2da46c36e18a956151ec1b4b2f39bd8571a",
+        "name": "0x55e1...571a",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 8,
+        "top_method": "0xd8182233"
+      },
+      {
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
+        "category": "Governance",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x7ac09bf7"
+      },
+      {
+        "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",
+        "name": "0xbde2...2916",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 4,
+        "top_method": "0xb32820e9"
+      },
+      {
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
+        "name": "Portal Proxy",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
+        "name": "0x4001...1d02",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x219e0149"
+      },
+      {
+        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "name": "Signature Minter",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x29efcf80"
+      },
+      {
+        "address": "0x514c8f0d262c55d4f22719c6eb103707bbd9d060",
+        "name": "0x514c...d060",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xc00007b0"
+      },
+      {
+        "address": "0xa171bb8b0805ddccc8721ccb1e13f6dd09633cfc",
+        "name": "0xa171...3cfc",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xc00007b0"
+      },
+      {
+        "address": "0x219260d8470d8211ad66eb69206bdf72a4218b65",
+        "name": "0x2192...8b65",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xf7345f9c"
+      },
+      {
+        "address": "0xca4a7c4a191de94af2c91487d0be34a0205b89ab",
+        "name": "NFT Staking",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xfe939afc"
+      },
+      {
+        "address": "0x7c47ea32fd27d1a74fc6e9f31ce8162e6ce070eb",
+        "name": "0x7c47...70eb",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xa22cb465"
+      },
+      {
+        "address": "0x663d69ecff14b4dbd245cdac03f2e1deb68ed250",
+        "name": "0x663d...d250",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x6d705ebb"
+      }
+    ]
+  }
+}

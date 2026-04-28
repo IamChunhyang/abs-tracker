@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.820Z",
+  "data": {
+    "address": "0x1f7afac6014f37897e4af75c959bea15bce9caf9",
+    "name": "BlockCap",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 18,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x1f7afac6014f37897e4af75c959bea15bce9caf9",
+    "total_tx_count": 5855,
+    "period_tx_count": 0,
+    "period": "1d",
+    "top_contracts": []
+  }
+}

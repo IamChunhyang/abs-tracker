@@ -1,0 +1,65 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.538Z",
+  "data": {
+    "address": "0xd2bb5bcaaaa9d2d77a50598055397916780972ca",
+    "name": "Sinet",
+    "tier": "Diamond",
+    "tier_v2": 14,
+    "badges": 36,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0xd2bb5bcaaaa9d2d77a50598055397916780972ca",
+    "total_tx_count": 27701,
+    "period_tx_count": 16,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 6,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "0x0000...b395",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 5,
+        "top_method": "0xe7acab24"
+      },
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Item Market System",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x807ef825"
+      },
+      {
+        "address": "0x219260d8470d8211ad66eb69206bdf72a4218b65",
+        "name": "0x2192...8b65",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xf7345f9c"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
+        "name": "WETH9",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x"
+      }
+    ]
+  }
+}

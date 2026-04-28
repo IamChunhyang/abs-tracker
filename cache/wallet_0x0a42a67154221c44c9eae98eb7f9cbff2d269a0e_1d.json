@@ -1,0 +1,57 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.553Z",
+  "data": {
+    "address": "0x0a42a67154221c44c9eae98eb7f9cbff2d269a0e",
+    "name": "cassowary",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 25,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x0a42a67154221c44c9eae98eb7f9cbff2d269a0e",
+    "total_tx_count": 25322,
+    "period_tx_count": 376,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Bakery",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 368,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",
+        "name": "0xbde2...2916",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0xb32820e9"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
+        "name": "러그풀 베이커리 (부스트&러그)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0xf20c3fb4"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x5a0694d2"
+      }
+    ]
+  }
+}

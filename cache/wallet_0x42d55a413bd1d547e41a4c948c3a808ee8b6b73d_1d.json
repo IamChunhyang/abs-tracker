@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.664Z",
+  "data": {
+    "address": "0x42d55a413bd1d547e41a4c948c3a808ee8b6b73d",
+    "name": "LucasNetz",
+    "tier": "Diamond",
+    "tier_v2": 14,
+    "badges": 22,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x42d55a413bd1d547e41a4c948c3a808ee8b6b73d",
+    "total_tx_count": 3559,
+    "period_tx_count": 0,
+    "period": "1d",
+    "top_contracts": []
+  }
+}

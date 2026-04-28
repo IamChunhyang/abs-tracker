@@ -1,0 +1,177 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.678Z",
+  "data": {
+    "address": "0x33d893d2b910efabada37015efb7ebeddff44e07",
+    "name": "3343",
+    "tier": "Diamond",
+    "tier_v2": 15,
+    "badges": 39,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x33d893d2b910efabada37015efb7ebeddff44e07",
+    "total_tx_count": 39669,
+    "period_tx_count": 4191,
+    "period": "14d",
+    "top_contracts": [
+      {
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Madness Assets",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 2049,
+        "top_method": "0xf5298aca"
+      },
+      {
+        "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
+        "name": "Token Claim",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 1976,
+        "top_method": "0x16c5aa5e"
+      },
+      {
+        "address": "0x8f16b5713f412c5de4951aaf678eb8409101f819",
+        "name": "0x8f16...f819",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 54,
+        "top_method": "0x69328dec"
+      },
+      {
+        "address": "0x5f8abf7f164fbed5c51f696ddf3c2c17bcbc8fbb",
+        "name": "Duel Arena Battle",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 27,
+        "top_method": "0x37d8b79d"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 17,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 10,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",
+        "name": "0xbde2...2916",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 6,
+        "top_method": "0xb32820e9"
+      },
+      {
+        "address": "0x4237d126713bf1faba29ed8a55a6a0634886e223",
+        "name": "0x4237...e223",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 6,
+        "top_method": "0xbf90f63a"
+      },
+      {
+        "address": "0xa4890b89dc628bae614780079acc951fb0ecdc5f",
+        "name": "NFT Position Manager",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0xb5007d1f"
+      },
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "0xd9f3...0694",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 4,
+        "top_method": "0x0962ef79"
+      },
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Item Market System",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x2752571e"
+      },
+      {
+        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
+        "name": "DEX Router",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x12bc3aca"
+      },
+      {
+        "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
+        "name": "0x4001...1d02",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x219e0149"
+      },
+      {
+        "address": "0xb60fa32c8041c8b0f56220420b56ce6b86decde9",
+        "name": "Ruyui Staking",
+        "category": "Staking",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0xe64a21f3"
+      },
+      {
+        "address": "0x9ce89a1303f2d52a9d7840fcd5a6870c2a8550c0",
+        "name": "0x9ce8...50c0",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0xa22cb465"
+      },
+      {
+        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
+        "name": "WETH9",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x2e1a7d4d"
+      },
+      {
+        "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
+        "name": "Swap Router",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xa026383e"
+      },
+      {
+        "address": "0x125c13e12bd40bc7eb4f129d3f8443091d443b7e",
+        "name": "CL Gauge",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x2e1a7d4d"
+      },
+      {
+        "address": "0x9ebe3a824ca958e4b3da772d2065518f009cba62",
+        "name": "0x9ebe...ba62",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xa9059cbb"
+      },
+      {
+        "address": "0xc85ce8ffda27b646d269516b8d0fa6ec2e958b55",
+        "name": "Morpho",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x8720316d"
+      }
+    ]
+  }
+}

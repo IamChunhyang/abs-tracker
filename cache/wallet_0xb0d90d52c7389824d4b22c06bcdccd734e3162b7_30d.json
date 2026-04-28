@@ -1,0 +1,105 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.785Z",
+  "data": {
+    "address": "0xb0d90d52c7389824d4b22c06bcdccd734e3162b7",
+    "name": "ezsnipe",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 26,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0xb0d90d52c7389824d4b22c06bcdccd734e3162b7",
+    "total_tx_count": 9876,
+    "period_tx_count": 4565,
+    "period": "30d",
+    "top_contracts": [
+      {
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Bakery",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 4537,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "0x0000...b395",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 4,
+        "top_method": "0xe7acab24"
+      },
+      {
+        "address": "0xb5ec907d0e80f9a1ca9c1942d69fb558e01140d4",
+        "name": "0xb5ec...40d4",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0xf242432a"
+      },
+      {
+        "address": "0x42ebba25ba063d78839913005e628dbc03ae4212",
+        "name": "0x42eb...4212",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
+        "name": "러그풀 베이커리 (부스트&러그)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0xf20c3fb4"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0xc914a7ce4a2af6a6d56de29aeeab9c615ed93123",
+        "name": "0xc914...3123",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xdf20f438ed863480e7c727c937bd78c79bc217d2",
+        "name": "0xdf20...17d2",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xd3bdf4b5"
+      },
+      {
+        "address": "0x663d69ecff14b4dbd245cdac03f2e1deb68ed250",
+        "name": "0x663d...d250",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x6d705ebb"
+      },
+      {
+        "address": "0x7c47ea32fd27d1a74fc6e9f31ce8162e6ce070eb",
+        "name": "0x7c47...70eb",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x42842e0e"
+      },
+      {
+        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
+        "name": "WETH9",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xa9059cbb"
+      }
+    ]
+  }
+}

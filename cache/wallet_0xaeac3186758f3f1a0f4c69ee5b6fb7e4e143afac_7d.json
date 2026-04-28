@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.745Z",
+  "data": {
+    "address": "0xaeac3186758f3f1a0f4c69ee5b6fb7e4e143afac",
+    "name": "PlayMaker",
+    "tier": "Diamond",
+    "tier_v2": 14,
+    "badges": 24,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0xaeac3186758f3f1a0f4c69ee5b6fb7e4e143afac",
+    "total_tx_count": 809,
+    "period_tx_count": 0,
+    "period": "7d",
+    "top_contracts": []
+  }
+}

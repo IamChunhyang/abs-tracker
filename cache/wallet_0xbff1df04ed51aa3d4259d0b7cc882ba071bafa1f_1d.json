@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.764Z",
+  "data": {
+    "address": "0xbff1df04ed51aa3d4259d0b7cc882ba071bafa1f",
+    "name": "ANONS",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 20,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0xbff1df04ed51aa3d4259d0b7cc882ba071bafa1f",
+    "total_tx_count": 7720,
+    "period_tx_count": 0,
+    "period": "1d",
+    "top_contracts": []
+  }
+}

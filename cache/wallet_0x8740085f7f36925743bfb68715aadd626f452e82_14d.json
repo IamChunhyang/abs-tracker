@@ -1,0 +1,25 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.822Z",
+  "data": {
+    "address": "0x8740085f7f36925743bfb68715aadd626f452e82",
+    "name": "Fairbanks",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 20,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x8740085f7f36925743bfb68715aadd626f452e82",
+    "total_tx_count": 5433,
+    "period_tx_count": 1,
+    "period": "14d",
+    "top_contracts": [
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "0x0000...b395",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xfd9f1e10"
+      }
+    ]
+  }
+}

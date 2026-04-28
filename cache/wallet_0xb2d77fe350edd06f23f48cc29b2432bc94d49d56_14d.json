@@ -1,0 +1,33 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.677Z",
+  "data": {
+    "address": "0xb2d77fe350edd06f23f48cc29b2432bc94d49d56",
+    "name": "TrieuTiger",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 32,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0xb2d77fe350edd06f23f48cc29b2432bc94d49d56",
+    "total_tx_count": 11279,
+    "period_tx_count": 2,
+    "period": "14d",
+    "top_contracts": [
+      {
+        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
+        "name": "DEX Router",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x88cd821e"
+      },
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "0xd9f3...0694",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x0962ef79"
+      }
+    ]
+  }
+}

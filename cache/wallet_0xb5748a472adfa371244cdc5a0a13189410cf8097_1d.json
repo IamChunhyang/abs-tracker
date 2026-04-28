@@ -1,0 +1,145 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.699Z",
+  "data": {
+    "address": "0xb5748a472adfa371244cdc5a0a13189410cf8097",
+    "name": "AziNo",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 44,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0xb5748a472adfa371244cdc5a0a13189410cf8097",
+    "total_tx_count": 378296,
+    "period_tx_count": 300,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Madness Assets",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 103,
+        "top_method": "0xf5298aca"
+      },
+      {
+        "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
+        "name": "Token Claim",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 100,
+        "top_method": "0x16c5aa5e"
+      },
+      {
+        "address": "0x1859072d67fdd26c8782c90a1e4f078901c0d763",
+        "name": "CommitReveal (Game)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 48,
+        "top_method": "0x4d07ec64"
+      },
+      {
+        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
+        "name": "Tollan Random Seed",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 16,
+        "top_method": "0x8708c7fd"
+      },
+      {
+        "address": "0x5c9ce8be7aa92fd089be31b154be47a0e59d4282",
+        "name": "Shiny Orders",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 7,
+        "top_method": "0xf23a27bd"
+      },
+      {
+        "address": "0x36cbf77d8f8355d7a077d670c29e290e41367072",
+        "name": "Rewards Claim",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 6,
+        "top_method": "0x379607f5"
+      },
+      {
+        "address": "0x911dbdd9841b53ee5a08170109daf7ad82684108",
+        "name": "Shiny RWA",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 6,
+        "top_method": "0x92971a31"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x27edd16ee56958fddcba08947f12c43ddec2b20c",
+        "name": "0x27ed...b20c",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x001308d8"
+      },
+      {
+        "address": "0x55e1c2da46c36e18a956151ec1b4b2f39bd8571a",
+        "name": "0x55e1...571a",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0xd8182233"
+      },
+      {
+        "address": "0xbb7bcd4d6b53a92105f6eed1c7b176e31544623a",
+        "name": "0xbb7b...623a",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x446ba45997e8c1c83e9361fbcbc8fe4d2f9db2a7",
+        "name": "0x446b...b2a7",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
+        "name": "Portal Proxy",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x7735ccdf5d1f3b17ebc5f5decfb2883a1a2f1479",
+        "name": "0x7735...1479",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x00df21fe"
+      },
+      {
+        "address": "0x7edd91c4dd202032872bfbfcd3a4e4f71cb4b8bc",
+        "name": "0x7edd...b8bc",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x5a0694d2"
+      }
+    ]
+  }
+}

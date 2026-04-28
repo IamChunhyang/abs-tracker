@@ -1,0 +1,73 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.515Z",
+  "data": {
+    "address": "0x531a75ed2a7dea237ded2fc2c14ee878fc723eaa",
+    "name": "thepeengwin",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 40,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x531a75ed2a7dea237ded2fc2c14ee878fc723eaa",
+    "total_tx_count": 39948,
+    "period_tx_count": 89,
+    "period": "1d",
+    "top_contracts": [
+      {
+        "address": "0xec27d2237432d06981e1f18581494661517e1bd3",
+        "name": "0xec27...1bd3",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 54,
+        "top_method": "0xf242432a"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 13,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Item Market System",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 7,
+        "top_method": "0x807ef825"
+      },
+      {
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Madness Assets",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 6,
+        "top_method": "0xf5298aca"
+      },
+      {
+        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
+        "name": "Portal Proxy",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "0xd9f3...0694",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x0962ef79"
+      },
+      {
+        "address": "0x0e4ee35190f16efdfd1aa9be802ca546fcce5a81",
+        "name": "0x0e4e...5a81",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x6548b7ae"
+      }
+    ]
+  }
+}

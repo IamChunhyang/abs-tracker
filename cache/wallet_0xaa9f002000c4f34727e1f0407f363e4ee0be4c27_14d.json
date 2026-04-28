@@ -1,0 +1,33 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.513Z",
+  "data": {
+    "address": "0xaa9f002000c4f34727e1f0407f363e4ee0be4c27",
+    "name": "cardman",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 23,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0xaa9f002000c4f34727e1f0407f363e4ee0be4c27",
+    "total_tx_count": 4342,
+    "period_tx_count": 11,
+    "period": "14d",
+    "top_contracts": [
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "앱스트랙트 투표",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 6,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Validator",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x5a0694d2"
+      }
+    ]
+  }
+}

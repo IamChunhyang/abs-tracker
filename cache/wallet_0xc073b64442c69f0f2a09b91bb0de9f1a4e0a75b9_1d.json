@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.826Z",
+  "data": {
+    "address": "0xc073b64442c69f0f2a09b91bb0de9f1a4e0a75b9",
+    "name": "ethermonk",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 19,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0xc073b64442c69f0f2a09b91bb0de9f1a4e0a75b9",
+    "total_tx_count": 24015,
+    "period_tx_count": 0,
+    "period": "1d",
+    "top_contracts": []
+  }
+}

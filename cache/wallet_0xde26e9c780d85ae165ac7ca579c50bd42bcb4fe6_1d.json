@@ -1,0 +1,16 @@
+{
+  "fetched_at": "2026-04-28T16:32:11.785Z",
+  "data": {
+    "address": "0xde26e9c780d85ae165ac7ca579c50bd42bcb4fe6",
+    "name": "Graildoteth",
+    "tier": "Diamond",
+    "tier_v2": 13,
+    "badges": 5,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0xde26e9c780d85ae165ac7ca579c50bd42bcb4fe6",
+    "total_tx_count": 9932,
+    "period_tx_count": 0,
+    "period": "1d",
+    "top_contracts": []
+  }
+}
