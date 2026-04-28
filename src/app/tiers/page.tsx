@@ -172,7 +172,7 @@ function FullRankingPage() {
   const tierColor: Record<string, string> = {
     Obsidian: "from-purple-600 to-purple-800",
     Diamond: "from-cyan-500 to-cyan-700",
-    Platinum: "from-gray-400 to-gray-600",
+    Platinum: "from-slate-300 to-slate-500",
     Gold: "from-yellow-500 to-yellow-700",
   };
 
