@@ -15,7 +15,7 @@ const dict = {
   "dash.updateSchedule": { ko: "매주 수요일 새벽 1시(KST) 자동 업데이트", en: "Auto-updated every Wednesday at 1:00 AM KST" },
   "dash.lastUpdated": { ko: "마지막 업데이트", en: "Last updated" },
   "dash.dappRanking": { ko: "디앱(dApp) 랭킹", en: "dApp Ranking" },
-  "dash.walletActivity": { ko: "지갑 활동", en: "Wallet Activity" },
+  "dash.walletActivity": { ko: "지갑 활동 순위", en: "Wallet Activity Ranking" },
   "dash.categoryBreakdown": { ko: "카테고리 분류", en: "Category Breakdown" },
   "dash.allTiers": { ko: "종합", en: "Combined" },
 

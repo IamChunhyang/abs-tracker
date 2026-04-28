@@ -225,7 +225,10 @@ function Dashboard() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         <Card className="lg:col-span-2 bg-gray-900 border-gray-800">
           <CardHeader>
-            <CardTitle className="text-lg text-gray-200">{t("dash.dappRanking", lang)}</CardTitle>
+            <CardTitle className="text-lg text-gray-200 flex items-center justify-between">
+              <span>{t("dash.dappRanking", lang)}</span>
+              <span className="text-sm font-normal text-gray-500">{tier === "all" ? "All" : tier}</span>
+            </CardTitle>
           </CardHeader>
           <CardContent>
             <RankingTable rankings={data?.rankings || []} loading={loading} />
@@ -234,7 +237,10 @@ function Dashboard() {
 
         <Card className="bg-gray-900 border-gray-800">
           <CardHeader>
-            <CardTitle className="text-lg text-gray-200">{t("dash.walletActivity", lang)}</CardTitle>
+            <CardTitle className="text-lg text-gray-200 flex items-center justify-between">
+              <span>{t("dash.walletActivity", lang)}</span>
+              <span className="text-sm font-normal text-gray-500">{tier === "all" ? "All" : tier}</span>
+            </CardTitle>
           </CardHeader>
           <CardContent className="space-y-3">
             {loading ? (
