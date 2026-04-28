@@ -188,7 +188,7 @@ function FullRankingPage() {
         </div>
 
         <form onSubmit={handleSearch} className="space-y-3">
-          <div className="flex gap-2">
+          <div className="flex gap-2 items-stretch">
             <div className="relative flex-1">
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-500" />
               <input
@@ -196,7 +196,7 @@ function FullRankingPage() {
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder={t("rank.placeholder", lang)}
-                className="w-full pl-10 pr-9 py-3 rounded-xl bg-gray-900 border border-gray-700 text-white placeholder:text-gray-600 focus:outline-none focus:border-pink-500 focus:ring-1 focus:ring-pink-500"
+                className="w-full h-full pl-10 pr-9 py-3 rounded-xl bg-gray-900 border border-gray-700 text-white placeholder:text-gray-600 focus:outline-none focus:border-pink-500 focus:ring-1 focus:ring-pink-500"
               />
               {query && (
                 <button
