@@ -36,7 +36,7 @@ export default function RootLayout({
           <footer className="py-4 text-center">
             <div className="flex items-center justify-center gap-1.5 text-xs text-gray-600">
               <img src="/chunhyang.png" alt="춘향" className="w-5 h-5 rounded-full" />
-              <span>Made by 춘향</span>
+              <span>Made by ChunHyang</span>
             </div>
           </footer>
         </LangProvider>

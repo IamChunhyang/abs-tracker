@@ -138,8 +138,39 @@ export async function GET(request: NextRequest) {
           .sort((a, b) => b.tx_count - a.tx_count)
           .slice(0, 10);
       }
+
+      // Compute rank by inserting into cached ranking
+      if (periodTxCount > 0 && allRanking) {
+        const sorted = allRanking.wallet_ranking;
+        const insertIdx = sorted.findIndex((w) => w.tx_count <= periodTxCount);
+        overallRank = insertIdx === -1 ? sorted.length + 1 : insertIdx + 1;
+        overallTotal = sorted.length + 1;
+
+        const me: WalletRank = { address: wallet.address, name: wallet.name, tier: wallet.tier, tx_count: periodTxCount };
+        const withMe = [...sorted.slice(0, insertIdx === -1 ? sorted.length : insertIdx), me, ...sorted.slice(insertIdx === -1 ? sorted.length : insertIdx)];
+        const myIdx = withMe.findIndex((w) => w.address === wallet.address);
+        const start = Math.max(0, myIdx - 100);
+        const end = Math.min(withMe.length, myIdx + 101);
+        nearby = withMe.slice(start, end).map((w, i) => ({
+          ...w,
+          rank: start + i + 1,
+          isTarget: w.address === wallet.address,
+        }));
+      }
+
+      if (periodTxCount > 0 && tierRanking) {
+        const sorted = tierRanking.wallet_ranking;
+        const insertIdx = sorted.findIndex((w) => w.tx_count <= periodTxCount);
+        tierRank = insertIdx === -1 ? sorted.length + 1 : insertIdx + 1;
+        tierTotal = sorted.length + 1;
+      }
     } catch {}
   }
+
+  const topPercent2 =
+    overallRank && overallTotal
+      ? Math.round((overallRank / overallTotal) * 100)
+      : null;
 
   return NextResponse.json({
     found: true,
@@ -157,7 +188,7 @@ export async function GET(request: NextRequest) {
     tier_total: tierTotal,
     period_tx_count: periodTxCount,
     total_tx_count: totalTxCount,
-    top_percent: topPercent,
+    top_percent: topPercent2 ?? topPercent,
     nearby,
     top_contracts: topContracts,
   });
