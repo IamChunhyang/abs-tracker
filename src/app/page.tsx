@@ -151,8 +151,8 @@ function Dashboard() {
               <a href="https://www.duper.gg/game" target="_blank" rel="noopener noreferrer" className="rounded-lg border border-green-500/20 bg-green-950/10 p-3 block hover:border-green-500/40 transition-colors">
                 <p className="text-sm font-semibold text-white hover:text-green-300 transition-colors">Duper ↗</p>
                 <p className="text-xs mt-1">
-                  <span className="text-gray-400">{lang === "ko" ? "출석 + 캐주얼 2판" : "Check-in + 2 games"}</span>
-                  <span className="text-pink-400 ml-1 font-medium">{lang === "ko" ? "후 데일리 보상" : "then daily rewards"}</span>
+                  <span className="text-pink-400 font-medium">{lang === "ko" ? "출석 + 캐주얼 2판" : "Check-in + 2 games"}</span>
+                  <span className="text-gray-400 ml-1">{lang === "ko" ? "후 데일리 보상" : "then daily rewards"}</span>
                 </p>
               </a>
             </div>
