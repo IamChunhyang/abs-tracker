@@ -25,12 +25,24 @@ export async function GET(request: NextRequest) {
   }
 
   const allWallets = loadAllWallets();
-  const wallet = allWallets.find(
+  let wallet = allWallets.find(
     (w) =>
       w.address === q ||
       w.name.toLowerCase() === q ||
       w.name.toLowerCase().includes(q)
   );
+
+  if (!wallet && q.length >= 3) {
+    wallet = allWallets.find((w) => {
+      const name = w.name.toLowerCase();
+      if (q.length < name.length * 0.5) return false;
+      let qi = 0;
+      for (let ni = 0; ni < name.length && qi < q.length; ni++) {
+        if (name[ni] === q[qi]) qi++;
+      }
+      return qi === q.length;
+    });
+  }
 
   if (!wallet) {
     return NextResponse.json({ found: false });
