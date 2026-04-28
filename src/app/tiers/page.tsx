@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { TierBadge } from "@/components/tier-badge";
 import { PeriodSelector } from "@/components/period-selector";
 import { Badge } from "@/components/ui/badge";
-import { Search, ChevronLeft, ChevronRight, Trophy, Medal, TrendingUp, Hash, X, Clock, ExternalLink } from "lucide-react";
+import { Search, ChevronLeft, ChevronRight, Trophy, Medal, TrendingUp, Hash, X, Clock, ExternalLink, Copy, Check } from "lucide-react";
 import { Period } from "@/lib/types";
 import { CATEGORY_COLORS, getContractName } from "@/lib/data";
 import { useLang } from "@/lib/language-context";
@@ -83,6 +83,7 @@ function FullRankingPage() {
   const [searchLoading, setSearchLoading] = useState(false);
   const [searched, setSearched] = useState(false);
   const [history, setHistory] = useState<string[]>([]);
+  const [copied, setCopied] = useState(false);
 
   function setPage(p: number) {
     setPageState(p);
@@ -259,9 +260,21 @@ function FullRankingPage() {
                     <h2 className="text-2xl font-bold text-white">{rankResult.wallet.name}</h2>
                     <TierBadge tier={rankResult.wallet.tier} />
                   </div>
-                  <p className="text-white/60 text-sm font-mono">
-                    {rankResult.wallet.address.slice(0, 10)}...{rankResult.wallet.address.slice(-6)}
-                  </p>
+                  <div className="flex items-center gap-2">
+                    <p className="text-white/60 text-sm font-mono">
+                      {rankResult.wallet.address.slice(0, 10)}...{rankResult.wallet.address.slice(-6)}
+                    </p>
+                    <button
+                      onClick={() => {
+                        navigator.clipboard.writeText(rankResult.wallet!.address);
+                        setCopied(true);
+                        setTimeout(() => setCopied(false), 1500);
+                      }}
+                      className="text-white/40 hover:text-white/80 transition-colors"
+                    >
+                      {copied ? <Check className="h-3.5 w-3.5 text-green-400" /> : <Copy className="h-3.5 w-3.5" />}
+                    </button>
+                  </div>
                   <div className="flex gap-2 pt-1">
                     <a
                       href={rankResult.wallet.portal_link || `https://portal.abs.xyz/profile/${rankResult.wallet.address}`}
@@ -291,11 +304,22 @@ function FullRankingPage() {
                     <p className="text-white/50 text-sm">
                       / {rankResult.overall_total} {t("rank.outOf", lang)}
                     </p>
-                    {rankResult.top_percent !== null && (
-                      <span className="inline-block mt-1 px-2 py-0.5 rounded-full bg-white/20 text-white text-xs font-medium">
-                        {t("rank.topPercent", lang)} {rankResult.top_percent}%
-                      </span>
-                    )}
+                    {rankResult.top_percent !== null && (() => {
+                      const pct = rankResult.top_percent;
+                      const color =
+                        pct <= 1 ? "bg-red-500 text-white" :
+                        pct <= 3 ? "bg-pink-500 text-white" :
+                        pct <= 5 ? "bg-orange-500 text-white" :
+                        pct <= 10 ? "bg-yellow-500 text-black" :
+                        pct <= 20 ? "bg-green-500 text-white" :
+                        pct <= 50 ? "bg-blue-500 text-white" :
+                        "bg-white/20 text-white";
+                      return (
+                        <span className={`inline-block mt-1 px-2 py-0.5 rounded-full text-xs font-medium ${color}`}>
+                          {t("rank.topPercent", lang)} {pct}%
+                        </span>
+                      );
+                    })()}
                   </div>
                 )}
               </div>
@@ -326,7 +350,7 @@ function FullRankingPage() {
             <Card className="bg-gray-900 border-gray-800">
               <CardContent className="py-3 text-center">
                 <TrendingUp className="h-4 w-4 text-green-400 mx-auto mb-1" />
-                <p className="text-xs text-gray-500">{t("rank.txCount", lang).replace("{period}", period)}</p>
+                <p className="text-xs text-gray-500">{t("rank.txCount", lang).replace("{period}", t(`period.${period}`, lang))}</p>
                 <p className="text-lg font-bold text-white">
                   {rankResult.period_tx_count >= 100000 ? "100,000+" : rankResult.period_tx_count.toLocaleString()}
                 </p>
