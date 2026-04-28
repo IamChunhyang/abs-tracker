@@ -214,14 +214,6 @@ function FullRankingPage() {
                 </button>
               )}
             </div>
-            <PeriodSelector value={period} onChange={setPeriod} />
-            <button
-              type="submit"
-              disabled={searchLoading}
-              className="px-6 h-12 rounded-xl bg-gradient-to-r from-pink-500 to-cyan-500 text-white font-medium hover:opacity-90 transition-opacity disabled:opacity-50"
-            >
-              {searchLoading ? "..." : t("rank.search", lang)}
-            </button>
           </div>
         </form>
 

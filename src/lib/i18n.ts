@@ -74,7 +74,7 @@ const dict = {
   // My Rank page
   "rank.title": { ko: "내 순위 확인", en: "Check My Rank" },
   "rank.subtitle": { ko: "닉네임 또는 지갑 주소로 검색하면 전체 순위를 확인할 수 있습니다", en: "Search by nickname or wallet address to see your ranking" },
-  "rank.placeholder": { ko: "닉네임 또는 지갑 주소 입력 후 순위 검색 클릭", en: "Enter name or address, then press Find Rank" },
+  "rank.placeholder": { ko: "닉네임 또는 지갑 주소 입력 후 Enter", en: "Enter name or address, then press Enter" },
   "rank.search": { ko: "순위 검색", en: "Find Rank" },
   "rank.overall": { ko: "전체 순위", en: "Overall Rank" },
   "rank.tierRank": { ko: "티어 내 순위", en: "Tier Rank" },
