@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { readCache } from "@/lib/cache";
 import { loadAllWallets } from "@/lib/load-wallets";
-import { getTxCount } from "@/lib/abstract-api";
+import { getTxCount, getCurrentBlock, fetchTransactions, periodToBlocks } from "@/lib/abstract-api";
+import { getContractName } from "@/lib/data";
 
 interface WalletRank {
   address: string;
@@ -101,6 +102,43 @@ export async function GET(request: NextRequest) {
   }>(`wallet_${wallet.address}_${period}`);
   if (walletCache?.top_contracts) {
     topContracts = walletCache.top_contracts.slice(0, 10);
+  }
+
+  // Live fetch if wallet not found in cache
+  if (!overallRank && !tierRank) {
+    try {
+      const currentBlock = await getCurrentBlock();
+      const startBlock = periodToBlocks(period, currentBlock);
+      const txs = await fetchTransactions(wallet.address, startBlock);
+      periodTxCount = txs.length;
+
+      if (topContracts.length === 0) {
+        const cMap: Record<string, { count: number; methods: Record<string, number> }> = {};
+        for (const tx of txs) {
+          const to = (tx.to || "").toLowerCase();
+          if (!to || to === wallet.address) continue;
+          if (!cMap[to]) cMap[to] = { count: 0, methods: {} };
+          cMap[to].count++;
+          const method = tx.functionName || tx.methodId || "unknown";
+          cMap[to].methods[method] = (cMap[to].methods[method] || 0) + 1;
+        }
+        topContracts = Object.entries(cMap)
+          .map(([addr, stats]) => {
+            const info = getContractName(addr);
+            const topMethod = Object.entries(stats.methods).sort((a, b) => b[1] - a[1])[0];
+            return {
+              contract_address: addr,
+              contract_name: info.name,
+              category: info.category,
+              is_unknown: info.is_unknown,
+              tx_count: stats.count,
+              top_method: topMethod ? topMethod[0] : "",
+            };
+          })
+          .sort((a, b) => b.tx_count - a.tx_count)
+          .slice(0, 10);
+      }
+    } catch {}
   }
 
   return NextResponse.json({
