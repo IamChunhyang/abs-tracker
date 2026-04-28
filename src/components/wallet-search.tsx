@@ -60,8 +60,8 @@ export function WalletSearch() {
               <span className="text-pink-400 font-medium">{snippet.wallet.name}</span>
               {snippet.overall_rank ? (
                 lang === "ko"
-                  ? <>{" "}({snippet.wallet.tier}) — 7d 기준 전체 <span className="text-white font-semibold">#{snippet.overall_rank}</span>위 / {snippet.overall_total}명</>
-                  : <>{" "}({snippet.wallet.tier}) — Rank <span className="text-white font-semibold">#{snippet.overall_rank}</span> / {snippet.overall_total} (7d)</>
+                  ? <>{" "}({snippet.wallet.tier}) — 1주 기준 전체 <span className="text-white font-semibold">#{snippet.overall_rank}</span>위 / {snippet.overall_total}명</>
+                  : <>{" "}({snippet.wallet.tier}) — Rank <span className="text-white font-semibold">#{snippet.overall_rank}</span> / {snippet.overall_total} (1W)</>
               ) : (
                 <>{" "}({snippet.wallet.tier})</>
               )}
