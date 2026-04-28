@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { readCache } from "@/lib/cache";
+import { readCache, writeCache } from "@/lib/cache";
 import { loadAllWallets } from "@/lib/load-wallets";
 import { getTxCount, getCurrentBlock, fetchTransactions, periodToBlocks } from "@/lib/abstract-api";
 import { getContractName } from "@/lib/data";
@@ -12,6 +12,9 @@ interface WalletRank {
 }
 
 export const dynamic = "force-dynamic";
+
+const rankMemCache = new Map<string, { data: unknown; ts: number }>();
+const RANK_CACHE_TTL = 10 * 60 * 1000;
 
 export async function GET(request: NextRequest) {
   const q = request.nextUrl.searchParams.get("q")?.trim().toLowerCase();
@@ -31,6 +34,12 @@ export async function GET(request: NextRequest) {
 
   if (!wallet) {
     return NextResponse.json({ found: false });
+  }
+
+  const memKey = `${wallet.address}:${period}`;
+  const cached = rankMemCache.get(memKey);
+  if (cached && Date.now() - cached.ts < RANK_CACHE_TTL) {
+    return NextResponse.json(cached.data);
   }
 
   const allRanking = readCache<{
@@ -164,6 +173,25 @@ export async function GET(request: NextRequest) {
         tierRank = insertIdx === -1 ? sorted.length + 1 : insertIdx + 1;
         tierTotal = sorted.length + 1;
       }
+
+      // Cache result for next time
+      if (periodTxCount > 0) {
+        try {
+          writeCache(`wallet_${wallet.address}_${period}`, {
+            address: wallet.address,
+            name: wallet.name,
+            tier: wallet.tier,
+            tier_v2: wallet.tier_v2,
+            badges: wallet.badges,
+            streaming: wallet.streaming,
+            portal_link: wallet.portal_link,
+            total_tx_count: totalTxCount,
+            period_tx_count: periodTxCount,
+            period,
+            top_contracts: topContracts,
+          });
+        } catch {}
+      }
     } catch {}
   }
 
@@ -172,7 +200,7 @@ export async function GET(request: NextRequest) {
       ? Math.round((overallRank / overallTotal) * 100)
       : null;
 
-  return NextResponse.json({
+  const result = {
     found: true,
     wallet: {
       address: wallet.address,
@@ -191,5 +219,8 @@ export async function GET(request: NextRequest) {
     top_percent: topPercent2 ?? topPercent,
     nearby,
     top_contracts: topContracts,
-  });
+  };
+
+  rankMemCache.set(memKey, { data: result, ts: Date.now() });
+  return NextResponse.json(result);
 }
