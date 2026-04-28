@@ -306,7 +306,7 @@ function FullRankingPage() {
             <Card className="bg-gray-900 border-gray-800">
               <CardContent className="py-3 text-center">
                 <TrendingUp className="h-4 w-4 text-green-400 mx-auto mb-1" />
-                <p className="text-xs text-gray-500">{t("rank.txCount", lang)}</p>
+                <p className="text-xs text-gray-500">{t("rank.txCount", lang).replace("{period}", period)}</p>
                 <p className="text-lg font-bold text-white">
                   {rankResult.period_tx_count >= 100000 ? "100,000+" : rankResult.period_tx_count.toLocaleString()}
                 </p>
