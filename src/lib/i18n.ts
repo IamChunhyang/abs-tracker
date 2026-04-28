@@ -66,10 +66,10 @@ const dict = {
   "wallet.streaming.inactive": { ko: "스트리밍: 비활성", en: "Streaming: Inactive" },
 
   // Period selector
-  "period.1d": { ko: "24시간", en: "24 hours" },
-  "period.7d": { ko: "7일", en: "7 days" },
-  "period.14d": { ko: "14일", en: "14 days" },
-  "period.30d": { ko: "30일", en: "30 days" },
+  "period.1d": { ko: "24시간", en: "24H" },
+  "period.7d": { ko: "1주", en: "1W" },
+  "period.14d": { ko: "2주", en: "2W" },
+  "period.30d": { ko: "1개월", en: "1M" },
 
   // My Rank page
   "rank.title": { ko: "내 순위 확인", en: "Check My Rank" },
