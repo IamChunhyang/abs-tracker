@@ -485,12 +485,13 @@ function FullRankingPage() {
                     return (
                       <div
                         key={w.address}
-                        className="flex items-center justify-between px-3 py-2.5 rounded-lg"
+                        className="flex items-center justify-between px-3 py-2.5 rounded-lg hover:bg-gray-800/50 transition-colors cursor-pointer"
+                        onClick={() => { doSearch(w.name); window.scrollTo({ top: 0, behavior: "smooth" }); }}
                       >
                         <div className="flex items-center gap-3">
                           <span className="text-sm font-mono text-gray-600 w-10 text-right">{rank}</span>
                           <TierBadge tier={w.tier} />
-                          <span className="text-sm text-gray-300">
+                          <span className="text-sm text-gray-300 hover:text-white transition-colors">
                             {w.name.startsWith("0x") ? `${w.name.slice(0, 6)}...${w.name.slice(-4)}` : w.name}
                           </span>
                         </div>
