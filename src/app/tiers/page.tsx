@@ -196,8 +196,17 @@ function FullRankingPage() {
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder={t("rank.placeholder", lang)}
-                className="w-full pl-10 pr-4 py-3 rounded-xl bg-gray-900 border border-gray-700 text-white placeholder:text-gray-600 focus:outline-none focus:border-pink-500 focus:ring-1 focus:ring-pink-500"
+                className="w-full pl-10 pr-9 py-3 rounded-xl bg-gray-900 border border-gray-700 text-white placeholder:text-gray-600 focus:outline-none focus:border-pink-500 focus:ring-1 focus:ring-pink-500"
               />
+              {query && (
+                <button
+                  type="button"
+                  onClick={() => { setQuery(""); setSearched(false); setRankResult(null); }}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 hover:text-white transition-colors"
+                >
+                  <X className="h-4 w-4" />
+                </button>
+              )}
             </div>
             <PeriodSelector value={period} onChange={setPeriod} />
             <button
