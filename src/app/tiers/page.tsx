@@ -115,7 +115,7 @@ function FullRankingPage() {
 
   function saveHistory(q: string) {
     const trimmed = q.trim();
-    const updated = [trimmed, ...history.filter((h) => h.toLowerCase() !== trimmed.toLowerCase())].slice(0, 10);
+    const updated = [trimmed, ...history.filter((h) => h && h.toLowerCase() !== trimmed.toLowerCase())].slice(0, 10);
     setHistory(updated);
     localStorage.setItem("rank_history", JSON.stringify(updated));
   }
@@ -159,7 +159,7 @@ function FullRankingPage() {
     if (!tableFilter.trim()) return wallets;
     const q = tableFilter.trim().toLowerCase();
     return wallets.filter(
-      (w) => w.name.toLowerCase().includes(q) || w.address.toLowerCase().includes(q)
+      (w) => (w.name || "").toLowerCase().includes(q) || (w.address || "").toLowerCase().includes(q)
     );
   }, [wallets, tableFilter]);
 
@@ -374,7 +374,7 @@ function FullRankingPage() {
               </CardHeader>
               <CardContent>
                 <div className="space-y-2">
-                  {rankResult.top_contracts.map((c, i) => {
+                  {rankResult.top_contracts.filter((c) => c.contract_address).map((c, i) => {
                     const total = rankResult.top_contracts.reduce((s, cc) => s + cc.tx_count, 0);
                     const pct = total > 0 ? (c.tx_count / total) * 100 : 0;
                     const info = getContractName(c.contract_address, lang);
