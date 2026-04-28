@@ -19,7 +19,7 @@ export function PeriodSelector({ value, onChange, periods = ALL_PERIODS }: Perio
   return (
     <Select value={value} onValueChange={(v) => onChange(v as Period)}>
       <SelectTrigger className="w-[140px] h-12 rounded-xl bg-gray-800 border-gray-700">
-        <SelectValue />
+        <SelectValue>{t(`period.${value}`, lang)}</SelectValue>
       </SelectTrigger>
       <SelectContent className="bg-gray-800 border-gray-700">
         {periods.map((p) => (
