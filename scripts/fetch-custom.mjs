@@ -15,7 +15,7 @@ async function getCurrentBlock() {
 async function fetchTxs(address, startBlock) {
   const all = [];
   let curEnd = 99999999;
-  for (let i = 0; i < 200; i++) {
+  for (let i = 0; i < 500; i++) {
     const url = `${API}?module=account&action=txlist&address=${address}&startblock=${startBlock}&endblock=${curEnd}&sort=desc&page=1&offset=1000`;
     const res = await fetch(url);
     const d = await res.json();
@@ -41,6 +41,25 @@ async function getTxCount(address) {
   return parseInt(d.result, 16);
 }
 
+function buildTopContracts(txs, walletAddr) {
+  const contractMap = {};
+  for (const tx of txs) {
+    const to = (tx.to || "").toLowerCase();
+    if (!to || to === walletAddr) continue;
+    if (!contractMap[to]) contractMap[to] = { count: 0, methods: {} };
+    contractMap[to].count++;
+    const method = tx.functionName || tx.methodId || "unknown";
+    contractMap[to].methods[method] = (contractMap[to].methods[method] || 0) + 1;
+  }
+  return Object.entries(contractMap)
+    .map(([addr, stats]) => {
+      const topMethod = Object.entries(stats.methods).sort((a, b) => b[1] - a[1])[0];
+      return { address: addr, tx_count: stats.count, top_method: topMethod ? topMethod[0] : "" };
+    })
+    .sort((a, b) => b.tx_count - a.tx_count)
+    .slice(0, 20);
+}
+
 import { readFileSync, writeFileSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
@@ -53,9 +72,11 @@ async function main() {
   const currentBlock = await getCurrentBlock();
   console.log("Current block:", currentBlock);
 
-  const periods = {
+  const periodBlocks = {
     "1d": currentBlock - Math.floor(1 * 86400 * BLOCKS_PER_SEC),
     "7d": currentBlock - Math.floor(7 * 86400 * BLOCKS_PER_SEC),
+    "14d": currentBlock - Math.floor(14 * 86400 * BLOCKS_PER_SEC),
+    "30d": currentBlock - Math.floor(30 * 86400 * BLOCKS_PER_SEC),
   };
 
   let existing = {};
@@ -76,36 +97,23 @@ async function main() {
     const totalTx = await getTxCount(w.address);
     console.log(`  Total tx count: ${totalTx}`);
 
-    const txs7d = await fetchTxs(w.address, periods["7d"]);
-    console.log(`  7d txs: ${txs7d.length}`);
+    const txs30d = await fetchTxs(w.address, periodBlocks["30d"]);
+    console.log(`\n  30d txs: ${txs30d.length}`);
 
-    const contractMap = {};
-    for (const tx of txs7d) {
-      const to = (tx.to || "").toLowerCase();
-      if (!to || to === w.address.toLowerCase()) continue;
-      if (!contractMap[to]) contractMap[to] = { count: 0, methods: {} };
-      contractMap[to].count++;
-      const method = tx.functionName || tx.methodId || "unknown";
-      contractMap[to].methods[method] = (contractMap[to].methods[method] || 0) + 1;
-    }
+    const txs14d = txs30d.filter(tx => parseInt(tx.blockNumber, 10) >= periodBlocks["14d"]);
+    const txs7d = txs30d.filter(tx => parseInt(tx.blockNumber, 10) >= periodBlocks["7d"]);
+    const txs1d = txs30d.filter(tx => parseInt(tx.blockNumber, 10) >= periodBlocks["1d"]);
+    console.log(`  14d: ${txs14d.length}, 7d: ${txs7d.length}, 1d: ${txs1d.length}`);
 
-    const topContracts = Object.entries(contractMap)
-      .map(([addr, stats]) => {
-        const topMethod = Object.entries(stats.methods).sort((a, b) => b[1] - a[1])[0];
-        return { address: addr, tx_count: stats.count, top_method: topMethod ? topMethod[0] : "" };
-      })
-      .sort((a, b) => b.tx_count - a.tx_count)
-      .slice(0, 20);
-
-    const tx1d = txs7d.filter(tx => parseInt(tx.blockNumber, 10) >= periods["1d"]);
-
-    results[w.address.toLowerCase()] = {
-      address: w.address.toLowerCase(),
+    results[key] = {
+      address: key,
       name: w.name,
       tier: w.tier,
       total_tx_count: totalTx,
-      "1d": { tx_count: tx1d.length },
-      "7d": { tx_count: txs7d.length, top_contracts: topContracts },
+      "1d": { tx_count: txs1d.length },
+      "7d": { tx_count: txs7d.length, top_contracts: buildTopContracts(txs7d, key) },
+      "14d": { tx_count: txs14d.length, top_contracts: buildTopContracts(txs14d, key) },
+      "30d": { tx_count: txs30d.length, top_contracts: buildTopContracts(txs30d, key) },
     };
   }
 

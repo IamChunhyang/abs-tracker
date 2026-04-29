@@ -110,7 +110,7 @@ export async function GET(request: NextRequest) {
   // Use pre-fetched custom wallet data if not in ranking cache
   if (!overallRank && !tierRank) {
     const customCache = loadCustomWalletCache();
-    const cd = customCache[wallet.address];
+    const cd = customCache[wallet.address.toLowerCase()];
     if (cd) {
       const pd = cd[period] as { tx_count: number; top_contracts?: { address: string; tx_count: number; top_method: string }[] } | undefined;
       if (pd) {

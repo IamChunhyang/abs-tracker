@@ -45,13 +45,21 @@ export async function GET(request: NextRequest) {
     // Merge custom wallets into wallet_ranking
     const customCache = loadCustomWalletCache();
     const walletRanking: { address: string; name: string; tier: string; tx_count: number }[] = fileCache.wallet_ranking || [];
-    const existingAddrs = new Set(walletRanking.map((w: any) => w.address.toLowerCase()));
 
     for (const [addr, cd] of Object.entries(customCache)) {
-      if (existingAddrs.has(addr)) continue;
-      const pd = cd[period] as { tx_count: number } | undefined;
-      if (!pd || (tier !== "all" && cd.tier !== tier)) continue;
-      walletRanking.push({ address: addr, name: cd.name, tier: cd.tier, tx_count: pd.tx_count });
+      const existing = walletRanking.find((w: any) => w.address.toLowerCase() === addr);
+      if (existing) {
+        existing.tier = cd.tier;
+        existing.name = cd.name;
+        if (tier !== "all" && cd.tier !== tier) {
+          const idx = walletRanking.indexOf(existing);
+          if (idx !== -1) walletRanking.splice(idx, 1);
+        }
+      } else {
+        const pd = cd[period] as { tx_count: number } | undefined;
+        if (!pd || (tier !== "all" && cd.tier !== tier)) continue;
+        walletRanking.push({ address: addr, name: cd.name, tier: cd.tier, tx_count: pd.tx_count });
+      }
     }
 
     walletRanking.sort((a: any, b: any) => b.tx_count - a.tx_count);
