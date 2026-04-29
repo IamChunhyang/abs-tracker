@@ -16,5 +16,32 @@
     "badges": 12,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xdb65734df1db12ee8027d774c3228753d568fd9a"
+  },
+  {
+    "address": "0x166C8DC860319200c296311DCd3827d97c2A1B1a",
+    "name": "Delicioushulake",
+    "tier": "Platinum",
+    "tier_v2": 10,
+    "badges": 0,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x166C8DC860319200c296311DCd3827d97c2A1B1a"
+  },
+  {
+    "address": "0x53535a52b08919a053603d645c8bc736a9b1fef7",
+    "name": "hollywood0027",
+    "tier": "Platinum",
+    "tier_v2": 10,
+    "badges": 0,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x53535a52b08919a053603d645c8bc736a9b1fef7"
+  },
+  {
+    "address": "0x13D3ed54B5DAF97b0f8cCAE55cdcb2d54eEA8365",
+    "name": "pass",
+    "tier": "Platinum",
+    "tier_v2": 10,
+    "badges": 0,
+    "streaming": false,
+    "portal_link": "https://portal.abs.xyz/profile/0x13D3ed54B5DAF97b0f8cCAE55cdcb2d54eEA8365"
   }
 ]
