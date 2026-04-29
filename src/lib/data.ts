@@ -81,7 +81,7 @@ export function getContractName(address: string, lang?: string): { name: string;
   const lower = address.toLowerCase();
   const found = KNOWN_CONTRACTS.find((c) => c.address.toLowerCase() === lower);
   if (found) {
-    const name = lang === "en" && found.name_en ? found.name_en : found.name;
+    const name = lang !== "ko" && found.name_en ? found.name_en : found.name;
     return { name, category: found.category, is_unknown: found.is_unknown, hidden: !!found.hidden };
   }
   return { name: `${lower.slice(0, 6)}...${lower.slice(-4)}`, category: "Unknown", is_unknown: true, hidden: false };

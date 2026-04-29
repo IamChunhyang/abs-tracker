@@ -8,7 +8,7 @@ import { Search, ChevronLeft, ChevronRight, Trophy, Medal, TrendingUp, Hash, X, 
 import { Period } from "@/lib/types";
 import { CATEGORY_COLORS, getContractName } from "@/lib/data";
 import { useLang } from "@/lib/language-context";
-import { t, tCat } from "@/lib/i18n";
+import { t, tCat, l } from "@/lib/i18n";
 import { useSearchParams, useRouter } from "next/navigation";
 
 interface WalletRank {
@@ -240,9 +240,7 @@ function FullRankingPage() {
           <CardContent className="py-8 text-center">
             <p className="text-gray-400">{t("rank.notFound", lang)}</p>
             <p className="text-gray-600 text-sm mt-2">
-              {lang === "ko"
-                ? "닉네임 또는 0x 주소를 정확히 입력해주세요"
-                : "Please enter an exact nickname or 0x address"}
+              {l({ ko: "닉네임 또는 0x 주소를 정확히 입력해주세요", en: "Please enter an exact nickname or 0x address", zh: "请输入准确的昵称或0x地址", ja: "ニックネームまたは0xアドレスを正確に入力してください" }, lang)}
             </p>
           </CardContent>
         </Card>
@@ -415,21 +413,15 @@ function FullRankingPage() {
                 {rankResult.wallet.tier === "Gold" ? (
                   <>
                     <p className="text-gray-400">
-                      {lang === "ko"
-                        ? "Gold 티어의 순위 데이터는 지원되지 않습니다"
-                        : "Ranking data for Gold tier is not available"}
+                      {l({ ko: "Gold 티어의 순위 데이터는 지원되지 않습니다", en: "Ranking data for Gold tier is not available", zh: "Gold等级的排名数据暂不支持", ja: "Goldティアのランキングデータは対応していません" }, lang)}
                     </p>
                     <p className="text-gray-600 text-sm mt-1">
-                      {lang === "ko"
-                        ? "현재 Obsidian, Diamond, Platinum 티어만 순위 지원"
-                        : "Currently only Obsidian, Diamond, and Platinum tiers are ranked"}
+                      {l({ ko: "현재 Obsidian, Diamond, Platinum 티어만 순위 지원", en: "Currently only Obsidian, Diamond, and Platinum tiers are ranked", zh: "目前仅支持Obsidian、Diamond、Platinum等级的排名", ja: "現在Obsidian、Diamond、Platinumティアのみランキング対応" }, lang)}
                     </p>
                   </>
                 ) : (
                   <p className="text-gray-400">
-                    {lang === "ko"
-                      ? `${rankResult.wallet.tier} 티어의 순위 데이터를 찾을 수 없습니다`
-                      : `Ranking data for ${rankResult.wallet.tier} tier not found`}
+                    {l({ ko: `${rankResult.wallet.tier} 티어의 순위 데이터를 찾을 수 없습니다`, en: `Ranking data for ${rankResult.wallet.tier} tier not found`, zh: `${rankResult.wallet.tier}等级的排名数据未找到`, ja: `${rankResult.wallet.tier}ティアのランキングデータが見つかりません` }, lang)}
                   </p>
                 )}
               </CardContent>
@@ -446,7 +438,7 @@ function FullRankingPage() {
       {/* Full Ranking Table */}
       <div className="space-y-4">
         <div className="flex items-center gap-2 text-sm text-gray-500">
-          {filtered.length.toLocaleString()}{lang === "ko" ? "명" : " wallets"}
+          {filtered.length.toLocaleString()}{l({ ko: "명", en: " wallets", zh: "个钱包", ja: "人" }, lang)}
         </div>
 
         {rankLoading ? (
@@ -460,9 +452,9 @@ function FullRankingPage() {
               <CardContent className="pt-4">
                 <div className="flex items-center px-3 py-2 border-b border-gray-800 text-xs text-gray-500">
                   <span className="w-10 text-right mr-3">#</span>
-                  <span className="w-20 mr-3">{lang === "ko" ? "티어" : "Tier"}</span>
-                  <span className="flex-1">{lang === "ko" ? "닉네임" : "Nickname"}</span>
-                  <span className="text-right">{lang === "ko" ? "트랜잭션" : "Txs"}</span>
+                  <span className="w-20 mr-3">{l({ ko: "티어", en: "Tier", zh: "等级", ja: "ティア" }, lang)}</span>
+                  <span className="flex-1">{l({ ko: "닉네임", en: "Nickname", zh: "昵称", ja: "ニックネーム" }, lang)}</span>
+                  <span className="text-right">{l({ ko: "트랜잭션", en: "Txs", zh: "交易", ja: "Tx数" }, lang)}</span>
                 </div>
                 <div className="space-y-1">
                   {pageWallets.map((w) => {
@@ -489,7 +481,7 @@ function FullRankingPage() {
                   })}
                   {pageWallets.length === 0 && (
                     <p className="text-center py-8 text-gray-500">
-                      {lang === "ko" ? "검색 결과가 없습니다" : "No results found"}
+                      {l({ ko: "검색 결과가 없습니다", en: "No results found", zh: "没有搜索结果", ja: "検索結果がありません" }, lang)}
                     </p>
                   )}
                 </div>

@@ -7,7 +7,7 @@ import { TierBadge } from "@/components/tier-badge";
 import { ExternalLink, ArrowLeft } from "lucide-react";
 import { CATEGORY_COLORS } from "@/lib/data";
 import { useLang } from "@/lib/language-context";
-import { t } from "@/lib/i18n";
+import { t, l } from "@/lib/i18n";
 
 interface WalletData {
   address: string;
@@ -62,7 +62,7 @@ export default function WalletPage() {
     <div className="max-w-5xl mx-auto px-4 sm:px-6 py-8 space-y-6">
       <button onClick={() => router.back()} className="inline-flex items-center gap-2 text-gray-500 hover:text-white transition-colors">
         <ArrowLeft className="h-4 w-4" />
-        {lang === "ko" ? "뒤로가기" : "Go Back"}
+        {l({ ko: "뒤로가기", en: "Go Back", zh: "返回", ja: "戻る" }, lang)}
       </button>
 
       {notFound && (
@@ -93,7 +93,7 @@ export default function WalletPage() {
                 <p className="font-mono text-sm text-gray-500">{address}</p>
                 <div className="flex items-center gap-4 mt-3 text-sm text-gray-400">
                   {data.tier_v2 !== null && <span>Tier V2: {data.tier_v2}</span>}
-                  {data.badges !== null && <span>{lang === "ko" ? "뱃지" : "Badges"}: {data.badges}</span>}
+                  {data.badges !== null && <span>{l({ ko: "뱃지", en: "Badges", zh: "徽章", ja: "バッジ" }, lang)}: {data.badges}</span>}
                   {data.streaming !== null && (
                     <span>{data.streaming ? t("wallet.streaming.active", lang) : t("wallet.streaming.inactive", lang)}</span>
                   )}
@@ -107,7 +107,7 @@ export default function WalletPage() {
                 <div className="flex gap-3 mt-2">
                   <a href={`https://portal.abs.xyz/profile/${data.address}`} target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-pink-600/20 border border-pink-500/40 text-sm text-pink-300 hover:bg-pink-600/30 transition-colors">
-                    {lang === "ko" ? "프로필 바로가기" : "View Profile"} <ExternalLink className="h-4 w-4" />
+                    {l({ ko: "프로필 바로가기", en: "View Profile", zh: "查看资料", ja: "プロフィールを見る" }, lang)} <ExternalLink className="h-4 w-4" />
                   </a>
                   <a href={`https://abscan.org/address/${data.address}`} target="_blank" rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-cyan-600/20 border border-cyan-500/40 text-sm text-cyan-300 hover:bg-cyan-600/30 transition-colors">
@@ -126,7 +126,7 @@ export default function WalletPage() {
         <Card className="bg-gray-900 border-gray-800">
           <CardHeader>
             <CardTitle className="text-lg text-gray-200">
-              {lang === "ko" ? "자주 사용한 dApp" : "Top dApps"}
+              {l({ ko: "자주 사용한 dApp", en: "Top dApps", zh: "常用dApp", ja: "よく使うdApp" }, lang)}
             </CardTitle>
           </CardHeader>
           <CardContent>

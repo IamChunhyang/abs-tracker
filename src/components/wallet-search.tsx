@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Search } from "lucide-react";
 import { useLang } from "@/lib/language-context";
-import { t } from "@/lib/i18n";
+import { t, l } from "@/lib/i18n";
 import Link from "next/link";
 
 interface RankSnippet {
@@ -59,9 +59,12 @@ export function WalletSearch() {
             <Link href={`/wallet/${snippet.wallet.address}`} className="text-gray-300 hover:text-white transition-colors">
               <span className="text-pink-400 font-medium">{snippet.wallet.name}</span>
               {snippet.overall_rank ? (
-                lang === "ko"
-                  ? <>{" "}({snippet.wallet.tier}) — 1주 기준 전체 <span className="text-white font-semibold">#{snippet.overall_rank}</span>위 / {snippet.overall_total}명</>
-                  : <>{" "}({snippet.wallet.tier}) — Rank <span className="text-white font-semibold">#{snippet.overall_rank}</span> / {snippet.overall_total} (1W)</>
+                <>{" "}({snippet.wallet.tier}) — {l({ ko: "1주 기준 전체", en: "Rank", zh: "排名", ja: "ランク" }, lang)}{" "}
+                  <span className="text-white font-semibold">#{snippet.overall_rank}</span>
+                  {lang === "ko"
+                    ? <>위 / {snippet.overall_total}명</>
+                    : <> / {snippet.overall_total} ({t("period.7d", lang)})</>
+                  }</>
               ) : (
                 <>{" "}({snippet.wallet.tier})</>
               )}
@@ -69,7 +72,7 @@ export function WalletSearch() {
             </Link>
           ) : (
             <span className="text-gray-500">
-              {lang === "ko" ? "해당 유저를 찾을 수 없습니다" : "User not found"}
+              {t("rank.notFound", lang)}
             </span>
           )}
         </div>

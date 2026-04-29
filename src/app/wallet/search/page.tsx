@@ -5,7 +5,7 @@ import { WalletSearch } from "@/components/wallet-search";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { TierBadge } from "@/components/tier-badge";
 import { useLang } from "@/lib/language-context";
-import { t } from "@/lib/i18n";
+import { t, l } from "@/lib/i18n";
 import Link from "next/link";
 
 interface WalletItem {
@@ -84,7 +84,7 @@ export default function SearchPage() {
                   ))}
                   {total > wallets.length && (
                     <div className="px-3 py-2 text-xs text-gray-600">
-                      +{total - wallets.length} {lang === "ko" ? "더 보기" : "more"}
+                      +{total - wallets.length} {l({ ko: "더 보기", en: "more", zh: "更多", ja: "もっと見る" }, lang)}
                     </div>
                   )}
                 </div>

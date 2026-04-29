@@ -52,10 +52,10 @@ export function Nav() {
             </Link>
 
             <button
-              onClick={() => setLang(lang === "ko" ? "en" : "ko")}
+              onClick={() => setLang(lang === "ko" ? "en" : lang === "en" ? "zh" : lang === "zh" ? "ja" : "ko")}
               className="ml-2 px-2.5 py-1.5 rounded-lg text-xs font-medium border border-gray-700 bg-gray-800 hover:bg-gray-700 text-gray-300 hover:text-white transition-colors"
             >
-              {lang === "ko" ? "EN" : "KR"}
+              {lang === "ko" ? "EN" : lang === "en" ? "中文" : lang === "zh" ? "日本語" : "KR"}
             </button>
           </div>
         </div>

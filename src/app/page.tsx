@@ -10,7 +10,7 @@ import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Period, RankingEntry } from "@/lib/types";
 import { isKoreanUser, getContractName } from "@/lib/data";
 import { useLang } from "@/lib/language-context";
-import { t, tCat } from "@/lib/i18n";
+import { t, tCat, l } from "@/lib/i18n";
 import { useSearchParams, useRouter } from "next/navigation";
 
 interface ApiResponse {
@@ -99,11 +99,9 @@ function Dashboard() {
           <summary className="flex items-center gap-3 p-4 cursor-pointer select-none">
             <div className="flex-1 min-w-0">
               <span className="text-sm text-pink-300 font-semibold">
-                {lang === "ko"
-                  ? "📌 트랜잭션 수와 관계없이 XP 효율 좋은 디앱 (4/29 기준)"
-                  : "📌 XP-efficient dApps regardless of tx count (Apr 29)"}
+                {l({ ko: "📌 트랜잭션 수와 관계없이 XP 효율 좋은 디앱 (4/29 기준)", en: "📌 XP-efficient dApps regardless of tx count (Apr 29)", zh: "📌 不论交易数量，XP效率高的dApp（4/29基准）", ja: "📌 トランザクション数に関係なくXP効率の良いdApp（4/29基準）" }, lang)}
               </span>
-              <span className="text-[10px] text-gray-500 ml-2">{lang === "ko" ? "▼ 클릭해서 보기" : "▼ Click to view"}</span>
+              <span className="text-[10px] text-gray-500 ml-2">{l({ ko: "▼ 클릭해서 보기", en: "▼ Click to view", zh: "▼ 点击查看", ja: "▼ クリックで表示" }, lang)}</span>
             </div>
             <div className="hidden sm:flex items-center gap-2 flex-shrink-0" onClick={(e) => e.stopPropagation()}>
               <a
@@ -112,7 +110,7 @@ function Dashboard() {
                 rel="noopener noreferrer"
                 className="px-3 py-1.5 rounded-lg bg-pink-600/20 border border-pink-500/30 text-xs text-pink-300 hover:bg-pink-600/30 transition-colors font-medium whitespace-nowrap"
               >
-                {lang === "ko" ? "🚀 초보 가이드" : "🚀 Beginner Guide"}
+                {l({ ko: "🚀 초보 가이드", en: "🚀 Beginner Guide", zh: "🚀 新手指南", ja: "🚀 初心者ガイド" }, lang)}
               </a>
               <a
                 href={lang === "ko" ? "https://t.me/Iam_Chunhyang/419" : "https://x.com/CryptoChunhyang"}
@@ -120,7 +118,7 @@ function Dashboard() {
                 rel="noopener noreferrer"
                 className="px-3 py-1.5 rounded-lg bg-cyan-600/20 border border-cyan-500/30 text-xs text-cyan-300 hover:bg-cyan-600/30 transition-colors font-medium whitespace-nowrap"
               >
-                {lang === "ko" ? "🔄 복귀 유저" : "🔄 Returning"}
+                {l({ ko: "🔄 복귀 유저", en: "🔄 Returning", zh: "🔄 回归用户", ja: "🔄 復帰ユーザー" }, lang)}
               </a>
             </div>
           </summary>
@@ -130,29 +128,29 @@ function Dashboard() {
               <a href="https://mog.onchainheroes.xyz/" target="_blank" rel="noopener noreferrer" className="rounded-lg border border-yellow-500/20 bg-yellow-950/10 p-3 block hover:border-yellow-500/40 transition-colors">
                 <p className="text-sm font-semibold text-white hover:text-yellow-300 transition-colors">Maze of Gains (MOG) ↗</p>
                 <p className="text-xs mt-1">
-                  <span className="text-gray-400">{lang === "ko" ? "구슬 1000개 모으고" : "Collect 1000 marbles for"}</span>
-                  <span className="text-pink-400 ml-1 font-medium">{lang === "ko" ? "4만 XP" : "~40K XP"}</span>
+                  <span className="text-gray-400">{l({ ko: "구슬 1000개 모으고", en: "Collect 1000 marbles for", zh: "收集1000颗弹珠获得", ja: "ビー玉1000個集めて" }, lang)}</span>
+                  <span className="text-pink-400 ml-1 font-medium">{l({ ko: "4만 XP", en: "~40K XP", zh: "~4万XP", ja: "~4万XP" }, lang)}</span>
                 </p>
               </a>
               <a href="https://shop.cosmo.fans/ko/shop/list" target="_blank" rel="noopener noreferrer" className="rounded-lg border border-cyan-500/20 bg-cyan-950/10 p-3 block hover:border-cyan-500/40 transition-colors">
-                <p className="text-sm font-semibold text-white hover:text-cyan-300 transition-colors">COSMO ({lang === "ko" ? "25장 구매" : "Buy 25"}) ↗</p>
+                <p className="text-sm font-semibold text-white hover:text-cyan-300 transition-colors">COSMO ({l({ ko: "25장 구매", en: "Buy 25", zh: "购买25张", ja: "25枚購入" }, lang)}) ↗</p>
                 <p className="text-xs mt-1">
-                  <span className="text-gray-400">{lang === "ko" ? "25장 구매시 약" : "Buy 25 for"}</span>
-                  <span className="text-pink-400 ml-1 font-medium">{lang === "ko" ? "3만 XP" : "~30K XP"}</span>
+                  <span className="text-gray-400">{l({ ko: "25장 구매시 약", en: "Buy 25 for", zh: "购买25张约", ja: "25枚購入で約" }, lang)}</span>
+                  <span className="text-pink-400 ml-1 font-medium">{l({ ko: "3만 XP", en: "~30K XP", zh: "~3万XP", ja: "~3万XP" }, lang)}</span>
                 </p>
               </a>
               <a href="https://lobby.cambria.gg/" target="_blank" rel="noopener noreferrer" className="rounded-lg border border-purple-500/20 bg-purple-950/10 p-3 block hover:border-purple-500/40 transition-colors">
                 <p className="text-sm font-semibold text-white hover:text-purple-300 transition-colors">Cambria ↗</p>
                 <p className="text-xs mt-1">
                   <span className="text-pink-400 font-medium">Top 100</span>
-                  <span className="text-gray-400 ml-1">{lang === "ko" ? "내 순위권 들기" : "ranking goal"}</span>
+                  <span className="text-gray-400 ml-1">{l({ ko: "내 순위권 들기", en: "ranking goal", zh: "排名目标", ja: "ランキング目標" }, lang)}</span>
                 </p>
               </a>
               <a href="https://www.duper.gg/game" target="_blank" rel="noopener noreferrer" className="rounded-lg border border-green-500/20 bg-green-950/10 p-3 block hover:border-green-500/40 transition-colors">
                 <p className="text-sm font-semibold text-white hover:text-green-300 transition-colors">Duper ↗</p>
                 <p className="text-xs mt-1">
-                  <span className="text-pink-400 font-medium">{lang === "ko" ? "출석 + 캐주얼 2판" : "Check-in + 2 games"}</span>
-                  <span className="text-gray-400 ml-1">{lang === "ko" ? "후 데일리 보상" : "then daily rewards"}</span>
+                  <span className="text-pink-400 font-medium">{l({ ko: "출석 + 캐주얼 2판", en: "Check-in + 2 games", zh: "签到 + 休闲2局", ja: "チェックイン + カジュアル2戦" }, lang)}</span>
+                  <span className="text-gray-400 ml-1">{l({ ko: "후 데일리 보상", en: "then daily rewards", zh: "后领取每日奖励", ja: "でデイリー報酬" }, lang)}</span>
                 </p>
               </a>
             </div>
@@ -164,7 +162,7 @@ function Dashboard() {
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 px-4 py-2 rounded-lg bg-pink-600/20 border border-pink-500/30 text-xs text-pink-300 hover:bg-pink-600/30 transition-colors font-medium"
               >
-                {lang === "ko" ? "🚀 초보 가이드 입장 →" : "🚀 Beginner guide →"}
+                {l({ ko: "🚀 초보 가이드 입장 →", en: "🚀 Beginner guide →", zh: "🚀 新手指南 →", ja: "🚀 初心者ガイド →" }, lang)}
               </a>
               <a
                 href={lang === "ko" ? "https://t.me/Iam_Chunhyang/419" : "https://x.com/CryptoChunhyang"}
@@ -172,7 +170,7 @@ function Dashboard() {
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 px-4 py-2 rounded-lg bg-cyan-600/20 border border-cyan-500/30 text-xs text-cyan-300 hover:bg-cyan-600/30 transition-colors font-medium"
               >
-                {lang === "ko" ? "🔄 복귀 유저 루틴 →" : "🔄 Returning routines →"}
+                {l({ ko: "🔄 복귀 유저 루틴 →", en: "🔄 Returning routines →", zh: "🔄 回归用户攻略 →", ja: "🔄 復帰ユーザールーティン →" }, lang)}
               </a>
             </div>
           </div>
@@ -208,9 +206,7 @@ function Dashboard() {
 
       {(tier === "Platinum" || tier === "all") && (
         <p className="text-xs text-gray-500 -mt-3">
-          {lang === "ko"
-            ? "※ Platinum 티어는 데이터 수집 효율을 위해 최근 7일 데이터만 지원됩니다"
-            : "※ Platinum tier only supports up to 7-day data due to collection constraints"}
+          {l({ ko: "※ Platinum 티어는 데이터 수집 효율을 위해 최근 7일 데이터만 지원됩니다", en: "※ Platinum tier only supports up to 7-day data due to collection constraints", zh: "※ Platinum等级因数据收集限制仅支持最近7天数据", ja: "※ Platinumティアはデータ収集の都合上、直近7日間のデータのみ対応" }, lang)}
         </p>
       )}
 
@@ -312,7 +308,7 @@ function Dashboard() {
       <p className="text-center text-xs text-gray-600">
         {lastUpdated && (
           <span>
-            {t("dash.lastUpdated", lang)}: {new Date(lastUpdated).toLocaleDateString(lang === "ko" ? "ko-KR" : "en-US", { year: "numeric", month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" })}
+            {t("dash.lastUpdated", lang)}: {new Date(lastUpdated).toLocaleDateString(l({ ko: "ko-KR", en: "en-US", zh: "zh-CN", ja: "ja-JP" }, lang), { year: "numeric", month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" })}
             {" · "}
           </span>
         )}
