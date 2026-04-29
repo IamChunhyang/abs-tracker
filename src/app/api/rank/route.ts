@@ -25,12 +25,9 @@ export async function GET(request: NextRequest) {
   }
 
   const allWallets = loadAllWallets();
-  let wallet = allWallets.find(
-    (w) =>
-      w.address === q ||
-      w.name.toLowerCase() === q ||
-      w.name.toLowerCase().includes(q)
-  );
+  let wallet = allWallets.find((w) => w.address === q);
+  if (!wallet) wallet = allWallets.find((w) => w.name.toLowerCase() === q);
+  if (!wallet) wallet = allWallets.find((w) => w.name.toLowerCase().includes(q));
 
   if (!wallet && q.length >= 3) {
     wallet = allWallets.find((w) => {
