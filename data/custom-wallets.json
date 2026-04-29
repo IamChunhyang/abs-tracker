@@ -52,5 +52,14 @@
     "badges": 16,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x4031432676a8e3b0c0ece421e95c0a2f711eacd9"
+  },
+  {
+    "address": "0x9c05ab42086d3f044e599ec02a8d33f58ab90699",
+    "name": "0x9c05ab42086d3f044e599ec02a8d33f58ab90699",
+    "tier": "Diamond",
+    "tier_v2": 12,
+    "badges": 17,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x9c05ab42086d3f044e599ec02a8d33f58ab90699"
   }
 ]
