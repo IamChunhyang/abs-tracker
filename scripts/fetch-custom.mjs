@@ -58,9 +58,20 @@ async function main() {
     "7d": currentBlock - Math.floor(7 * 86400 * BLOCKS_PER_SEC),
   };
 
-  const results = {};
+  let existing = {};
+  try {
+    existing = JSON.parse(readFileSync(join(dataDir, "custom-wallet-cache.json"), "utf-8"));
+  } catch {}
+
+  const forceAll = process.argv.includes("--force");
+  const results = { ...existing };
 
   for (const w of customWallets) {
+    const key = w.address.toLowerCase();
+    if (!forceAll && existing[key]) {
+      console.log(`\nSkipping ${w.name} (already cached)`);
+      continue;
+    }
     console.log(`\nFetching ${w.name} (${w.address.slice(0, 10)}...)...`);
     const totalTx = await getTxCount(w.address);
     console.log(`  Total tx count: ${totalTx}`);
