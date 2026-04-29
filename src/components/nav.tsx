@@ -51,12 +51,16 @@ export function Nav() {
               <span className="hidden sm:inline">{t("nav.search", lang)}</span>
             </Link>
 
-            <button
-              onClick={() => setLang(lang === "ko" ? "en" : lang === "en" ? "zh" : lang === "zh" ? "ja" : "ko")}
-              className="ml-2 px-2.5 py-1.5 rounded-lg text-xs font-medium border border-gray-700 bg-gray-800 hover:bg-gray-700 text-gray-300 hover:text-white transition-colors"
+            <select
+              value={lang}
+              onChange={(e) => setLang(e.target.value as "ko" | "en" | "zh" | "ja")}
+              className="ml-2 px-2 py-1.5 rounded-lg text-xs font-medium border border-gray-700 bg-gray-800 hover:bg-gray-700 text-gray-300 hover:text-white transition-colors cursor-pointer appearance-none pr-6 bg-[url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%239ca3af%22%20stroke-width%3D%222%22%3E%3Cpath%20d%3D%22m6%209%206%206%206-6%22%2F%3E%3C%2Fsvg%3E')] bg-[length:12px] bg-[right_4px_center] bg-no-repeat"
             >
-              {lang === "ko" ? "EN" : lang === "en" ? "中文" : lang === "zh" ? "日本語" : "KR"}
-            </button>
+              <option value="ko">한국어</option>
+              <option value="en">English</option>
+              <option value="zh">中文</option>
+              <option value="ja">日本語</option>
+            </select>
           </div>
         </div>
       </div>
