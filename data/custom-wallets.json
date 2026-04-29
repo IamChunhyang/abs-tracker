@@ -43,5 +43,14 @@
     "badges": 0,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x13D3ed54B5DAF97b0f8cCAE55cdcb2d54eEA8365"
+  },
+  {
+    "address": "0x4031432676a8e3b0c0ece421e95c0a2f711eacd9",
+    "name": "Miss1k",
+    "tier": "Diamond",
+    "tier_v2": 9,
+    "badges": 16,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x4031432676a8e3b0c0ece421e95c0a2f711eacd9"
   }
 ]
