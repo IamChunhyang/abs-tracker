@@ -87,6 +87,14 @@ const dict = {
   "rank.topPercent": { ko: "상위", en: "Top", zh: "前", ja: "上位" },
   "rank.topDapps": { ko: "자주 사용한 dApp", en: "Most Used dApps", zh: "常用dApp", ja: "よく使うdApp" },
 
+  // Weekly hot
+  "weekly.title": { ko: "주간 핫 디앱", en: "Weekly Hot dApps", zh: "每周热门dApp", ja: "週間ホットdApp" },
+  "weekly.subtitle": { ko: "매주 가장 핫했던 디앱을 확인하세요", en: "Check which dApps were hottest each week", zh: "查看每周最热门的dApp", ja: "毎週の最もホットなdAppをチェック" },
+  "weekly.selectWeek": { ko: "주차 선택", en: "Select Week", zh: "选择周", ja: "週を選択" },
+  "weekly.noData": { ko: "아직 주간 데이터가 없습니다", en: "No weekly data available yet", zh: "暂无每周数据", ja: "まだ週間データがありません" },
+  "weekly.weekLabel": { ko: "{month}월 {week}주차", en: "{monthName} W{week}", zh: "{month}月第{week}周", ja: "{month}月第{week}週" },
+  "nav.weekly": { ko: "주간 핫", en: "Weekly Hot", zh: "每周热门", ja: "週間ホット" },
+
   // Categories
   "cat.Gaming": { ko: "게이밍", en: "Gaming", zh: "游戏", ja: "ゲーム" },
   "cat.Governance": { ko: "거버넌스", en: "Governance", zh: "治理", ja: "ガバナンス" },

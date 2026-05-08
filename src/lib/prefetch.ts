@@ -4,6 +4,8 @@ import { loadAllWallets, TIER_ORDER } from "./load-wallets";
 import { Wallet } from "./types";
 import { RankingEntry } from "./types";
 import { writeCache } from "./cache";
+import { writeFileSync, readFileSync, existsSync, mkdirSync } from "fs";
+import { join } from "path";
 
 const PERIODS = ["1d", "7d", "14d", "30d"] as const;
 const PREFETCH_TIERS: readonly string[] = ["Obsidian", "Diamond", "Platinum"];
@@ -142,6 +144,51 @@ async function fetchTierTransactions(
   return result;
 }
 
+function saveWeeklySnapshot() {
+  const CACHE_DIR = join(process.cwd(), "cache");
+  const WEEKLY_DIR = join(CACHE_DIR, "weekly");
+  if (!existsSync(WEEKLY_DIR)) mkdirSync(WEEKLY_DIR, { recursive: true });
+
+  const now = new Date();
+  const weekEnd = new Date(now);
+  weekEnd.setDate(weekEnd.getDate() - 1); // Monday
+  const weekStart = new Date(weekEnd);
+  weekStart.setDate(weekStart.getDate() - 6); // Previous Tuesday
+
+  const fmt = (d: Date) => d.toISOString().slice(0, 10);
+  const startStr = fmt(weekStart);
+  const endStr = fmt(weekEnd);
+
+  const tiers = ["Obsidian", "Diamond", "Platinum", "Gold", "all"];
+  let saved = 0;
+
+  for (const tier of tiers) {
+    const srcPath = join(CACHE_DIR, `rankings_7d_${tier}.json`);
+    if (!existsSync(srcPath)) continue;
+
+    const raw = JSON.parse(readFileSync(srcPath, "utf-8"));
+    const weeklyData = {
+      fetched_at: raw.fetched_at,
+      data: { ...raw.data, week_start: startStr, week_end: endStr, period: "weekly" },
+    };
+
+    writeFileSync(join(WEEKLY_DIR, `${startStr}_${tier}.json`), JSON.stringify(weeklyData, null, 2), "utf-8");
+    saved++;
+  }
+
+  const manifestPath = join(WEEKLY_DIR, "weeks.json");
+  let weeks: { week_start: string; week_end: string; fetched_at: string }[] = [];
+  if (existsSync(manifestPath)) {
+    weeks = JSON.parse(readFileSync(manifestPath, "utf-8"));
+  }
+  if (!weeks.find((w) => w.week_start === startStr)) {
+    weeks.push({ week_start: startStr, week_end: endStr, fetched_at: now.toISOString() });
+    weeks.sort((a, b) => b.week_start.localeCompare(a.week_start));
+  }
+  writeFileSync(manifestPath, JSON.stringify(weeks, null, 2), "utf-8");
+  console.log(`[prefetch] Weekly snapshot saved: ${startStr} ~ ${endStr} (${saved} tiers)`);
+}
+
 export async function prefetchAll() {
   console.log("[prefetch] Starting full prefetch (all tiers)...");
   const startTime = Date.now();
@@ -249,6 +296,9 @@ export async function prefetchAll() {
         });
       }
     }
+
+    // Save weekly snapshot from 7d data (Tue~Mon cycle)
+    saveWeeklySnapshot();
 
     const durationMs = Date.now() - startTime;
     const durationMin = (durationMs / 60000).toFixed(1);

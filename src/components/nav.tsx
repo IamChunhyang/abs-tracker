@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BarChart3, Search, Users, Home, Trophy } from "lucide-react";
+import { BarChart3, Search, Users, Home, Trophy, Flame } from "lucide-react";
 import { useLang } from "@/lib/language-context";
 import { t } from "@/lib/i18n";
 
@@ -12,6 +12,7 @@ export function Nav() {
 
   const links = [
     { href: "/", label: t("nav.dashboard", lang), icon: Home },
+    { href: "/weekly", label: t("nav.weekly", lang), icon: Flame },
     { href: "/ranking", label: t("nav.ranking", lang), icon: BarChart3 },
     { href: "/tiers", label: t("nav.tiers", lang), icon: Users },
   ];
