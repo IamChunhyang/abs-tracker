@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.470Z",
+  "fetched_at": "2026-05-08T12:45:55.459Z",
   "data": {
     "address": "0x886cbee36be572f21187b384b0ac716c560a4ccb",
     "name": "PudgyGang",
@@ -8,65 +8,41 @@
     "badges": 27,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x886cbee36be572f21187b384b0ac716c560a4ccb",
-    "total_tx_count": 6563,
-    "period_tx_count": 42,
+    "total_tx_count": 6574,
+    "period_tx_count": 36,
     "period": "30d",
     "top_contracts": [
       {
         "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
         "name": "DEX Voter",
-        "category": "Governance",
+        "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 13,
+        "tx_count": 19,
         "top_method": "0x7ac09bf7"
       },
       {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "앱스트랙트 투표",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 11,
-        "top_method": "0x7060a227"
-      },
-      {
         "address": "0x27b04370d8087e714a9f557c1eff7901cea6bb63",
-        "name": "ve-Lock",
+        "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
         "tx_count": 5,
         "top_method": "0xd1c2babb"
       },
       {
-        "address": "0x36cbf77d8f8355d7a077d670c29e290e41367072",
-        "name": "Rewards Claim",
-        "category": "Rewards",
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 3,
-        "top_method": "0x379607f5"
+        "tx_count": 4,
+        "top_method": "0x7060a227"
       },
       {
         "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
-        "name": "DEX Router",
+        "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
         "tx_count": 1,
         "top_method": "0x903638a4"
-      },
-      {
-        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
-        "name": "Signature Minter",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x29efcf80"
-      },
-      {
-        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
-        "name": "Portal Proxy",
-        "category": "Infra",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x"
       }
     ]
   }

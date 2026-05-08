@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.662Z",
+  "fetched_at": "2026-05-08T12:45:55.549Z",
   "data": {
     "address": "0x9e382ec0328b91f489b4f4ff332b24cf5d935a8b",
     "name": "Sonyblack65",
@@ -30,9 +30,9 @@
       },
       {
         "address": "0x0000000000000068f116a894984e2db1123eb395",
-        "name": "0x0000...b395",
-        "category": "Unknown",
-        "is_unknown": true,
+        "name": "OpenSea",
+        "category": "NFT",
+        "is_unknown": false,
         "tx_count": 1,
         "top_method": "0x87201b41"
       }

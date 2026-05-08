@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.627Z",
+  "fetched_at": "2026-05-08T12:45:55.535Z",
   "data": {
     "address": "0x2a2376e5e9981c19b15af64d2cdb57c9b94eb1f6",
     "name": "xiskool",
@@ -14,7 +14,7 @@
     "top_contracts": [
       {
         "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
-        "name": "Item Market System",
+        "name": "Gigaverse",
         "category": "Gaming",
         "is_unknown": false,
         "tx_count": 3,

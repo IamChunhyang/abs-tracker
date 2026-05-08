@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.534Z",
+  "fetched_at": "2026-05-08T12:45:55.490Z",
   "data": {
     "address": "0xb747190b7394ed19dca4aa4ba7f4bea90790f8dc",
     "name": "LaaLaa",
@@ -8,25 +8,41 @@
     "badges": 40,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xb747190b7394ed19dca4aa4ba7f4bea90790f8dc",
-    "total_tx_count": 8932,
-    "period_tx_count": 2,
+    "total_tx_count": 8991,
+    "period_tx_count": 16,
     "period": "1d",
     "top_contracts": [
       {
         "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
-        "name": "0xd9f3...0694",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
+        "name": "DEPTH Protocol",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 6,
         "top_method": "0x0962ef79"
       },
       {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "앱스트랙트 투표",
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 1,
+        "tx_count": 5,
+        "top_method": "0x7ac09bf7"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 2,
         "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
+        "name": "Portal Proxy",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x"
       }
     ]
   }

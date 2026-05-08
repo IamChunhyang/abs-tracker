@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.632Z",
+  "fetched_at": "2026-05-08T12:45:55.539Z",
   "data": {
     "address": "0x9abbb418ddb0189b432d1b51c234345b10a9e566",
     "name": "Cavent",
@@ -8,10 +8,18 @@
     "badges": 10,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x9abbb418ddb0189b432d1b51c234345b10a9e566",
-    "total_tx_count": 5473,
-    "period_tx_count": 1,
+    "total_tx_count": 5482,
+    "period_tx_count": 3,
     "period": "1d",
     "top_contracts": [
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x7060a227"
+      },
       {
         "address": "0xca4a7c4a191de94af2c91487d0be34a0205b89ab",
         "name": "NFT Staking",

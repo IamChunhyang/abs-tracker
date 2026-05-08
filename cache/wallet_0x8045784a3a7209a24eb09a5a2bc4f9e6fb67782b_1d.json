@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.735Z",
+  "fetched_at": "2026-05-08T12:45:55.577Z",
   "data": {
     "address": "0x8045784a3a7209a24eb09a5a2bc4f9e6fb67782b",
     "name": "KangBokSoon",
@@ -8,57 +8,73 @@
     "badges": 41,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x8045784a3a7209a24eb09a5a2bc4f9e6fb67782b",
-    "total_tx_count": 34056,
-    "period_tx_count": 3342,
+    "total_tx_count": 35454,
+    "period_tx_count": 22,
     "period": "1d",
     "top_contracts": [
       {
-        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
-        "name": "Bakery",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 3331,
-        "top_method": "0x"
-      },
-      {
         "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
-        "name": "Moody Madness Assets",
-        "category": "Gaming",
+        "name": "Moody Drops (Use)",
+        "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 3,
+        "tx_count": 6,
         "top_method": "0xf5298aca"
       },
       {
-        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
-        "name": "러그풀 베이커리 (부스트&러그)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0xf20c3fb4"
-      },
-      {
         "address": "0xafca524dc2cdd7c21cd1de4e837c8c813c8322cc",
-        "name": "쿠가 배쉬",
+        "name": "Khuga Bash",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 2,
+        "tx_count": 6,
         "top_method": "0x2ffc02e2"
       },
       {
-        "address": "0x68c137f435e8de633b9d80d914e6b7f858b2af30",
-        "name": "0x68c1...af30",
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Signing",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "OpenSea",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xe7acab24"
+      },
+      {
+        "address": "0x5fedb9a131f798e986109dd89942c17c25c81de3",
+        "name": "0x5fed...1de3",
         "category": "Unknown",
         "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xa22cb465"
+      },
+      {
+        "address": "0x68c137f435e8de633b9d80d914e6b7f858b2af30",
+        "name": "Daily Check-in",
+        "category": "Abstract",
+        "is_unknown": false,
         "tx_count": 1,
         "top_method": "0x"
       },
       {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "앱스트랙트 투표",
-        "category": "Abstract",
-        "is_unknown": false,
+        "address": "0x4b432060903184c5710f2ef0cf23adc84e7ffb18",
+        "name": "0x4b43...fb18",
+        "category": "Unknown",
+        "is_unknown": true,
         "tx_count": 1,
-        "top_method": "0x7060a227"
+        "top_method": "0xa22cb465"
       }
     ]
   }

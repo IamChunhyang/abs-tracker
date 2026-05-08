@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.601Z",
+  "fetched_at": "2026-05-08T12:45:55.527Z",
   "data": {
     "address": "0xa8a956a5690cc81bb367da2c2f6f1796be2b3c30",
     "name": "scottco",
@@ -8,45 +8,61 @@
     "badges": 32,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xa8a956a5690cc81bb367da2c2f6f1796be2b3c30",
-    "total_tx_count": 28879,
-    "period_tx_count": 1000,
+    "total_tx_count": 28940,
+    "period_tx_count": 89,
     "period": "14d",
     "top_contracts": [
       {
-        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
-        "name": "Bakery",
-        "category": "Gaming",
+        "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
+        "name": "0x37d6...1afe",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 27,
+        "top_method": "0x2752571e"
+      },
+      {
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "Others",
         "is_unknown": false,
-        "tx_count": 948,
-        "top_method": "0x"
+        "tx_count": 11,
+        "top_method": "0x095ea7b3"
       },
       {
         "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
-        "name": "Item Market System",
+        "name": "Gigaverse",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 15,
+        "tx_count": 11,
         "top_method": "0x807ef825"
       },
       {
         "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
-        "name": "0xd9f3...0694",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 9,
+        "name": "DEPTH Protocol",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 7,
         "top_method": "0x0962ef79"
       },
       {
         "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
         "name": "DEX Voter",
-        "category": "Governance",
+        "category": "Abstract",
         "is_unknown": false,
         "tx_count": 5,
         "top_method": "0x7ac09bf7"
       },
       {
+        "address": "0x19e547f1bd342094bc4318c539dbb91a8f52786c",
+        "name": "0x19e5...786c",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0x70876c98"
+      },
+      {
         "address": "0x911dbdd9841b53ee5a08170109daf7ad82684108",
-        "name": "Shiny RWA",
+        "name": "Shiny",
         "category": "NFT",
         "is_unknown": false,
         "tx_count": 3,
@@ -54,19 +70,27 @@
       },
       {
         "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
-        "name": "Session Key Validator",
-        "category": "Infra",
+        "name": "Session Key Signing",
+        "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 3,
+        "tx_count": 2,
         "top_method": "0x5a0694d2"
       },
       {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "앱스트랙트 투표",
-        "category": "Abstract",
-        "is_unknown": false,
+        "address": "0x13a59f08f11e38e4766bf206a31473a510c83475",
+        "name": "0x13a5...3475",
+        "category": "Unknown",
+        "is_unknown": true,
         "tx_count": 1,
-        "top_method": "0x7060a227"
+        "top_method": "0xd64abc3c"
+      },
+      {
+        "address": "0xba3274ff65466bdc217745dc276394da4ffe02b7",
+        "name": "0xba32...02b7",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xa83cbaa3"
       }
     ]
   }

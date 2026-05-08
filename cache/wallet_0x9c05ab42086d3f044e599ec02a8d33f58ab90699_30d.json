@@ -1,0 +1,121 @@
+{
+  "fetched_at": "2026-05-08T12:45:55.689Z",
+  "data": {
+    "address": "0x9c05ab42086d3f044e599ec02a8d33f58ab90699",
+    "name": "0x9c05ab42086d3f044e599ec02a8d33f58ab90699",
+    "tier": "Diamond",
+    "tier_v2": 12,
+    "badges": 17,
+    "streaming": true,
+    "portal_link": "https://portal.abs.xyz/profile/0x9c05ab42086d3f044e599ec02a8d33f58ab90699",
+    "total_tx_count": 4615,
+    "period_tx_count": 75,
+    "period": "30d",
+    "top_contracts": [
+      {
+        "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",
+        "name": "Onchain Heroes",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 13,
+        "top_method": "0xb32820e9"
+      },
+      {
+        "address": "0x1859072d67fdd26c8782c90a1e4f078901c0d763",
+        "name": "Blinko & Moonsheep Cannon",
+        "category": "Arcade",
+        "is_unknown": false,
+        "tx_count": 12,
+        "top_method": "0x4d07ec64"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 10,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
+        "name": "0x37d6...1afe",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 8,
+        "top_method": "0x2752571e"
+      },
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Gigaverse",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 7,
+        "top_method": "0x807ef825"
+      },
+      {
+        "address": "0x911dbdd9841b53ee5a08170109daf7ad82684108",
+        "name": "Shiny",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x92971a31"
+      },
+      {
+        "address": "0x5c9ce8be7aa92fd089be31b154be47a0e59d4282",
+        "name": "Shiny",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0xf23a27bd"
+      },
+      {
+        "address": "0x24ebed9c44ecfca47321037c3041fbbbe984094a",
+        "name": "0x24eb...094a",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0x5a91eae9"
+      },
+      {
+        "address": "0x99bb83ae9bb0c0a6be865cacf67760947f91cb70",
+        "name": "COSMO",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x23b872dd"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Signing",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
+        "name": "Onchain Heroes",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x219e0149"
+      },
+      {
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "Others",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0x715401335704d81216324ed50bbdaab119a99a55",
+        "name": "0x7154...9a55",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xf7d7cddb"
+      }
+    ]
+  }
+}

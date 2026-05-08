@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.737Z",
+  "fetched_at": "2026-05-08T12:45:55.578Z",
   "data": {
     "address": "0x0532e2bf1c162cd5c371db5b229bcded1816f399",
     "name": "TRUMPBIG",
@@ -8,7 +8,7 @@
     "badges": 26,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x0532e2bf1c162cd5c371db5b229bcded1816f399",
-    "total_tx_count": 4301,
+    "total_tx_count": 4305,
     "period_tx_count": 0,
     "period": "1d",
     "top_contracts": []

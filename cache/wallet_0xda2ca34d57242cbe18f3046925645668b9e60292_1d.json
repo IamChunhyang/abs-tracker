@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.788Z",
+  "fetched_at": "2026-05-08T12:45:55.629Z",
   "data": {
     "address": "0xda2ca34d57242cbe18f3046925645668b9e60292",
     "name": "CRYPT0BRO",
@@ -8,41 +8,89 @@
     "badges": 33,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xda2ca34d57242cbe18f3046925645668b9e60292",
-    "total_tx_count": 285371,
-    "period_tx_count": 203,
+    "total_tx_count": 367688,
+    "period_tx_count": 80,
     "period": "1d",
     "top_contracts": [
       {
-        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
-        "name": "Bakery",
+        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
+        "name": "Tollan (Gameplay)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 197,
-        "top_method": "0x"
+        "tx_count": 59,
+        "top_method": "0x8708c7fd"
+      },
+      {
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Drops (Use)",
+        "category": "Arcade",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0xf5298aca"
+      },
+      {
+        "address": "0x55e1c2da46c36e18a956151ec1b4b2f39bd8571a",
+        "name": "Shiny",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0xd8182233"
+      },
+      {
+        "address": "0xb3bc688f675892a33e10a3ff57592cce3b951806",
+        "name": "0xb3bc...1806",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x2e1a7d4d"
       },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "앱스트랙트 투표",
+        "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
         "tx_count": 2,
         "top_method": "0x7060a227"
       },
       {
-        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
-        "name": "Moody Madness Assets",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0xf5298aca"
-      },
-      {
-        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
-        "name": "WETH9",
+        "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
+        "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0xa9059cbb"
+        "top_method": "0xa026383e"
+      },
+      {
+        "address": "0xa4890b89dc628bae614780079acc951fb0ecdc5f",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xac9650d8"
+      },
+      {
+        "address": "0xa688a6a53a26b6f0702a9a518482151415be1ff7",
+        "name": "Tollan (Buy,NFT Claim)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
+        "name": "Portal Proxy",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "DEPTH Protocol",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x0962ef79"
       }
     ]
   }

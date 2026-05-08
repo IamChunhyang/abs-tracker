@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.472Z",
+  "fetched_at": "2026-05-08T12:45:55.461Z",
   "data": {
     "address": "0x7a84af82a3d5c913fc42f333d709fe706160e258",
     "name": "FroggyCyborg",
@@ -8,25 +8,73 @@
     "badges": 39,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x7a84af82a3d5c913fc42f333d709fe706160e258",
-    "total_tx_count": 78329,
-    "period_tx_count": 9,
+    "total_tx_count": 81827,
+    "period_tx_count": 1339,
     "period": "1d",
     "top_contracts": [
       {
-        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
-        "name": "Tollan Random Seed",
+        "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
+        "name": "Moody Drops (Claim,NFT)",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 649,
+        "top_method": "0x16c5aa5e"
+      },
+      {
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Drops (Use)",
+        "category": "Arcade",
+        "is_unknown": false,
+        "tx_count": 649,
+        "top_method": "0xf5298aca"
+      },
+      {
+        "address": "0x5f8abf7f164fbed5c51f696ddf3c2c17bcbc8fbb",
+        "name": "Cambria (Duel Arena)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 5,
-        "top_method": "0x8708c7fd"
+        "tx_count": 31,
+        "top_method": "0xce55803f"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Signing",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x5a0694d2"
       },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "앱스트랙트 투표",
+        "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 4,
+        "tx_count": 3,
         "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
+        "name": "Portal Proxy",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x56053bdb06c2f996924f0f8785200a73262b49ac",
+        "name": "Spellborne",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xbc11f894"
+      },
+      {
+        "address": "0x4237d126713bf1faba29ed8a55a6a0634886e223",
+        "name": "Aave V3 Pool",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xbf90f63a"
       }
     ]
   }

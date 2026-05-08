@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.513Z",
+  "fetched_at": "2026-05-08T12:45:55.470Z",
   "data": {
     "address": "0x6c55280706ddc3477b80fe6e2f1e5be479a74182",
     "name": "Breezeonhodl",
@@ -8,13 +8,21 @@
     "badges": 38,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x6c55280706ddc3477b80fe6e2f1e5be479a74182",
-    "total_tx_count": 14756,
-    "period_tx_count": 1,
+    "total_tx_count": 14786,
+    "period_tx_count": 4,
     "period": "1d",
     "top_contracts": [
       {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "OpenSea",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x87201b41"
+      },
+      {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "앱스트랙트 투표",
+        "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
         "tx_count": 1,

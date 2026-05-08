@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.488Z",
+  "fetched_at": "2026-05-08T12:45:55.466Z",
   "data": {
     "address": "0x917a67de1a4e29d8820e1aeafd1e7e53f19f2df7",
     "name": "coffee",
@@ -8,73 +8,129 @@
     "badges": 39,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x917a67de1a4e29d8820e1aeafd1e7e53f19f2df7",
-    "total_tx_count": 35464,
-    "period_tx_count": 28,
+    "total_tx_count": 35531,
+    "period_tx_count": 67,
     "period": "7d",
     "top_contracts": [
       {
+        "address": "0x27edd16ee56958fddcba08947f12c43ddec2b20c",
+        "name": "Death Fun",
+        "category": "Arcade",
+        "is_unknown": false,
+        "tx_count": 31,
+        "top_method": "0x001308d8"
+      },
+      {
         "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
-        "name": "0xd9f3...0694",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 6,
+        "name": "DEPTH Protocol",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 9,
         "top_method": "0x0962ef79"
       },
       {
-        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
-        "name": "Bakery",
-        "category": "Gaming",
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Signing",
+        "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 6,
-        "top_method": "0x"
+        "tx_count": 5,
+        "top_method": "0x5a0694d2"
       },
       {
-        "address": "0xd44abe71c312fcaf73cc20f7df61c39a89c203eb",
-        "name": "0xd44a...03eb",
+        "address": "0x8f16b5713f412c5de4951aaf678eb8409101f819",
+        "name": "Aave V3 Pool",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x5a3b74b9"
+      },
+      {
+        "address": "0xb79330f572fdbe7530b340b8f0740d6b2427c8c0",
+        "name": "0xb793...c8c0",
         "category": "Unknown",
         "is_unknown": true,
         "tx_count": 3,
-        "top_method": "0xa0712d68"
+        "top_method": "0x"
       },
       {
         "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
-        "name": "DEX Router",
+        "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 3,
-        "top_method": "0x12bc3aca"
+        "tx_count": 2,
+        "top_method": "0x88cd821e"
       },
       {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "앱스트랙트 투표",
-        "category": "Abstract",
+        "address": "0x9f2f14db4a69e765128859c56da902ab88888939",
+        "name": "0x9f2f...8939",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x29575c57db2212052b8402f82140c6f15e62c1e7",
+        "name": "0x2957...c1e7",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "name": "Signature Minter",
+        "category": "NFT",
         "is_unknown": false,
-        "tx_count": 3,
-        "top_method": "0x7060a227"
+        "tx_count": 1,
+        "top_method": "0x29efcf80"
+      },
+      {
+        "address": "0x0709f39376deee2a2dfc94a58edeb2eb9df012bd",
+        "name": "0x0709...12bd",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
+        "name": "WETH9",
+        "category": "Others",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0xac875d3bc8bca493889c880d6c1c03d8f7a8da5e",
+        "name": "0xac87...da5e",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x2e1a7d4d"
+      },
+      {
+        "address": "0xd8662b55c253d28840a0ada6dc927c65968f466b",
+        "name": "0xd866...466b",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x6e553f65"
       },
       {
         "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
         "name": "USDC",
-        "category": "DeFi",
+        "category": "Others",
         "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0xa9059cbb"
+        "top_method": "0x095ea7b3"
       },
       {
-        "address": "0xca8f7a25a4b25aa378c03cc2051bc732d497d828",
-        "name": "0xca8f...d828",
+        "address": "0x57876819b2de3b10e7bb69796915a2c987a0e535",
+        "name": "0x5787...e535",
         "category": "Unknown",
         "is_unknown": true,
         "tx_count": 1,
-        "top_method": "0x1c4b774b"
-      },
-      {
-        "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
-        "name": "Swap Router",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xa026383e"
+        "top_method": "0x"
       }
     ]
   }

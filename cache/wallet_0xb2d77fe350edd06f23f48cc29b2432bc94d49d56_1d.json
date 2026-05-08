@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.676Z",
+  "fetched_at": "2026-05-08T12:45:55.556Z",
   "data": {
     "address": "0xb2d77fe350edd06f23f48cc29b2432bc94d49d56",
     "name": "TrieuTiger",
@@ -8,8 +8,8 @@
     "badges": 32,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xb2d77fe350edd06f23f48cc29b2432bc94d49d56",
-    "total_tx_count": 11279,
-    "period_tx_count": 0,
+    "total_tx_count": 11282,
+    "period_tx_count": 3,
     "period": "1d",
     "top_contracts": []
   }

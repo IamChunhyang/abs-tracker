@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.451Z",
+  "fetched_at": "2026-05-08T12:45:55.449Z",
   "data": {
     "address": "0x90d644bafa0dad528d89ebca2b2d2d51379a428c",
     "name": "Rebornmf",
@@ -8,81 +8,105 @@
     "badges": 40,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x90d644bafa0dad528d89ebca2b2d2d51379a428c",
-    "total_tx_count": 36555,
-    "period_tx_count": 29,
+    "total_tx_count": 36598,
+    "period_tx_count": 43,
     "period": "7d",
     "top_contracts": [
-      {
-        "address": "0xc74d5002c10c13d2ad258b4584690829387f84dc",
-        "name": "DYLI Marketplace",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 7,
-        "top_method": "0xf7344a59"
-      },
-      {
-        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
-        "name": "Session Key Validator",
-        "category": "Infra",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x5a0694d2"
-      },
       {
         "address": "0x458422e93bf89a109afc4fac00aacf2f18fcf541",
         "name": "DYLI",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x91eb290e"
+        "tx_count": 6,
+        "top_method": "0x7f58b4bf"
       },
       {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "앱스트랙트 투표",
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x7060a227"
+        "tx_count": 4,
+        "top_method": "0x7ac09bf7"
       },
       {
-        "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
-        "name": "Swap Router",
-        "category": "DeFi",
+        "address": "0x36cbf77d8f8355d7a077d670c29e290e41367072",
+        "name": "Rewards Claim",
+        "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xc04b8d59"
+        "tx_count": 2,
+        "top_method": "0x379607f5"
       },
       {
         "address": "0x42ab8092bfb701f34c47273df83d90d8169ad982",
         "name": "Free Managed Reward",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 1,
+        "tx_count": 2,
         "top_method": "0xf5f8d365"
       },
       {
-        "address": "0xa4890b89dc628bae614780079acc951fb0ecdc5f",
-        "name": "NFT Position Manager",
-        "category": "DeFi",
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xac9650d8"
+        "tx_count": 2,
+        "top_method": "0x7060a227"
       },
       {
-        "address": "0x9ad684023258cc4e61fe229e1854e827c4f84e60",
-        "name": "CLGauge V2",
-        "category": "DeFi",
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Signing",
+        "category": "Abstract",
         "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0x2e1a7d4d"
+        "top_method": "0x5a0694d2"
       },
       {
-        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
-        "name": "0xd9f3...0694",
+        "address": "0xe34be58e965a90ff3cbd42738651a630fb2552b4",
+        "name": "0xe34b...52b4",
         "category": "Unknown",
         "is_unknown": true,
         "tx_count": 1,
-        "top_method": "0x0962ef79"
+        "top_method": "0xb6b55f25"
+      },
+      {
+        "address": "0xa4890b89dc628bae614780079acc951fb0ecdc5f",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xb5007d1f"
+      },
+      {
+        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x903638a4"
+      },
+      {
+        "address": "0xc74d5002c10c13d2ad258b4584690829387f84dc",
+        "name": "DYLI",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xf7344a59"
+      },
+      {
+        "address": "0x2318184138bc0fddd99da594b0c2eacc63d09754",
+        "name": "0x2318...9754",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xaac9aaa7"
+      },
+      {
+        "address": "0xec27d2237432d06981e1f18581494661517e1bd3",
+        "name": "Xeet",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xa22cb465"
       }
     ]
   }

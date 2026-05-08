@@ -1,4 +1,4 @@
-import { getCurrentBlock, fetchTransactions, periodToBlocks, getTxCount } from "./abstract-api";
+import { getCurrentBlock, fetchTransactions, periodToBlocks, blocksForDays, getTxCount } from "./abstract-api";
 import { getContractName } from "./data";
 import { loadAllWallets, TIER_ORDER } from "./load-wallets";
 import { Wallet } from "./types";
@@ -144,49 +144,120 @@ async function fetchTierTransactions(
   return result;
 }
 
-function saveWeeklySnapshot() {
+function computeWeeklySnapshot(
+  allTxData: WalletTxData[],
+  allWallets: Wallet[],
+  currentBlock: number,
+) {
   const CACHE_DIR = join(process.cwd(), "cache");
   const WEEKLY_DIR = join(CACHE_DIR, "weekly");
   if (!existsSync(WEEKLY_DIR)) mkdirSync(WEEKLY_DIR, { recursive: true });
 
   const now = new Date();
-  const weekEnd = new Date(now);
-  weekEnd.setDate(weekEnd.getDate() - 1); // Monday
-  const weekStart = new Date(weekEnd);
-  weekStart.setDate(weekStart.getDate() - 6); // Previous Tuesday
+  const dayOfWeek = now.getUTCDay();
+  const daysSincePrevTue = ((dayOfWeek - 2 + 7) % 7) + 7;
+
+  const weekStart = new Date(now);
+  weekStart.setUTCDate(weekStart.getUTCDate() - daysSincePrevTue);
+  weekStart.setUTCHours(0, 0, 0, 0);
+  const weekEnd = new Date(weekStart);
+  weekEnd.setUTCDate(weekEnd.getUTCDate() + 6);
+  weekEnd.setUTCHours(23, 59, 59, 999);
 
   const fmt = (d: Date) => d.toISOString().slice(0, 10);
   const startStr = fmt(weekStart);
   const endStr = fmt(weekEnd);
 
-  const tiers = ["Obsidian", "Diamond", "Platinum", "Gold", "all"];
-  let saved = 0;
+  const secsSinceWeekStart = (now.getTime() - weekStart.getTime()) / 1000;
+  const secsSinceWeekEnd = (now.getTime() - weekEnd.getTime()) / 1000;
+  const weekStartBlock = currentBlock - Math.floor(secsSinceWeekStart * 3.52);
+  const weekEndBlock = currentBlock - Math.max(0, Math.floor(secsSinceWeekEnd * 3.52));
 
+  console.log(`[prefetch] Weekly range: ${startStr} ~ ${endStr} (blocks ${weekStartBlock}..${weekEndBlock})`);
+
+  const tiers = [...PREFETCH_TIERS, "all"];
   for (const tier of tiers) {
-    const srcPath = join(CACHE_DIR, `rankings_7d_${tier}.json`);
-    if (!existsSync(srcPath)) continue;
+    const tierData = tier === "all"
+      ? allTxData
+      : allTxData.filter((wd) => {
+          const w = allWallets.find((ww) => ww.address === wd.address);
+          return w?.tier === tier;
+        });
 
-    const raw = JSON.parse(readFileSync(srcPath, "utf-8"));
+    const contractMap: Record<string, { count: number; users: Set<string> }> = {};
+    const walletStats: Record<string, number> = {};
+
+    for (const wd of tierData) {
+      const weekTxs = wd.txs.filter((tx) => tx.blockNumber >= weekStartBlock && tx.blockNumber <= weekEndBlock);
+      walletStats[wd.address] = weekTxs.length;
+      for (const tx of weekTxs) {
+        if (!tx.to || tx.to === wd.address.toLowerCase()) continue;
+        if (!contractMap[tx.to]) contractMap[tx.to] = { count: 0, users: new Set() };
+        contractMap[tx.to].count++;
+        contractMap[tx.to].users.add(wd.address);
+      }
+    }
+
+    const groupedMap: Record<string, { count: number; users: Set<string>; topAddress: string; topCount: number }> = {};
+    for (const [address, stats] of Object.entries(contractMap)) {
+      const info = getContractName(address);
+      const key = info.is_unknown ? address : info.name;
+      if (!groupedMap[key]) groupedMap[key] = { count: 0, users: new Set(), topAddress: address, topCount: 0 };
+      groupedMap[key].count += stats.count;
+      for (const user of stats.users) groupedMap[key].users.add(user);
+      if (stats.count > groupedMap[key].topCount) {
+        groupedMap[key].topAddress = address;
+        groupedMap[key].topCount = stats.count;
+      }
+    }
+
+    const rankings: RankingEntry[] = Object.entries(groupedMap)
+      .map(([, stats]) => {
+        const info = getContractName(stats.topAddress);
+        return {
+          contract_address: stats.topAddress,
+          contract_name: info.name,
+          category: info.category,
+          tx_count: stats.count,
+          unique_users: stats.users.size,
+          is_unknown: info.is_unknown,
+        };
+      })
+      .sort((a, b) => b.tx_count - a.tx_count)
+      .slice(0, 100);
+
+    const walletRanking = Object.entries(walletStats)
+      .map(([address, count]) => {
+        const w = allWallets.find((ww) => ww.address === address);
+        return { address, name: w?.name || address.slice(0, 10), tier: w?.tier || "Unknown", tx_count: count };
+      })
+      .sort((a, b) => b.tx_count - a.tx_count);
+
     const weeklyData = {
-      fetched_at: raw.fetched_at,
-      data: { ...raw.data, week_start: startStr, week_end: endStr, period: "weekly" },
+      fetched_at: new Date().toISOString(),
+      data: {
+        period: "weekly",
+        tier,
+        total_wallets: tierData.length,
+        rankings,
+        wallet_ranking: walletRanking,
+        week_start: startStr,
+        week_end: endStr,
+      },
     };
 
     writeFileSync(join(WEEKLY_DIR, `${startStr}_${tier}.json`), JSON.stringify(weeklyData, null, 2), "utf-8");
-    saved++;
   }
 
   const manifestPath = join(WEEKLY_DIR, "weeks.json");
   let weeks: { week_start: string; week_end: string; fetched_at: string }[] = [];
-  if (existsSync(manifestPath)) {
-    weeks = JSON.parse(readFileSync(manifestPath, "utf-8"));
-  }
+  if (existsSync(manifestPath)) weeks = JSON.parse(readFileSync(manifestPath, "utf-8"));
   if (!weeks.find((w) => w.week_start === startStr)) {
     weeks.push({ week_start: startStr, week_end: endStr, fetched_at: now.toISOString() });
     weeks.sort((a, b) => b.week_start.localeCompare(a.week_start));
   }
   writeFileSync(manifestPath, JSON.stringify(weeks, null, 2), "utf-8");
-  console.log(`[prefetch] Weekly snapshot saved: ${startStr} ~ ${endStr} (${saved} tiers)`);
+  console.log(`[prefetch] Weekly snapshot computed: ${startStr} ~ ${endStr} (${tiers.length} tiers)`);
 }
 
 export async function prefetchAll() {
@@ -203,17 +274,23 @@ export async function prefetchAll() {
 
     const allTxData: WalletTxData[] = [];
 
+    const dayOfWeek = new Date().getUTCDay();
+    const daysSincePrevTue = ((dayOfWeek - 2 + 7) % 7) + 7;
+    const platinumDays = Math.max(7, daysSincePrevTue + 1);
+    const platinumStartBlock = currentBlock - blocksForDays(platinumDays);
+
     for (const tier of PREFETCH_TIERS) {
       const tierWallets = allWallets.filter((w) => w.tier === tier);
       const batchSize = tier === "Platinum" ? 25 : 5;
-      const fetchWindow = tier === "Platinum" ? "7d" : "30d";
+      const fetchWindow = tier === "Platinum" ? `${platinumDays}d` : "30d";
 
       console.log(`[prefetch] === ${tier} (${tierWallets.length} wallets, batch=${batchSize}, window=${fetchWindow}) ===`);
       const tierStart = Date.now();
 
+      const tierStartBlock = tier === "Platinum" ? platinumStartBlock : startBlocks["30d"];
       const tierTxs = await fetchTierTransactions(
         tierWallets,
-        startBlocks[fetchWindow],
+        tierStartBlock,
         batchSize,
         tier,
       );
@@ -297,8 +374,8 @@ export async function prefetchAll() {
       }
     }
 
-    // Save weekly snapshot from 7d data (Tue~Mon cycle)
-    saveWeeklySnapshot();
+    // Compute weekly snapshot from raw tx data (Tue~Mon cycle)
+    computeWeeklySnapshot(allTxData, allWallets, currentBlock);
 
     const durationMs = Date.now() - startTime;
     const durationMin = (durationMs / 60000).toFixed(1);

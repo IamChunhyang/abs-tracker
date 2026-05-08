@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.469Z",
+  "fetched_at": "2026-05-08T12:45:55.459Z",
   "data": {
     "address": "0x886cbee36be572f21187b384b0ac716c560a4ccb",
     "name": "PudgyGang",
@@ -8,16 +8,16 @@
     "badges": 27,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x886cbee36be572f21187b384b0ac716c560a4ccb",
-    "total_tx_count": 6563,
-    "period_tx_count": 4,
+    "total_tx_count": 6574,
+    "period_tx_count": 11,
     "period": "7d",
     "top_contracts": [
       {
         "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
         "name": "DEX Voter",
-        "category": "Governance",
+        "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 3,
+        "tx_count": 9,
         "top_method": "0x7ac09bf7"
       }
     ]

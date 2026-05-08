@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.628Z",
+  "fetched_at": "2026-05-08T12:45:55.535Z",
   "data": {
     "address": "0x5f22c06221b4afa44b3f642c40ea7e5c8eecd53b",
     "name": "nathnnfts",
@@ -8,7 +8,7 @@
     "badges": 31,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x5f22c06221b4afa44b3f642c40ea7e5c8eecd53b",
-    "total_tx_count": 16233,
+    "total_tx_count": 16235,
     "period_tx_count": 0,
     "period": "1d",
     "top_contracts": []

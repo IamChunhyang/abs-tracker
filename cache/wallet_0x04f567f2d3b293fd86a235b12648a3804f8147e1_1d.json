@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.695Z",
+  "fetched_at": "2026-05-08T12:45:55.565Z",
   "data": {
     "address": "0x04f567f2d3b293fd86a235b12648a3804f8147e1",
     "name": "guccii",
@@ -8,33 +8,57 @@
     "badges": 40,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x04f567f2d3b293fd86a235b12648a3804f8147e1",
-    "total_tx_count": 75432,
-    "period_tx_count": 64,
+    "total_tx_count": 76127,
+    "period_tx_count": 67,
     "period": "1d",
     "top_contracts": [
       {
         "address": "0x5f8abf7f164fbed5c51f696ddf3c2c17bcbc8fbb",
-        "name": "Duel Arena Battle",
+        "name": "Cambria (Duel Arena)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 60,
+        "tx_count": 48,
         "top_method": "0xce55803f"
       },
       {
+        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
+        "name": "Tollan (Gameplay)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 12,
+        "top_method": "0x8708c7fd"
+      },
+      {
         "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",
-        "name": "0xbde2...2916",
-        "category": "Unknown",
-        "is_unknown": true,
+        "name": "Onchain Heroes",
+        "category": "Gaming",
+        "is_unknown": false,
         "tx_count": 2,
         "top_method": "0xb32820e9"
       },
       {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "앱스트랙트 투표",
-        "category": "Abstract",
+        "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
+        "name": "Onchain Heroes",
+        "category": "Gaming",
         "is_unknown": false,
         "tx_count": 2,
+        "top_method": "0x01608d9c"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
         "top_method": "0x7060a227"
+      },
+      {
+        "address": "0xe8bc685af85c96eed4a6235eb11930df48121a81",
+        "name": "0xe8bc...1a81",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
       }
     ]
   }

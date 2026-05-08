@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.447Z",
+  "fetched_at": "2026-05-08T12:45:55.445Z",
   "data": {
     "address": "0xfb6954ea6b0f8e9eea008a2cffc26eadce0e69aa",
     "name": "greenchain",
@@ -8,49 +8,97 @@
     "badges": 21,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xfb6954ea6b0f8e9eea008a2cffc26eadce0e69aa",
-    "total_tx_count": 33766,
-    "period_tx_count": 16,
+    "total_tx_count": 33850,
+    "period_tx_count": 101,
     "period": "7d",
     "top_contracts": [
       {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "앱스트랙트 투표",
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Rugpull Bakery (Baking)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 22,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 7,
+        "tx_count": 14,
+        "top_method": "0x7ac09bf7"
+      },
+      {
+        "address": "0x36cbf77d8f8355d7a077d670c29e290e41367072",
+        "name": "Rewards Claim",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 14,
+        "top_method": "0x379607f5"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 10,
         "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Signing",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x5a0694d2"
       },
       {
         "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
         "name": "Portal Proxy",
         "category": "Infra",
         "is_unknown": false,
-        "tx_count": 2,
+        "tx_count": 3,
         "top_method": "0x"
-      },
-      {
-        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
-        "name": "DEX Router",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0xcac88ea9"
-      },
-      {
-        "address": "0xb92fe925dc43a0ecde6c8b1a2709c170ec4fff4f",
-        "name": "0xb92f...ff4f",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0xcd6e13f7"
       },
       {
         "address": "0x42ab8092bfb701f34c47273df83d90d8169ad982",
         "name": "Free Managed Reward",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 1,
+        "tx_count": 2,
         "top_method": "0xf5f8d365"
+      },
+      {
+        "address": "0x2318184138bc0fddd99da594b0c2eacc63d09754",
+        "name": "0x2318...9754",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xaac9aaa7"
+      },
+      {
+        "address": "0xec27d2237432d06981e1f18581494661517e1bd3",
+        "name": "Xeet",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xa22cb465"
+      },
+      {
+        "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xa026383e"
+      },
+      {
+        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x903638a4"
       }
     ]
   }

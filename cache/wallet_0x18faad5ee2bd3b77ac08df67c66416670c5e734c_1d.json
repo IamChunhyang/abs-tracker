@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.625Z",
+  "fetched_at": "2026-05-08T12:45:55.533Z",
   "data": {
     "address": "0x18faad5ee2bd3b77ac08df67c66416670c5e734c",
     "name": "Cubsfan",
@@ -8,17 +8,25 @@
     "badges": 8,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x18faad5ee2bd3b77ac08df67c66416670c5e734c",
-    "total_tx_count": 13464,
+    "total_tx_count": 13509,
     "period_tx_count": 2,
     "period": "1d",
     "top_contracts": [
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "앱스트랙트 투표",
+        "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
         "tx_count": 1,
         "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Signing",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x5a0694d2"
       }
     ]
   }

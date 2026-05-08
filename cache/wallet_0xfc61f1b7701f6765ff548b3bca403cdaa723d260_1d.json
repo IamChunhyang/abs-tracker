@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.491Z",
+  "fetched_at": "2026-05-08T12:45:55.466Z",
   "data": {
     "address": "0xfc61f1b7701f6765ff548b3bca403cdaa723d260",
     "name": "curtis",
@@ -8,7 +8,7 @@
     "badges": 31,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xfc61f1b7701f6765ff548b3bca403cdaa723d260",
-    "total_tx_count": 351857,
+    "total_tx_count": 351860,
     "period_tx_count": 0,
     "period": "1d",
     "top_contracts": []

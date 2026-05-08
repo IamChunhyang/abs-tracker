@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.821Z",
+  "fetched_at": "2026-05-08T12:45:55.648Z",
   "data": {
     "address": "0x8740085f7f36925743bfb68715aadd626f452e82",
     "name": "Fairbanks",
@@ -8,9 +8,18 @@
     "badges": 20,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x8740085f7f36925743bfb68715aadd626f452e82",
-    "total_tx_count": 5433,
-    "period_tx_count": 0,
+    "total_tx_count": 5441,
+    "period_tx_count": 1,
     "period": "1d",
-    "top_contracts": []
+    "top_contracts": [
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "OpenSea",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xe7acab24"
+      }
+    ]
   }
 }

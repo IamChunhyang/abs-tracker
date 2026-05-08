@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.776Z",
+  "fetched_at": "2026-05-08T12:45:55.607Z",
   "data": {
     "address": "0x633a05cc1ee8deb99caa0f6f143c1662796beed0",
     "name": "gigaz",
@@ -8,24 +8,24 @@
     "badges": 9,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x633a05cc1ee8deb99caa0f6f143c1662796beed0",
-    "total_tx_count": 14041,
-    "period_tx_count": 160,
+    "total_tx_count": 14225,
+    "period_tx_count": 184,
     "period": "7d",
     "top_contracts": [
       {
-        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
-        "name": "Item Market System",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 149,
+        "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
+        "name": "0x37d6...1afe",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 164,
         "top_method": "0x2752571e"
       },
       {
         "address": "0x0000000000000068f116a894984e2db1123eb395",
-        "name": "0x0000...b395",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 5,
+        "name": "OpenSea",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 8,
         "top_method": "0xfd9f1e10"
       },
       {
@@ -33,32 +33,32 @@
         "name": "0x0c0a...fb94",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 2,
+        "tx_count": 5,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xa592221a516dc29a427a57b6951b26962605709c",
+        "name": "0xa592...709c",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
         "top_method": "0x"
       },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "앱스트랙트 투표",
+        "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
         "tx_count": 1,
         "top_method": "0x7060a227"
       },
       {
-        "address": "0x37a651e645061ca7f6ab65a425c3fcc68a07ebaa",
-        "name": "0x37a6...ebaa",
+        "address": "0x7174f8e3a3a2b777911dd6be31d92631a5052ab0",
+        "name": "0x7174...2ab0",
         "category": "Unknown",
         "is_unknown": true,
         "tx_count": 1,
         "top_method": "0x"
-      },
-      {
-        "address": "0x13a59f08f11e38e4766bf206a31473a510c83475",
-        "name": "0x13a5...3475",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0xd64abc3c"
       }
     ]
   }

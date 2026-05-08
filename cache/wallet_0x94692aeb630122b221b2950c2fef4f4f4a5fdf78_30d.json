@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.512Z",
+  "fetched_at": "2026-05-08T12:45:55.469Z",
   "data": {
     "address": "0x94692aeb630122b221b2950c2fef4f4f4a5fdf78",
     "name": "RubiksGus",
@@ -8,87 +8,87 @@
     "badges": 42,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x94692aeb630122b221b2950c2fef4f4f4a5fdf78",
-    "total_tx_count": 7846,
-    "period_tx_count": 531,
+    "total_tx_count": 7927,
+    "period_tx_count": 324,
     "period": "30d",
     "top_contracts": [
       {
-        "address": "0x080f7ad315ab65f02a821f072170d469d444a6c4",
-        "name": "0x080f...a6c4",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 235,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x1859072d67fdd26c8782c90a1e4f078901c0d763",
-        "name": "CommitReveal (Game)",
-        "category": "Gaming",
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Drops (Use)",
+        "category": "Arcade",
         "is_unknown": false,
         "tx_count": 82,
-        "top_method": "0xf01d14b2"
-      },
-      {
-        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
-        "name": "Moody Madness Assets",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 58,
         "top_method": "0xf5298aca"
       },
       {
+        "address": "0x1859072d67fdd26c8782c90a1e4f078901c0d763",
+        "name": "Blinko & Moonsheep Cannon",
+        "category": "Arcade",
+        "is_unknown": false,
+        "tx_count": 68,
+        "top_method": "0xf01d14b2"
+      },
+      {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "앱스트랙트 투표",
+        "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 35,
+        "tx_count": 39,
         "top_method": "0x7060a227"
       },
       {
         "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
-        "name": "Token Claim",
+        "name": "Moody Drops (Claim,NFT)",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 33,
+        "tx_count": 37,
         "top_method": "0x16c5aa5e"
       },
       {
         "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
-        "name": "Session Key Validator",
-        "category": "Infra",
+        "name": "Session Key Signing",
+        "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 29,
+        "tx_count": 33,
         "top_method": "0x5a0694d2"
       },
       {
         "address": "0x5f8abf7f164fbed5c51f696ddf3c2c17bcbc8fbb",
-        "name": "Duel Arena Battle",
+        "name": "Cambria (Duel Arena)",
         "category": "Gaming",
         "is_unknown": false,
         "tx_count": 14,
         "top_method": "0xce55803f"
       },
       {
+        "address": "0x458422e93bf89a109afc4fac00aacf2f18fcf541",
+        "name": "DYLI",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 7,
+        "top_method": "0x7f58b4bf"
+      },
+      {
         "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
-        "name": "Bakery",
+        "name": "Rugpull Bakery (Baking)",
         "category": "Gaming",
         "is_unknown": false,
         "tx_count": 7,
         "top_method": "0x"
       },
       {
-        "address": "0x9a71f27b1ee40ab7ff2c84a755ac9d8a4b17f572",
-        "name": "0x9a71...f572",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 3,
-        "top_method": "0xc00007b0"
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "Others",
+        "is_unknown": false,
+        "tx_count": 5,
+        "top_method": "0xa9059cbb"
       },
       {
         "address": "0x1cfd3e48812daed359574529caaed4b075b5e89d",
-        "name": "0x1cfd...e89d",
-        "category": "Unknown",
-        "is_unknown": true,
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
         "tx_count": 3,
         "top_method": "0x1c4b774b"
       },
@@ -101,44 +101,20 @@
         "top_method": "0x1c4b774b"
       },
       {
-        "address": "0x458422e93bf89a109afc4fac00aacf2f18fcf541",
+        "address": "0x9a71f27b1ee40ab7ff2c84a755ac9d8a4b17f572",
+        "name": "0x9a71...f572",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0xc00007b0"
+      },
+      {
+        "address": "0xc74d5002c10c13d2ad258b4584690829387f84dc",
         "name": "DYLI",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0xa22cb465"
-      },
-      {
-        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
-        "name": "WETH9",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0x095ea7b3"
-      },
-      {
-        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
-        "name": "USDC",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0xa9059cbb"
-      },
-      {
-        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
-        "name": "Signature Minter",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0x29efcf80"
-      },
-      {
-        "address": "0xbffcc2c852f6b6e5cfef8630a43b6cd06194e1ac",
-        "name": "0xbffc...e1ac",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 2,
-        "top_method": "0x303de7db"
+        "tx_count": 3,
+        "top_method": "0xf7344a59"
       },
       {
         "address": "0xade40639486a247b5dd1de9cf6cbcf73737a5a35",
@@ -149,10 +125,18 @@
         "top_method": "0xa694fc3a"
       },
       {
-        "address": "0x0e5ca01b63acd1841489ca87d0ab33f692e5a7ba",
-        "name": "0x0e5c...a7ba",
+        "address": "0xfffa813ab0eeb8973979fa777ee5eadf668e90cc",
+        "name": "0xfffa...90cc",
         "category": "Unknown",
         "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x0e5ca01b63acd1841489ca87d0ab33f692e5a7ba",
+        "name": "Gigaverse",
+        "category": "Gaming",
+        "is_unknown": false,
         "tx_count": 1,
         "top_method": "0x52ce66cc"
       },
@@ -171,6 +155,22 @@
         "is_unknown": true,
         "tx_count": 1,
         "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
+        "name": "WETH9",
+        "category": "Others",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0x8ed20f071287100fafca51c94b5d6d0d8340aef9",
+        "name": "0x8ed2...aef9",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
       }
     ]
   }

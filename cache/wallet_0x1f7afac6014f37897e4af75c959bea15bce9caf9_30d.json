@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.821Z",
+  "fetched_at": "2026-05-08T12:45:55.647Z",
   "data": {
     "address": "0x1f7afac6014f37897e4af75c959bea15bce9caf9",
     "name": "BlockCap",
@@ -9,7 +9,7 @@
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x1f7afac6014f37897e4af75c959bea15bce9caf9",
     "total_tx_count": 5855,
-    "period_tx_count": 26,
+    "period_tx_count": 24,
     "period": "30d",
     "top_contracts": [
       {
@@ -30,9 +30,9 @@
       },
       {
         "address": "0x0000000000000068f116a894984e2db1123eb395",
-        "name": "0x0000...b395",
-        "category": "Unknown",
-        "is_unknown": true,
+        "name": "OpenSea",
+        "category": "NFT",
+        "is_unknown": false,
         "tx_count": 2,
         "top_method": "0xe7acab24"
       },
@@ -46,9 +46,9 @@
       },
       {
         "address": "0x7c47ea32fd27d1a74fc6e9f31ce8162e6ce070eb",
-        "name": "0x7c47...70eb",
-        "category": "Unknown",
-        "is_unknown": true,
+        "name": "Onchain Heroes",
+        "category": "Gaming",
+        "is_unknown": false,
         "tx_count": 1,
         "top_method": "0xa22cb465"
       },
@@ -62,7 +62,7 @@
       },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "앱스트랙트 투표",
+        "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
         "tx_count": 1,
@@ -70,8 +70,8 @@
       },
       {
         "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
-        "name": "Session Key Validator",
-        "category": "Infra",
+        "name": "Session Key Signing",
+        "category": "Abstract",
         "is_unknown": false,
         "tx_count": 1,
         "top_method": "0x5a0694d2"

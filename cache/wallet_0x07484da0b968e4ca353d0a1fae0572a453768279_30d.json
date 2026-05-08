@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.839Z",
+  "fetched_at": "2026-05-08T12:45:55.679Z",
   "data": {
     "address": "0x07484da0b968e4ca353d0a1fae0572a453768279",
     "name": "changhyuk",
@@ -8,25 +8,65 @@
     "badges": 13,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x07484da0b968e4ca353d0a1fae0572a453768279",
-    "total_tx_count": 191,
-    "period_tx_count": 5,
+    "total_tx_count": 207,
+    "period_tx_count": 21,
     "period": "30d",
     "top_contracts": [
       {
-        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
-        "name": "DEX Router",
+        "address": "0xa171bb8b0805ddccc8721ccb1e13f6dd09633cfc",
+        "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 1,
+        "tx_count": 3,
+        "top_method": "0xb6b55f25"
+      },
+      {
+        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 3,
         "top_method": "0xb7e0d4c0"
       },
       {
         "address": "0x6affe011ff40742b383e952a2c7542419e305821",
-        "name": "0x6aff...5821",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0xc00007b0"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x0709f39376deee2a2dfc94a58edeb2eb9df012bd",
+        "name": "0x0709...12bd",
         "category": "Unknown",
         "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0xa9059cbb"
+      },
+      {
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "Others",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0xa9059cbb"
+      },
+      {
+        "address": "0xa4890b89dc628bae614780079acc951fb0ecdc5f",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0xc00007b0"
+        "top_method": "0xac9650d8"
       },
       {
         "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",

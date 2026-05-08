@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.541Z",
+  "fetched_at": "2026-05-08T12:45:55.496Z",
   "data": {
     "address": "0x2c53d33fd90fc8d5fe5cac986db81ba7f3b9aae6",
     "name": "Hoangry",
@@ -8,49 +8,49 @@
     "badges": 36,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x2c53d33fd90fc8d5fe5cac986db81ba7f3b9aae6",
-    "total_tx_count": 161968,
-    "period_tx_count": 3989,
+    "total_tx_count": 168021,
+    "period_tx_count": 37,
     "period": "1d",
     "top_contracts": [
       {
-        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
-        "name": "Bakery",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 3928,
-        "top_method": "0x"
+        "address": "0x19e547f1bd342094bc4318c539dbb91a8f52786c",
+        "name": "0x19e5...786c",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 8,
+        "top_method": "0x70876c98"
       },
       {
-        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
-        "name": "러그풀 베이커리 (부스트&러그)",
-        "category": "Gaming",
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "Others",
         "is_unknown": false,
-        "tx_count": 33,
-        "top_method": "0xf20c3fb4"
-      },
-      {
-        "address": "0x1859072d67fdd26c8782c90a1e4f078901c0d763",
-        "name": "CommitReveal (Game)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 16,
-        "top_method": "0xf01d14b2"
+        "tx_count": 8,
+        "top_method": "0x095ea7b3"
       },
       {
         "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
-        "name": "Tollan Random Seed",
+        "name": "Tollan (Gameplay)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 5,
+        "tx_count": 7,
         "top_method": "0x8708c7fd"
       },
       {
-        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
-        "name": "Moody Madness Assets",
-        "category": "Gaming",
+        "address": "0xba3274ff65466bdc217745dc276394da4ffe02b7",
+        "name": "0xba32...02b7",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 4,
+        "top_method": "0xa83cbaa3"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 3,
-        "top_method": "0xf5298aca"
+        "tx_count": 1,
+        "top_method": "0x7060a227"
       },
       {
         "address": "0x13a59f08f11e38e4766bf206a31473a510c83475",
@@ -61,12 +61,12 @@
         "top_method": "0xd64abc3c"
       },
       {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "앱스트랙트 투표",
-        "category": "Abstract",
+        "address": "0xa688a6a53a26b6f0702a9a518482151415be1ff7",
+        "name": "Tollan (Buy,NFT Claim)",
+        "category": "Gaming",
         "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0x7060a227"
+        "top_method": "0x"
       }
     ]
   }

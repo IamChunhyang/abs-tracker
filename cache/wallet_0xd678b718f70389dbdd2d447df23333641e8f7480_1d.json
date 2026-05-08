@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.777Z",
+  "fetched_at": "2026-05-08T12:45:55.613Z",
   "data": {
     "address": "0xd678b718f70389dbdd2d447df23333641e8f7480",
     "name": "yanik",
@@ -8,17 +8,49 @@
     "badges": 21,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xd678b718f70389dbdd2d447df23333641e8f7480",
-    "total_tx_count": 7808,
-    "period_tx_count": 1,
+    "total_tx_count": 7857,
+    "period_tx_count": 8,
     "period": "1d",
     "top_contracts": [
       {
-        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
-        "name": "Item Market System",
+        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
+        "name": "Tollan (Gameplay)",
         "category": "Gaming",
         "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x8708c7fd"
+      },
+      {
+        "address": "0x19e547f1bd342094bc4318c539dbb91a8f52786c",
+        "name": "0x19e5...786c",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x70876c98"
+      },
+      {
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "Others",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "OpenSea",
+        "category": "NFT",
+        "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0x807ef825"
+        "top_method": "0xfd9f1e10"
+      },
+      {
+        "address": "0x5fedb9a131f798e986109dd89942c17c25c81de3",
+        "name": "0x5fed...1de3",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xa22cb465"
       }
     ]
   }

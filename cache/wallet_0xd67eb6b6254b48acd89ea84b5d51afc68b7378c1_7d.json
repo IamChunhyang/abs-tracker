@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.771Z",
+  "fetched_at": "2026-05-08T12:45:55.602Z",
   "data": {
     "address": "0xd67eb6b6254b48acd89ea84b5d51afc68b7378c1",
     "name": "lancelot",
@@ -8,9 +8,34 @@
     "badges": 23,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xd67eb6b6254b48acd89ea84b5d51afc68b7378c1",
-    "total_tx_count": 2845,
-    "period_tx_count": 0,
+    "total_tx_count": 2848,
+    "period_tx_count": 3,
     "period": "7d",
-    "top_contracts": []
+    "top_contracts": [
+      {
+        "address": "0x33d7381917bb830db6dc030dc0c81d0f5e179248",
+        "name": "0x33d7...9248",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x7c47ea32fd27d1a74fc6e9f31ce8162e6ce070eb",
+        "name": "Onchain Heroes",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xa22cb465"
+      }
+    ]
   }
 }

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.475Z",
+  "fetched_at": "2026-05-08T12:45:55.463Z",
   "data": {
     "address": "0x122572e5a9ac036292a113c65f1d8c62d4f95f2e",
     "name": "Amyqueen",
@@ -8,7 +8,7 @@
     "badges": 26,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x122572e5a9ac036292a113c65f1d8c62d4f95f2e",
-    "total_tx_count": 7143,
+    "total_tx_count": 7147,
     "period_tx_count": 0,
     "period": "1d",
     "top_contracts": []

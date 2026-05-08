@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-28T16:32:11.475Z",
+  "fetched_at": "2026-05-08T12:45:55.463Z",
   "data": {
     "address": "0x122572e5a9ac036292a113c65f1d8c62d4f95f2e",
     "name": "Amyqueen",
@@ -8,16 +8,16 @@
     "badges": 26,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x122572e5a9ac036292a113c65f1d8c62d4f95f2e",
-    "total_tx_count": 7143,
-    "period_tx_count": 2,
+    "total_tx_count": 7147,
+    "period_tx_count": 4,
     "period": "7d",
     "top_contracts": [
       {
         "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
         "name": "DEX Voter",
-        "category": "Governance",
+        "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 1,
+        "tx_count": 2,
         "top_method": "0x7ac09bf7"
       }
     ]
