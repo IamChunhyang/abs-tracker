@@ -19,9 +19,11 @@ interface WeekInfo {
 const MONTH_NAMES_EN = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 function getWeekLabel(weekStart: string, lang: Lang): string {
-  const date = new Date(weekStart + "T00:00:00");
-  const month = date.getMonth() + 1;
-  const day = date.getDate();
+  const start = new Date(weekStart + "T00:00:00");
+  const mid = new Date(start);
+  mid.setDate(mid.getDate() + 3);
+  const month = mid.getMonth() + 1;
+  const day = mid.getDate();
   const weekOfMonth = Math.ceil(day / 7);
 
   if (lang === "ko") return `${month}월 ${weekOfMonth}주차`;
