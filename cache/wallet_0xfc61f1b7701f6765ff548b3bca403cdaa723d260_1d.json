@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.466Z",
+  "fetched_at": "2026-05-26T10:40:57.239Z",
   "data": {
     "address": "0xfc61f1b7701f6765ff548b3bca403cdaa723d260",
     "name": "curtis",
@@ -8,9 +8,26 @@
     "badges": 31,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xfc61f1b7701f6765ff548b3bca403cdaa723d260",
-    "total_tx_count": 351860,
-    "period_tx_count": 0,
+    "total_tx_count": 553844,
+    "period_tx_count": 8829,
     "period": "1d",
-    "top_contracts": []
+    "top_contracts": [
+      {
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Rugpull Bakery (Baking)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 8825,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
+        "name": "Rugpull Bakery (Boost&Rug)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0xf20c3fb4"
+      }
+    ]
   }
 }

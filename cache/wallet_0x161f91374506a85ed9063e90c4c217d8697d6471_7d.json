@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.447Z",
+  "fetched_at": "2026-05-26T10:40:57.157Z",
   "data": {
     "address": "0x161f91374506a85ed9063e90c4c217d8697d6471",
     "name": "Ely",
@@ -8,41 +8,49 @@
     "badges": 37,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x161f91374506a85ed9063e90c4c217d8697d6471",
-    "total_tx_count": 31685,
-    "period_tx_count": 6,
+    "total_tx_count": 31697,
+    "period_tx_count": 8,
     "period": "7d",
     "top_contracts": [
       {
-        "address": "0x2318184138bc0fddd99da594b0c2eacc63d09754",
-        "name": "0x2318...9754",
+        "address": "0xecb575651badf5277856be419a9e6dc6f19e82a9",
+        "name": "0xecb5...82a9",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 3,
-        "top_method": "0xaac9aaa7"
+        "tx_count": 2,
+        "top_method": "0x884baedc"
       },
       {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "Abstract Voting",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x7060a227"
+        "address": "0x448557eff9f4745a85b7c4e74e2aa9c7e9c655de",
+        "name": "0x4485...55de",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x5dc403d6"
       },
       {
-        "address": "0xec27d2237432d06981e1f18581494661517e1bd3",
-        "name": "Xeet",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xa22cb465"
-      },
-      {
-        "address": "0x465738e6d8ded1384c3e8402658257d4ae8ed17d",
-        "name": "0x4657...d17d",
+        "address": "0x4640d7701ba76fcd1df58f55a2bc5c63aa8199a1",
+        "name": "0x4640...99a1",
         "category": "Unknown",
         "is_unknown": true,
         "tx_count": 1,
-        "top_method": "0xa736a89d"
+        "top_method": "0xcb3e9b84"
+      },
+      {
+        "address": "0xaa44d6759856a1195a42ad6d75d0a0dccfd35447",
+        "name": "0xaa44...5447",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x6ecd2306"
+      },
+      {
+        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
+        "name": "Portal Proxy",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x"
       }
     ]
   }

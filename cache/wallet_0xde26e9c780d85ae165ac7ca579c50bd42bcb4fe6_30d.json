@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.628Z",
+  "fetched_at": "2026-05-26T10:40:57.981Z",
   "data": {
     "address": "0xde26e9c780d85ae165ac7ca579c50bd42bcb4fe6",
     "name": "Graildoteth",
@@ -8,8 +8,8 @@
     "badges": 5,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xde26e9c780d85ae165ac7ca579c50bd42bcb4fe6",
-    "total_tx_count": 9935,
-    "period_tx_count": 16,
+    "total_tx_count": 9938,
+    "period_tx_count": 13,
     "period": "30d",
     "top_contracts": [
       {
@@ -21,11 +21,19 @@
         "top_method": "0x5a0694d2"
       },
       {
+        "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
+        "name": "Onchain Heroes",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x219e0149"
+      },
+      {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 6,
+        "tx_count": 2,
         "top_method": "0x7060a227"
       },
       {
@@ -35,14 +43,6 @@
         "is_unknown": false,
         "tx_count": 2,
         "top_method": "0x29efcf80"
-      },
-      {
-        "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
-        "name": "Onchain Heroes",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x219e0149"
       }
     ]
   }

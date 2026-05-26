@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.521Z",
+  "fetched_at": "2026-05-26T10:40:57.500Z",
   "data": {
     "address": "0x27db47dbb87e66af0b27d4746aa718acc977de75",
     "name": "Xen",
@@ -8,9 +8,34 @@
     "badges": 37,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x27db47dbb87e66af0b27d4746aa718acc977de75",
-    "total_tx_count": 23090,
-    "period_tx_count": 7,
+    "total_tx_count": 23135,
+    "period_tx_count": 3,
     "period": "1d",
-    "top_contracts": []
+    "top_contracts": [
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "DEPTH Protocol",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x0962ef79"
+      },
+      {
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x4b61cd6f"
+      }
+    ]
   }
 }

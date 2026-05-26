@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.560Z",
+  "fetched_at": "2026-05-26T10:40:57.665Z",
   "data": {
     "address": "0xe1a8d2f301c7df6a1c12460a7b61037c00475792",
     "name": "Guigne",
@@ -8,8 +8,8 @@
     "badges": 37,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xe1a8d2f301c7df6a1c12460a7b61037c00475792",
-    "total_tx_count": 5580,
-    "period_tx_count": 118,
+    "total_tx_count": 5653,
+    "period_tx_count": 59,
     "period": "14d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 26,
+        "tx_count": 16,
         "top_method": "0x1c4b774b"
       },
       {
@@ -25,7 +25,7 @@
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 21,
+        "tx_count": 13,
         "top_method": "0x219f5d17"
       },
       {
@@ -33,24 +33,24 @@
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 18,
+        "tx_count": 11,
         "top_method": "0xcac88ea9"
-      },
-      {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "Abstract Voting",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 18,
-        "top_method": "0x7060a227"
       },
       {
         "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 16,
+        "tx_count": 7,
         "top_method": "0xa026383e"
+      },
+      {
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0xe0c11f9a"
       },
       {
         "address": "0x42ab8092bfb701f34c47273df83d90d8169ad982",
@@ -61,28 +61,20 @@
         "top_method": "0xf5f8d365"
       },
       {
-        "address": "0xa8752e1ceeab44cd84214ebfcefd9c8cb535fb98",
-        "name": "LayerZero (Contract)",
-        "category": "Infra",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0x571d3dc7"
-      },
-      {
-        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
-        "name": "USDC",
-        "category": "Others",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0x095ea7b3"
-      },
-      {
-        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
-        "name": "Gigaverse",
-        "category": "Gaming",
+        "address": "0x27b04370d8087e714a9f557c1eff7901cea6bb63",
+        "name": "Aborean",
+        "category": "DeFi",
         "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0x807ef825"
+        "top_method": "0xb2383e55"
+      },
+      {
+        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "name": "Signature Minter",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x29efcf80"
       }
     ]
   }

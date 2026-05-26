@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.597Z",
+  "fetched_at": "2026-05-26T10:40:57.883Z",
   "data": {
     "address": "0xbff1df04ed51aa3d4259d0b7cc882ba071bafa1f",
     "name": "ANONS",
@@ -8,10 +8,18 @@
     "badges": 20,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xbff1df04ed51aa3d4259d0b7cc882ba071bafa1f",
-    "total_tx_count": 7721,
-    "period_tx_count": 4,
+    "total_tx_count": 7726,
+    "period_tx_count": 6,
     "period": "30d",
     "top_contracts": [
+      {
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x4b61cd6f"
+      },
       {
         "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
         "name": "Signature Minter",
@@ -19,14 +27,6 @@
         "is_unknown": false,
         "tx_count": 1,
         "top_method": "0x29efcf80"
-      },
-      {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "Abstract Voting",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x7060a227"
       }
     ]
   }

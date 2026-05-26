@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.622Z",
+  "fetched_at": "2026-05-26T10:40:57.953Z",
   "data": {
     "address": "0xc2b5252581849d437c0f4d67d6392617fc93037a",
     "name": "onlinelink",
@@ -8,97 +8,113 @@
     "badges": 38,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xc2b5252581849d437c0f4d67d6392617fc93037a",
-    "total_tx_count": 140376,
-    "period_tx_count": 1000,
+    "total_tx_count": 383808,
+    "period_tx_count": 96005,
     "period": "7d",
     "top_contracts": [
+      {
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Rugpull Bakery (Baking)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 95896,
+        "top_method": "0x"
+      },
       {
         "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 486,
+        "tx_count": 46,
         "top_method": "0xf5298aca"
-      },
-      {
-        "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
-        "name": "Moody Drops (Claim,NFT)",
-        "category": "Rewards",
-        "is_unknown": false,
-        "tx_count": 457,
-        "top_method": "0x16c5aa5e"
       },
       {
         "address": "0x99bb83ae9bb0c0a6be865cacf67760947f91cb70",
         "name": "COSMO",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 22,
+        "tx_count": 21,
         "top_method": "0x23b872dd"
       },
       {
-        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
-        "name": "Tollan (Gameplay)",
-        "category": "Gaming",
+        "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
+        "name": "Moody Drops (Claim,NFT)",
+        "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 11,
-        "top_method": "0x8708c7fd"
+        "tx_count": 21,
+        "top_method": "0x16c5aa5e"
       },
       {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "Abstract Voting",
-        "category": "Abstract",
+        "address": "0x36cbf77d8f8355d7a077d670c29e290e41367072",
+        "name": "Rewards Claim",
+        "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 8,
-        "top_method": "0x7060a227"
-      },
-      {
-        "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",
-        "name": "Onchain Heroes",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 5,
-        "top_method": "0xb32820e9"
-      },
-      {
-        "address": "0x715401335704d81216324ed50bbdaab119a99a55",
-        "name": "0x7154...9a55",
-        "category": "Unknown",
-        "is_unknown": true,
         "tx_count": 4,
-        "top_method": "0xf7d7cddb"
+        "top_method": "0x379607f5"
       },
       {
         "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 3,
+        "tx_count": 4,
         "top_method": "0x5a0694d2"
       },
       {
-        "address": "0xa688a6a53a26b6f0702a9a518482151415be1ff7",
-        "name": "Tollan (Buy,NFT Claim)",
+        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
+        "name": "Rugpull Bakery (Boost&Rug)",
         "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0xf20c3fb4"
+      },
+      {
+        "address": "0x1cfd3e48812daed359574529caaed4b075b5e89d",
+        "name": "Aborean",
+        "category": "DeFi",
         "is_unknown": false,
         "tx_count": 2,
-        "top_method": "0x"
+        "top_method": "0x1c4b774b"
       },
       {
-        "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
-        "name": "Onchain Heroes",
-        "category": "Gaming",
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
+        "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x219e0149"
+        "tx_count": 2,
+        "top_method": "0x7ac09bf7"
       },
       {
-        "address": "0xc8ef2d40ef314bb433f86ce2b67ba880bb48771b",
-        "name": "0xc8ef...771b",
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x9877d51d213c06395e1b96de7020f32184fead11",
+        "name": "0x9877...ad11",
         "category": "Unknown",
         "is_unknown": true,
         "tx_count": 1,
-        "top_method": "0xe569cce8"
+        "top_method": "0xa22cb465"
+      },
+      {
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x4b61cd6f"
+      },
+      {
+        "address": "0x19b12968f846a13b95ac13eeea6c5acd0cc153f7",
+        "name": "0x19b1...53f7",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x34d55309"
       }
     ]
   }

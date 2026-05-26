@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.448Z",
+  "fetched_at": "2026-05-26T10:40:57.168Z",
   "data": {
     "address": "0x90d644bafa0dad528d89ebca2b2d2d51379a428c",
     "name": "Rebornmf",
@@ -8,25 +8,17 @@
     "badges": 40,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x90d644bafa0dad528d89ebca2b2d2d51379a428c",
-    "total_tx_count": 36598,
-    "period_tx_count": 15,
+    "total_tx_count": 36634,
+    "period_tx_count": 1,
     "period": "1d",
     "top_contracts": [
       {
-        "address": "0x36cbf77d8f8355d7a077d670c29e290e41367072",
-        "name": "Rewards Claim",
-        "category": "Rewards",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0x379607f5"
-      },
-      {
-        "address": "0x42ab8092bfb701f34c47273df83d90d8169ad982",
-        "name": "Free Managed Reward",
-        "category": "Rewards",
-        "is_unknown": false,
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
+        "category": "Unknown",
+        "is_unknown": true,
         "tx_count": 1,
-        "top_method": "0xf5f8d365"
+        "top_method": "0x4b61cd6f"
       }
     ]
   }

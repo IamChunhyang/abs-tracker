@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.529Z",
+  "fetched_at": "2026-05-26T10:40:57.555Z",
   "data": {
     "address": "0x494327a08a826f235c68fb6698eda11dffffb0f8",
     "name": "Pixelcollector",
@@ -8,8 +8,8 @@
     "badges": 31,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x494327a08a826f235c68fb6698eda11dffffb0f8",
-    "total_tx_count": 25923,
-    "period_tx_count": 57,
+    "total_tx_count": 25956,
+    "period_tx_count": 11,
     "period": "7d",
     "top_contracts": [
       {
@@ -17,40 +17,8 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 14,
+        "tx_count": 8,
         "top_method": "0x7060a227"
-      },
-      {
-        "address": "0x5c9ce8be7aa92fd089be31b154be47a0e59d4282",
-        "name": "Shiny",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 12,
-        "top_method": "0xf23a27bd"
-      },
-      {
-        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
-        "name": "Moody Drops (Use)",
-        "category": "Arcade",
-        "is_unknown": false,
-        "tx_count": 11,
-        "top_method": "0xf5298aca"
-      },
-      {
-        "address": "0x911dbdd9841b53ee5a08170109daf7ad82684108",
-        "name": "Shiny",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 9,
-        "top_method": "0x92971a31"
-      },
-      {
-        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
-        "name": "Session Key Signing",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 3,
-        "top_method": "0x5a0694d2"
       },
       {
         "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
@@ -61,20 +29,12 @@
         "top_method": "0x7ac09bf7"
       },
       {
-        "address": "0xba3274ff65466bdc217745dc276394da4ffe02b7",
-        "name": "0xba32...02b7",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0xa83cbaa3"
-      },
-      {
-        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
-        "name": "USDC",
-        "category": "Others",
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Signing",
+        "category": "Abstract",
         "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0x095ea7b3"
+        "top_method": "0x5a0694d2"
       }
     ]
   }

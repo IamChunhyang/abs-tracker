@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.588Z",
+  "fetched_at": "2026-05-26T10:40:57.807Z",
   "data": {
     "address": "0x0532e2bf1c162cd5c371db5b229bcded1816f399",
     "name": "TRUMPBIG",
@@ -8,8 +8,8 @@
     "badges": 26,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x0532e2bf1c162cd5c371db5b229bcded1816f399",
-    "total_tx_count": 4305,
-    "period_tx_count": 11,
+    "total_tx_count": 4321,
+    "period_tx_count": 22,
     "period": "30d",
     "top_contracts": [
       {
@@ -17,16 +17,16 @@
         "name": "DEX Voter",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 6,
+        "tx_count": 7,
         "top_method": "0x7ac09bf7"
       },
       {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "Abstract Voting",
-        "category": "Abstract",
+        "address": "0x36cbf77d8f8355d7a077d670c29e290e41367072",
+        "name": "Rewards Claim",
+        "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0x7060a227"
+        "tx_count": 1,
+        "top_method": "0x379607f5"
       }
     ]
   }

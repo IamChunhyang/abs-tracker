@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.523Z",
+  "fetched_at": "2026-05-26T10:40:57.502Z",
   "data": {
     "address": "0x8667aef708f3dea096dc816f8774f04cff3951bf",
     "name": "BlackApple",
@@ -8,7 +8,7 @@
     "badges": 28,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x8667aef708f3dea096dc816f8774f04cff3951bf",
-    "total_tx_count": 7823,
+    "total_tx_count": 7824,
     "period_tx_count": 0,
     "period": "1d",
     "top_contracts": []

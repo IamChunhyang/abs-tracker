@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.631Z",
+  "fetched_at": "2026-05-26T10:40:58.024Z",
   "data": {
     "address": "0x7390022cbff03b8501084ca8fa72cdb932a415d6",
     "name": "blairbear",
@@ -8,24 +8,168 @@
     "badges": 24,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x7390022cbff03b8501084ca8fa72cdb932a415d6",
-    "total_tx_count": 548029,
-    "period_tx_count": 4,
+    "total_tx_count": 714325,
+    "period_tx_count": 10413,
     "period": "1d",
     "top_contracts": [
       {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "Abstract Voting",
-        "category": "Abstract",
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Rugpull Bakery (Baking)",
+        "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0x7060a227"
+        "tx_count": 10267,
+        "top_method": "0x"
       },
       {
-        "address": "0x4b6271f28bc622002a03956fec39288866809d6c",
-        "name": "0x4b62...9d6c",
+        "address": "0xb74e2da73e0ecefe0ae9194891ea12886b433b8e",
+        "name": "0xb74e...3b8e",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 1,
+        "tx_count": 4,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x210b2f8feb1f5f34f9b219b020fe918465b0819b",
+        "name": "0x210b...819b",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 4,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x438bf54b62b872f0a272de9ad5090616d7a471a7",
+        "name": "0x438b...71a7",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 4,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xe59ffd0ef06d073f1d0d01e3ada8e2dbd2f9f54b",
+        "name": "0xe59f...f54b",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 4,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xda062c08f0cd5332a03531498772aac188d17bbd",
+        "name": "0xda06...7bbd",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 4,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x75fc0173d8fe165fc3b81a8642f903394e0673b9",
+        "name": "0x75fc...73b9",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 4,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x6c9ce77d1758658f265b84ae2fdb668b7d637685",
+        "name": "0x6c9c...7685",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 4,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x888bfeeabdc1c3612445ec60e0303f87978fb895",
+        "name": "0x888b...b895",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 4,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xf8ac7e7aec529cc9dcd08b441b88ed39b1a00c2a",
+        "name": "0xf8ac...0c2a",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 4,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xd14db3d838ea0988159d7f56d78428fef6c26e18",
+        "name": "0xd14d...6e18",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 4,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
+        "name": "Rugpull Bakery (Boost&Rug)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0xf20c3fb4"
+      },
+      {
+        "address": "0xf00768d8f9e0516d9a4db5e74163ce7d48c00110",
+        "name": "0xf007...0110",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x99f32a7fecd5523231e9cc5f3a3cec04187c2409",
+        "name": "0x99f3...2409",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xae639194d54cf8064f7d84dc127ea81aae2ebebe",
+        "name": "0xae63...bebe",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xd7905c8d8394a4e7ed8cd8b38c6866efdb39724c",
+        "name": "0xd790...724c",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x5171c2bb39cc830ed1673ea6a8d032169319ea6c",
+        "name": "0x5171...ea6c",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x4f43e35f3e5b897b4abbca3055a866e493918fab",
+        "name": "0x4f43...8fab",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x400dc2e09fca45c4f3a79856fddcf67356b0dabe",
+        "name": "0x400d...dabe",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x16e52993353ff958dbbd503ed526f32a4552b77f",
+        "name": "0x16e5...b77f",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
         "top_method": "0x"
       }
     ]

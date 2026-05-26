@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.459Z",
+  "fetched_at": "2026-05-26T10:40:57.217Z",
   "data": {
     "address": "0x886cbee36be572f21187b384b0ac716c560a4ccb",
     "name": "PudgyGang",
@@ -8,7 +8,7 @@
     "badges": 27,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x886cbee36be572f21187b384b0ac716c560a4ccb",
-    "total_tx_count": 6574,
+    "total_tx_count": 6595,
     "period_tx_count": 36,
     "period": "30d",
     "top_contracts": [
@@ -17,32 +17,24 @@
         "name": "DEX Voter",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 19,
+        "tx_count": 22,
         "top_method": "0x7ac09bf7"
       },
       {
-        "address": "0x27b04370d8087e714a9f557c1eff7901cea6bb63",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 5,
-        "top_method": "0xd1c2babb"
-      },
-      {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "Abstract Voting",
-        "category": "Abstract",
+        "address": "0x36cbf77d8f8355d7a077d670c29e290e41367072",
+        "name": "Rewards Claim",
+        "category": "Rewards",
         "is_unknown": false,
         "tx_count": 4,
-        "top_method": "0x7060a227"
+        "top_method": "0x379607f5"
       },
       {
-        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
+        "address": "0x5fedb9a131f798e986109dd89942c17c25c81de3",
+        "name": "0x5fed...1de3",
+        "category": "Unknown",
+        "is_unknown": true,
         "tx_count": 1,
-        "top_method": "0x903638a4"
+        "top_method": "0x42842e0e"
       }
     ]
   }

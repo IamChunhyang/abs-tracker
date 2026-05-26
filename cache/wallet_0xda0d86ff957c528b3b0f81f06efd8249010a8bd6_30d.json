@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.486Z",
+  "fetched_at": "2026-05-26T10:40:57.351Z",
   "data": {
     "address": "0xda0d86ff957c528b3b0f81f06efd8249010a8bd6",
     "name": "OxDuck",
@@ -8,16 +8,32 @@
     "badges": 42,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xda0d86ff957c528b3b0f81f06efd8249010a8bd6",
-    "total_tx_count": 22477,
-    "period_tx_count": 4614,
+    "total_tx_count": 22821,
+    "period_tx_count": 2119,
     "period": "30d",
     "top_contracts": [
+      {
+        "address": "0x5f8abf7f164fbed5c51f696ddf3c2c17bcbc8fbb",
+        "name": "Cambria (Duel Arena)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 1079,
+        "top_method": "0xce55803f"
+      },
+      {
+        "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",
+        "name": "Onchain Heroes",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 274,
+        "top_method": "0xb32820e9"
+      },
       {
         "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
         "name": "Moody Drops (Claim,NFT)",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 1307,
+        "tx_count": 266,
         "top_method": "0x16c5aa5e"
       },
       {
@@ -25,64 +41,40 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 1249,
+        "tx_count": 247,
         "top_method": "0xf5298aca"
-      },
-      {
-        "address": "0x5f8abf7f164fbed5c51f696ddf3c2c17bcbc8fbb",
-        "name": "Cambria (Duel Arena)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 1160,
-        "top_method": "0x37d8b79d"
-      },
-      {
-        "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",
-        "name": "Onchain Heroes",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 656,
-        "top_method": "0xb32820e9"
       },
       {
         "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
         "name": "Tollan (Gameplay)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 71,
+        "tx_count": 126,
         "top_method": "0x8708c7fd"
-      },
-      {
-        "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
-        "name": "Onchain Heroes",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 47,
-        "top_method": "0x01608d9c"
       },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 46,
+        "tx_count": 38,
         "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
+        "name": "Onchain Heroes",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 36,
+        "top_method": "0x01608d9c"
       },
       {
         "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 27,
+        "tx_count": 19,
         "top_method": "0x5a0694d2"
-      },
-      {
-        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
-        "name": "DEPTH Protocol",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 6,
-        "top_method": "0x0962ef79"
       },
       {
         "address": "0x8f16b5713f412c5de4951aaf678eb8409101f819",
@@ -93,28 +85,20 @@
         "top_method": "0x69328dec"
       },
       {
-        "address": "0x4237d126713bf1faba29ed8a55a6a0634886e223",
-        "name": "Aave V3 Pool",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 6,
-        "top_method": "0xbf90f63a"
-      },
-      {
-        "address": "0xade40639486a247b5dd1de9cf6cbcf73737a5a35",
-        "name": "0xade4...5a35",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 6,
-        "top_method": "0xa694fc3a"
-      },
-      {
         "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
         "name": "WETH9",
         "category": "Others",
         "is_unknown": false,
         "tx_count": 5,
         "top_method": "0x"
+      },
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "DEPTH Protocol",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x0962ef79"
       },
       {
         "address": "0x9ebe3a824ca958e4b3da772d2065518f009cba62",
@@ -131,6 +115,38 @@
         "is_unknown": false,
         "tx_count": 2,
         "top_method": "0x"
+      },
+      {
+        "address": "0x4237d126713bf1faba29ed8a55a6a0634886e223",
+        "name": "Aave V3 Pool",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0xbf90f63a"
+      },
+      {
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x4b61cd6f"
+      },
+      {
+        "address": "0xcb05e5cbc5fe39d6f78eb5383bfe4d881a7db578",
+        "name": "0xcb05...b578",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "name": "Signature Minter",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x29efcf80"
       },
       {
         "address": "0xa4890b89dc628bae614780079acc951fb0ecdc5f",
@@ -155,22 +171,6 @@
         "is_unknown": false,
         "tx_count": 1,
         "top_method": "0xa22cb465"
-      },
-      {
-        "address": "0x0000000000000068f116a894984e2db1123eb395",
-        "name": "OpenSea",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xe7acab24"
-      },
-      {
-        "address": "0xb3713f00135db530cdc097d375a25813807e256c",
-        "name": "Cambria (Duel Arena)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xcce7ec13"
       }
     ]
   }

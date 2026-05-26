@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.514Z",
+  "fetched_at": "2026-05-26T10:40:57.484Z",
   "data": {
     "address": "0xc28f9e50946a03c73c65ed0a47abf9d32b92e237",
     "name": "B92e237",
@@ -8,18 +8,10 @@
     "badges": 42,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xc28f9e50946a03c73c65ed0a47abf9d32b92e237",
-    "total_tx_count": 27783,
-    "period_tx_count": 25,
+    "total_tx_count": 29023,
+    "period_tx_count": 14,
     "period": "1d",
     "top_contracts": [
-      {
-        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
-        "name": "Moody Drops (Use)",
-        "category": "Arcade",
-        "is_unknown": false,
-        "tx_count": 12,
-        "top_method": "0xf5298aca"
-      },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",
@@ -29,20 +21,12 @@
         "top_method": "0x7060a227"
       },
       {
-        "address": "0x42ab8092bfb701f34c47273df83d90d8169ad982",
-        "name": "Free Managed Reward",
-        "category": "Rewards",
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Drops (Use)",
+        "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 3,
-        "top_method": "0xf5f8d365"
-      },
-      {
-        "address": "0x5fedb9a131f798e986109dd89942c17c25c81de3",
-        "name": "0x5fed...1de3",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x42842e0e"
+        "tx_count": 4,
+        "top_method": "0xf5298aca"
       },
       {
         "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
@@ -53,12 +37,12 @@
         "top_method": "0x0962ef79"
       },
       {
-        "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
+        "category": "Unknown",
+        "is_unknown": true,
         "tx_count": 1,
-        "top_method": "0xac9650d8"
+        "top_method": "0x4b61cd6f"
       },
       {
         "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",

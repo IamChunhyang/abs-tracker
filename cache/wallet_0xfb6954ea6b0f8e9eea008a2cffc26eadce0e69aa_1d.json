@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.444Z",
+  "fetched_at": "2026-05-26T10:40:57.138Z",
   "data": {
     "address": "0xfb6954ea6b0f8e9eea008a2cffc26eadce0e69aa",
     "name": "greenchain",
@@ -8,33 +8,41 @@
     "badges": 21,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xfb6954ea6b0f8e9eea008a2cffc26eadce0e69aa",
-    "total_tx_count": 33850,
-    "period_tx_count": 6,
+    "total_tx_count": 82511,
+    "period_tx_count": 1955,
     "period": "1d",
     "top_contracts": [
+      {
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Rugpull Bakery (Baking)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 1951,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x4b61cd6f"
+      },
+      {
+        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
+        "name": "Portal Proxy",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 2,
+        "tx_count": 1,
         "top_method": "0x7060a227"
-      },
-      {
-        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
-        "name": "Session Key Signing",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x5a0694d2"
-      },
-      {
-        "address": "0x42ab8092bfb701f34c47273df83d90d8169ad982",
-        "name": "Free Managed Reward",
-        "category": "Rewards",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xf5f8d365"
       }
     ]
   }

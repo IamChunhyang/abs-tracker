@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.461Z",
+  "fetched_at": "2026-05-26T10:40:57.219Z",
   "data": {
     "address": "0xd82311e0ddcff7cad1be090763d4f6d7ba1c290a",
     "name": "0xd82311e0ddcff7cad1be090763d4f6d7ba1c290a",
@@ -8,32 +8,16 @@
     "badges": 27,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xd82311e0ddcff7cad1be090763d4f6d7ba1c290a",
-    "total_tx_count": 6348,
-    "period_tx_count": 1840,
+    "total_tx_count": 6393,
+    "period_tx_count": 120,
     "period": "30d",
     "top_contracts": [
-      {
-        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
-        "name": "Rugpull Bakery (Baking)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 1661,
-        "top_method": "0x"
-      },
-      {
-        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 40,
-        "top_method": "0xcac88ea9"
-      },
       {
         "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
         "name": "DEX Voter",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 40,
+        "tx_count": 25,
         "top_method": "0x7ac09bf7"
       },
       {
@@ -41,47 +25,55 @@
         "name": "Free Managed Reward",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 31,
+        "tx_count": 25,
         "top_method": "0xf5f8d365"
+      },
+      {
+        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 25,
+        "top_method": "0xcac88ea9"
       },
       {
         "address": "0x27b04370d8087e714a9f557c1eff7901cea6bb63",
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 12,
+        "tx_count": 10,
         "top_method": "0xb52c05fe"
-      },
-      {
-        "address": "0x4c68e4102c0f120cce9f08625bd12079806b7c4d",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 8,
-        "top_method": "0xa9059cbb"
       },
       {
         "address": "0x36cbf77d8f8355d7a077d670c29e290e41367072",
         "name": "Rewards Claim",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 7,
+        "tx_count": 6,
         "top_method": "0x379607f5"
+      },
+      {
+        "address": "0x4c68e4102c0f120cce9f08625bd12079806b7c4d",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0xa9059cbb"
       },
       {
         "address": "0x9fdb8e3c8e5800d2f762919a34d9c0f1b63668a3",
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 5,
-        "top_method": "0xc00007b0"
+        "tx_count": 4,
+        "top_method": "0x2e1a7d4d"
       },
       {
         "address": "0xa171bb8b0805ddccc8721ccb1e13f6dd09633cfc",
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 4,
+        "tx_count": 3,
         "top_method": "0xc00007b0"
       },
       {
@@ -89,8 +81,16 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 4,
+        "tx_count": 3,
         "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x91d421946ac01379b57be5bd80bd828d0b2fa877",
+        "name": "0x91d4...a877",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0xc00007b0"
       },
       {
         "address": "0xc197e61538b5cb7bafa28ee328931c4a9091f2b4",
@@ -98,79 +98,23 @@
         "category": "Unknown",
         "is_unknown": true,
         "tx_count": 2,
-        "top_method": "0x2e1a7d4d"
-      },
-      {
-        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
-        "name": "Signature Minter",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0x29efcf80"
+        "top_method": "0xc00007b0"
       },
       {
         "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xc04b8d59"
+        "tx_count": 2,
+        "top_method": "0xa026383e"
       },
       {
-        "address": "0xad1eca41e6f772be3cb5a48a6141f9bcc1af9f7c",
-        "name": "Uniswap",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x02751cec"
-      },
-      {
-        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
-        "name": "WETH9",
-        "category": "Others",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x095ea7b3"
-      },
-      {
-        "address": "0x0000000000000068f116a894984e2db1123eb395",
-        "name": "OpenSea",
+        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "name": "Signature Minter",
         "category": "NFT",
         "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0xe7acab24"
-      },
-      {
-        "address": "0x663d69ecff14b4dbd245cdac03f2e1deb68ed250",
-        "name": "0x663d...d250",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x6d705ebb"
-      },
-      {
-        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
-        "name": "Session Key Signing",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x5a0694d2"
-      },
-      {
-        "address": "0xa4890b89dc628bae614780079acc951fb0ecdc5f",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xac9650d8"
-      },
-      {
-        "address": "0x686bfe70f061507065f3e939c12ac9ee5a564dcf",
-        "name": "0x686b...4dcf",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0xa22cb465"
+        "top_method": "0x29efcf80"
       }
     ]
   }

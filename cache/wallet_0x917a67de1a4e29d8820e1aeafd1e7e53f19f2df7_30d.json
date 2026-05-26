@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.466Z",
+  "fetched_at": "2026-05-26T10:40:57.236Z",
   "data": {
     "address": "0x917a67de1a4e29d8820e1aeafd1e7e53f19f2df7",
     "name": "coffee",
@@ -8,40 +8,56 @@
     "badges": 39,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x917a67de1a4e29d8820e1aeafd1e7e53f19f2df7",
-    "total_tx_count": 35531,
-    "period_tx_count": 1000,
+    "total_tx_count": 35620,
+    "period_tx_count": 184,
     "period": "30d",
     "top_contracts": [
-      {
-        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
-        "name": "Rugpull Bakery (Baking)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 910,
-        "top_method": "0x"
-      },
       {
         "address": "0x27edd16ee56958fddcba08947f12c43ddec2b20c",
         "name": "Death Fun",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 31,
+        "tx_count": 33,
         "top_method": "0x001308d8"
+      },
+      {
+        "address": "0x270bbb21b1187bc6e694f428dcb51432958eb3d9",
+        "name": "Rugpull Bakery",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 32,
+        "top_method": "0xb27a78e3"
       },
       {
         "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
         "name": "DEPTH Protocol",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 16,
+        "tx_count": 20,
         "top_method": "0x0962ef79"
+      },
+      {
+        "address": "0x268031de8363401d61b6a256bea009bb57277619",
+        "name": "Gacha Mall",
+        "category": "Arcade",
+        "is_unknown": false,
+        "tx_count": 10,
+        "top_method": "0x581644ae"
+      },
+      {
+        "address": "0x516dce03bbb9d686e567a15ba3b7d061e394ab7a",
+        "name": "Gacha PvP",
+        "category": "Arcade",
+        "is_unknown": false,
+        "tx_count": 9,
+        "top_method": "0x107cc1ec"
       },
       {
         "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 5,
+        "tx_count": 9,
         "top_method": "0x5a0694d2"
       },
       {
@@ -49,8 +65,48 @@
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 5,
+        "tx_count": 8,
         "top_method": "0x88cd821e"
+      },
+      {
+        "address": "0x911dbdd9841b53ee5a08170109daf7ad82684108",
+        "name": "Shiny",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 7,
+        "top_method": "0x92971a31"
+      },
+      {
+        "address": "0x5c9ce8be7aa92fd089be31b154be47a0e59d4282",
+        "name": "Shiny",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 7,
+        "top_method": "0xf23a27bd"
+      },
+      {
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Rugpull Bakery (Baking)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 6,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "Others",
+        "is_unknown": false,
+        "tx_count": 5,
+        "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x7060a227"
       },
       {
         "address": "0x8f16b5713f412c5de4951aaf678eb8409101f819",
@@ -77,20 +133,20 @@
         "top_method": "0xa0712d68"
       },
       {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "Abstract Voting",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 3,
-        "top_method": "0x7060a227"
+        "address": "0x86362a4c99d900d72d787ef1bdda38fd318aa5e9",
+        "name": "0x8636...a5e9",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x"
       },
       {
-        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
-        "name": "USDC",
-        "category": "Others",
+        "address": "0x55e1c2da46c36e18a956151ec1b4b2f39bd8571a",
+        "name": "Shiny",
+        "category": "NFT",
         "is_unknown": false,
         "tx_count": 2,
-        "top_method": "0x095ea7b3"
+        "top_method": "0xd8182233"
       },
       {
         "address": "0x9f2f14db4a69e765128859c56da902ab88888939",
@@ -115,62 +171,6 @@
         "is_unknown": false,
         "tx_count": 1,
         "top_method": "0x29efcf80"
-      },
-      {
-        "address": "0x0709f39376deee2a2dfc94a58edeb2eb9df012bd",
-        "name": "0x0709...12bd",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x095ea7b3"
-      },
-      {
-        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
-        "name": "WETH9",
-        "category": "Others",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x095ea7b3"
-      },
-      {
-        "address": "0xac875d3bc8bca493889c880d6c1c03d8f7a8da5e",
-        "name": "0xac87...da5e",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x2e1a7d4d"
-      },
-      {
-        "address": "0xd8662b55c253d28840a0ada6dc927c65968f466b",
-        "name": "0xd866...466b",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x6e553f65"
-      },
-      {
-        "address": "0x57876819b2de3b10e7bb69796915a2c987a0e535",
-        "name": "0x5787...e535",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x"
-      },
-      {
-        "address": "0xca8f7a25a4b25aa378c03cc2051bc732d497d828",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x1c4b774b"
-      },
-      {
-        "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xa026383e"
       }
     ]
   }

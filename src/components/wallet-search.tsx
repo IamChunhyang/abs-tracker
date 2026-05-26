@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
 import { Search } from "lucide-react";
 import { useLang } from "@/lib/language-context";
 import { t, l } from "@/lib/i18n";
@@ -39,8 +38,8 @@ export function WalletSearch() {
 
   return (
     <div className="w-full">
-      <form onSubmit={handleSearch} className="flex gap-2 w-full">
-        <div className="relative flex-1">
+      <form onSubmit={handleSearch} className="w-full">
+        <div className="relative">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-500" />
           <Input
             value={query}
@@ -49,9 +48,6 @@ export function WalletSearch() {
             className="pl-10 bg-gray-800 border-gray-700 text-white placeholder:text-gray-500"
           />
         </div>
-        <Button type="submit" variant="outline" className="border-gray-700 hover:bg-gray-800" disabled={loading}>
-          {loading ? "..." : t("search.button", lang)}
-        </Button>
       </form>
       {snippet && (
         <div className="mt-2 text-sm">

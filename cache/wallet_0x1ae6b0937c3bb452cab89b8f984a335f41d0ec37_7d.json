@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.567Z",
+  "fetched_at": "2026-05-26T10:40:57.711Z",
   "data": {
     "address": "0x1ae6b0937c3bb452cab89b8f984a335f41d0ec37",
     "name": "captainobvious",
@@ -8,8 +8,8 @@
     "badges": 23,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x1ae6b0937c3bb452cab89b8f984a335f41d0ec37",
-    "total_tx_count": 3895,
-    "period_tx_count": 9,
+    "total_tx_count": 3934,
+    "period_tx_count": 10,
     "period": "7d",
     "top_contracts": [
       {
@@ -17,24 +17,24 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 6,
+        "tx_count": 7,
         "top_method": "0x7060a227"
-      },
-      {
-        "address": "0x42ab8092bfb701f34c47273df83d90d8169ad982",
-        "name": "Free Managed Reward",
-        "category": "Rewards",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0xf5f8d365"
       },
       {
         "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 1,
+        "tx_count": 2,
         "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0xba3274ff65466bdc217745dc276394da4ffe02b7",
+        "name": "0xba32...02b7",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xa83cbaa3"
       }
     ]
   }

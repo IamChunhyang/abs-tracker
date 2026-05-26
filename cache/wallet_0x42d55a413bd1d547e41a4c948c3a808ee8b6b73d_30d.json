@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.551Z",
+  "fetched_at": "2026-05-26T10:40:57.646Z",
   "data": {
     "address": "0x42d55a413bd1d547e41a4c948c3a808ee8b6b73d",
     "name": "LucasNetz",
@@ -8,7 +8,7 @@
     "badges": 22,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x42d55a413bd1d547e41a4c948c3a808ee8b6b73d",
-    "total_tx_count": 3561,
+    "total_tx_count": 3575,
     "period_tx_count": 17,
     "period": "30d",
     "top_contracts": [
@@ -17,7 +17,7 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 7,
+        "tx_count": 6,
         "top_method": "0x5a0694d2"
       },
       {
@@ -25,16 +25,24 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 4,
+        "tx_count": 5,
         "top_method": "0x7060a227"
       },
       {
-        "address": "0x0000000000000068f116a894984e2db1123eb395",
-        "name": "OpenSea",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 3,
-        "top_method": "0xfd9f1e10"
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x4b61cd6f"
+      },
+      {
+        "address": "0x686bfe70f061507065f3e939c12ac9ee5a564dcf",
+        "name": "0x686b...4dcf",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xb88d4fde"
       },
       {
         "address": "0x219260d8470d8211ad66eb69206bdf72a4218b65",
@@ -42,7 +50,31 @@
         "category": "Gaming",
         "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0xf7345f9c"
+        "top_method": "0x3c28402b"
+      },
+      {
+        "address": "0xef625a9f0e552cac6dcedabbe3b140dba4a0babd",
+        "name": "0xef62...babd",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xa22cb465"
+      },
+      {
+        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "name": "Signature Minter",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x29efcf80"
+      },
+      {
+        "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
+        "name": "Onchain Heroes",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x219e0149"
       }
     ]
   }

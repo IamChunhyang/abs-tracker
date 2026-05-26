@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.657Z",
+  "fetched_at": "2026-05-26T10:40:58.065Z",
   "data": {
     "address": "0x3400a6918f8414bf31cc01d5d3087868aefb33b5",
     "name": "0x3400a6918f8414bf31cc01d5d3087868aefb33b5",
@@ -8,9 +8,26 @@
     "badges": 7,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x3400a6918f8414bf31cc01d5d3087868aefb33b5",
-    "total_tx_count": 582,
-    "period_tx_count": 0,
+    "total_tx_count": 599,
+    "period_tx_count": 19,
     "period": "7d",
-    "top_contracts": []
+    "top_contracts": [
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "OpenSea",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 16,
+        "top_method": "0xe7acab24"
+      },
+      {
+        "address": "0x31e660b7f4e6fba3a967707539040738256409fb",
+        "name": "0x31e6...09fb",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      }
+    ]
   }
 }

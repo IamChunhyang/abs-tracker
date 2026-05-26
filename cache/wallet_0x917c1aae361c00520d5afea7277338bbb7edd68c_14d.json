@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.591Z",
+  "fetched_at": "2026-05-26T10:40:57.831Z",
   "data": {
     "address": "0x917c1aae361c00520d5afea7277338bbb7edd68c",
     "name": "dosaklon",
@@ -8,16 +8,24 @@
     "badges": 33,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x917c1aae361c00520d5afea7277338bbb7edd68c",
-    "total_tx_count": 37588,
-    "period_tx_count": 912,
+    "total_tx_count": 139824,
+    "period_tx_count": 89583,
     "period": "14d",
     "top_contracts": [
+      {
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Rugpull Bakery (Baking)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 88738,
+        "top_method": "0x"
+      },
       {
         "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 336,
+        "tx_count": 260,
         "top_method": "0xf5298aca"
       },
       {
@@ -25,47 +33,47 @@
         "name": "Moody Drops (Claim,NFT)",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 300,
+        "tx_count": 225,
         "top_method": "0x16c5aa5e"
-      },
-      {
-        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
-        "name": "Tollan (Gameplay)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 83,
-        "top_method": "0x8708c7fd"
       },
       {
         "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
         "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 45,
+        "tx_count": 81,
         "top_method": "0x807ef825"
+      },
+      {
+        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
+        "name": "Rugpull Bakery (Boost&Rug)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 75,
+        "top_method": "0xb3648e8f"
+      },
+      {
+        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
+        "name": "Tollan (Gameplay)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 66,
+        "top_method": "0x8708c7fd"
       },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 35,
+        "tx_count": 42,
         "top_method": "0x7060a227"
-      },
-      {
-        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
-        "name": "Gigaverse",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 33,
-        "top_method": "0x807ef825"
       },
       {
         "address": "0x27edd16ee56958fddcba08947f12c43ddec2b20c",
         "name": "Death Fun",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 27,
+        "tx_count": 25,
         "top_method": "0x001308d8"
       },
       {
@@ -73,15 +81,23 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 8,
+        "tx_count": 20,
         "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",
+        "name": "Onchain Heroes",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 6,
+        "top_method": "0xb32820e9"
       },
       {
         "address": "0x465738e6d8ded1384c3e8402658257d4ae8ed17d",
         "name": "0x4657...d17d",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 8,
+        "tx_count": 6,
         "top_method": "0xa736a89d"
       },
       {
@@ -93,28 +109,12 @@
         "top_method": "0x23b872dd"
       },
       {
-        "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",
+        "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
         "name": "Onchain Heroes",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 4,
-        "top_method": "0xb32820e9"
-      },
-      {
-        "address": "0x20418564070d574e4eb546782792e54091f524df",
-        "name": "0x2041...24df",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 4,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x715401335704d81216324ed50bbdaab119a99a55",
-        "name": "0x7154...9a55",
-        "category": "Unknown",
-        "is_unknown": true,
         "tx_count": 3,
-        "top_method": "0xf7d7cddb"
+        "top_method": "0x219e0149"
       },
       {
         "address": "0xa688a6a53a26b6f0702a9a518482151415be1ff7",
@@ -125,20 +125,12 @@
         "top_method": "0x"
       },
       {
-        "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
-        "name": "Onchain Heroes",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 3,
-        "top_method": "0x219e0149"
-      },
-      {
-        "address": "0x4b48f3d1ddc9e5793d4817517255e6bef6d72a7c",
-        "name": "0x4b48...2a7c",
+        "address": "0x528ee813c1f74042e98c94a522aaf2ca917003d2",
+        "name": "0x528e...03d2",
         "category": "Unknown",
         "is_unknown": true,
         "tx_count": 3,
-        "top_method": "0xba858b36"
+        "top_method": "0xba087652"
       },
       {
         "address": "0x448557eff9f4745a85b7c4e74e2aa9c7e9c655de",
@@ -149,12 +141,28 @@
         "top_method": "0x5dc403d6"
       },
       {
-        "address": "0xba3274ff65466bdc217745dc276394da4ffe02b7",
-        "name": "0xba32...02b7",
+        "address": "0xbffcc2c852f6b6e5cfef8630a43b6cd06194e1ac",
+        "name": "0xbffc...e1ac",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x84022767"
+      },
+      {
+        "address": "0x715401335704d81216324ed50bbdaab119a99a55",
+        "name": "0x7154...9a55",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0xf7d7cddb"
+      },
+      {
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
         "category": "Unknown",
         "is_unknown": true,
         "tx_count": 1,
-        "top_method": "0xa83cbaa3"
+        "top_method": "0x4b61cd6f"
       },
       {
         "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
@@ -163,14 +171,6 @@
         "is_unknown": false,
         "tx_count": 1,
         "top_method": "0x"
-      },
-      {
-        "address": "0x0e5ca01b63acd1841489ca87d0ab33f692e5a7ba",
-        "name": "Gigaverse",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x52ce66cc"
       }
     ]
   }

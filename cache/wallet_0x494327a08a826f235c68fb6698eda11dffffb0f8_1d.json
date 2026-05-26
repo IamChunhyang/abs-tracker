@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.529Z",
+  "fetched_at": "2026-05-26T10:40:57.554Z",
   "data": {
     "address": "0x494327a08a826f235c68fb6698eda11dffffb0f8",
     "name": "Pixelcollector",
@@ -8,8 +8,8 @@
     "badges": 31,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x494327a08a826f235c68fb6698eda11dffffb0f8",
-    "total_tx_count": 25923,
-    "period_tx_count": 3,
+    "total_tx_count": 25956,
+    "period_tx_count": 2,
     "period": "1d",
     "top_contracts": [
       {
@@ -19,14 +19,6 @@
         "is_unknown": false,
         "tx_count": 2,
         "top_method": "0x7060a227"
-      },
-      {
-        "address": "0xba3274ff65466bdc217745dc276394da4ffe02b7",
-        "name": "0xba32...02b7",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0xa83cbaa3"
       }
     ]
   }

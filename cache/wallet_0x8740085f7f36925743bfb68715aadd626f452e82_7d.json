@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.648Z",
+  "fetched_at": "2026-05-26T10:40:58.055Z",
   "data": {
     "address": "0x8740085f7f36925743bfb68715aadd626f452e82",
     "name": "Fairbanks",
@@ -8,42 +8,9 @@
     "badges": 20,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x8740085f7f36925743bfb68715aadd626f452e82",
-    "total_tx_count": 5441,
-    "period_tx_count": 8,
+    "total_tx_count": 5446,
+    "period_tx_count": 0,
     "period": "7d",
-    "top_contracts": [
-      {
-        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
-        "name": "Session Key Signing",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 5,
-        "top_method": "0x5a0694d2"
-      },
-      {
-        "address": "0x0000000000000068f116a894984e2db1123eb395",
-        "name": "OpenSea",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xe7acab24"
-      },
-      {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "Abstract Voting",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x7060a227"
-      },
-      {
-        "address": "0xeaadbb1bb3cbbc9a7c12632b8ee9854a428dd9a3",
-        "name": "0xeaad...d9a3",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x"
-      }
-    ]
+    "top_contracts": []
   }
 }

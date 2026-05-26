@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.559Z",
+  "fetched_at": "2026-05-26T10:40:57.662Z",
   "data": {
     "address": "0x33d893d2b910efabada37015efb7ebeddff44e07",
     "name": "3343",
@@ -8,8 +8,8 @@
     "badges": 39,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x33d893d2b910efabada37015efb7ebeddff44e07",
-    "total_tx_count": 44134,
-    "period_tx_count": 10619,
+    "total_tx_count": 48562,
+    "period_tx_count": 10270,
     "period": "30d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 5235,
+        "tx_count": 4991,
         "top_method": "0xf5298aca"
       },
       {
@@ -25,31 +25,31 @@
         "name": "Moody Drops (Claim,NFT)",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 5075,
+        "tx_count": 4865,
         "top_method": "0x16c5aa5e"
+      },
+      {
+        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
+        "name": "Tollan (Gameplay)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 137,
+        "top_method": "0x8708c7fd"
       },
       {
         "address": "0x8f16b5713f412c5de4951aaf678eb8409101f819",
         "name": "Aave V3 Pool",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 63,
+        "tx_count": 54,
         "top_method": "0x69328dec"
-      },
-      {
-        "address": "0x5f8abf7f164fbed5c51f696ddf3c2c17bcbc8fbb",
-        "name": "Cambria (Duel Arena)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 57,
-        "top_method": "0x37d8b79d"
       },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 39,
+        "tx_count": 42,
         "top_method": "0x7060a227"
       },
       {
@@ -57,15 +57,23 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 27,
+        "tx_count": 29,
         "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0x5f8abf7f164fbed5c51f696ddf3c2c17bcbc8fbb",
+        "name": "Cambria (Duel Arena)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 28,
+        "top_method": "0x37d8b79d"
       },
       {
         "address": "0x4237d126713bf1faba29ed8a55a6a0634886e223",
         "name": "Aave V3 Pool",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 14,
+        "tx_count": 15,
         "top_method": "0xbf90f63a"
       },
       {
@@ -73,8 +81,24 @@
         "name": "Onchain Heroes",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 14,
+        "tx_count": 11,
         "top_method": "0xb32820e9"
+      },
+      {
+        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 10,
+        "top_method": "0x12bc3aca"
+      },
+      {
+        "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
+        "name": "0x37d6...1afe",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 10,
+        "top_method": "0x2752571e"
       },
       {
         "address": "0xade40639486a247b5dd1de9cf6cbcf73737a5a35",
@@ -85,44 +109,28 @@
         "top_method": "0xa694fc3a"
       },
       {
-        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
-        "name": "DEPTH Protocol",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 7,
-        "top_method": "0x0962ef79"
-      },
-      {
-        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 5,
-        "top_method": "0x12bc3aca"
-      },
-      {
         "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
         "name": "Onchain Heroes",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 5,
+        "tx_count": 8,
         "top_method": "0x219e0149"
       },
       {
-        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
-        "name": "Tollan (Gameplay)",
-        "category": "Gaming",
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "DEPTH Protocol",
+        "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 5,
-        "top_method": "0x8708c7fd"
+        "tx_count": 6,
+        "top_method": "0x0962ef79"
       },
       {
-        "address": "0xf9d3e237427c84741394c7c2e9cd66f94ea3d4d6",
-        "name": "0xf9d3...d4d6",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 4,
-        "top_method": "0x79a3cf08"
+        "address": "0x125c13e12bd40bc7eb4f129d3f8443091d443b7e",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 5,
+        "top_method": "0x1c4b774b"
       },
       {
         "address": "0xa4890b89dc628bae614780079acc951fb0ecdc5f",
@@ -133,11 +141,19 @@
         "top_method": "0xb5007d1f"
       },
       {
+        "address": "0xf9d3e237427c84741394c7c2e9cd66f94ea3d4d6",
+        "name": "0xf9d3...d4d6",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0x79a3cf08"
+      },
+      {
         "address": "0x92c18c91ad1356ddea429bf5c49949489cea4608",
         "name": "0x92c1...4608",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 3,
+        "tx_count": 2,
         "top_method": "0xa0712d68"
       },
       {
@@ -145,32 +161,16 @@
         "name": "0x92ab...b565",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 3,
+        "tx_count": 2,
         "top_method": "0x095ea7b3"
       },
       {
-        "address": "0xc85ce8ffda27b646d269516b8d0fa6ec2e958b55",
-        "name": "Morpho",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 3,
-        "top_method": "0x8720316d"
-      },
-      {
-        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
-        "name": "Gigaverse",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 3,
-        "top_method": "0x2752571e"
-      },
-      {
-        "address": "0x125c13e12bd40bc7eb4f129d3f8443091d443b7e",
-        "name": "Aborean",
-        "category": "DeFi",
+        "address": "0x0e4ee35190f16efdfd1aa9be802ca546fcce5a81",
+        "name": "Bearish",
+        "category": "NFT",
         "is_unknown": false,
         "tx_count": 2,
-        "top_method": "0x1c4b774b"
+        "top_method": "0x2e17de78"
       }
     ]
   }

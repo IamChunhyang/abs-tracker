@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.471Z",
+  "fetched_at": "2026-05-26T10:40:57.280Z",
   "data": {
     "address": "0x6c55280706ddc3477b80fe6e2f1e5be479a74182",
     "name": "Breezeonhodl",
@@ -8,81 +8,17 @@
     "badges": 38,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x6c55280706ddc3477b80fe6e2f1e5be479a74182",
-    "total_tx_count": 14786,
-    "period_tx_count": 30,
+    "total_tx_count": 14792,
+    "period_tx_count": 1,
     "period": "7d",
     "top_contracts": [
-      {
-        "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
-        "name": "Moody Drops (Claim,NFT)",
-        "category": "Rewards",
-        "is_unknown": false,
-        "tx_count": 8,
-        "top_method": "0x16c5aa5e"
-      },
-      {
-        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
-        "name": "Moody Drops (Use)",
-        "category": "Arcade",
-        "is_unknown": false,
-        "tx_count": 8,
-        "top_method": "0xf5298aca"
-      },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 4,
+        "tx_count": 1,
         "top_method": "0x7060a227"
-      },
-      {
-        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
-        "name": "Session Key Signing",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 3,
-        "top_method": "0x5a0694d2"
-      },
-      {
-        "address": "0x0000000000000068f116a894984e2db1123eb395",
-        "name": "OpenSea",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0x87201b41"
-      },
-      {
-        "address": "0x2318184138bc0fddd99da594b0c2eacc63d09754",
-        "name": "0x2318...9754",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0xaac9aaa7"
-      },
-      {
-        "address": "0xec27d2237432d06981e1f18581494661517e1bd3",
-        "name": "Xeet",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xa22cb465"
-      },
-      {
-        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x12bc3aca"
-      },
-      {
-        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
-        "name": "DEPTH Protocol",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x0962ef79"
       }
     ]
   }

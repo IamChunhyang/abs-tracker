@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.551Z",
+  "fetched_at": "2026-05-26T10:40:57.647Z",
   "data": {
     "address": "0x28cfe81381060ea23d7baa72b51b7116f99d9bb1",
     "name": "jsteezy",
@@ -8,9 +8,26 @@
     "badges": 14,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x28cfe81381060ea23d7baa72b51b7116f99d9bb1",
-    "total_tx_count": 9993,
-    "period_tx_count": 0,
+    "total_tx_count": 10025,
+    "period_tx_count": 2,
     "period": "1d",
-    "top_contracts": []
+    "top_contracts": [
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x2ddf2129a55cf132e580cc5d69fad1de3d213bba",
+        "name": "0x2ddf...3bba",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      }
+    ]
   }
 }

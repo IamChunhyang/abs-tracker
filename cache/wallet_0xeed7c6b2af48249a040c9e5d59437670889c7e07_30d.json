@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.606Z",
+  "fetched_at": "2026-05-26T10:40:57.932Z",
   "data": {
     "address": "0xeed7c6b2af48249a040c9e5d59437670889c7e07",
     "name": "lilwassie",
@@ -8,8 +8,8 @@
     "badges": 37,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xeed7c6b2af48249a040c9e5d59437670889c7e07",
-    "total_tx_count": 79674,
-    "period_tx_count": 3195,
+    "total_tx_count": 154516,
+    "period_tx_count": 75142,
     "period": "30d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Rugpull Bakery (Baking)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 2615,
+        "tx_count": 74548,
         "top_method": "0x"
       },
       {
@@ -25,31 +25,15 @@
         "name": "DEX Voter",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 90,
+        "tx_count": 98,
         "top_method": "0x7ac09bf7"
-      },
-      {
-        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
-        "name": "Gigaverse",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 83,
-        "top_method": "0x807ef825"
-      },
-      {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "Abstract Voting",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 44,
-        "top_method": "0x7060a227"
       },
       {
         "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
         "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 39,
+        "tx_count": 63,
         "top_method": "0x807ef825"
       },
       {
@@ -57,15 +41,23 @@
         "name": "OpenSea",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 36,
+        "tx_count": 41,
         "top_method": "0x87201b41"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 36,
+        "top_method": "0x7060a227"
       },
       {
         "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 33,
+        "tx_count": 32,
         "top_method": "0x12bc3aca"
       },
       {
@@ -73,7 +65,7 @@
         "name": "DEPTH Protocol",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 33,
+        "tx_count": 32,
         "top_method": "0x0962ef79"
       },
       {
@@ -81,8 +73,16 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 23,
+        "tx_count": 31,
         "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
+        "name": "Rugpull Bakery (Boost&Rug)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 26,
+        "top_method": "0xb3648e8f"
       },
       {
         "address": "0x36cbf77d8f8355d7a077d670c29e290e41367072",
@@ -93,12 +93,20 @@
         "top_method": "0x379607f5"
       },
       {
-        "address": "0xb92fe925dc43a0ecde6c8b1a2709c170ec4fff4f",
-        "name": "Relay (Contract)",
-        "category": "Infra",
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Gigaverse",
+        "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 12,
-        "top_method": "0xcd6e13f7"
+        "tx_count": 16,
+        "top_method": "0x807ef825"
+      },
+      {
+        "address": "0x14f926d2751f4bb0200e9b016b6ae4a1e4b207bd",
+        "name": "0x14f9...07bd",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 13,
+        "top_method": "0xa22cb465"
       },
       {
         "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
@@ -117,14 +125,6 @@
         "top_method": "0xf5298aca"
       },
       {
-        "address": "0x27edd16ee56958fddcba08947f12c43ddec2b20c",
-        "name": "Death Fun",
-        "category": "Arcade",
-        "is_unknown": false,
-        "tx_count": 10,
-        "top_method": "0x001308d8"
-      },
-      {
         "address": "0x911dbdd9841b53ee5a08170109daf7ad82684108",
         "name": "Shiny",
         "category": "NFT",
@@ -141,12 +141,20 @@
         "top_method": "0xf23a27bd"
       },
       {
-        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
-        "name": "WETH9",
-        "category": "Others",
-        "is_unknown": false,
+        "address": "0x33ee11ce309854a45b65368c078616abcb5c6e3d",
+        "name": "0x33ee...6e3d",
+        "category": "Unknown",
+        "is_unknown": true,
         "tx_count": 8,
-        "top_method": "0x2e1a7d4d"
+        "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0x686bfe70f061507065f3e939c12ac9ee5a564dcf",
+        "name": "0x686b...4dcf",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 6,
+        "top_method": "0xa22cb465"
       },
       {
         "address": "0x219260d8470d8211ad66eb69206bdf72a4218b65",
@@ -154,23 +162,15 @@
         "category": "Gaming",
         "is_unknown": false,
         "tx_count": 6,
-        "top_method": "0xf7345f9c"
+        "top_method": "0x3c28402b"
       },
       {
-        "address": "0xca4a7c4a191de94af2c91487d0be34a0205b89ab",
-        "name": "NFT Staking",
-        "category": "NFT",
+        "address": "0xb92fe925dc43a0ecde6c8b1a2709c170ec4fff4f",
+        "name": "Relay (Contract)",
+        "category": "Infra",
         "is_unknown": false,
         "tx_count": 6,
-        "top_method": "0x05202ac1"
-      },
-      {
-        "address": "0xba3274ff65466bdc217745dc276394da4ffe02b7",
-        "name": "0xba32...02b7",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 5,
-        "top_method": "0xa83cbaa3"
+        "top_method": "0xcd6e13f7"
       }
     ]
   }

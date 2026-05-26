@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.649Z",
+  "fetched_at": "2026-05-26T10:40:58.057Z",
   "data": {
     "address": "0x5faff9354a1a98005faf78d7ee98f7a0098c5534",
     "name": "SleepWin",
@@ -8,7 +8,7 @@
     "badges": 17,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x5faff9354a1a98005faf78d7ee98f7a0098c5534",
-    "total_tx_count": 2243,
+    "total_tx_count": 2255,
     "period_tx_count": 0,
     "period": "1d",
     "top_contracts": []

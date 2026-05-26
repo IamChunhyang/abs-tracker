@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.465Z",
+  "fetched_at": "2026-05-26T10:40:57.234Z",
   "data": {
     "address": "0x917a67de1a4e29d8820e1aeafd1e7e53f19f2df7",
     "name": "coffee",
@@ -8,26 +8,9 @@
     "badges": 39,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x917a67de1a4e29d8820e1aeafd1e7e53f19f2df7",
-    "total_tx_count": 35531,
-    "period_tx_count": 3,
+    "total_tx_count": 35620,
+    "period_tx_count": 0,
     "period": "1d",
-    "top_contracts": [
-      {
-        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
-        "name": "DEPTH Protocol",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0x0962ef79"
-      },
-      {
-        "address": "0x29575c57db2212052b8402f82140c6f15e62c1e7",
-        "name": "0x2957...c1e7",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x"
-      }
-    ]
+    "top_contracts": []
   }
 }

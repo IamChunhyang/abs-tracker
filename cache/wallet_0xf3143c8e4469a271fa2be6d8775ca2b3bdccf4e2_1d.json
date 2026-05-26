@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.546Z",
+  "fetched_at": "2026-05-26T10:40:57.638Z",
   "data": {
     "address": "0xf3143c8e4469a271fa2be6d8775ca2b3bdccf4e2",
     "name": "RRPCX",
@@ -8,8 +8,8 @@
     "badges": 41,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xf3143c8e4469a271fa2be6d8775ca2b3bdccf4e2",
-    "total_tx_count": 8862,
-    "period_tx_count": 3,
+    "total_tx_count": 8907,
+    "period_tx_count": 1,
     "period": "1d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 3,
+        "tx_count": 1,
         "top_method": "0x7060a227"
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.488Z",
+  "fetched_at": "2026-05-26T10:40:57.355Z",
   "data": {
     "address": "0x1269e524a4fea18f23b0280e540555dc08181ef7",
     "name": "Paradisiak",
@@ -8,8 +8,8 @@
     "badges": 33,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x1269e524a4fea18f23b0280e540555dc08181ef7",
-    "total_tx_count": 4428,
-    "period_tx_count": 6,
+    "total_tx_count": 4437,
+    "period_tx_count": 2,
     "period": "7d",
     "top_contracts": [
       {
@@ -17,16 +17,16 @@
         "name": "DEX Voter",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 2,
+        "tx_count": 1,
         "top_method": "0x7ac09bf7"
       },
       {
-        "address": "0xa171bb8b0805ddccc8721ccb1e13f6dd09633cfc",
-        "name": "Aborean",
-        "category": "DeFi",
+        "address": "0x36cbf77d8f8355d7a077d670c29e290e41367072",
+        "name": "Rewards Claim",
+        "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0xc00007b0"
+        "tx_count": 1,
+        "top_method": "0x379607f5"
       }
     ]
   }

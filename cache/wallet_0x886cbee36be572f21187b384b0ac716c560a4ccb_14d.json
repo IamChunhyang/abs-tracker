@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.459Z",
+  "fetched_at": "2026-05-26T10:40:57.217Z",
   "data": {
     "address": "0x886cbee36be572f21187b384b0ac716c560a4ccb",
     "name": "PudgyGang",
@@ -8,8 +8,8 @@
     "badges": 27,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x886cbee36be572f21187b384b0ac716c560a4ccb",
-    "total_tx_count": 6574,
-    "period_tx_count": 15,
+    "total_tx_count": 6595,
+    "period_tx_count": 21,
     "period": "14d",
     "top_contracts": [
       {
@@ -17,8 +17,24 @@
         "name": "DEX Voter",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 12,
+        "tx_count": 10,
         "top_method": "0x7ac09bf7"
+      },
+      {
+        "address": "0x36cbf77d8f8355d7a077d670c29e290e41367072",
+        "name": "Rewards Claim",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x379607f5"
+      },
+      {
+        "address": "0x5fedb9a131f798e986109dd89942c17c25c81de3",
+        "name": "0x5fed...1de3",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x42842e0e"
       }
     ]
   }

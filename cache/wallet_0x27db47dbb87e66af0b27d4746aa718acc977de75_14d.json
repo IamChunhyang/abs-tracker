@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.521Z",
+  "fetched_at": "2026-05-26T10:40:57.501Z",
   "data": {
     "address": "0x27db47dbb87e66af0b27d4746aa718acc977de75",
     "name": "Xen",
@@ -8,18 +8,10 @@
     "badges": 37,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x27db47dbb87e66af0b27d4746aa718acc977de75",
-    "total_tx_count": 23090,
-    "period_tx_count": 52,
+    "total_tx_count": 23135,
+    "period_tx_count": 39,
     "period": "14d",
     "top_contracts": [
-      {
-        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
-        "name": "DEX Voter",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 15,
-        "top_method": "0x7ac09bf7"
-      },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",
@@ -27,6 +19,14 @@
         "is_unknown": false,
         "tx_count": 7,
         "top_method": "0x7060a227"
+      },
+      {
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 5,
+        "top_method": "0x7ac09bf7"
       },
       {
         "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
@@ -41,40 +41,56 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 2,
+        "tx_count": 3,
         "top_method": "0x5a0694d2"
       },
       {
-        "address": "0xad1eca41e6f772be3cb5a48a6141f9bcc1af9f7c",
-        "name": "Uniswap",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0x791ac947"
-      },
-      {
-        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x12bc3aca"
-      },
-      {
-        "address": "0xf3d2e788c24497e395197329c82117bb8d663175",
-        "name": "0xf3d2...3175",
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
         "category": "Unknown",
         "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x4b61cd6f"
+      },
+      {
+        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "name": "Signature Minter",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x29efcf80"
+      },
+      {
+        "address": "0x2ddf2129a55cf132e580cc5d69fad1de3d213bba",
+        "name": "0x2ddf...3bba",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xb6b55f25"
+      },
+      {
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "Others",
+        "is_unknown": false,
         "tx_count": 1,
         "top_method": "0x095ea7b3"
       },
       {
-        "address": "0x4cd00e387622c35bddb9b4c962c136462338bc31",
-        "name": "Relay (Contract)",
-        "category": "Infra",
+        "address": "0x27b04370d8087e714a9f557c1eff7901cea6bb63",
+        "name": "Aborean",
+        "category": "DeFi",
         "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0x49290c1c"
+        "top_method": "0xa22cb465"
+      },
+      {
+        "address": "0x59eec556cef447e13edf4bfd3d4433d8dad8a7a5",
+        "name": "0x59ee...a7a5",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xa22cb465"
       }
     ]
   }

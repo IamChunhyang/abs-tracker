@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.550Z",
+  "fetched_at": "2026-05-26T10:40:57.645Z",
   "data": {
     "address": "0x42d55a413bd1d547e41a4c948c3a808ee8b6b73d",
     "name": "LucasNetz",
@@ -8,9 +8,18 @@
     "badges": 22,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x42d55a413bd1d547e41a4c948c3a808ee8b6b73d",
-    "total_tx_count": 3561,
-    "period_tx_count": 0,
+    "total_tx_count": 3575,
+    "period_tx_count": 1,
     "period": "1d",
-    "top_contracts": []
+    "top_contracts": [
+      {
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x4b61cd6f"
+      }
+    ]
   }
 }

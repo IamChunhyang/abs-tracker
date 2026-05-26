@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.483Z",
+  "fetched_at": "2026-05-26T10:40:57.346Z",
   "data": {
     "address": "0xe55fc1366a59462b5bf0d269a977be9d5488d627",
     "name": "debuddha",
@@ -8,8 +8,8 @@
     "badges": 37,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xe55fc1366a59462b5bf0d269a977be9d5488d627",
-    "total_tx_count": 3237,
-    "period_tx_count": 21,
+    "total_tx_count": 3261,
+    "period_tx_count": 17,
     "period": "14d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 16,
+        "tx_count": 11,
         "top_method": "0x7060a227"
       },
       {
@@ -29,12 +29,20 @@
         "top_method": "0x5a0694d2"
       },
       {
-        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
-        "name": "Portal Proxy",
-        "category": "Infra",
+        "address": "0xf724aec8d4a4c88f4b475d412b1f50dc35c4ae3e",
+        "name": "0xf724...ae3e",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x5ddc1a98"
+      },
+      {
+        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "name": "Signature Minter",
+        "category": "NFT",
         "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0x"
+        "top_method": "0x29efcf80"
       }
     ]
   }

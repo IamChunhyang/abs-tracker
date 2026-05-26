@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.458Z",
+  "fetched_at": "2026-05-26T10:40:57.216Z",
   "data": {
     "address": "0x886cbee36be572f21187b384b0ac716c560a4ccb",
     "name": "PudgyGang",
@@ -8,7 +8,7 @@
     "badges": 27,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x886cbee36be572f21187b384b0ac716c560a4ccb",
-    "total_tx_count": 6574,
+    "total_tx_count": 6595,
     "period_tx_count": 0,
     "period": "1d",
     "top_contracts": []

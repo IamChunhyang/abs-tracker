@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.556Z",
+  "fetched_at": "2026-05-26T10:40:57.656Z",
   "data": {
     "address": "0xb2d77fe350edd06f23f48cc29b2432bc94d49d56",
     "name": "TrieuTiger",
@@ -8,9 +8,34 @@
     "badges": 32,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xb2d77fe350edd06f23f48cc29b2432bc94d49d56",
-    "total_tx_count": 11282,
-    "period_tx_count": 8,
+    "total_tx_count": 11288,
+    "period_tx_count": 5,
     "period": "14d",
-    "top_contracts": []
+    "top_contracts": [
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x4a24567a6c673cd1b79b6ad97c79085b812522a3",
+        "name": "0x4a24...22a3",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "name": "Signature Minter",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x29efcf80"
+      }
+    ]
   }
 }

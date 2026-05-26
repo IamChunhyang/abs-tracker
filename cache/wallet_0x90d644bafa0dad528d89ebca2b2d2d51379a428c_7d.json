@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.449Z",
+  "fetched_at": "2026-05-26T10:40:57.169Z",
   "data": {
     "address": "0x90d644bafa0dad528d89ebca2b2d2d51379a428c",
     "name": "Rebornmf",
@@ -8,105 +8,49 @@
     "badges": 40,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x90d644bafa0dad528d89ebca2b2d2d51379a428c",
-    "total_tx_count": 36598,
-    "period_tx_count": 43,
+    "total_tx_count": 36634,
+    "period_tx_count": 12,
     "period": "7d",
     "top_contracts": [
-      {
-        "address": "0x458422e93bf89a109afc4fac00aacf2f18fcf541",
-        "name": "DYLI",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 6,
-        "top_method": "0x7f58b4bf"
-      },
       {
         "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
         "name": "DEX Voter",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 4,
+        "tx_count": 6,
         "top_method": "0x7ac09bf7"
       },
       {
-        "address": "0x36cbf77d8f8355d7a077d670c29e290e41367072",
-        "name": "Rewards Claim",
-        "category": "Rewards",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0x379607f5"
-      },
-      {
-        "address": "0x42ab8092bfb701f34c47273df83d90d8169ad982",
-        "name": "Free Managed Reward",
-        "category": "Rewards",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0xf5f8d365"
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x4b61cd6f"
       },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 2,
+        "tx_count": 1,
         "top_method": "0x7060a227"
       },
       {
-        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
-        "name": "Session Key Signing",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x5a0694d2"
-      },
-      {
-        "address": "0xe34be58e965a90ff3cbd42738651a630fb2552b4",
-        "name": "0xe34b...52b4",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0xb6b55f25"
-      },
-      {
-        "address": "0xa4890b89dc628bae614780079acc951fb0ecdc5f",
+        "address": "0xa171bb8b0805ddccc8721ccb1e13f6dd09633cfc",
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0xb5007d1f"
+        "top_method": "0xc00007b0"
       },
       {
-        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
-        "name": "Aborean",
-        "category": "DeFi",
+        "address": "0x36cbf77d8f8355d7a077d670c29e290e41367072",
+        "name": "Rewards Claim",
+        "category": "Rewards",
         "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0x903638a4"
-      },
-      {
-        "address": "0xc74d5002c10c13d2ad258b4584690829387f84dc",
-        "name": "DYLI",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xf7344a59"
-      },
-      {
-        "address": "0x2318184138bc0fddd99da594b0c2eacc63d09754",
-        "name": "0x2318...9754",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0xaac9aaa7"
-      },
-      {
-        "address": "0xec27d2237432d06981e1f18581494661517e1bd3",
-        "name": "Xeet",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xa22cb465"
+        "top_method": "0x379607f5"
       }
     ]
   }

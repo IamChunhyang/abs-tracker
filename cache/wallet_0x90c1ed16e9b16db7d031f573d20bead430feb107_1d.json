@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.628Z",
+  "fetched_at": "2026-05-26T10:40:57.981Z",
   "data": {
     "address": "0x90c1ed16e9b16db7d031f573d20bead430feb107",
     "name": "Jablko",
@@ -8,42 +8,10 @@
     "badges": 27,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x90c1ed16e9b16db7d031f573d20bead430feb107",
-    "total_tx_count": 31574,
-    "period_tx_count": 16,
+    "total_tx_count": 41777,
+    "period_tx_count": 3,
     "period": "1d",
     "top_contracts": [
-      {
-        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
-        "name": "Tollan (Gameplay)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 6,
-        "top_method": "0x8708c7fd"
-      },
-      {
-        "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
-        "name": "0x37d6...1afe",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 4,
-        "top_method": "0x305a67a8"
-      },
-      {
-        "address": "0x448557eff9f4745a85b7c4e74e2aa9c7e9c655de",
-        "name": "0x4485...55de",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 2,
-        "top_method": "0x5dc403d6"
-      },
-      {
-        "address": "0x5fedb9a131f798e986109dd89942c17c25c81de3",
-        "name": "0x5fed...1de3",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0xa22cb465"
-      },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",
@@ -53,12 +21,12 @@
         "top_method": "0x7060a227"
       },
       {
-        "address": "0x13a59f08f11e38e4766bf206a31473a510c83475",
-        "name": "0x13a5...3475",
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
         "category": "Unknown",
         "is_unknown": true,
         "tx_count": 1,
-        "top_method": "0xd64abc3c"
+        "top_method": "0x4b61cd6f"
       }
     ]
   }

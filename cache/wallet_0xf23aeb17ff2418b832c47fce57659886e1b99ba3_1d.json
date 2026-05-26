@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.549Z",
+  "fetched_at": "2026-05-26T10:40:57.643Z",
   "data": {
     "address": "0xf23aeb17ff2418b832c47fce57659886e1b99ba3",
     "name": "Shakejr",
@@ -8,25 +8,25 @@
     "badges": 25,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xf23aeb17ff2418b832c47fce57659886e1b99ba3",
-    "total_tx_count": 6073,
-    "period_tx_count": 2,
+    "total_tx_count": 6439,
+    "period_tx_count": 33,
     "period": "1d",
     "top_contracts": [
-      {
-        "address": "0xaf4653d87729c0ce7187fb9e63fb8e2e5d2bf1a1",
-        "name": "0xaf46...f1a1",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x9ea900e8"
-      },
       {
         "address": "0x458422e93bf89a109afc4fac00aacf2f18fcf541",
         "name": "DYLI",
         "category": "NFT",
         "is_unknown": false,
+        "tx_count": 32,
+        "top_method": "0x7f58b4bf"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0xa22cb465"
+        "top_method": "0x7060a227"
       }
     ]
   }

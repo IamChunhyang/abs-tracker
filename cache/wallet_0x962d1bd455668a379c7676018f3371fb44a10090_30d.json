@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.501Z",
+  "fetched_at": "2026-05-26T10:40:57.431Z",
   "data": {
     "address": "0x962d1bd455668a379c7676018f3371fb44a10090",
     "name": "Shaz",
@@ -8,16 +8,24 @@
     "badges": 40,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x962d1bd455668a379c7676018f3371fb44a10090",
-    "total_tx_count": 59473,
-    "period_tx_count": 8450,
+    "total_tx_count": 64467,
+    "period_tx_count": 8590,
     "period": "30d",
     "top_contracts": [
+      {
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Rugpull Bakery (Baking)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 2859,
+        "top_method": "0x"
+      },
       {
         "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 3483,
+        "tx_count": 2336,
         "top_method": "0xf5298aca"
       },
       {
@@ -25,31 +33,15 @@
         "name": "Moody Drops (Claim,NFT)",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 3414,
+        "tx_count": 2231,
         "top_method": "0x16c5aa5e"
-      },
-      {
-        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
-        "name": "Rugpull Bakery (Baking)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 619,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "Abstract Voting",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 168,
-        "top_method": "0x7060a227"
       },
       {
         "address": "0x5c9ce8be7aa92fd089be31b154be47a0e59d4282",
         "name": "Shiny",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 119,
+        "tx_count": 193,
         "top_method": "0xf23a27bd"
       },
       {
@@ -57,15 +49,23 @@
         "name": "Shiny",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 118,
+        "tx_count": 189,
         "top_method": "0x92971a31"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 158,
+        "top_method": "0x7060a227"
       },
       {
         "address": "0x55e1c2da46c36e18a956151ec1b4b2f39bd8571a",
         "name": "Shiny",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 72,
+        "tx_count": 78,
         "top_method": "0xd8182233"
       },
       {
@@ -73,7 +73,7 @@
         "name": "Rugpull Bakery",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 63,
+        "tx_count": 65,
         "top_method": "0xb27a78e3"
       },
       {
@@ -81,7 +81,7 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 60,
+        "tx_count": 59,
         "top_method": "0x5a0694d2"
       },
       {
@@ -89,56 +89,80 @@
         "name": "Kona",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 52,
+        "tx_count": 49,
         "top_method": "0x3ac795de"
       },
       {
-        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
-        "name": "Gigaverse",
+        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
+        "name": "Tollan (Gameplay)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 45,
-        "top_method": "0x807ef825"
+        "tx_count": 44,
+        "top_method": "0x8708c7fd"
       },
       {
         "address": "0x4237d126713bf1faba29ed8a55a6a0634886e223",
         "name": "Aave V3 Pool",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 25,
+        "tx_count": 24,
         "top_method": "0xbf90f63a"
-      },
-      {
-        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
-        "name": "Portal Proxy",
-        "category": "Infra",
-        "is_unknown": false,
-        "tx_count": 22,
-        "top_method": "0x"
-      },
-      {
-        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
-        "name": "DEPTH Protocol",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 21,
-        "top_method": "0x0962ef79"
-      },
-      {
-        "address": "0xb3713f00135db530cdc097d375a25813807e256c",
-        "name": "Cambria (Duel Arena)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 15,
-        "top_method": "0xcce7ec13"
       },
       {
         "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
         "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 11,
+        "tx_count": 21,
         "top_method": "0x2752571e"
+      },
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "DEPTH Protocol",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 20,
+        "top_method": "0x0962ef79"
+      },
+      {
+        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
+        "name": "Portal Proxy",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 18,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x458422e93bf89a109afc4fac00aacf2f18fcf541",
+        "name": "DYLI",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 18,
+        "top_method": "0x7f58b4bf"
+      },
+      {
+        "address": "0x268031de8363401d61b6a256bea009bb57277619",
+        "name": "Gacha Mall",
+        "category": "Arcade",
+        "is_unknown": false,
+        "tx_count": 16,
+        "top_method": "0x581644ae"
+      },
+      {
+        "address": "0x516dce03bbb9d686e567a15ba3b7d061e394ab7a",
+        "name": "Gacha PvP",
+        "category": "Arcade",
+        "is_unknown": false,
+        "tx_count": 16,
+        "top_method": "0x107cc1ec"
+      },
+      {
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "Others",
+        "is_unknown": false,
+        "tx_count": 11,
+        "top_method": "0x095ea7b3"
       },
       {
         "address": "0x1859072d67fdd26c8782c90a1e4f078901c0d763",
@@ -147,30 +171,6 @@
         "is_unknown": false,
         "tx_count": 10,
         "top_method": "0xf01d14b2"
-      },
-      {
-        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
-        "name": "Tollan (Gameplay)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 8,
-        "top_method": "0x8708c7fd"
-      },
-      {
-        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
-        "name": "USDC",
-        "category": "Others",
-        "is_unknown": false,
-        "tx_count": 6,
-        "top_method": "0x095ea7b3"
-      },
-      {
-        "address": "0x5f8abf7f164fbed5c51f696ddf3c2c17bcbc8fbb",
-        "name": "Cambria (Duel Arena)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 6,
-        "top_method": "0xb7a2a781"
       }
     ]
   }

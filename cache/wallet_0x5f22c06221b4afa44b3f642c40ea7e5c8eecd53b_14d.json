@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.536Z",
+  "fetched_at": "2026-05-26T10:40:57.585Z",
   "data": {
     "address": "0x5f22c06221b4afa44b3f642c40ea7e5c8eecd53b",
     "name": "nathnnfts",
@@ -8,9 +8,18 @@
     "badges": 31,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x5f22c06221b4afa44b3f642c40ea7e5c8eecd53b",
-    "total_tx_count": 16235,
-    "period_tx_count": 3,
+    "total_tx_count": 16241,
+    "period_tx_count": 6,
     "period": "14d",
-    "top_contracts": []
+    "top_contracts": [
+      {
+        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "name": "Signature Minter",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x29efcf80"
+      }
+    ]
   }
 }

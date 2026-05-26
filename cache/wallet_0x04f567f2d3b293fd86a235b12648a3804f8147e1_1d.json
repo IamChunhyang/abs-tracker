@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.565Z",
+  "fetched_at": "2026-05-26T10:40:57.707Z",
   "data": {
     "address": "0x04f567f2d3b293fd86a235b12648a3804f8147e1",
     "name": "guccii",
@@ -8,32 +8,24 @@
     "badges": 40,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x04f567f2d3b293fd86a235b12648a3804f8147e1",
-    "total_tx_count": 76127,
-    "period_tx_count": 67,
+    "total_tx_count": 76565,
+    "period_tx_count": 5,
     "period": "1d",
     "top_contracts": [
       {
-        "address": "0x5f8abf7f164fbed5c51f696ddf3c2c17bcbc8fbb",
-        "name": "Cambria (Duel Arena)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 48,
-        "top_method": "0xce55803f"
-      },
-      {
-        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
-        "name": "Tollan (Gameplay)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 12,
-        "top_method": "0x8708c7fd"
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x4b61cd6f"
       },
       {
         "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",
         "name": "Onchain Heroes",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 2,
+        "tx_count": 1,
         "top_method": "0xb32820e9"
       },
       {
@@ -41,7 +33,7 @@
         "name": "Onchain Heroes",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 2,
+        "tx_count": 1,
         "top_method": "0x01608d9c"
       },
       {
@@ -51,14 +43,6 @@
         "is_unknown": false,
         "tx_count": 1,
         "top_method": "0x7060a227"
-      },
-      {
-        "address": "0xe8bc685af85c96eed4a6235eb11930df48121a81",
-        "name": "0xe8bc...1a81",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x"
       }
     ]
   }

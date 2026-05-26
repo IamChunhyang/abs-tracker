@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.457Z",
+  "fetched_at": "2026-05-26T10:40:57.211Z",
   "data": {
     "address": "0xc3ae9ac69d672368539413235938277ce19fc270",
     "name": "Bollin",
@@ -8,8 +8,8 @@
     "badges": 41,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xc3ae9ac69d672368539413235938277ce19fc270",
-    "total_tx_count": 87611,
-    "period_tx_count": 167,
+    "total_tx_count": 87744,
+    "period_tx_count": 213,
     "period": "30d",
     "top_contracts": [
       {
@@ -21,19 +21,27 @@
         "top_method": "0x7060a227"
       },
       {
-        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
-        "name": "Gigaverse",
+        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
+        "name": "Tollan (Gameplay)",
         "category": "Gaming",
         "is_unknown": false,
         "tx_count": 40,
-        "top_method": "0x807ef825"
+        "top_method": "0x8708c7fd"
+      },
+      {
+        "address": "0x920fefb4e92dbba0393ba233cecb1051a0dde25c",
+        "name": "0x920f...e25c",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 38,
+        "top_method": "0xdafa1d2d"
       },
       {
         "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 12,
+        "tx_count": 16,
         "top_method": "0x5a0694d2"
       },
       {
@@ -41,48 +49,32 @@
         "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 9,
+        "tx_count": 15,
         "top_method": "0x807ef825"
       },
       {
-        "address": "0xb60fa32c8041c8b0f56220420b56ce6b86decde9",
-        "name": "Ruyui Staking",
-        "category": "Staking",
+        "address": "0xa688a6a53a26b6f0702a9a518482151415be1ff7",
+        "name": "Tollan (Buy,NFT Claim)",
+        "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 8,
-        "top_method": "0x0fbf0a93"
+        "tx_count": 7,
+        "top_method": "0x"
       },
       {
         "address": "0xca4a7c4a191de94af2c91487d0be34a0205b89ab",
         "name": "NFT Staking",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 6,
+        "tx_count": 5,
         "top_method": "0xfe939afc"
       },
       {
-        "address": "0x920fefb4e92dbba0393ba233cecb1051a0dde25c",
-        "name": "0x920f...e25c",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 5,
-        "top_method": "0xdafa1d2d"
-      },
-      {
-        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
-        "name": "Tollan (Gameplay)",
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Gigaverse",
         "category": "Gaming",
         "is_unknown": false,
         "tx_count": 5,
-        "top_method": "0x8708c7fd"
-      },
-      {
-        "address": "0x9ce89a1303f2d52a9d7840fcd5a6870c2a8550c0",
-        "name": "0x9ce8...50c0",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 4,
-        "top_method": "0xa22cb465"
+        "top_method": "0x807ef825"
       },
       {
         "address": "0xf724aec8d4a4c88f4b475d412b1f50dc35c4ae3e",
@@ -101,12 +93,20 @@
         "top_method": "0x87201b41"
       },
       {
-        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
-        "name": "WETH9",
-        "category": "Others",
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
+        "category": "Abstract",
         "is_unknown": false,
         "tx_count": 3,
-        "top_method": "0x"
+        "top_method": "0x370fb5fa"
+      },
+      {
+        "address": "0x42ab8092bfb701f34c47273df83d90d8169ad982",
+        "name": "Free Managed Reward",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0xf5f8d365"
       },
       {
         "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
@@ -117,44 +117,60 @@
         "top_method": "0xf5298aca"
       },
       {
-        "address": "0xa688a6a53a26b6f0702a9a518482151415be1ff7",
-        "name": "Tollan (Buy,NFT Claim)",
-        "category": "Gaming",
+        "address": "0x2ddf2129a55cf132e580cc5d69fad1de3d213bba",
+        "name": "0x2ddf...3bba",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0xb6b55f25"
+      },
+      {
+        "address": "0x27b04370d8087e714a9f557c1eff7901cea6bb63",
+        "name": "Aborean",
+        "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 3,
+        "tx_count": 2,
+        "top_method": "0xd1c2babb"
+      },
+      {
+        "address": "0x9a71f27b1ee40ab7ff2c84a755ac9d8a4b17f572",
+        "name": "0x9a71...f572",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0xc00007b0"
+      },
+      {
+        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
+        "name": "WETH9",
+        "category": "Others",
+        "is_unknown": false,
+        "tx_count": 2,
         "top_method": "0x"
       },
       {
-        "address": "0x89e9d9b7d87591875359247f7d8eb786e7ea6910",
-        "name": "Kona",
+        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "name": "Signature Minter",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x29efcf80"
+      },
+      {
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "Others",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0xa4890b89dc628bae614780079acc951fb0ecdc5f",
+        "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0x3ac795de"
-      },
-      {
-        "address": "0x219260d8470d8211ad66eb69206bdf72a4218b65",
-        "name": "Onchain Heroes",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xf7345f9c"
-      },
-      {
-        "address": "0x7c47ea32fd27d1a74fc6e9f31ce8162e6ce070eb",
-        "name": "Onchain Heroes",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xa22cb465"
-      },
-      {
-        "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
-        "name": "Onchain Heroes",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x219e0149"
+        "top_method": "0xac9650d8"
       }
     ]
   }

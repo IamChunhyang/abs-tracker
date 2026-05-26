@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.495Z",
+  "fetched_at": "2026-05-26T10:40:57.388Z",
   "data": {
     "address": "0x0804f0d4f5d3794539af6a8a8a6a6da31383bb20",
     "name": "Brighty",
@@ -8,65 +8,33 @@
     "badges": 37,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x0804f0d4f5d3794539af6a8a8a6a6da31383bb20",
-    "total_tx_count": 8292,
-    "period_tx_count": 64,
+    "total_tx_count": 8380,
+    "period_tx_count": 27,
     "period": "7d",
     "top_contracts": [
       {
-        "address": "0x911dbdd9841b53ee5a08170109daf7ad82684108",
+        "address": "0x5c9ce8be7aa92fd089be31b154be47a0e59d4282",
         "name": "Shiny",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 20,
-        "top_method": "0x92971a31"
+        "tx_count": 4,
+        "top_method": "0xf23a27bd"
+      },
+      {
+        "address": "0x4cd00e387622c35bddb9b4c962c136462338bc31",
+        "name": "Relay (Contract)",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x49290c1c"
       },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 9,
-        "top_method": "0x7060a227"
-      },
-      {
-        "address": "0x5c9ce8be7aa92fd089be31b154be47a0e59d4282",
-        "name": "Shiny",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 7,
-        "top_method": "0xf23a27bd"
-      },
-      {
-        "address": "0x0000000000000068f116a894984e2db1123eb395",
-        "name": "OpenSea",
-        "category": "NFT",
-        "is_unknown": false,
         "tx_count": 3,
-        "top_method": "0x87201b41"
-      },
-      {
-        "address": "0xc74d5002c10c13d2ad258b4584690829387f84dc",
-        "name": "DYLI",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0xf7344a59"
-      },
-      {
-        "address": "0x458422e93bf89a109afc4fac00aacf2f18fcf541",
-        "name": "DYLI",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0x7f58b4bf"
-      },
-      {
-        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
-        "name": "Session Key Signing",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0x5a0694d2"
+        "top_method": "0x7060a227"
       },
       {
         "address": "0x55e1c2da46c36e18a956151ec1b4b2f39bd8571a",
@@ -77,12 +45,28 @@
         "top_method": "0xd8182233"
       },
       {
-        "address": "0x4cd00e387622c35bddb9b4c962c136462338bc31",
-        "name": "Relay (Contract)",
-        "category": "Infra",
+        "address": "0x911dbdd9841b53ee5a08170109daf7ad82684108",
+        "name": "Shiny",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x92971a31"
+      },
+      {
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "Others",
         "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0x49290c1c"
+        "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Signing",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x5a0694d2"
       }
     ]
   }

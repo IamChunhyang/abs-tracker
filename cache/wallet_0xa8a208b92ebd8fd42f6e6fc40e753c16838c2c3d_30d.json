@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.512Z",
+  "fetched_at": "2026-05-26T10:40:57.478Z",
   "data": {
     "address": "0xa8a208b92ebd8fd42f6e6fc40e753c16838c2c3d",
     "name": "ber",
@@ -8,8 +8,8 @@
     "badges": 39,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xa8a208b92ebd8fd42f6e6fc40e753c16838c2c3d",
-    "total_tx_count": 47779,
-    "period_tx_count": 1000,
+    "total_tx_count": 144172,
+    "period_tx_count": 96611,
     "period": "30d",
     "top_contracts": [
       {
@@ -17,8 +17,16 @@
         "name": "Rugpull Bakery (Baking)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 782,
+        "tx_count": 96189,
         "top_method": "0x"
+      },
+      {
+        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
+        "name": "Rugpull Bakery (Boost&Rug)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 164,
+        "top_method": "0xb3648e8f"
       },
       {
         "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
@@ -41,7 +49,7 @@
         "name": "DEX Voter",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 15,
+        "tx_count": 39,
         "top_method": "0x7ac09bf7"
       },
       {
@@ -49,8 +57,48 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 1,
+        "tx_count": 5,
         "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0x36cbf77d8f8355d7a077d670c29e290e41367072",
+        "name": "Rewards Claim",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x379607f5"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x4b61cd6f"
+      },
+      {
+        "address": "0x27b04370d8087e714a9f557c1eff7901cea6bb63",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xb52c05fe"
+      },
+      {
+        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "name": "Signature Minter",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x29efcf80"
       }
     ]
   }

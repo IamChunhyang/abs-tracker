@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.448Z",
+  "fetched_at": "2026-05-26T10:40:57.158Z",
   "data": {
     "address": "0x161f91374506a85ed9063e90c4c217d8697d6471",
     "name": "Ely",
@@ -8,49 +8,17 @@
     "badges": 37,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x161f91374506a85ed9063e90c4c217d8697d6471",
-    "total_tx_count": 31685,
-    "period_tx_count": 4213,
+    "total_tx_count": 31697,
+    "period_tx_count": 21,
     "period": "30d",
     "top_contracts": [
       {
-        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
-        "name": "Rugpull Bakery (Baking)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 4112,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
-        "name": "Rugpull Bakery (Boost&Rug)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 48,
-        "top_method": "0xf20c3fb4"
-      },
-      {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "Abstract Voting",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 13,
-        "top_method": "0x7060a227"
-      },
-      {
-        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
-        "name": "WETH9",
-        "category": "Others",
-        "is_unknown": false,
-        "tx_count": 7,
-        "top_method": "0x095ea7b3"
-      },
-      {
-        "address": "0x0000000000001ff3684f28c67538d4d072c22734",
-        "name": "0x0000...2734",
+        "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
+        "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 4,
-        "top_method": "0x2213bc0b"
+        "tx_count": 3,
+        "top_method": "0x807ef825"
       },
       {
         "address": "0x2318184138bc0fddd99da594b0c2eacc63d09754",
@@ -61,36 +29,60 @@
         "top_method": "0xaac9aaa7"
       },
       {
-        "address": "0x465738e6d8ded1384c3e8402658257d4ae8ed17d",
-        "name": "0x4657...d17d",
+        "address": "0xecb575651badf5277856be419a9e6dc6f19e82a9",
+        "name": "0xecb5...82a9",
         "category": "Unknown",
         "is_unknown": true,
         "tx_count": 2,
-        "top_method": "0xa736a89d"
+        "top_method": "0x884baedc"
+      },
+      {
+        "address": "0x448557eff9f4745a85b7c4e74e2aa9c7e9c655de",
+        "name": "0x4485...55de",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x5dc403d6"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x4640d7701ba76fcd1df58f55a2bc5c63aa8199a1",
+        "name": "0x4640...99a1",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xcb3e9b84"
+      },
+      {
+        "address": "0xaa44d6759856a1195a42ad6d75d0a0dccfd35447",
+        "name": "0xaa44...5447",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x6ecd2306"
       },
       {
         "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
         "name": "Portal Proxy",
         "category": "Infra",
         "is_unknown": false,
-        "tx_count": 2,
+        "tx_count": 1,
         "top_method": "0x"
       },
       {
-        "address": "0x0a0f09ba13d4cb5e2178b7450a9c083d076a1965",
-        "name": "0x0a0f...1965",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 2,
-        "top_method": "0xba087652"
-      },
-      {
-        "address": "0xe76faa200129142b3aa9bb6ebc1e929495a3e840",
-        "name": "0xe76f...e840",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 2,
-        "top_method": "0x6e553f65"
+        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "name": "Signature Minter",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x29efcf80"
       },
       {
         "address": "0xec27d2237432d06981e1f18581494661517e1bd3",
@@ -101,76 +93,20 @@
         "top_method": "0xa22cb465"
       },
       {
+        "address": "0x465738e6d8ded1384c3e8402658257d4ae8ed17d",
+        "name": "0x4657...d17d",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xa736a89d"
+      },
+      {
         "address": "0x0e5ca01b63acd1841489ca87d0ab33f692e5a7ba",
         "name": "Gigaverse",
         "category": "Gaming",
         "is_unknown": false,
         "tx_count": 1,
         "top_method": "0x52ce66cc"
-      },
-      {
-        "address": "0x0709f39376deee2a2dfc94a58edeb2eb9df012bd",
-        "name": "0x0709...12bd",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x095ea7b3"
-      },
-      {
-        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
-        "name": "Gigaverse",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x2752571e"
-      },
-      {
-        "address": "0x42ab8092bfb701f34c47273df83d90d8169ad982",
-        "name": "Free Managed Reward",
-        "category": "Rewards",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xf5f8d365"
-      },
-      {
-        "address": "0x28811d25429e66ebbde9cc87c9a8ee9366e1efae",
-        "name": "0x2881...efae",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x56574df0"
-      },
-      {
-        "address": "0x3870dc3029b75ba086fa5ec23ae1b88e7bbefdf5",
-        "name": "0x3870...fdf5",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x6e553f65"
-      },
-      {
-        "address": "0x0035b877c3ab50cffa9ed52ba05282c7045f78dd",
-        "name": "0x0035...78dd",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x095ea7b3"
-      },
-      {
-        "address": "0x845f90efae770dc5a793466af210d02bff5da757",
-        "name": "0x845f...a757",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0xba087652"
-      },
-      {
-        "address": "0xe30b2b690ca3da5a5c96fbaaca22256d7ad371e0",
-        "name": "0xe30b...71e0",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x6e553f65"
       }
     ]
   }

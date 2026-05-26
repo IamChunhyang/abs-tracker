@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.674Z",
+  "fetched_at": "2026-05-26T10:40:58.079Z",
   "data": {
     "address": "0x4f8c2395f105d29dae90531f36c7d1d14e22acb9",
     "name": "PhanGu",
@@ -8,16 +8,32 @@
     "badges": 16,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x4f8c2395f105d29dae90531f36c7d1d14e22acb9",
-    "total_tx_count": 46756,
-    "period_tx_count": 2000,
+    "total_tx_count": 53716,
+    "period_tx_count": 6595,
     "period": "14d",
     "top_contracts": [
+      {
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Rugpull Bakery (Baking)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 6303,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
+        "name": "0x37d6...1afe",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 71,
+        "top_method": "0x2752571e"
+      },
       {
         "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 697,
+        "tx_count": 50,
         "top_method": "0xf5298aca"
       },
       {
@@ -25,23 +41,15 @@
         "name": "Moody Drops (Claim,NFT)",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 691,
+        "tx_count": 49,
         "top_method": "0x16c5aa5e"
-      },
-      {
-        "address": "0x5f8abf7f164fbed5c51f696ddf3c2c17bcbc8fbb",
-        "name": "Cambria (Duel Arena)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 542,
-        "top_method": "0x37d8b79d"
       },
       {
         "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 12,
+        "tx_count": 36,
         "top_method": "0x5a0694d2"
       },
       {
@@ -49,8 +57,16 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 12,
+        "tx_count": 21,
         "top_method": "0x7060a227"
+      },
+      {
+        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 14,
+        "top_method": "0xc6b7f1b6"
       },
       {
         "address": "0x4cd00e387622c35bddb9b4c962c136462338bc31",
@@ -61,60 +77,76 @@
         "top_method": "0x49290c1c"
       },
       {
-        "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
-        "name": "0x37d6...1afe",
+        "address": "0xbffcc2c852f6b6e5cfef8630a43b6cd06194e1ac",
+        "name": "0xbffc...e1ac",
         "category": "Unknown",
         "is_unknown": true,
         "tx_count": 6,
-        "top_method": "0x2752571e"
+        "top_method": "0x84022767"
       },
       {
-        "address": "0x14f926d2751f4bb0200e9b016b6ae4a1e4b207bd",
-        "name": "0x14f9...07bd",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 3,
-        "top_method": "0xf242432a"
-      },
-      {
-        "address": "0xb3657c6e16569eb1b956570e900a4d0f1d174920",
-        "name": "0xb365...4920",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 2,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x7c47ea32fd27d1a74fc6e9f31ce8162e6ce070eb",
+        "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",
         "name": "Onchain Heroes",
         "category": "Gaming",
         "is_unknown": false,
         "tx_count": 2,
-        "top_method": "0x42842e0e"
-      },
-      {
-        "address": "0x0000000000000068f116a894984e2db1123eb395",
-        "name": "OpenSea",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0xe7acab24"
+        "top_method": "0xb32820e9"
       },
       {
         "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
         "name": "Onchain Heroes",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 1,
+        "tx_count": 2,
         "top_method": "0x219e0149"
       },
       {
-        "address": "0x219260d8470d8211ad66eb69206bdf72a4218b65",
-        "name": "Onchain Heroes",
-        "category": "Gaming",
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "Others",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x4b61cd6f"
+      },
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "OpenSea",
+        "category": "NFT",
         "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0xf7345f9c"
+        "top_method": "0xe7acab24"
+      },
+      {
+        "address": "0xb3657c6e16569eb1b956570e900a4d0f1d174920",
+        "name": "0xb365...4920",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "name": "Signature Minter",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x29efcf80"
+      },
+      {
+        "address": "0x2ddf2129a55cf132e580cc5d69fad1de3d213bba",
+        "name": "0x2ddf...3bba",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xb6b55f25"
       },
       {
         "address": "0xca4a7c4a191de94af2c91487d0be34a0205b89ab",
@@ -125,28 +157,20 @@
         "top_method": "0xfe939afc"
       },
       {
-        "address": "0x59eec556cef447e13edf4bfd3d4433d8dad8a7a5",
-        "name": "0x59ee...a7a5",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x42842e0e"
-      },
-      {
-        "address": "0xf44d8b66a654ef9705da34ed648980a8640a840d",
-        "name": "0xf44d...840d",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x"
-      },
-      {
-        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
-        "name": "DEPTH Protocol",
-        "category": "DeFi",
+        "address": "0x911dbdd9841b53ee5a08170109daf7ad82684108",
+        "name": "Shiny",
+        "category": "NFT",
         "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0x0962ef79"
+        "top_method": "0x92971a31"
+      },
+      {
+        "address": "0x5c9ce8be7aa92fd089be31b154be47a0e59d4282",
+        "name": "Shiny",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xf23a27bd"
       }
     ]
   }

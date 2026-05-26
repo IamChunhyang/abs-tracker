@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.655Z",
+  "fetched_at": "2026-05-26T10:40:58.062Z",
   "data": {
     "address": "0x731cf176c2cf1190503f30c7572898f4ec17ad2f",
     "name": "nishseq",
@@ -8,25 +8,25 @@
     "badges": 14,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x731cf176c2cf1190503f30c7572898f4ec17ad2f",
-    "total_tx_count": 3131,
-    "period_tx_count": 2,
+    "total_tx_count": 3138,
+    "period_tx_count": 7,
     "period": "14d",
     "top_contracts": [
       {
-        "address": "0x5fedb9a131f798e986109dd89942c17c25c81de3",
-        "name": "0x5fed...1de3",
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
         "category": "Unknown",
         "is_unknown": true,
         "tx_count": 1,
-        "top_method": "0xa22cb465"
+        "top_method": "0x4b61cd6f"
       },
       {
-        "address": "0xce2fbf6edfa8b759c4e0c80d73f1aff2a93b054b",
-        "name": "0xce2f...054b",
-        "category": "Unknown",
-        "is_unknown": true,
+        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "name": "Signature Minter",
+        "category": "NFT",
+        "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0x095ea7b3"
+        "top_method": "0x29efcf80"
       }
     ]
   }

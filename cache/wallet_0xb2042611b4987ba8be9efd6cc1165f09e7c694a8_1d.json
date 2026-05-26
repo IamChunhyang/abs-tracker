@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.519Z",
+  "fetched_at": "2026-05-26T10:40:57.490Z",
   "data": {
     "address": "0xb2042611b4987ba8be9efd6cc1165f09e7c694a8",
     "name": "JoblessGambler",
@@ -8,25 +8,25 @@
     "badges": 40,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xb2042611b4987ba8be9efd6cc1165f09e7c694a8",
-    "total_tx_count": 8589,
-    "period_tx_count": 3,
+    "total_tx_count": 30460,
+    "period_tx_count": 5,
     "period": "1d",
     "top_contracts": [
-      {
-        "address": "0xe0cb34b700f7cf942aa9a233d22a173977f8f9c4",
-        "name": "0xe0cb...f9c4",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x"
-      },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 1,
+        "tx_count": 2,
         "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x4b61cd6f"
       }
     ]
   }

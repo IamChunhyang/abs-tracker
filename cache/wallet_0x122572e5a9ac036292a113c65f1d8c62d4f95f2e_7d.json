@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.463Z",
+  "fetched_at": "2026-05-26T10:40:57.231Z",
   "data": {
     "address": "0x122572e5a9ac036292a113c65f1d8c62d4f95f2e",
     "name": "Amyqueen",
@@ -8,16 +8,24 @@
     "badges": 26,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x122572e5a9ac036292a113c65f1d8c62d4f95f2e",
-    "total_tx_count": 7147,
+    "total_tx_count": 7159,
     "period_tx_count": 4,
     "period": "7d",
     "top_contracts": [
+      {
+        "address": "0x36cbf77d8f8355d7a077d670c29e290e41367072",
+        "name": "Rewards Claim",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x379607f5"
+      },
       {
         "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
         "name": "DEX Voter",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 2,
+        "tx_count": 1,
         "top_method": "0x7ac09bf7"
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.453Z",
+  "fetched_at": "2026-05-26T10:40:57.202Z",
   "data": {
     "address": "0x0dc12bad7e3d91da8d18860ca9ab76904560962d",
     "name": "MindfulMarketsOG",
@@ -8,57 +8,25 @@
     "badges": 39,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x0dc12bad7e3d91da8d18860ca9ab76904560962d",
-    "total_tx_count": 25581,
-    "period_tx_count": 55,
+    "total_tx_count": 26058,
+    "period_tx_count": 4,
     "period": "1d",
     "top_contracts": [
       {
-        "address": "0x5f8abf7f164fbed5c51f696ddf3c2c17bcbc8fbb",
-        "name": "Cambria (Duel Arena)",
-        "category": "Gaming",
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Drops (Use)",
+        "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 30,
-        "top_method": "0xce55803f"
+        "tx_count": 3,
+        "top_method": "0xf5298aca"
       },
       {
-        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
-        "name": "Tollan (Gameplay)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 18,
-        "top_method": "0x8708c7fd"
-      },
-      {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "Abstract Voting",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x7060a227"
-      },
-      {
-        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
-        "name": "WETH9",
-        "category": "Others",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x2e1a7d4d"
-      },
-      {
-        "address": "0x465738e6d8ded1384c3e8402658257d4ae8ed17d",
-        "name": "0x4657...d17d",
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
         "category": "Unknown",
         "is_unknown": true,
         "tx_count": 1,
-        "top_method": "0xd0ba56a2"
-      },
-      {
-        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
-        "name": "USDC",
-        "category": "Others",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x095ea7b3"
+        "top_method": "0x4b61cd6f"
       }
     ]
   }

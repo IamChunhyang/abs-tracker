@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.627Z",
+  "fetched_at": "2026-05-26T10:40:57.979Z",
   "data": {
     "address": "0xde26e9c780d85ae165ac7ca579c50bd42bcb4fe6",
     "name": "Graildoteth",
@@ -8,9 +8,18 @@
     "badges": 5,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xde26e9c780d85ae165ac7ca579c50bd42bcb4fe6",
-    "total_tx_count": 9935,
-    "period_tx_count": 0,
+    "total_tx_count": 9938,
+    "period_tx_count": 1,
     "period": "1d",
-    "top_contracts": []
+    "top_contracts": [
+      {
+        "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
+        "name": "Onchain Heroes",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x219e0149"
+      }
+    ]
   }
 }

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.571Z",
+  "fetched_at": "2026-05-26T10:40:57.753Z",
   "data": {
     "address": "0x3dc88b8884153ddfb76d177f9bb8d1b5bf377917",
     "name": "girlonabstract",
@@ -8,8 +8,8 @@
     "badges": 38,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x3dc88b8884153ddfb76d177f9bb8d1b5bf377917",
-    "total_tx_count": 19552,
-    "period_tx_count": 136,
+    "total_tx_count": 19612,
+    "period_tx_count": 140,
     "period": "30d",
     "top_contracts": [
       {
@@ -17,15 +17,23 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 40,
+        "tx_count": 37,
         "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Drops (Use)",
+        "category": "Arcade",
+        "is_unknown": false,
+        "tx_count": 30,
+        "top_method": "0xf5298aca"
       },
       {
         "address": "0x458422e93bf89a109afc4fac00aacf2f18fcf541",
         "name": "DYLI",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 19,
+        "tx_count": 20,
         "top_method": "0x7f58b4bf"
       },
       {
@@ -41,7 +49,7 @@
         "name": "DEX Voter",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 12,
+        "tx_count": 8,
         "top_method": "0xe0c11f9a"
       },
       {
@@ -49,80 +57,72 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 9,
+        "tx_count": 7,
         "top_method": "0x5a0694d2"
-      },
-      {
-        "address": "0x89e9d9b7d87591875359247f7d8eb786e7ea6910",
-        "name": "Kona",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 9,
-        "top_method": "0x3ac795de"
-      },
-      {
-        "address": "0x1e49b0d225c45b22f66bd660841d98e153c7abd5",
-        "name": "Web3 Playboys",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 9,
-        "top_method": "0xed5960f1"
       },
       {
         "address": "0x6845a031c640cedbb070c2d84ac1628e3fe7e63e",
         "name": "0x6845...e63e",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 6,
+        "tx_count": 7,
         "top_method": "0xf1dc3cc9"
       },
       {
-        "address": "0x0000000000000068f116a894984e2db1123eb395",
-        "name": "OpenSea",
-        "category": "NFT",
+        "address": "0x89e9d9b7d87591875359247f7d8eb786e7ea6910",
+        "name": "Kona",
+        "category": "DeFi",
         "is_unknown": false,
         "tx_count": 6,
-        "top_method": "0xe7acab24"
+        "top_method": "0x3ac795de"
       },
       {
-        "address": "0x0000000000c2d145a2526bd8c716263bfebe1a72",
-        "name": "0x0000...1a72",
-        "category": "Unknown",
-        "is_unknown": true,
+        "address": "0x270bbb21b1187bc6e694f428dcb51432958eb3d9",
+        "name": "Rugpull Bakery",
+        "category": "Gaming",
+        "is_unknown": false,
         "tx_count": 2,
-        "top_method": "0x32389b71"
+        "top_method": "0xb27a78e3"
       },
       {
         "address": "0xa4890b89dc628bae614780079acc951fb0ecdc5f",
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xfc6f7865"
+        "tx_count": 2,
+        "top_method": "0xac9650d8"
       },
       {
-        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
-        "name": "DEPTH Protocol",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x0962ef79"
+        "address": "0xb3bc688f675892a33e10a3ff57592cce3b951806",
+        "name": "0xb3bc...1806",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x2e1a7d4d"
       },
       {
-        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
-        "name": "Rugpull Bakery (Baking)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x663d69ecff14b4dbd245cdac03f2e1deb68ed250",
-        "name": "0x663d...d250",
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
         "category": "Unknown",
         "is_unknown": true,
         "tx_count": 1,
-        "top_method": "0x6d705ebb"
+        "top_method": "0x4b61cd6f"
+      },
+      {
+        "address": "0x610a92436b9fdfc7d0c3686bb2cbe7b3bae22904",
+        "name": "0x610a...2904",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xa22cb465"
+      },
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "OpenSea",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xe7acab24"
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.607Z",
+  "fetched_at": "2026-05-26T10:40:57.933Z",
   "data": {
     "address": "0x633a05cc1ee8deb99caa0f6f143c1662796beed0",
     "name": "gigaz",
@@ -8,8 +8,8 @@
     "badges": 9,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x633a05cc1ee8deb99caa0f6f143c1662796beed0",
-    "total_tx_count": 14225,
-    "period_tx_count": 184,
+    "total_tx_count": 14603,
+    "period_tx_count": 171,
     "period": "7d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 164,
+        "tx_count": 163,
         "top_method": "0x2752571e"
       },
       {
@@ -25,40 +25,16 @@
         "name": "OpenSea",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 8,
+        "tx_count": 4,
         "top_method": "0xfd9f1e10"
       },
       {
-        "address": "0x0c0a71e32e1954635e2dde143ed9e59fe471fb94",
-        "name": "0x0c0a...fb94",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 5,
-        "top_method": "0x"
-      },
-      {
-        "address": "0xa592221a516dc29a427a57b6951b26962605709c",
-        "name": "0xa592...709c",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 3,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "Abstract Voting",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x7060a227"
-      },
-      {
-        "address": "0x7174f8e3a3a2b777911dd6be31d92631a5052ab0",
-        "name": "0x7174...2ab0",
+        "address": "0x13a59f08f11e38e4766bf206a31473a510c83475",
+        "name": "0x13a5...3475",
         "category": "Unknown",
         "is_unknown": true,
         "tx_count": 1,
-        "top_method": "0x"
+        "top_method": "0xd64abc3c"
       }
     ]
   }

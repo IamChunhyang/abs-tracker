@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.669Z",
+  "fetched_at": "2026-05-26T10:40:58.074Z",
   "data": {
     "address": "0x0f1ee30d0d2fb1e02826b5910d48167751c8d271",
     "name": "healyoga",
@@ -8,7 +8,7 @@
     "badges": 19,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x0f1ee30d0d2fb1e02826b5910d48167751c8d271",
-    "total_tx_count": 37475,
+    "total_tx_count": 37900,
     "period_tx_count": 0,
     "period": "1d",
     "top_contracts": []

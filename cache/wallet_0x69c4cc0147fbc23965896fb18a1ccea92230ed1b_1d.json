@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.457Z",
+  "fetched_at": "2026-05-26T10:40:57.211Z",
   "data": {
     "address": "0x69c4cc0147fbc23965896fb18a1ccea92230ed1b",
     "name": "afropengu",
@@ -8,41 +8,25 @@
     "badges": 25,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x69c4cc0147fbc23965896fb18a1ccea92230ed1b",
-    "total_tx_count": 70110,
-    "period_tx_count": 34,
+    "total_tx_count": 84655,
+    "period_tx_count": 24,
     "period": "1d",
     "top_contracts": [
       {
-        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
-        "name": "USDC",
-        "category": "Others",
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
+        "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 6,
-        "top_method": "0x095ea7b3"
+        "tx_count": 16,
+        "top_method": "0x7ac09bf7"
       },
       {
         "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
         "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 5,
+        "tx_count": 6,
         "top_method": "0x807ef825"
-      },
-      {
-        "address": "0x19e547f1bd342094bc4318c539dbb91a8f52786c",
-        "name": "0x19e5...786c",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 5,
-        "top_method": "0x70876c98"
-      },
-      {
-        "address": "0x3e0f5f8f5fb043abfa475c0308417bf72c463289",
-        "name": "Prediction Market",
-        "category": "Arcade",
-        "is_unknown": false,
-        "tx_count": 5,
-        "top_method": "0x3620875e"
       },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
@@ -51,38 +35,6 @@
         "is_unknown": false,
         "tx_count": 2,
         "top_method": "0x7060a227"
-      },
-      {
-        "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0xa026383e"
-      },
-      {
-        "address": "0x13a59f08f11e38e4766bf206a31473a510c83475",
-        "name": "0x13a5...3475",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 2,
-        "top_method": "0xd64abc3c"
-      },
-      {
-        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x903638a4"
-      },
-      {
-        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
-        "name": "Session Key Signing",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x5a0694d2"
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.472Z",
+  "fetched_at": "2026-05-26T10:40:57.282Z",
   "data": {
     "address": "0x6c55280706ddc3477b80fe6e2f1e5be479a74182",
     "name": "Breezeonhodl",
@@ -8,8 +8,8 @@
     "badges": 38,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x6c55280706ddc3477b80fe6e2f1e5be479a74182",
-    "total_tx_count": 14786,
-    "period_tx_count": 4125,
+    "total_tx_count": 14792,
+    "period_tx_count": 1323,
     "period": "30d",
     "top_contracts": [
       {
@@ -17,71 +17,71 @@
         "name": "Rugpull Bakery (Baking)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 3990,
+        "tx_count": 1259,
         "top_method": "0x"
-      },
-      {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "Abstract Voting",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 20,
-        "top_method": "0x7060a227"
-      },
-      {
-        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
-        "name": "Moody Drops (Use)",
-        "category": "Arcade",
-        "is_unknown": false,
-        "tx_count": 20,
-        "top_method": "0xf5298aca"
       },
       {
         "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
         "name": "Rugpull Bakery (Boost&Rug)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 20,
+        "tx_count": 15,
         "top_method": "0xf20c3fb4"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 9,
+        "top_method": "0x7060a227"
       },
       {
         "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
         "name": "Moody Drops (Claim,NFT)",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 19,
+        "tx_count": 8,
         "top_method": "0x16c5aa5e"
       },
       {
-        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
-        "name": "Session Key Signing",
-        "category": "Abstract",
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Drops (Use)",
+        "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 15,
-        "top_method": "0x5a0694d2"
+        "tx_count": 8,
+        "top_method": "0xf5298aca"
       },
       {
         "address": "0x0e4ee35190f16efdfd1aa9be802ca546fcce5a81",
         "name": "Bearish",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 6,
+        "tx_count": 5,
         "top_method": "0xa694fc3a"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Signing",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 5,
+        "top_method": "0x5a0694d2"
       },
       {
         "address": "0x0000000000000068f116a894984e2db1123eb395",
         "name": "OpenSea",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 3,
-        "top_method": "0xe7acab24"
+        "tx_count": 2,
+        "top_method": "0x87201b41"
       },
       {
         "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 3,
+        "tx_count": 2,
         "top_method": "0x12bc3aca"
       },
       {
@@ -89,32 +89,16 @@
         "name": "DEPTH Protocol",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 3,
+        "tx_count": 2,
         "top_method": "0x0962ef79"
       },
       {
-        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
-        "name": "DEX Voter",
-        "category": "Abstract",
+        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "name": "Signature Minter",
+        "category": "NFT",
         "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0xe0c11f9a"
-      },
-      {
-        "address": "0x9ebe3a824ca958e4b3da772d2065518f009cba62",
-        "name": "0x9ebe...ba62",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 2,
-        "top_method": "0x095ea7b3"
-      },
-      {
-        "address": "0xbffcc2c852f6b6e5cfef8630a43b6cd06194e1ac",
-        "name": "0xbffc...e1ac",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 2,
-        "top_method": "0x303de7db"
+        "tx_count": 1,
+        "top_method": "0x29efcf80"
       },
       {
         "address": "0x2318184138bc0fddd99da594b0c2eacc63d09754",
@@ -131,30 +115,6 @@
         "is_unknown": false,
         "tx_count": 1,
         "top_method": "0xa22cb465"
-      },
-      {
-        "address": "0x8823ef8bba81148b2f6ed2d74371dda2a114d86d",
-        "name": "0x8823...d86d",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x27b04370d8087e714a9f557c1eff7901cea6bb63",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xb52c05fe"
-      },
-      {
-        "address": "0x663d69ecff14b4dbd245cdac03f2e1deb68ed250",
-        "name": "0x663d...d250",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x6d705ebb"
       }
     ]
   }

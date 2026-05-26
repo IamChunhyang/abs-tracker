@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.482Z",
+  "fetched_at": "2026-05-26T10:40:57.345Z",
   "data": {
     "address": "0xe55fc1366a59462b5bf0d269a977be9d5488d627",
     "name": "debuddha",
@@ -8,18 +8,9 @@
     "badges": 37,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xe55fc1366a59462b5bf0d269a977be9d5488d627",
-    "total_tx_count": 3237,
-    "period_tx_count": 2,
+    "total_tx_count": 3261,
+    "period_tx_count": 0,
     "period": "1d",
-    "top_contracts": [
-      {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "Abstract Voting",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0x7060a227"
-      }
-    ]
+    "top_contracts": []
   }
 }

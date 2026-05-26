@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.602Z",
+  "fetched_at": "2026-05-26T10:40:57.899Z",
   "data": {
     "address": "0x991b87ec4fe400178c3f54ea26ae445c2351e1ec",
     "name": "Cyro",
@@ -8,65 +8,25 @@
     "badges": 37,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x991b87ec4fe400178c3f54ea26ae445c2351e1ec",
-    "total_tx_count": 43814,
-    "period_tx_count": 201,
+    "total_tx_count": 44798,
+    "period_tx_count": 2,
     "period": "1d",
     "top_contracts": [
-      {
-        "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
-        "name": "Moody Drops (Claim,NFT)",
-        "category": "Rewards",
-        "is_unknown": false,
-        "tx_count": 95,
-        "top_method": "0x16c5aa5e"
-      },
-      {
-        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
-        "name": "Moody Drops (Use)",
-        "category": "Arcade",
-        "is_unknown": false,
-        "tx_count": 95,
-        "top_method": "0xf5298aca"
-      },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 2,
+        "tx_count": 1,
         "top_method": "0x7060a227"
       },
       {
-        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
-        "name": "Session Key Signing",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0x5a0694d2"
-      },
-      {
-        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
-        "name": "WETH9",
-        "category": "Others",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x"
-      },
-      {
-        "address": "0xca4a7c4a191de94af2c91487d0be34a0205b89ab",
-        "name": "NFT Staking",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xfe939afc"
-      },
-      {
-        "address": "0x991181c53720beb7c1226ba0a94dee6bb840bb7e",
-        "name": "0x9911...bb7e",
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
         "category": "Unknown",
         "is_unknown": true,
         "tx_count": 1,
-        "top_method": "0x"
+        "top_method": "0x4b61cd6f"
       }
     ]
   }

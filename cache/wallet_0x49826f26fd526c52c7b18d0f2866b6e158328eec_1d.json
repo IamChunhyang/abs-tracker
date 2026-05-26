@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.527Z",
+  "fetched_at": "2026-05-26T10:40:57.547Z",
   "data": {
     "address": "0x49826f26fd526c52c7b18d0f2866b6e158328eec",
     "name": "VibeX",
@@ -8,25 +8,17 @@
     "badges": 34,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x49826f26fd526c52c7b18d0f2866b6e158328eec",
-    "total_tx_count": 87401,
-    "period_tx_count": 38,
+    "total_tx_count": 110872,
+    "period_tx_count": 1204,
     "period": "1d",
     "top_contracts": [
       {
-        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
-        "name": "Tollan (Gameplay)",
+        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
+        "name": "Rugpull Bakery (Baking)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 10,
-        "top_method": "0x8708c7fd"
-      },
-      {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "Abstract Voting",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 7,
-        "top_method": "0x7060a227"
+        "tx_count": 1194,
+        "top_method": "0x"
       },
       {
         "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
@@ -37,60 +29,20 @@
         "top_method": "0xf5298aca"
       },
       {
-        "address": "0x89e9d9b7d87591875359247f7d8eb786e7ea6910",
-        "name": "Kona",
-        "category": "DeFi",
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
         "is_unknown": false,
         "tx_count": 3,
-        "top_method": "0x3ac795de"
+        "top_method": "0x7060a227"
       },
       {
         "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 2,
+        "tx_count": 1,
         "top_method": "0x5a0694d2"
-      },
-      {
-        "address": "0x19e547f1bd342094bc4318c539dbb91a8f52786c",
-        "name": "0x19e5...786c",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 2,
-        "top_method": "0x70876c98"
-      },
-      {
-        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
-        "name": "USDC",
-        "category": "Others",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0x095ea7b3"
-      },
-      {
-        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
-        "name": "DEX Voter",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x666256aa"
-      },
-      {
-        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x903638a4"
-      },
-      {
-        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
-        "name": "DEPTH Protocol",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x0962ef79"
       }
     ]
   }

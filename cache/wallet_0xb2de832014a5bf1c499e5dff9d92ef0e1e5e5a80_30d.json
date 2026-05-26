@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.487Z",
+  "fetched_at": "2026-05-26T10:40:57.354Z",
   "data": {
     "address": "0xb2de832014a5bf1c499e5dff9d92ef0e1e5e5a80",
     "name": "LiLPudgyWhale",
@@ -8,8 +8,8 @@
     "badges": 39,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xb2de832014a5bf1c499e5dff9d92ef0e1e5e5a80",
-    "total_tx_count": 4050,
-    "period_tx_count": 95,
+    "total_tx_count": 4085,
+    "period_tx_count": 75,
     "period": "30d",
     "top_contracts": [
       {
@@ -25,39 +25,15 @@
         "name": "Roach Racing Club",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 30,
+        "tx_count": 31,
         "top_method": "0xbed90f9b"
-      },
-      {
-        "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 7,
-        "top_method": "0xa026383e"
-      },
-      {
-        "address": "0xa4890b89dc628bae614780079acc951fb0ecdc5f",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 6,
-        "top_method": "0xac9650d8"
-      },
-      {
-        "address": "0x125c13e12bd40bc7eb4f129d3f8443091d443b7e",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 6,
-        "top_method": "0x2e1a7d4d"
       },
       {
         "address": "0xc74d5002c10c13d2ad258b4584690829387f84dc",
         "name": "DYLI",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 5,
+        "tx_count": 4,
         "top_method": "0xf7344a59"
       },
       {
@@ -65,16 +41,40 @@
         "name": "USDC",
         "category": "Others",
         "is_unknown": false,
-        "tx_count": 3,
-        "top_method": "0xa9059cbb"
+        "tx_count": 2,
+        "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x4b61cd6f"
       },
       {
         "address": "0x9ebe3a824ca958e4b3da772d2065518f009cba62",
         "name": "0x9ebe...ba62",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 2,
+        "tx_count": 1,
         "top_method": "0xa9059cbb"
+      },
+      {
+        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "name": "Signature Minter",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x29efcf80"
+      },
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "OpenSea",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xf2d12b12"
       },
       {
         "address": "0x341c67cb6b91fb0b476860e8487dac219e9d3369",
@@ -85,12 +85,12 @@
         "top_method": "0x776e36ea"
       },
       {
-        "address": "0x0709f39376deee2a2dfc94a58edeb2eb9df012bd",
-        "name": "0x0709...12bd",
-        "category": "Unknown",
-        "is_unknown": true,
+        "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0xa9059cbb"
+        "top_method": "0xa026383e"
       }
     ]
   }

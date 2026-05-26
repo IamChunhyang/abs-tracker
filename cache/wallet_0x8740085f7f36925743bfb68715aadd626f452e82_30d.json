@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.649Z",
+  "fetched_at": "2026-05-26T10:40:58.056Z",
   "data": {
     "address": "0x8740085f7f36925743bfb68715aadd626f452e82",
     "name": "Fairbanks",
@@ -8,8 +8,8 @@
     "badges": 20,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x8740085f7f36925743bfb68715aadd626f452e82",
-    "total_tx_count": 5441,
-    "period_tx_count": 28,
+    "total_tx_count": 5446,
+    "period_tx_count": 13,
     "period": "30d",
     "top_contracts": [
       {
@@ -21,19 +21,27 @@
         "top_method": "0x5a0694d2"
       },
       {
-        "address": "0x4cd00e387622c35bddb9b4c962c136462338bc31",
-        "name": "Relay (Contract)",
-        "category": "Infra",
-        "is_unknown": false,
-        "tx_count": 5,
-        "top_method": "0x49290c1c"
+        "address": "0x5fedb9a131f798e986109dd89942c17c25c81de3",
+        "name": "0x5fed...1de3",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x42842e0e"
+      },
+      {
+        "address": "0xfe30630565fd695c63be89d229d13129981ead68",
+        "name": "0xfe30...ad68",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
       },
       {
         "address": "0x0000000000000068f116a894984e2db1123eb395",
         "name": "OpenSea",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 2,
+        "tx_count": 1,
         "top_method": "0xe7acab24"
       },
       {
@@ -47,30 +55,6 @@
       {
         "address": "0xeaadbb1bb3cbbc9a7c12632b8ee9854a428dd9a3",
         "name": "0xeaad...d9a3",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x"
-      },
-      {
-        "address": "0xfa928d3abc512383b8e5e77edd2d5678696084f9",
-        "name": "0xfa92...84f9",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0xac9650d8"
-      },
-      {
-        "address": "0x4b432060903184c5710f2ef0cf23adc84e7ffb18",
-        "name": "0x4b43...fb18",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0xb88d4fde"
-      },
-      {
-        "address": "0xfc7386aa7b01f97490aed19d3e56dc9d56f458df",
-        "name": "0xfc73...58df",
         "category": "Unknown",
         "is_unknown": true,
         "tx_count": 1,

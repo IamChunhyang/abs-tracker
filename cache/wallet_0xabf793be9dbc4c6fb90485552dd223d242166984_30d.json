@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.546Z",
+  "fetched_at": "2026-05-26T10:40:57.637Z",
   "data": {
     "address": "0xabf793be9dbc4c6fb90485552dd223d242166984",
     "name": "northkorea",
@@ -8,8 +8,8 @@
     "badges": 42,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xabf793be9dbc4c6fb90485552dd223d242166984",
-    "total_tx_count": 235616,
-    "period_tx_count": 1000,
+    "total_tx_count": 479674,
+    "period_tx_count": 100000,
     "period": "30d",
     "top_contracts": [
       {
@@ -17,39 +17,39 @@
         "name": "Rugpull Bakery (Baking)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 542,
+        "tx_count": 99280,
         "top_method": "0x"
+      },
+      {
+        "address": "0x920fefb4e92dbba0393ba233cecb1051a0dde25c",
+        "name": "0x920f...e25c",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 446,
+        "top_method": "0xdafa1d2d"
+      },
+      {
+        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
+        "name": "Rugpull Bakery (Boost&Rug)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 97,
+        "top_method": "0xb3648e8f"
       },
       {
         "address": "0xafca524dc2cdd7c21cd1de4e837c8c813c8322cc",
         "name": "Khuga Bash",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 126,
+        "tx_count": 54,
         "top_method": "0x2ffc02e2"
-      },
-      {
-        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
-        "name": "Moody Drops (Use)",
-        "category": "Arcade",
-        "is_unknown": false,
-        "tx_count": 118,
-        "top_method": "0xf5298aca"
-      },
-      {
-        "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
-        "name": "Moody Drops (Claim,NFT)",
-        "category": "Rewards",
-        "is_unknown": false,
-        "tx_count": 104,
-        "top_method": "0x16c5aa5e"
       },
       {
         "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
         "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 45,
+        "tx_count": 39,
         "top_method": "0x807ef825"
       },
       {
@@ -57,39 +57,31 @@
         "name": "Tollan (Gameplay)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 24,
+        "tx_count": 33,
         "top_method": "0x8708c7fd"
+      },
+      {
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Drops (Use)",
+        "category": "Arcade",
+        "is_unknown": false,
+        "tx_count": 19,
+        "top_method": "0xf5298aca"
       },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 9,
+        "tx_count": 7,
         "top_method": "0x7060a227"
-      },
-      {
-        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
-        "name": "Rugpull Bakery (Boost&Rug)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 6,
-        "top_method": "0xf20c3fb4"
-      },
-      {
-        "address": "0x89e9d9b7d87591875359247f7d8eb786e7ea6910",
-        "name": "Kona",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 5,
-        "top_method": "0x3ac795de"
       },
       {
         "address": "0x99bb83ae9bb0c0a6be865cacf67760947f91cb70",
         "name": "COSMO",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 5,
+        "tx_count": 6,
         "top_method": "0x23b872dd"
       },
       {
@@ -97,48 +89,56 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 4,
+        "tx_count": 3,
         "top_method": "0x5a0694d2"
       },
       {
-        "address": "0xba3274ff65466bdc217745dc276394da4ffe02b7",
-        "name": "0xba32...02b7",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 3,
-        "top_method": "0xa83cbaa3"
+        "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
+        "name": "Onchain Heroes",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x01608d9c"
       },
       {
-        "address": "0x0000000000000068f116a894984e2db1123eb395",
-        "name": "OpenSea",
-        "category": "NFT",
+        "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",
+        "name": "Onchain Heroes",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0xb32820e9"
+      },
+      {
+        "address": "0xd8662b55c253d28840a0ada6dc927c65968f466b",
+        "name": "0xd866...466b",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0xba087652"
+      },
+      {
+        "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0xc04b8d59"
+      },
+      {
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "Others",
         "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0xe7acab24"
+        "top_method": "0xa9059cbb"
       },
       {
-        "address": "0x5fedb9a131f798e986109dd89942c17c25c81de3",
-        "name": "0x5fed...1de3",
-        "category": "Unknown",
-        "is_unknown": true,
+        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0xa22cb465"
-      },
-      {
-        "address": "0xc8ef2d40ef314bb433f86ce2b67ba880bb48771b",
-        "name": "0xc8ef...771b",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0xe569cce8"
-      },
-      {
-        "address": "0x514c8f0d262c55d4f22719c6eb103707bbd9d060",
-        "name": "0x514c...d060",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0xc00007b0"
+        "top_method": "0xcac88ea9"
       },
       {
         "address": "0x42ab8092bfb701f34c47273df83d90d8169ad982",
@@ -149,20 +149,20 @@
         "top_method": "0xf5f8d365"
       },
       {
-        "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",
-        "name": "Onchain Heroes",
-        "category": "Gaming",
-        "is_unknown": false,
+        "address": "0x514c8f0d262c55d4f22719c6eb103707bbd9d060",
+        "name": "0x514c...d060",
+        "category": "Unknown",
+        "is_unknown": true,
         "tx_count": 1,
-        "top_method": "0xb32820e9"
+        "top_method": "0xc00007b0"
       },
       {
-        "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
-        "name": "Onchain Heroes",
-        "category": "Gaming",
-        "is_unknown": false,
+        "address": "0x19b12968f846a13b95ac13eeea6c5acd0cc153f7",
+        "name": "0x19b1...53f7",
+        "category": "Unknown",
+        "is_unknown": true,
         "tx_count": 1,
-        "top_method": "0x219e0149"
+        "top_method": "0x34d55309"
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.550Z",
+  "fetched_at": "2026-05-26T10:40:57.644Z",
   "data": {
     "address": "0xf23aeb17ff2418b832c47fce57659886e1b99ba3",
     "name": "Shakejr",
@@ -8,24 +8,16 @@
     "badges": 25,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xf23aeb17ff2418b832c47fce57659886e1b99ba3",
-    "total_tx_count": 6073,
-    "period_tx_count": 56,
+    "total_tx_count": 6439,
+    "period_tx_count": 332,
     "period": "14d",
     "top_contracts": [
-      {
-        "address": "0xc74d5002c10c13d2ad258b4584690829387f84dc",
-        "name": "DYLI",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 16,
-        "top_method": "0xf7344a59"
-      },
       {
         "address": "0x270bbb21b1187bc6e694f428dcb51432958eb3d9",
         "name": "Rugpull Bakery",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 10,
+        "tx_count": 196,
         "top_method": "0xb27a78e3"
       },
       {
@@ -33,40 +25,48 @@
         "name": "DYLI",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 8,
+        "tx_count": 108,
         "top_method": "0x7f58b4bf"
+      },
+      {
+        "address": "0xc74d5002c10c13d2ad258b4584690829387f84dc",
+        "name": "DYLI",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 7,
+        "top_method": "0x2b1fd58a"
       },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 3,
+        "tx_count": 4,
         "top_method": "0x7060a227"
-      },
-      {
-        "address": "0x2318184138bc0fddd99da594b0c2eacc63d09754",
-        "name": "0x2318...9754",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 3,
-        "top_method": "0xaac9aaa7"
       },
       {
         "address": "0x0e4ee35190f16efdfd1aa9be802ca546fcce5a81",
         "name": "Bearish",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0xa694fc3a"
+        "tx_count": 3,
+        "top_method": "0x6548b7ae"
       },
       {
         "address": "0xaf4653d87729c0ce7187fb9e63fb8e2e5d2bf1a1",
         "name": "0xaf46...f1a1",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 1,
+        "tx_count": 3,
         "top_method": "0x9ea900e8"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Signing",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x5a0694d2"
       },
       {
         "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
@@ -77,30 +77,6 @@
         "top_method": "0xa026383e"
       },
       {
-        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
-        "name": "Session Key Signing",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x5a0694d2"
-      },
-      {
-        "address": "0xec27d2237432d06981e1f18581494661517e1bd3",
-        "name": "Xeet",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xa22cb465"
-      },
-      {
-        "address": "0x880814d04c48344e490cd5a8dea1288e939878fc",
-        "name": "0x8808...78fc",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x"
-      },
-      {
         "address": "0x516dc288e26b34557f68ea1c1ff13576eff8a168",
         "name": "0x516d...a168",
         "category": "Unknown",
@@ -109,20 +85,12 @@
         "top_method": "0xb88d4fde"
       },
       {
-        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
-        "name": "USDC",
-        "category": "Others",
+        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "name": "Signature Minter",
+        "category": "NFT",
         "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0x095ea7b3"
-      },
-      {
-        "address": "0x7627994b4b2d56a05cb2978b813ca0e1ccb22f97",
-        "name": "0x7627...2f97",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x52c61a61"
+        "top_method": "0x29efcf80"
       }
     ]
   }

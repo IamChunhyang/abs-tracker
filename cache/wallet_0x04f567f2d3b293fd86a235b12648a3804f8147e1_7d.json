@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.565Z",
+  "fetched_at": "2026-05-26T10:40:57.708Z",
   "data": {
     "address": "0x04f567f2d3b293fd86a235b12648a3804f8147e1",
     "name": "guccii",
@@ -8,24 +8,16 @@
     "badges": 40,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x04f567f2d3b293fd86a235b12648a3804f8147e1",
-    "total_tx_count": 76127,
-    "period_tx_count": 705,
+    "total_tx_count": 76565,
+    "period_tx_count": 80,
     "period": "7d",
     "top_contracts": [
-      {
-        "address": "0x5f8abf7f164fbed5c51f696ddf3c2c17bcbc8fbb",
-        "name": "Cambria (Duel Arena)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 611,
-        "top_method": "0xce55803f"
-      },
       {
         "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
         "name": "Tollan (Gameplay)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 37,
+        "tx_count": 48,
         "top_method": "0x8708c7fd"
       },
       {
@@ -33,7 +25,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 14,
+        "tx_count": 6,
         "top_method": "0x7060a227"
       },
       {
@@ -41,7 +33,7 @@
         "name": "Onchain Heroes",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 12,
+        "tx_count": 5,
         "top_method": "0xb32820e9"
       },
       {
@@ -49,23 +41,31 @@
         "name": "Onchain Heroes",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 6,
+        "tx_count": 2,
         "top_method": "0x01608d9c"
-      },
-      {
-        "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 3,
-        "top_method": "0xa026383e"
       },
       {
         "address": "0xa688a6a53a26b6f0702a9a518482151415be1ff7",
         "name": "Tollan (Buy,NFT Claim)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 3,
+        "tx_count": 2,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x4b61cd6f"
+      },
+      {
+        "address": "0xf06cd0f27b19fb010c4c9791415c71908a332145",
+        "name": "0xf06c...2145",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
         "top_method": "0x"
       },
       {
@@ -73,96 +73,16 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 2,
+        "tx_count": 1,
         "top_method": "0x5a0694d2"
       },
       {
-        "address": "0xe8bc685af85c96eed4a6235eb11930df48121a81",
-        "name": "0xe8bc...1a81",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x06cfd456898b95a52d6832b8666ffa5095041a24",
-        "name": "0x06cf...1a24",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x39af8d24b794c3077519c7b6bafbb0d997fef819",
-        "name": "0x39af...f819",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x7a84af82a3d5c913fc42f333d709fe706160e258",
-        "name": "0x7a84...e258",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x2318184138bc0fddd99da594b0c2eacc63d09754",
-        "name": "0x2318...9754",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0xaac9aaa7"
-      },
-      {
-        "address": "0xec27d2237432d06981e1f18581494661517e1bd3",
-        "name": "Xeet",
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "OpenSea",
         "category": "NFT",
         "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0xa22cb465"
-      },
-      {
-        "address": "0x4f8c2395f105d29dae90531f36c7d1d14e22acb9",
-        "name": "AGW",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x3102a27506435c542617940975e8d455cea13f31",
-        "name": "0x3102...3f31",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x5a7d17b35619d92bbf0dcfb6edef4b96035a35f9",
-        "name": "0x5a7d...35f9",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x7c47ea32fd27d1a74fc6e9f31ce8162e6ce070eb",
-        "name": "Onchain Heroes",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xb88d4fde"
-      },
-      {
-        "address": "0xca4a7c4a191de94af2c91487d0be34a0205b89ab",
-        "name": "NFT Staking",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x05202ac1"
+        "top_method": "0xe7acab24"
       }
     ]
   }

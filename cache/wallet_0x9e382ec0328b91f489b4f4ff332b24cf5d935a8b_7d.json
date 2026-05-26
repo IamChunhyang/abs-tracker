@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.549Z",
+  "fetched_at": "2026-05-26T10:40:57.642Z",
   "data": {
     "address": "0x9e382ec0328b91f489b4f4ff332b24cf5d935a8b",
     "name": "Sonyblack65",
@@ -8,7 +8,7 @@
     "badges": 20,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x9e382ec0328b91f489b4f4ff332b24cf5d935a8b",
-    "total_tx_count": 2278,
+    "total_tx_count": 2281,
     "period_tx_count": 0,
     "period": "7d",
     "top_contracts": []

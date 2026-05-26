@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.611Z",
+  "fetched_at": "2026-05-26T10:40:57.935Z",
   "data": {
     "address": "0x633a05cc1ee8deb99caa0f6f143c1662796beed0",
     "name": "gigaz",
@@ -8,24 +8,24 @@
     "badges": 9,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x633a05cc1ee8deb99caa0f6f143c1662796beed0",
-    "total_tx_count": 14225,
-    "period_tx_count": 743,
+    "total_tx_count": 14603,
+    "period_tx_count": 706,
     "period": "30d",
     "top_contracts": [
-      {
-        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
-        "name": "Gigaverse",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 506,
-        "top_method": "0x2752571e"
-      },
       {
         "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
         "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 164,
+        "tx_count": 515,
+        "top_method": "0x2752571e"
+      },
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Gigaverse",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 133,
         "top_method": "0x2752571e"
       },
       {
@@ -33,7 +33,7 @@
         "name": "OpenSea",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 44,
+        "tx_count": 27,
         "top_method": "0xfd9f1e10"
       },
       {
@@ -41,7 +41,7 @@
         "name": "0x0c0a...fb94",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 11,
+        "tx_count": 7,
         "top_method": "0x"
       },
       {
@@ -49,8 +49,16 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 5,
+        "tx_count": 4,
         "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x13a59f08f11e38e4766bf206a31473a510c83475",
+        "name": "0x13a5...3475",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0xd64abc3c"
       },
       {
         "address": "0xa592221a516dc29a427a57b6951b26962605709c",
@@ -61,12 +69,12 @@
         "top_method": "0x"
       },
       {
-        "address": "0x13a59f08f11e38e4766bf206a31473a510c83475",
-        "name": "0x13a5...3475",
+        "address": "0x712b6c774ce04ce6e8180d46913de7658ba2cc4c",
+        "name": "0x712b...cc4c",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 2,
-        "top_method": "0xd64abc3c"
+        "tx_count": 1,
+        "top_method": "0x"
       },
       {
         "address": "0x7174f8e3a3a2b777911dd6be31d92631a5052ab0",
@@ -83,14 +91,6 @@
         "is_unknown": true,
         "tx_count": 1,
         "top_method": "0x"
-      },
-      {
-        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
-        "name": "WETH9",
-        "category": "Others",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xa9059cbb"
       }
     ]
   }

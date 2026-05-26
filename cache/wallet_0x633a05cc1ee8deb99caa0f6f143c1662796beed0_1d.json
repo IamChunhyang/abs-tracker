@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.607Z",
+  "fetched_at": "2026-05-26T10:40:57.933Z",
   "data": {
     "address": "0x633a05cc1ee8deb99caa0f6f143c1662796beed0",
     "name": "gigaz",
@@ -8,8 +8,8 @@
     "badges": 9,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x633a05cc1ee8deb99caa0f6f143c1662796beed0",
-    "total_tx_count": 14225,
-    "period_tx_count": 44,
+    "total_tx_count": 14603,
+    "period_tx_count": 33,
     "period": "1d",
     "top_contracts": [
       {
@@ -17,16 +17,16 @@
         "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 40,
-        "top_method": "0x305a67a8"
+        "tx_count": 32,
+        "top_method": "0x2752571e"
       },
       {
-        "address": "0x0c0a71e32e1954635e2dde143ed9e59fe471fb94",
-        "name": "0x0c0a...fb94",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 2,
-        "top_method": "0x"
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "OpenSea",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xfd9f1e10"
       }
     ]
   }

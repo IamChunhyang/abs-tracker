@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.534Z",
+  "fetched_at": "2026-05-26T10:40:57.583Z",
   "data": {
     "address": "0x2a2376e5e9981c19b15af64d2cdb57c9b94eb1f6",
     "name": "xiskool",
@@ -8,7 +8,7 @@
     "badges": 24,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x2a2376e5e9981c19b15af64d2cdb57c9b94eb1f6",
-    "total_tx_count": 3770,
+    "total_tx_count": 3772,
     "period_tx_count": 0,
     "period": "1d",
     "top_contracts": []

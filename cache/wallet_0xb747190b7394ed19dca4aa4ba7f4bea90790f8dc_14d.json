@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.491Z",
+  "fetched_at": "2026-05-26T10:40:57.360Z",
   "data": {
     "address": "0xb747190b7394ed19dca4aa4ba7f4bea90790f8dc",
     "name": "LaaLaa",
@@ -8,49 +8,65 @@
     "badges": 40,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xb747190b7394ed19dca4aa4ba7f4bea90790f8dc",
-    "total_tx_count": 8991,
-    "period_tx_count": 89,
+    "total_tx_count": 9055,
+    "period_tx_count": 56,
     "period": "14d",
     "top_contracts": [
-      {
-        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
-        "name": "DEPTH Protocol",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 29,
-        "top_method": "0x0962ef79"
-      },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 17,
+        "tx_count": 16,
         "top_method": "0x7060a227"
       },
       {
-        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
-        "name": "DEX Voter",
-        "category": "Abstract",
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "DEPTH Protocol",
+        "category": "DeFi",
         "is_unknown": false,
         "tx_count": 15,
-        "top_method": "0x7ac09bf7"
-      },
-      {
-        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
-        "name": "Portal Proxy",
-        "category": "Infra",
-        "is_unknown": false,
-        "tx_count": 9,
-        "top_method": "0x"
+        "top_method": "0x0962ef79"
       },
       {
         "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 7,
+        "tx_count": 6,
         "top_method": "0x12bc3aca"
+      },
+      {
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 5,
+        "top_method": "0x7ac09bf7"
+      },
+      {
+        "address": "0x36cbf77d8f8355d7a077d670c29e290e41367072",
+        "name": "Rewards Claim",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 5,
+        "top_method": "0x379607f5"
+      },
+      {
+        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
+        "name": "Portal Proxy",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "name": "Signature Minter",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x29efcf80"
       },
       {
         "address": "0x1afa21bef41b61b198b1782d4f806e163c8f291d",
@@ -59,6 +75,22 @@
         "is_unknown": true,
         "tx_count": 1,
         "top_method": "0x"
+      },
+      {
+        "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xac9650d8"
+      },
+      {
+        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
+        "name": "WETH9",
+        "category": "Others",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x2e1a7d4d"
       }
     ]
   }

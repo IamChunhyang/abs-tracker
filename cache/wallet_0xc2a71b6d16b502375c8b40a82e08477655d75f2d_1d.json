@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.483Z",
+  "fetched_at": "2026-05-26T10:40:57.347Z",
   "data": {
     "address": "0xc2a71b6d16b502375c8b40a82e08477655d75f2d",
     "name": "vibes",
@@ -8,32 +8,16 @@
     "badges": 38,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xc2a71b6d16b502375c8b40a82e08477655d75f2d",
-    "total_tx_count": 109627,
-    "period_tx_count": 179,
+    "total_tx_count": 111765,
+    "period_tx_count": 6,
     "period": "1d",
     "top_contracts": [
-      {
-        "address": "0x5f8abf7f164fbed5c51f696ddf3c2c17bcbc8fbb",
-        "name": "Cambria (Duel Arena)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 167,
-        "top_method": "0x37d8b79d"
-      },
-      {
-        "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
-        "name": "0x37d6...1afe",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 4,
-        "top_method": "0x2752571e"
-      },
       {
         "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 2,
+        "tx_count": 3,
         "top_method": "0xf5298aca"
       },
       {
@@ -45,20 +29,12 @@
         "top_method": "0x7060a227"
       },
       {
-        "address": "0x7edd91c4dd202032872bfbfcd3a4e4f71cb4b8bc",
-        "name": "Roach Racing Club",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0xbed90f9b"
-      },
-      {
-        "address": "0x0e4ee35190f16efdfd1aa9be802ca546fcce5a81",
-        "name": "Bearish",
-        "category": "NFT",
-        "is_unknown": false,
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
+        "category": "Unknown",
+        "is_unknown": true,
         "tx_count": 1,
-        "top_method": "0x6548b7ae"
+        "top_method": "0x4b61cd6f"
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.600Z",
+  "fetched_at": "2026-05-26T10:40:57.894Z",
   "data": {
     "address": "0x8167e4df2177dcd06d9d0261f759fdacf7cdce40",
     "name": "HappyTV",
@@ -8,81 +8,73 @@
     "badges": 18,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x8167e4df2177dcd06d9d0261f759fdacf7cdce40",
-    "total_tx_count": 3892,
-    "period_tx_count": 58,
+    "total_tx_count": 3923,
+    "period_tx_count": 31,
     "period": "14d",
     "top_contracts": [
-      {
-        "address": "0x89e9d9b7d87591875359247f7d8eb786e7ea6910",
-        "name": "Kona",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 11,
-        "top_method": "0x9e2c8a5b"
-      },
-      {
-        "address": "0x8f16b5713f412c5de4951aaf678eb8409101f819",
-        "name": "Aave V3 Pool",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 10,
-        "top_method": "0x69328dec"
-      },
       {
         "address": "0x441e0627db5173da098de86b734d136b27925250",
         "name": "0x441e...5250",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 10,
+        "tx_count": 8,
         "top_method": "0xbaa2abde"
       },
       {
-        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
-        "name": "WETH9",
-        "category": "Others",
+        "address": "0x89e9d9b7d87591875359247f7d8eb786e7ea6910",
+        "name": "Kona",
+        "category": "DeFi",
         "is_unknown": false,
         "tx_count": 6,
-        "top_method": "0x095ea7b3"
+        "top_method": "0x9e2c8a5b"
+      },
+      {
+        "address": "0xf9d3e237427c84741394c7c2e9cd66f94ea3d4d6",
+        "name": "0xf9d3...d4d6",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 5,
+        "top_method": "0x79a3cf08"
       },
       {
         "address": "0xc85ce8ffda27b646d269516b8d0fa6ec2e958b55",
         "name": "Morpho",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 4,
-        "top_method": "0x8720316d"
-      },
-      {
-        "address": "0x528ee813c1f74042e98c94a522aaf2ca917003d2",
-        "name": "0x528e...03d2",
-        "category": "Unknown",
-        "is_unknown": true,
         "tx_count": 3,
-        "top_method": "0x6e553f65"
+        "top_method": "0x20b76e81"
       },
       {
-        "address": "0x1a506c4a525d66bf62cf74b1202dd6bf7fae970f",
-        "name": "0x1a50...970f",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 2,
-        "top_method": "0x095ea7b3"
-      },
-      {
-        "address": "0x8ec518160d4dc204d98b0513b67856cbbcc7559e",
-        "name": "0x8ec5...559e",
-        "category": "Unknown",
-        "is_unknown": true,
+        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "name": "Signature Minter",
+        "category": "NFT",
+        "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0x"
+        "top_method": "0x29efcf80"
       },
       {
-        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
-        "name": "USDC",
+        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
+        "name": "WETH9",
         "category": "Others",
         "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0xa9059cbb"
+        "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0x92c18c91ad1356ddea429bf5c49949489cea4608",
+        "name": "0x92c1...4608",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xa0712d68"
+      },
+      {
+        "address": "0x92aba186c85b5afeb3a2cedc8772ae8638f1b565",
+        "name": "0x92ab...b565",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x095ea7b3"
       },
       {
         "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
@@ -91,30 +83,6 @@
         "is_unknown": false,
         "tx_count": 1,
         "top_method": "0xa026383e"
-      },
-      {
-        "address": "0x4237d126713bf1faba29ed8a55a6a0634886e223",
-        "name": "Aave V3 Pool",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xbf90f63a"
-      },
-      {
-        "address": "0x0709f39376deee2a2dfc94a58edeb2eb9df012bd",
-        "name": "0x0709...12bd",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x095ea7b3"
-      },
-      {
-        "address": "0x9ebe3a824ca958e4b3da772d2065518f009cba62",
-        "name": "0x9ebe...ba62",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x095ea7b3"
       },
       {
         "address": "0xc29d50197ee9107b0bedcfed7aeb09297078dba2",
@@ -147,22 +115,6 @@
         "is_unknown": true,
         "tx_count": 1,
         "top_method": "0xbe4a0a14"
-      },
-      {
-        "address": "0x32ca1a2e35d56e0b76c6509f76ba7276eaa258da",
-        "name": "0x32ca...58da",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x095ea7b3"
-      },
-      {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "Abstract Voting",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x7060a227"
       }
     ]
   }

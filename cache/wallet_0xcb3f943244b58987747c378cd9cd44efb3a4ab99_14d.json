@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-08T12:45:55.680Z",
+  "fetched_at": "2026-05-26T10:40:58.089Z",
   "data": {
     "address": "0xcb3f943244b58987747c378cd9cd44efb3a4ab99",
     "name": "0xcb3f943244b58987747c378cd9cd44efb3a4ab99",
@@ -8,8 +8,8 @@
     "badges": 12,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xcb3f943244b58987747c378cd9cd44efb3a4ab99",
-    "total_tx_count": 145,
-    "period_tx_count": 11,
+    "total_tx_count": 146,
+    "period_tx_count": 1,
     "period": "14d",
     "top_contracts": [
       {
@@ -17,48 +17,8 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 3,
+        "tx_count": 1,
         "top_method": "0x7060a227"
-      },
-      {
-        "address": "0xa171bb8b0805ddccc8721ccb1e13f6dd09633cfc",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0xb6b55f25"
-      },
-      {
-        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0xb7e0d4c0"
-      },
-      {
-        "address": "0x6affe011ff40742b383e952a2c7542419e305821",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xc00007b0"
-      },
-      {
-        "address": "0xa4890b89dc628bae614780079acc951fb0ecdc5f",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xac9650d8"
-      },
-      {
-        "address": "0x1a0a49927e0deef872316819aac1a7a07622d420",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x2e1a7d4d"
       }
     ]
   }
