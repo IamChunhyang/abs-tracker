@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.387Z",
+  "fetched_at": "2026-05-27T16:05:55.240Z",
   "data": {
     "address": "0x0804f0d4f5d3794539af6a8a8a6a6da31383bb20",
     "name": "Brighty",
@@ -8,9 +8,18 @@
     "badges": 37,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x0804f0d4f5d3794539af6a8a8a6a6da31383bb20",
-    "total_tx_count": 8380,
-    "period_tx_count": 0,
+    "total_tx_count": 8382,
+    "period_tx_count": 2,
     "period": "1d",
-    "top_contracts": []
+    "top_contracts": [
+      {
+        "address": "0xc74d5002c10c13d2ad258b4584690829387f84dc",
+        "name": "DYLI",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0xf7344a59"
+      }
+    ]
   }
 }

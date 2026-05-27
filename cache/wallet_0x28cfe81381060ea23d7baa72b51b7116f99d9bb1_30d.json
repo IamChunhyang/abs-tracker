@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.648Z",
+  "fetched_at": "2026-05-27T16:05:55.403Z",
   "data": {
     "address": "0x28cfe81381060ea23d7baa72b51b7116f99d9bb1",
     "name": "jsteezy",
@@ -8,8 +8,8 @@
     "badges": 14,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x28cfe81381060ea23d7baa72b51b7116f99d9bb1",
-    "total_tx_count": 10025,
-    "period_tx_count": 37,
+    "total_tx_count": 10026,
+    "period_tx_count": 38,
     "period": "30d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 13,
+        "tx_count": 14,
         "top_method": "0x5a0694d2"
       },
       {

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.358Z",
+  "fetched_at": "2026-05-27T16:05:55.225Z",
   "data": {
     "address": "0x15c821c18ff36b24efd0a338989281107ae26f90",
     "name": "Cody",
@@ -8,7 +8,7 @@
     "badges": 38,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x15c821c18ff36b24efd0a338989281107ae26f90",
-    "total_tx_count": 133217,
+    "total_tx_count": 133224,
     "period_tx_count": 2000,
     "period": "30d",
     "top_contracts": [
@@ -17,7 +17,7 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 833,
+        "tx_count": 830,
         "top_method": "0xf5298aca"
       },
       {
@@ -25,7 +25,7 @@
         "name": "Moody Drops (Claim,NFT)",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 810,
+        "tx_count": 807,
         "top_method": "0x16c5aa5e"
       },
       {
@@ -33,7 +33,7 @@
         "name": "Cambria (Duel Arena)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 138,
+        "tx_count": 137,
         "top_method": "0xce55803f"
       },
       {
@@ -41,7 +41,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 57,
+        "tx_count": 61,
         "top_method": "0x7060a227"
       },
       {
@@ -49,7 +49,7 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 36,
+        "tx_count": 37,
         "top_method": "0x5a0694d2"
       },
       {
@@ -65,7 +65,7 @@
         "name": "Death Fun",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 22,
+        "tx_count": 24,
         "top_method": "0x001308d8"
       },
       {

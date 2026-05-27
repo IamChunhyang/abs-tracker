@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:58.024Z",
+  "fetched_at": "2026-05-27T16:05:55.605Z",
   "data": {
     "address": "0x7390022cbff03b8501084ca8fa72cdb932a415d6",
     "name": "blairbear",
@@ -8,169 +8,97 @@
     "badges": 24,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x7390022cbff03b8501084ca8fa72cdb932a415d6",
-    "total_tx_count": 714325,
-    "period_tx_count": 10413,
+    "total_tx_count": 714335,
+    "period_tx_count": 65,
     "period": "1d",
     "top_contracts": [
       {
-        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
-        "name": "Rugpull Bakery (Baking)",
-        "category": "Gaming",
+        "address": "0x939149d23f4cc433eaae05b8e0077d0136985420",
+        "name": "0x9391...5420",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 3,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xa3c61dcc9684d1d4705f43a9efeccba4a8073264",
+        "name": "0xa3c6...3264",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x98874e0773208bcf15dbb33b830c5f2576b7e872",
+        "name": "0x9887...e872",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x06db0f8fb9690cfbc1e9ae817e52b2fb3ca38e99",
+        "name": "0x06db...8e99",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xb34819c94526a19fe774402a4fc9bef995eb0e35",
+        "name": "0xb348...0e35",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x3dad64fd21f4f13efcdd6848799a6ef64d6a68f7",
+        "name": "0x3dad...68f7",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xcf9437320ed8b11db5554c14e5c93f1d1c4f4d79",
+        "name": "0xcf94...4d79",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 10267,
-        "top_method": "0x"
+        "tx_count": 1,
+        "top_method": "0x7060a227"
       },
       {
-        "address": "0xb74e2da73e0ecefe0ae9194891ea12886b433b8e",
-        "name": "0xb74e...3b8e",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 4,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x210b2f8feb1f5f34f9b219b020fe918465b0819b",
-        "name": "0x210b...819b",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 4,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x438bf54b62b872f0a272de9ad5090616d7a471a7",
-        "name": "0x438b...71a7",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 4,
-        "top_method": "0x"
-      },
-      {
-        "address": "0xe59ffd0ef06d073f1d0d01e3ada8e2dbd2f9f54b",
-        "name": "0xe59f...f54b",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 4,
-        "top_method": "0x"
-      },
-      {
-        "address": "0xda062c08f0cd5332a03531498772aac188d17bbd",
-        "name": "0xda06...7bbd",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 4,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x75fc0173d8fe165fc3b81a8642f903394e0673b9",
-        "name": "0x75fc...73b9",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 4,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x6c9ce77d1758658f265b84ae2fdb668b7d637685",
-        "name": "0x6c9c...7685",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 4,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x888bfeeabdc1c3612445ec60e0303f87978fb895",
-        "name": "0x888b...b895",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 4,
-        "top_method": "0x"
-      },
-      {
-        "address": "0xf8ac7e7aec529cc9dcd08b441b88ed39b1a00c2a",
-        "name": "0xf8ac...0c2a",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 4,
-        "top_method": "0x"
-      },
-      {
-        "address": "0xd14db3d838ea0988159d7f56d78428fef6c26e18",
-        "name": "0xd14d...6e18",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 4,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
-        "name": "Rugpull Bakery (Boost&Rug)",
-        "category": "Gaming",
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Signing",
+        "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 4,
-        "top_method": "0xf20c3fb4"
+        "tx_count": 1,
+        "top_method": "0x5a0694d2"
       },
       {
-        "address": "0xf00768d8f9e0516d9a4db5e74163ce7d48c00110",
-        "name": "0xf007...0110",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 3,
+        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
+        "name": "Portal Proxy",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 1,
         "top_method": "0x"
       },
       {
-        "address": "0x99f32a7fecd5523231e9cc5f3a3cec04187c2409",
-        "name": "0x99f3...2409",
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 3,
-        "top_method": "0x"
-      },
-      {
-        "address": "0xae639194d54cf8064f7d84dc127ea81aae2ebebe",
-        "name": "0xae63...bebe",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 3,
-        "top_method": "0x"
-      },
-      {
-        "address": "0xd7905c8d8394a4e7ed8cd8b38c6866efdb39724c",
-        "name": "0xd790...724c",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 3,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x5171c2bb39cc830ed1673ea6a8d032169319ea6c",
-        "name": "0x5171...ea6c",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 3,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x4f43e35f3e5b897b4abbca3055a866e493918fab",
-        "name": "0x4f43...8fab",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 3,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x400dc2e09fca45c4f3a79856fddcf67356b0dabe",
-        "name": "0x400d...dabe",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 3,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x16e52993353ff958dbbd503ed526f32a4552b77f",
-        "name": "0x16e5...b77f",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 3,
-        "top_method": "0x"
+        "tx_count": 1,
+        "top_method": "0x4b61cd6f"
       }
     ]
   }

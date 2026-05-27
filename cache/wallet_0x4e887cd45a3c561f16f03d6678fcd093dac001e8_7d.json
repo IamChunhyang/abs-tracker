@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.439Z",
+  "fetched_at": "2026-05-27T16:05:55.271Z",
   "data": {
     "address": "0x4e887cd45a3c561f16f03d6678fcd093dac001e8",
     "name": "ericzalusky",
@@ -8,8 +8,8 @@
     "badges": 39,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x4e887cd45a3c561f16f03d6678fcd093dac001e8",
-    "total_tx_count": 8981,
-    "period_tx_count": 187,
+    "total_tx_count": 8989,
+    "period_tx_count": 167,
     "period": "7d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 92,
+        "tx_count": 82,
         "top_method": "0xf5298aca"
       },
       {
@@ -25,7 +25,7 @@
         "name": "Moody Drops (Claim,NFT)",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 72,
+        "tx_count": 61,
         "top_method": "0x16c5aa5e"
       },
       {

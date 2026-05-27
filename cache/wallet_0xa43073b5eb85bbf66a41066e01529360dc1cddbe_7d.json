@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.649Z",
+  "fetched_at": "2026-05-27T16:05:55.403Z",
   "data": {
     "address": "0xa43073b5eb85bbf66a41066e01529360dc1cddbe",
     "name": "veermay",
@@ -8,8 +8,8 @@
     "badges": 16,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xa43073b5eb85bbf66a41066e01529360dc1cddbe",
-    "total_tx_count": 5557,
-    "period_tx_count": 54,
+    "total_tx_count": 5560,
+    "period_tx_count": 51,
     "period": "7d",
     "top_contracts": [
       {
@@ -57,7 +57,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 1,
+        "tx_count": 2,
         "top_method": "0x7060a227"
       },
       {
@@ -83,22 +83,6 @@
         "is_unknown": false,
         "tx_count": 1,
         "top_method": "0x219e0149"
-      },
-      {
-        "address": "0x219260d8470d8211ad66eb69206bdf72a4218b65",
-        "name": "Onchain Heroes",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xf7345f9c"
-      },
-      {
-        "address": "0x0000000000000068f116a894984e2db1123eb395",
-        "name": "OpenSea",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xe7acab24"
       }
     ]
   }

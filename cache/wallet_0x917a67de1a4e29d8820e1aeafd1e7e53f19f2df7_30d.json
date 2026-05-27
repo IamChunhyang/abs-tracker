@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.236Z",
+  "fetched_at": "2026-05-27T16:05:55.151Z",
   "data": {
     "address": "0x917a67de1a4e29d8820e1aeafd1e7e53f19f2df7",
     "name": "coffee",
@@ -8,8 +8,8 @@
     "badges": 39,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x917a67de1a4e29d8820e1aeafd1e7e53f19f2df7",
-    "total_tx_count": 35620,
-    "period_tx_count": 184,
+    "total_tx_count": 35621,
+    "period_tx_count": 185,
     "period": "30d",
     "top_contracts": [
       {
@@ -37,6 +37,14 @@
         "top_method": "0x0962ef79"
       },
       {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Signing",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 10,
+        "top_method": "0x5a0694d2"
+      },
+      {
         "address": "0x268031de8363401d61b6a256bea009bb57277619",
         "name": "Gacha Mall",
         "category": "Arcade",
@@ -51,14 +59,6 @@
         "is_unknown": false,
         "tx_count": 9,
         "top_method": "0x107cc1ec"
-      },
-      {
-        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
-        "name": "Session Key Signing",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 9,
-        "top_method": "0x5a0694d2"
       },
       {
         "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",

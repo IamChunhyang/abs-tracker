@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.505Z",
+  "fetched_at": "2026-05-27T16:05:55.312Z",
   "data": {
     "address": "0x22c6d67e8434653c740fbabd1bf5961402a6f1de",
     "name": "MantuPengu",
@@ -9,7 +9,7 @@
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x22c6d67e8434653c740fbabd1bf5961402a6f1de",
     "total_tx_count": 15593,
-    "period_tx_count": 52,
+    "period_tx_count": 51,
     "period": "30d",
     "top_contracts": [
       {

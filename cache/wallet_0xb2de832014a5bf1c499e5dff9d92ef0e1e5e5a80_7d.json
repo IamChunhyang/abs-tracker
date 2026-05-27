@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.353Z",
+  "fetched_at": "2026-05-27T16:05:55.221Z",
   "data": {
     "address": "0xb2de832014a5bf1c499e5dff9d92ef0e1e5e5a80",
     "name": "LiLPudgyWhale",
@@ -8,16 +8,24 @@
     "badges": 39,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xb2de832014a5bf1c499e5dff9d92ef0e1e5e5a80",
-    "total_tx_count": 4085,
-    "period_tx_count": 16,
+    "total_tx_count": 4106,
+    "period_tx_count": 37,
     "period": "7d",
     "top_contracts": [
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Signing",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 19,
+        "top_method": "0x3ec59279"
+      },
       {
         "address": "0x7edd91c4dd202032872bfbfcd3a4e4f71cb4b8bc",
         "name": "Roach Racing Club",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 7,
+        "tx_count": 8,
         "top_method": "0xbed90f9b"
       },
       {
@@ -25,7 +33,7 @@
         "name": "0x13a5...3475",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 7,
+        "tx_count": 8,
         "top_method": "0xd64abc3c"
       },
       {

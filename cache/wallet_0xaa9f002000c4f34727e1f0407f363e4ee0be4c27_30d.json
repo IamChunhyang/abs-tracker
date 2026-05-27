@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.280Z",
+  "fetched_at": "2026-05-27T16:05:55.180Z",
   "data": {
     "address": "0xaa9f002000c4f34727e1f0407f363e4ee0be4c27",
     "name": "cardman",
@@ -9,7 +9,7 @@
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xaa9f002000c4f34727e1f0407f363e4ee0be4c27",
     "total_tx_count": 4358,
-    "period_tx_count": 21,
+    "period_tx_count": 18,
     "period": "30d",
     "top_contracts": [
       {
@@ -25,7 +25,7 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 8,
+        "tx_count": 7,
         "top_method": "0x5a0694d2"
       },
       {

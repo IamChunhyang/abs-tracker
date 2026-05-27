@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:58.091Z",
+  "fetched_at": "2026-05-27T16:05:55.649Z",
   "data": {
     "address": "0x450f9d631aee7b29ece32e92ac178c81aa4e9c40",
     "name": "0x450f9d631aee7b29ece32e92ac178c81aa4e9c40",
@@ -8,9 +8,18 @@
     "badges": 3,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x450f9d631aee7b29ece32e92ac178c81aa4e9c40",
-    "total_tx_count": 12,
-    "period_tx_count": 0,
+    "total_tx_count": 19,
+    "period_tx_count": 7,
     "period": "1d",
-    "top_contracts": []
+    "top_contracts": [
+      {
+        "address": "0x6affe011ff40742b383e952a2c7542419e305821",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0xc00007b0"
+      }
+    ]
   }
 }

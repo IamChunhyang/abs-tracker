@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:58.091Z",
+  "fetched_at": "2026-05-27T16:05:55.648Z",
   "data": {
     "address": "0x66b64eb3b8b7fd6e8dba618999117014512bb6ad",
     "name": "0x66b64eb3b8b7fd6e8dba618999117014512bb6ad",
@@ -8,10 +8,18 @@
     "badges": 5,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x66b64eb3b8b7fd6e8dba618999117014512bb6ad",
-    "total_tx_count": 20,
-    "period_tx_count": 1,
+    "total_tx_count": 29,
+    "period_tx_count": 10,
     "period": "30d",
     "top_contracts": [
+      {
+        "address": "0x6affe011ff40742b383e952a2c7542419e305821",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x2e1a7d4d"
+      },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",

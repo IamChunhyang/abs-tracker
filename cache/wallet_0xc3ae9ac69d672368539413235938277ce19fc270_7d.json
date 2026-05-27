@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.209Z",
+  "fetched_at": "2026-05-27T16:05:55.128Z",
   "data": {
     "address": "0xc3ae9ac69d672368539413235938277ce19fc270",
     "name": "Bollin",
@@ -8,17 +8,17 @@
     "badges": 41,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xc3ae9ac69d672368539413235938277ce19fc270",
-    "total_tx_count": 87744,
-    "period_tx_count": 39,
+    "total_tx_count": 87764,
+    "period_tx_count": 35,
     "period": "7d",
     "top_contracts": [
       {
-        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
-        "name": "Tollan (Gameplay)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 20,
-        "top_method": "0x8708c7fd"
+        "address": "0x920fefb4e92dbba0393ba233cecb1051a0dde25c",
+        "name": "0x920f...e25c",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 16,
+        "top_method": "0xf6b45c46"
       },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
@@ -33,16 +33,16 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 4,
+        "tx_count": 5,
         "top_method": "0x5a0694d2"
       },
       {
-        "address": "0xa688a6a53a26b6f0702a9a518482151415be1ff7",
-        "name": "Tollan (Buy,NFT Claim)",
-        "category": "Gaming",
-        "is_unknown": false,
+        "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
+        "name": "0x37d6...1afe",
+        "category": "Unknown",
+        "is_unknown": true,
         "tx_count": 2,
-        "top_method": "0x"
+        "top_method": "0x807ef825"
       },
       {
         "address": "0x2ddf2129a55cf132e580cc5d69fad1de3d213bba",
@@ -51,14 +51,6 @@
         "is_unknown": true,
         "tx_count": 1,
         "top_method": "0xb6b55f25"
-      },
-      {
-        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
-        "name": "Signature Minter",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x29efcf80"
       }
     ]
   }

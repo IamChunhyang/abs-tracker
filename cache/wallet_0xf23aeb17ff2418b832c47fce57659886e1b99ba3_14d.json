@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.644Z",
+  "fetched_at": "2026-05-27T16:05:55.400Z",
   "data": {
     "address": "0xf23aeb17ff2418b832c47fce57659886e1b99ba3",
     "name": "Shakejr",
@@ -9,7 +9,7 @@
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xf23aeb17ff2418b832c47fce57659886e1b99ba3",
     "total_tx_count": 6439,
-    "period_tx_count": 332,
+    "period_tx_count": 311,
     "period": "14d",
     "top_contracts": [
       {
@@ -25,7 +25,7 @@
         "name": "DYLI",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 108,
+        "tx_count": 87,
         "top_method": "0x7f58b4bf"
       },
       {

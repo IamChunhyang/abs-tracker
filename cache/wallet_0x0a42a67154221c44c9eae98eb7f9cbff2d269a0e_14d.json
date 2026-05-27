@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.442Z",
+  "fetched_at": "2026-05-27T16:05:55.273Z",
   "data": {
     "address": "0x0a42a67154221c44c9eae98eb7f9cbff2d269a0e",
     "name": "cassowary",
@@ -8,8 +8,8 @@
     "badges": 25,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x0a42a67154221c44c9eae98eb7f9cbff2d269a0e",
-    "total_tx_count": 28915,
-    "period_tx_count": 42,
+    "total_tx_count": 28926,
+    "period_tx_count": 51,
     "period": "14d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 19,
+        "tx_count": 28,
         "top_method": "0x807ef825"
       },
       {

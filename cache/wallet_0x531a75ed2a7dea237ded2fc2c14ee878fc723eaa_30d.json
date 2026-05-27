@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.294Z",
+  "fetched_at": "2026-05-27T16:05:55.188Z",
   "data": {
     "address": "0x531a75ed2a7dea237ded2fc2c14ee878fc723eaa",
     "name": "thepeengwin",
@@ -8,7 +8,7 @@
     "badges": 40,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x531a75ed2a7dea237ded2fc2c14ee878fc723eaa",
-    "total_tx_count": 89979,
+    "total_tx_count": 89998,
     "period_tx_count": 28000,
     "period": "30d",
     "top_contracts": [
@@ -17,7 +17,7 @@
         "name": "Rugpull Bakery (Baking)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 26241,
+        "tx_count": 26223,
         "top_method": "0x"
       },
       {
@@ -33,7 +33,7 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 642,
+        "tx_count": 650,
         "top_method": "0xf5298aca"
       },
       {
@@ -49,7 +49,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 52,
+        "tx_count": 53,
         "top_method": "0x7060a227"
       },
       {
@@ -57,31 +57,31 @@
         "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 42,
+        "tx_count": 44,
         "top_method": "0x807ef825"
-      },
-      {
-        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
-        "name": "Portal Proxy",
-        "category": "Infra",
-        "is_unknown": false,
-        "tx_count": 27,
-        "top_method": "0x"
       },
       {
         "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
         "name": "DEPTH Protocol",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 27,
+        "tx_count": 29,
         "top_method": "0x0962ef79"
+      },
+      {
+        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
+        "name": "Portal Proxy",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 29,
+        "top_method": "0x"
       },
       {
         "address": "0x0e4ee35190f16efdfd1aa9be802ca546fcce5a81",
         "name": "Bearish",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 25,
+        "tx_count": 27,
         "top_method": "0x6548b7ae"
       },
       {
@@ -105,7 +105,7 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 16,
+        "tx_count": 17,
         "top_method": "0x5a0694d2"
       },
       {

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.218Z",
+  "fetched_at": "2026-05-27T16:05:55.135Z",
   "data": {
     "address": "0xd82311e0ddcff7cad1be090763d4f6d7ba1c290a",
     "name": "0xd82311e0ddcff7cad1be090763d4f6d7ba1c290a",
@@ -8,8 +8,8 @@
     "badges": 27,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xd82311e0ddcff7cad1be090763d4f6d7ba1c290a",
-    "total_tx_count": 6393,
-    "period_tx_count": 42,
+    "total_tx_count": 6408,
+    "period_tx_count": 57,
     "period": "14d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Free Managed Reward",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 14,
+        "tx_count": 20,
         "top_method": "0xf5f8d365"
       },
       {
@@ -25,7 +25,7 @@
         "name": "DEX Voter",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 8,
+        "tx_count": 12,
         "top_method": "0x7ac09bf7"
       },
       {
@@ -33,7 +33,7 @@
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 5,
+        "tx_count": 8,
         "top_method": "0xb52c05fe"
       },
       {
@@ -43,6 +43,14 @@
         "is_unknown": false,
         "tx_count": 5,
         "top_method": "0xcac88ea9"
+      },
+      {
+        "address": "0x36cbf77d8f8355d7a077d670c29e290e41367072",
+        "name": "Rewards Claim",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x379607f5"
       },
       {
         "address": "0x91d421946ac01379b57be5bd80bd828d0b2fa877",
@@ -59,14 +67,6 @@
         "is_unknown": false,
         "tx_count": 2,
         "top_method": "0x2e1a7d4d"
-      },
-      {
-        "address": "0x36cbf77d8f8355d7a077d670c29e290e41367072",
-        "name": "Rewards Claim",
-        "category": "Rewards",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0x379607f5"
       },
       {
         "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",

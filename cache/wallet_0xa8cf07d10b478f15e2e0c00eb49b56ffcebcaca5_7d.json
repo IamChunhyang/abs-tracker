@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.304Z",
+  "fetched_at": "2026-05-27T16:05:55.195Z",
   "data": {
     "address": "0xa8cf07d10b478f15e2e0c00eb49b56ffcebcaca5",
     "name": "coolgolfer1",
@@ -8,8 +8,8 @@
     "badges": 40,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xa8cf07d10b478f15e2e0c00eb49b56ffcebcaca5",
-    "total_tx_count": 42248,
-    "period_tx_count": 13945,
+    "total_tx_count": 42299,
+    "period_tx_count": 10865,
     "period": "7d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Rugpull Bakery (Baking)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 13380,
+        "tx_count": 10254,
         "top_method": "0x"
       },
       {
@@ -25,7 +25,7 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 206,
+        "tx_count": 211,
         "top_method": "0xf5298aca"
       },
       {
@@ -41,7 +41,7 @@
         "name": "Tollan (Gameplay)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 36,
+        "tx_count": 39,
         "top_method": "0x8708c7fd"
       },
       {
@@ -49,7 +49,7 @@
         "name": "0x920f...e25c",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 22,
+        "tx_count": 23,
         "top_method": "0xdafa1d2d"
       },
       {
@@ -57,7 +57,7 @@
         "name": "Rugpull Bakery",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 12,
+        "tx_count": 20,
         "top_method": "0xb27a78e3"
       },
       {
@@ -65,7 +65,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 12,
+        "tx_count": 16,
         "top_method": "0x7060a227"
       },
       {
@@ -73,39 +73,15 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 9,
+        "tx_count": 14,
         "top_method": "0x5a0694d2"
-      },
-      {
-        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
-        "name": "DEPTH Protocol",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 8,
-        "top_method": "0x0962ef79"
-      },
-      {
-        "address": "0x125c13e12bd40bc7eb4f129d3f8443091d443b7e",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 7,
-        "top_method": "0x1c4b774b"
-      },
-      {
-        "address": "0xa4890b89dc628bae614780079acc951fb0ecdc5f",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 6,
-        "top_method": "0xb5007d1f"
       },
       {
         "address": "0x911dbdd9841b53ee5a08170109daf7ad82684108",
         "name": "Shiny",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 5,
+        "tx_count": 12,
         "top_method": "0x92971a31"
       },
       {
@@ -113,8 +89,32 @@
         "name": "Shiny",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 5,
+        "tx_count": 12,
         "top_method": "0xf23a27bd"
+      },
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "DEPTH Protocol",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 9,
+        "top_method": "0x0962ef79"
+      },
+      {
+        "address": "0xa4890b89dc628bae614780079acc951fb0ecdc5f",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 8,
+        "top_method": "0xb5007d1f"
+      },
+      {
+        "address": "0x125c13e12bd40bc7eb4f129d3f8443091d443b7e",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 8,
+        "top_method": "0x2e1a7d4d"
       },
       {
         "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
@@ -131,14 +131,6 @@
         "is_unknown": false,
         "tx_count": 3,
         "top_method": "0xf5f8d365"
-      },
-      {
-        "address": "0x19b12968f846a13b95ac13eeea6c5acd0cc153f7",
-        "name": "0x19b1...53f7",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 3,
-        "top_method": "0x34d55309"
       },
       {
         "address": "0x458422e93bf89a109afc4fac00aacf2f18fcf541",
@@ -171,6 +163,14 @@
         "is_unknown": false,
         "tx_count": 2,
         "top_method": "0x219e0149"
+      },
+      {
+        "address": "0x9ebe3a824ca958e4b3da772d2065518f009cba62",
+        "name": "0x9ebe...ba62",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x095ea7b3"
       }
     ]
   }

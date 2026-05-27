@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.753Z",
+  "fetched_at": "2026-05-27T16:05:55.459Z",
   "data": {
     "address": "0x3dc88b8884153ddfb76d177f9bb8d1b5bf377917",
     "name": "girlonabstract",
@@ -8,8 +8,8 @@
     "badges": 38,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x3dc88b8884153ddfb76d177f9bb8d1b5bf377917",
-    "total_tx_count": 19612,
-    "period_tx_count": 140,
+    "total_tx_count": 19622,
+    "period_tx_count": 144,
     "period": "30d",
     "top_contracts": [
       {
@@ -25,7 +25,7 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 30,
+        "tx_count": 36,
         "top_method": "0xf5298aca"
       },
       {
@@ -33,7 +33,7 @@
         "name": "DYLI",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 20,
+        "tx_count": 19,
         "top_method": "0x7f58b4bf"
       },
       {

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.580Z",
+  "fetched_at": "2026-05-27T16:05:55.359Z",
   "data": {
     "address": "0xa0f78f02d4534fd7c7026514a27ef231e39f0300",
     "name": "elev8blyss",
@@ -8,8 +8,8 @@
     "badges": 35,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xa0f78f02d4534fd7c7026514a27ef231e39f0300",
-    "total_tx_count": 38836,
-    "period_tx_count": 592,
+    "total_tx_count": 38913,
+    "period_tx_count": 603,
     "period": "14d",
     "top_contracts": [
       {
@@ -21,68 +21,52 @@
         "top_method": "0x7f58b4bf"
       },
       {
-        "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
-        "name": "0x37d6...1afe",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 50,
-        "top_method": "0x2752571e"
+        "address": "0x268031de8363401d61b6a256bea009bb57277619",
+        "name": "Gacha Mall",
+        "category": "Arcade",
+        "is_unknown": false,
+        "tx_count": 86,
+        "top_method": "0x581644ae"
       },
       {
         "address": "0x516dce03bbb9d686e567a15ba3b7d061e394ab7a",
         "name": "Gacha PvP",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 40,
+        "tx_count": 56,
         "top_method": "0x107cc1ec"
-      },
-      {
-        "address": "0x268031de8363401d61b6a256bea009bb57277619",
-        "name": "Gacha Mall",
-        "category": "Arcade",
-        "is_unknown": false,
-        "tx_count": 39,
-        "top_method": "0x581644ae"
       },
       {
         "address": "0x270bbb21b1187bc6e694f428dcb51432958eb3d9",
         "name": "Rugpull Bakery",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 38,
+        "tx_count": 32,
         "top_method": "0xb27a78e3"
-      },
-      {
-        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
-        "name": "DEPTH Protocol",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 13,
-        "top_method": "0x0962ef79"
       },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 12,
+        "tx_count": 15,
         "top_method": "0x7060a227"
+      },
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "DEPTH Protocol",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 14,
+        "top_method": "0x0962ef79"
       },
       {
         "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 8,
+        "tx_count": 10,
         "top_method": "0x5a0694d2"
-      },
-      {
-        "address": "0x0000000000000068f116a894984e2db1123eb395",
-        "name": "OpenSea",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 4,
-        "top_method": "0xe7acab24"
       },
       {
         "address": "0x5e2d57b022f0905d4981f0803560e23cde322ce2",
@@ -91,6 +75,14 @@
         "is_unknown": true,
         "tx_count": 4,
         "top_method": "0x8627df46"
+      },
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "OpenSea",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0xe7acab24"
       },
       {
         "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
@@ -109,6 +101,14 @@
         "top_method": "0xcac88ea9"
       },
       {
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "Others",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x095ea7b3"
+      },
+      {
         "address": "0x27b04370d8087e714a9f557c1eff7901cea6bb63",
         "name": "Aborean",
         "category": "DeFi",
@@ -123,14 +123,6 @@
         "is_unknown": false,
         "tx_count": 2,
         "top_method": "0x379607f5"
-      },
-      {
-        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
-        "name": "Portal Proxy",
-        "category": "Infra",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0x"
       },
       {
         "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
@@ -171,6 +163,14 @@
         "is_unknown": true,
         "tx_count": 1,
         "top_method": "0xa22cb465"
+      },
+      {
+        "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xa026383e"
       }
     ]
   }

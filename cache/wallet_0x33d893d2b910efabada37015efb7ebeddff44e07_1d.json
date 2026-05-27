@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.657Z",
+  "fetched_at": "2026-05-27T16:05:55.409Z",
   "data": {
     "address": "0x33d893d2b910efabada37015efb7ebeddff44e07",
     "name": "3343",
@@ -8,8 +8,8 @@
     "badges": 39,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x33d893d2b910efabada37015efb7ebeddff44e07",
-    "total_tx_count": 48562,
-    "period_tx_count": 17,
+    "total_tx_count": 48587,
+    "period_tx_count": 28,
     "period": "1d",
     "top_contracts": [
       {
@@ -17,56 +17,40 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 8,
+        "tx_count": 10,
         "top_method": "0xf5298aca"
+      },
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "OpenSea",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 10,
+        "top_method": "0xe7acab24"
       },
       {
         "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
         "name": "Tollan (Gameplay)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 3,
+        "tx_count": 5,
         "top_method": "0x8708c7fd"
+      },
+      {
+        "address": "0xef625a9f0e552cac6dcedabbe3b140dba4a0babd",
+        "name": "0xef62...babd",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xa22cb465"
       },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 2,
+        "tx_count": 1,
         "top_method": "0x7060a227"
-      },
-      {
-        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xc6b7f1b6"
-      },
-      {
-        "address": "0x125c13e12bd40bc7eb4f129d3f8443091d443b7e",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x1c4b774b"
-      },
-      {
-        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
-        "name": "0x0000...4bf5",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x4b61cd6f"
-      },
-      {
-        "address": "0x4869dbdbe6885eadec79bc7a4b2ea363a76c7758",
-        "name": "0x4869...7758",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x"
       }
     ]
   }

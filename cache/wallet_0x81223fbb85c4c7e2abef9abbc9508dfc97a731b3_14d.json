@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.489Z",
+  "fetched_at": "2026-05-27T16:05:55.301Z",
   "data": {
     "address": "0x81223fbb85c4c7e2abef9abbc9508dfc97a731b3",
     "name": "Buster",
@@ -8,8 +8,8 @@
     "badges": 32,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x81223fbb85c4c7e2abef9abbc9508dfc97a731b3",
-    "total_tx_count": 17145,
-    "period_tx_count": 76,
+    "total_tx_count": 17150,
+    "period_tx_count": 80,
     "period": "14d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 17,
+        "tx_count": 18,
         "top_method": "0x7060a227"
       },
       {
@@ -25,7 +25,7 @@
         "name": "DEPTH Protocol",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 9,
+        "tx_count": 10,
         "top_method": "0x0962ef79"
       },
       {
@@ -91,6 +91,14 @@
         "is_unknown": true,
         "tx_count": 2,
         "top_method": "0x1c4b774b"
+      },
+      {
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x4b61cd6f"
       },
       {
         "address": "0xac875d3bc8bca493889c880d6c1c03d8f7a8da5e",
@@ -163,14 +171,6 @@
         "is_unknown": true,
         "tx_count": 1,
         "top_method": "0xc00007b0"
-      },
-      {
-        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
-        "name": "Signature Minter",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x29efcf80"
       }
     ]
   }

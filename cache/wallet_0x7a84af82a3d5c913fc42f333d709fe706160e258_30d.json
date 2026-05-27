@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.230Z",
+  "fetched_at": "2026-05-27T16:05:55.146Z",
   "data": {
     "address": "0x7a84af82a3d5c913fc42f333d709fe706160e258",
     "name": "FroggyCyborg",
@@ -8,8 +8,8 @@
     "badges": 39,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x7a84af82a3d5c913fc42f333d709fe706160e258",
-    "total_tx_count": 101657,
-    "period_tx_count": 23395,
+    "total_tx_count": 101938,
+    "period_tx_count": 23656,
     "period": "30d",
     "top_contracts": [
       {
@@ -25,7 +25,7 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 1882,
+        "tx_count": 2021,
         "top_method": "0xf5298aca"
       },
       {
@@ -33,7 +33,7 @@
         "name": "Moody Drops (Claim,NFT)",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 1874,
+        "tx_count": 2013,
         "top_method": "0x16c5aa5e"
       },
       {
@@ -57,7 +57,7 @@
         "name": "Cambria (Duel Arena)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 107,
+        "tx_count": 89,
         "top_method": "0xce55803f"
       },
       {
@@ -65,7 +65,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 62,
+        "tx_count": 63,
         "top_method": "0x7060a227"
       },
       {
@@ -81,7 +81,7 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 19,
+        "tx_count": 20,
         "top_method": "0x5a0694d2"
       },
       {
@@ -125,20 +125,20 @@
         "top_method": "0xb32820e9"
       },
       {
-        "address": "0x56053bdb06c2f996924f0f8785200a73262b49ac",
-        "name": "Spellborne",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 5,
-        "top_method": "0xbc11f894"
-      },
-      {
         "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
         "name": "DEPTH Protocol",
         "category": "DeFi",
         "is_unknown": false,
         "tx_count": 4,
         "top_method": "0x0962ef79"
+      },
+      {
+        "address": "0x56053bdb06c2f996924f0f8785200a73262b49ac",
+        "name": "Spellborne",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0xbc11f894"
       },
       {
         "address": "0x42ab8092bfb701f34c47273df83d90d8169ad982",

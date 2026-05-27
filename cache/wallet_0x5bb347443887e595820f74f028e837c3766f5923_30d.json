@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.448Z",
+  "fetched_at": "2026-05-27T16:05:55.277Z",
   "data": {
     "address": "0x5bb347443887e595820f74f028e837c3766f5923",
     "name": "Itero",
@@ -8,8 +8,8 @@
     "badges": 40,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x5bb347443887e595820f74f028e837c3766f5923",
-    "total_tx_count": 315725,
-    "period_tx_count": 8988,
+    "total_tx_count": 315733,
+    "period_tx_count": 8462,
     "period": "30d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Rugpull Bakery (Baking)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 3022,
+        "tx_count": 2962,
         "top_method": "0x"
       },
       {
@@ -25,7 +25,7 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 2778,
+        "tx_count": 2544,
         "top_method": "0xf5298aca"
       },
       {
@@ -33,7 +33,7 @@
         "name": "Moody Drops (Claim,NFT)",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 2773,
+        "tx_count": 2540,
         "top_method": "0x16c5aa5e"
       },
       {
@@ -49,7 +49,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 56,
+        "tx_count": 57,
         "top_method": "0x7060a227"
       },
       {
@@ -73,7 +73,7 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 31,
+        "tx_count": 32,
         "top_method": "0x5a0694d2"
       },
       {
@@ -109,14 +109,6 @@
         "top_method": "0xf20c3fb4"
       },
       {
-        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
-        "name": "Gigaverse",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 9,
-        "top_method": "0x807ef825"
-      },
-      {
         "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
         "name": "USDC",
         "category": "Others",
@@ -133,10 +125,26 @@
         "top_method": "0x05202ac1"
       },
       {
+        "address": "0x2ddf2129a55cf132e580cc5d69fad1de3d213bba",
+        "name": "0x2ddf...3bba",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 5,
+        "top_method": "0x1ecc0164"
+      },
+      {
         "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
         "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
+        "tx_count": 5,
+        "top_method": "0x807ef825"
+      },
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Gigaverse",
+        "category": "Gaming",
+        "is_unknown": false,
         "tx_count": 5,
         "top_method": "0x807ef825"
       },
@@ -163,14 +171,6 @@
         "is_unknown": false,
         "tx_count": 4,
         "top_method": "0xac9650d8"
-      },
-      {
-        "address": "0x3272596f776470d2d7c3f7dff3dc50888b7d8967",
-        "name": "Gacha",
-        "category": "Arcade",
-        "is_unknown": false,
-        "tx_count": 4,
-        "top_method": "0x379607f5"
       }
     ]
   }

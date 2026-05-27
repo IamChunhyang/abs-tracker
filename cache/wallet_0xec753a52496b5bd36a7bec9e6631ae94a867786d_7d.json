@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.754Z",
+  "fetched_at": "2026-05-27T16:05:55.460Z",
   "data": {
     "address": "0xec753a52496b5bd36a7bec9e6631ae94a867786d",
     "name": "KanaArima",
@@ -8,8 +8,8 @@
     "badges": 11,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xec753a52496b5bd36a7bec9e6631ae94a867786d",
-    "total_tx_count": 26481,
-    "period_tx_count": 23,
+    "total_tx_count": 26483,
+    "period_tx_count": 24,
     "period": "7d",
     "top_contracts": [
       {

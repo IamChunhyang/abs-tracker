@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.590Z",
+  "fetched_at": "2026-05-27T16:05:55.366Z",
   "data": {
     "address": "0x9abbb418ddb0189b432d1b51c234345b10a9e566",
     "name": "Cavent",
@@ -8,7 +8,7 @@
     "badges": 10,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x9abbb418ddb0189b432d1b51c234345b10a9e566",
-    "total_tx_count": 5500,
+    "total_tx_count": 5501,
     "period_tx_count": 0,
     "period": "1d",
     "top_contracts": []

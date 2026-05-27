@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.704Z",
+  "fetched_at": "2026-05-27T16:05:55.433Z",
   "data": {
     "address": "0xcf6a641c04dc513743eb415581e142997729cbde",
     "name": "EthBurakEth",
@@ -8,7 +8,7 @@
     "badges": 39,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xcf6a641c04dc513743eb415581e142997729cbde",
-    "total_tx_count": 372512,
+    "total_tx_count": 372518,
     "period_tx_count": 100000,
     "period": "30d",
     "top_contracts": [
@@ -17,7 +17,7 @@
         "name": "Rugpull Bakery (Baking)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 99536,
+        "tx_count": 99532,
         "top_method": "0x"
       },
       {
@@ -49,24 +49,24 @@
         "name": "Tollan (Gameplay)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 26,
+        "tx_count": 27,
         "top_method": "0x8708c7fd"
-      },
-      {
-        "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",
-        "name": "Onchain Heroes",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 7,
-        "top_method": "0xb32820e9"
       },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 7,
+        "tx_count": 8,
         "top_method": "0x7060a227"
+      },
+      {
+        "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",
+        "name": "Onchain Heroes",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 8,
+        "top_method": "0xb32820e9"
       },
       {
         "address": "0x56053bdb06c2f996924f0f8785200a73262b49ac",
@@ -81,7 +81,7 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 4,
+        "tx_count": 5,
         "top_method": "0x5a0694d2"
       },
       {

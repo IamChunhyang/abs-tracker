@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.215Z",
+  "fetched_at": "2026-05-27T16:05:55.132Z",
   "data": {
     "address": "0x69c4cc0147fbc23965896fb18a1ccea92230ed1b",
     "name": "afropengu",
@@ -8,8 +8,8 @@
     "badges": 25,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x69c4cc0147fbc23965896fb18a1ccea92230ed1b",
-    "total_tx_count": 84655,
-    "period_tx_count": 15134,
+    "total_tx_count": 84662,
+    "period_tx_count": 15140,
     "period": "30d",
     "top_contracts": [
       {
@@ -25,7 +25,7 @@
         "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 172,
+        "tx_count": 177,
         "top_method": "0x807ef825"
       },
       {
@@ -65,7 +65,7 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 15,
+        "tx_count": 16,
         "top_method": "0x5a0694d2"
       },
       {

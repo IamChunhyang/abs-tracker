@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.814Z",
+  "fetched_at": "2026-05-27T16:05:55.493Z",
   "data": {
     "address": "0xa0ed173df43f23902a6be2710b823359211151b1",
     "name": "Thank4762",
@@ -8,8 +8,8 @@
     "badges": 35,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xa0ed173df43f23902a6be2710b823359211151b1",
-    "total_tx_count": 120035,
-    "period_tx_count": 23000,
+    "total_tx_count": 120041,
+    "period_tx_count": 22000,
     "period": "30d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Rugpull Bakery (Baking)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 22849,
+        "tx_count": 21847,
         "top_method": "0x"
       },
       {
@@ -25,7 +25,7 @@
         "name": "Onchain Heroes",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 27,
+        "tx_count": 29,
         "top_method": "0xb32820e9"
       },
       {
@@ -33,7 +33,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 23,
+        "tx_count": 24,
         "top_method": "0x7060a227"
       },
       {
@@ -41,7 +41,7 @@
         "name": "Rugpull Bakery (Boost&Rug)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 21,
+        "tx_count": 20,
         "top_method": "0xf20c3fb4"
       },
       {
@@ -57,7 +57,7 @@
         "name": "Onchain Heroes",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 8,
+        "tx_count": 9,
         "top_method": "0x3c28402b"
       },
       {

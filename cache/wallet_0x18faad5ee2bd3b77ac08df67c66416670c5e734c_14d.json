@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.582Z",
+  "fetched_at": "2026-05-27T16:05:55.361Z",
   "data": {
     "address": "0x18faad5ee2bd3b77ac08df67c66416670c5e734c",
     "name": "Cubsfan",
@@ -8,7 +8,7 @@
     "badges": 8,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x18faad5ee2bd3b77ac08df67c66416670c5e734c",
-    "total_tx_count": 13530,
+    "total_tx_count": 13531,
     "period_tx_count": 18,
     "period": "14d",
     "top_contracts": [
@@ -21,20 +21,20 @@
         "top_method": "0x5a0694d2"
       },
       {
+        "address": "0xaeda3cc1116ce38adf2650b3f5d6bc70315f7aaa",
+        "name": "0xaeda...7aaa",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 4,
+        "top_method": "0x"
+      },
+      {
         "address": "0x4f6a21a541c4cf18f4641eaf726f4a3e84a714d5",
         "name": "0x4f6a...14d5",
         "category": "Unknown",
         "is_unknown": true,
         "tx_count": 4,
         "top_method": "0xdb7fd408"
-      },
-      {
-        "address": "0xaeda3cc1116ce38adf2650b3f5d6bc70315f7aaa",
-        "name": "0xaeda...7aaa",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 3,
-        "top_method": "0x"
       },
       {
         "address": "0xbd514150bb65c4dc35f1f80f3da36b1d1af4b7a1",
@@ -51,14 +51,6 @@
         "is_unknown": false,
         "tx_count": 1,
         "top_method": "0x7060a227"
-      },
-      {
-        "address": "0xca4a7c4a191de94af2c91487d0be34a0205b89ab",
-        "name": "NFT Staking",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x05202ac1"
       }
     ]
   }

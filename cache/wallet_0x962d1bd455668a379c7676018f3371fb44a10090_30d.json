@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.431Z",
+  "fetched_at": "2026-05-27T16:05:55.263Z",
   "data": {
     "address": "0x962d1bd455668a379c7676018f3371fb44a10090",
     "name": "Shaz",
@@ -8,8 +8,8 @@
     "badges": 40,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x962d1bd455668a379c7676018f3371fb44a10090",
-    "total_tx_count": 64467,
-    "period_tx_count": 8590,
+    "total_tx_count": 64641,
+    "period_tx_count": 8764,
     "period": "30d",
     "top_contracts": [
       {
@@ -25,7 +25,7 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 2336,
+        "tx_count": 2391,
         "top_method": "0xf5298aca"
       },
       {
@@ -33,7 +33,7 @@
         "name": "Moody Drops (Claim,NFT)",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 2231,
+        "tx_count": 2285,
         "top_method": "0x16c5aa5e"
       },
       {
@@ -41,7 +41,7 @@
         "name": "Shiny",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 193,
+        "tx_count": 198,
         "top_method": "0xf23a27bd"
       },
       {
@@ -49,7 +49,7 @@
         "name": "Shiny",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 189,
+        "tx_count": 194,
         "top_method": "0x92971a31"
       },
       {
@@ -57,7 +57,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 158,
+        "tx_count": 180,
         "top_method": "0x7060a227"
       },
       {
@@ -65,7 +65,7 @@
         "name": "Shiny",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 78,
+        "tx_count": 82,
         "top_method": "0xd8182233"
       },
       {
@@ -73,7 +73,7 @@
         "name": "Rugpull Bakery",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 65,
+        "tx_count": 81,
         "top_method": "0xb27a78e3"
       },
       {
@@ -81,7 +81,7 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 59,
+        "tx_count": 61,
         "top_method": "0x5a0694d2"
       },
       {
@@ -89,7 +89,7 @@
         "name": "Kona",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 49,
+        "tx_count": 51,
         "top_method": "0x3ac795de"
       },
       {
@@ -105,8 +105,16 @@
         "name": "Aave V3 Pool",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 24,
+        "tx_count": 25,
         "top_method": "0xbf90f63a"
+      },
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "DEPTH Protocol",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 21,
+        "top_method": "0x0962ef79"
       },
       {
         "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
@@ -117,19 +125,11 @@
         "top_method": "0x2752571e"
       },
       {
-        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
-        "name": "DEPTH Protocol",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 20,
-        "top_method": "0x0962ef79"
-      },
-      {
         "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
         "name": "Portal Proxy",
         "category": "Infra",
         "is_unknown": false,
-        "tx_count": 18,
+        "tx_count": 19,
         "top_method": "0x"
       },
       {
@@ -145,7 +145,7 @@
         "name": "Gacha Mall",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 16,
+        "tx_count": 17,
         "top_method": "0x581644ae"
       },
       {
@@ -153,7 +153,7 @@
         "name": "Gacha PvP",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 16,
+        "tx_count": 17,
         "top_method": "0x107cc1ec"
       },
       {

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.493Z",
+  "fetched_at": "2026-05-27T16:05:55.303Z",
   "data": {
     "address": "0xb2042611b4987ba8be9efd6cc1165f09e7c694a8",
     "name": "JoblessGambler",
@@ -8,8 +8,8 @@
     "badges": 40,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xb2042611b4987ba8be9efd6cc1165f09e7c694a8",
-    "total_tx_count": 30460,
-    "period_tx_count": 21837,
+    "total_tx_count": 30465,
+    "period_tx_count": 21834,
     "period": "7d",
     "top_contracts": [
       {
@@ -25,7 +25,7 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 13,
+        "tx_count": 14,
         "top_method": "0x5a0694d2"
       },
       {
@@ -41,7 +41,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 4,
+        "tx_count": 3,
         "top_method": "0x7060a227"
       },
       {
@@ -49,7 +49,7 @@
         "name": "0xe0cb...f9c4",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 3,
+        "tx_count": 2,
         "top_method": "0x"
       },
       {
@@ -58,15 +58,7 @@
         "category": "NFT",
         "is_unknown": false,
         "tx_count": 2,
-        "top_method": "0xfe939afc"
-      },
-      {
-        "address": "0x0000000000000068f116a894984e2db1123eb395",
-        "name": "OpenSea",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0xfd9f1e10"
+        "top_method": "0x05202ac1"
       },
       {
         "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.301Z",
+  "fetched_at": "2026-05-27T16:05:55.193Z",
   "data": {
     "address": "0x9714a649f3ff075dca25386e98e384daf3abb323",
     "name": "jellothefox",
@@ -8,8 +8,8 @@
     "badges": 36,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x9714a649f3ff075dca25386e98e384daf3abb323",
-    "total_tx_count": 19695,
-    "period_tx_count": 190,
+    "total_tx_count": 19708,
+    "period_tx_count": 205,
     "period": "14d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "0x920f...e25c",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 109,
+        "tx_count": 110,
         "top_method": "0xdafa1d2d"
       },
       {
@@ -25,7 +25,7 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 18,
+        "tx_count": 19,
         "top_method": "0xf5298aca"
       },
       {
@@ -33,7 +33,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 15,
+        "tx_count": 17,
         "top_method": "0x7060a227"
       },
       {
@@ -45,12 +45,28 @@
         "top_method": "0x16c5aa5e"
       },
       {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "OpenSea",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 7,
+        "top_method": "0x87201b41"
+      },
+      {
         "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
         "tx_count": 4,
         "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "DEPTH Protocol",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x0962ef79"
       },
       {
         "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
@@ -83,14 +99,6 @@
         "is_unknown": true,
         "tx_count": 2,
         "top_method": "0xa22cb465"
-      },
-      {
-        "address": "0x0000000000000068f116a894984e2db1123eb395",
-        "name": "OpenSea",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0xe7acab24"
       },
       {
         "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
@@ -147,14 +155,6 @@
         "is_unknown": false,
         "tx_count": 1,
         "top_method": "0x29efcf80"
-      },
-      {
-        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
-        "name": "DEPTH Protocol",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x0962ef79"
       },
       {
         "address": "0xd54ed039949fc5a319a8f5de0e5a88e0c21f4e8c",

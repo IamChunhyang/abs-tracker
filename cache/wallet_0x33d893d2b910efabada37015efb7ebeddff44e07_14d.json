@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.660Z",
+  "fetched_at": "2026-05-27T16:05:55.410Z",
   "data": {
     "address": "0x33d893d2b910efabada37015efb7ebeddff44e07",
     "name": "3343",
@@ -8,8 +8,8 @@
     "badges": 39,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x33d893d2b910efabada37015efb7ebeddff44e07",
-    "total_tx_count": 48562,
-    "period_tx_count": 4397,
+    "total_tx_count": 48587,
+    "period_tx_count": 4404,
     "period": "14d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 2120,
+        "tx_count": 2122,
         "top_method": "0xf5298aca"
       },
       {
@@ -33,7 +33,7 @@
         "name": "Tollan (Gameplay)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 132,
+        "tx_count": 131,
         "top_method": "0x8708c7fd"
       },
       {
@@ -53,11 +53,19 @@
         "top_method": "0x5a0694d2"
       },
       {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "OpenSea",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 10,
+        "top_method": "0xe7acab24"
+      },
+      {
         "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
         "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 10,
+        "tx_count": 8,
         "top_method": "0x2752571e"
       },
       {
@@ -73,7 +81,7 @@
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 5,
+        "tx_count": 4,
         "top_method": "0xc6b7f1b6"
       },
       {
@@ -97,7 +105,7 @@
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 3,
+        "tx_count": 2,
         "top_method": "0x1c4b774b"
       },
       {
@@ -115,6 +123,14 @@
         "is_unknown": false,
         "tx_count": 2,
         "top_method": "0x0962ef79"
+      },
+      {
+        "address": "0xef625a9f0e552cac6dcedabbe3b140dba4a0babd",
+        "name": "0xef62...babd",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xa22cb465"
       },
       {
         "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
@@ -155,22 +171,6 @@
         "is_unknown": true,
         "tx_count": 1,
         "top_method": "0x095ea7b3"
-      },
-      {
-        "address": "0x0e4ee35190f16efdfd1aa9be802ca546fcce5a81",
-        "name": "Bearish",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x2e17de78"
-      },
-      {
-        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
-        "name": "Signature Minter",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x29efcf80"
       }
     ]
   }

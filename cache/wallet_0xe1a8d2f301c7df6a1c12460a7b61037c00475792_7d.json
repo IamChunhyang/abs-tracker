@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.664Z",
+  "fetched_at": "2026-05-27T16:05:55.412Z",
   "data": {
     "address": "0xe1a8d2f301c7df6a1c12460a7b61037c00475792",
     "name": "Guigne",
@@ -8,8 +8,8 @@
     "badges": 37,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xe1a8d2f301c7df6a1c12460a7b61037c00475792",
-    "total_tx_count": 5653,
-    "period_tx_count": 31,
+    "total_tx_count": 5655,
+    "period_tx_count": 29,
     "period": "7d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 10,
+        "tx_count": 9,
         "top_method": "0x219f5d17"
       },
       {
@@ -26,7 +26,7 @@
         "category": "DeFi",
         "is_unknown": false,
         "tx_count": 5,
-        "top_method": "0x2e1a7d4d"
+        "top_method": "0x1c4b774b"
       },
       {
         "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
@@ -41,7 +41,7 @@
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 4,
+        "tx_count": 3,
         "top_method": "0xcac88ea9"
       },
       {

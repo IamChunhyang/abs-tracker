@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.983Z",
+  "fetched_at": "2026-05-27T16:05:55.582Z",
   "data": {
     "address": "0x90c1ed16e9b16db7d031f573d20bead430feb107",
     "name": "Jablko",
@@ -8,8 +8,8 @@
     "badges": 27,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x90c1ed16e9b16db7d031f573d20bead430feb107",
-    "total_tx_count": 41777,
-    "period_tx_count": 5489,
+    "total_tx_count": 41786,
+    "period_tx_count": 5158,
     "period": "14d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Rugpull Bakery (Baking)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 5386,
+        "tx_count": 5065,
         "top_method": "0x"
       },
       {
@@ -25,7 +25,7 @@
         "name": "Tollan (Gameplay)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 53,
+        "tx_count": 39,
         "top_method": "0x8708c7fd"
       },
       {
@@ -33,7 +33,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 13,
+        "tx_count": 14,
         "top_method": "0x7060a227"
       },
       {
@@ -49,7 +49,7 @@
         "name": "Onchain Heroes",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 4,
+        "tx_count": 3,
         "top_method": "0x01608d9c"
       },
       {
@@ -61,6 +61,22 @@
         "top_method": "0x2752571e"
       },
       {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "OpenSea",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0xe7acab24"
+      },
+      {
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x7ac09bf7"
+      },
+      {
         "address": "0xa171bb8b0805ddccc8721ccb1e13f6dd09633cfc",
         "name": "Aborean",
         "category": "DeFi",
@@ -69,20 +85,20 @@
         "top_method": "0x2e1a7d4d"
       },
       {
+        "address": "0x9877d51d213c06395e1b96de7020f32184fead11",
+        "name": "0x9877...ad11",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xa22cb465"
+      },
+      {
         "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
         "name": "0x0000...4bf5",
         "category": "Unknown",
         "is_unknown": true,
         "tx_count": 1,
         "top_method": "0x4b61cd6f"
-      },
-      {
-        "address": "0x0000000000000068f116a894984e2db1123eb395",
-        "name": "OpenSea",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xe7acab24"
       },
       {
         "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",

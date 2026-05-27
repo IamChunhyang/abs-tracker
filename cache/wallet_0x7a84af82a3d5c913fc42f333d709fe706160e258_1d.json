@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.220Z",
+  "fetched_at": "2026-05-27T16:05:55.135Z",
   "data": {
     "address": "0x7a84af82a3d5c913fc42f333d709fe706160e258",
     "name": "FroggyCyborg",
@@ -8,25 +8,25 @@
     "badges": 39,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x7a84af82a3d5c913fc42f333d709fe706160e258",
-    "total_tx_count": 101657,
-    "period_tx_count": 123,
+    "total_tx_count": 101938,
+    "period_tx_count": 284,
     "period": "1d",
     "top_contracts": [
       {
-        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
-        "name": "Rugpull Bakery (Baking)",
-        "category": "Gaming",
+        "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
+        "name": "Moody Drops (Claim,NFT)",
+        "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 109,
-        "top_method": "0x"
+        "tx_count": 139,
+        "top_method": "0x16c5aa5e"
       },
       {
-        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
-        "name": "Tollan (Gameplay)",
-        "category": "Gaming",
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Drops (Use)",
+        "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 8,
-        "top_method": "0x8708c7fd"
+        "tx_count": 139,
+        "top_method": "0xf5298aca"
       },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
@@ -35,6 +35,14 @@
         "is_unknown": false,
         "tx_count": 3,
         "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Signing",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x5a0694d2"
       },
       {
         "address": "0xe0f56eaa9d04afbff30d841d225f49e39b3a4ce3",
@@ -51,14 +59,6 @@
         "is_unknown": true,
         "tx_count": 1,
         "top_method": "0x4b61cd6f"
-      },
-      {
-        "address": "0x19b12968f846a13b95ac13eeea6c5acd0cc153f7",
-        "name": "0x19b1...53f7",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x34d55309"
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.901Z",
+  "fetched_at": "2026-05-27T16:05:55.542Z",
   "data": {
     "address": "0x991b87ec4fe400178c3f54ea26ae445c2351e1ec",
     "name": "Cyro",
@@ -8,8 +8,8 @@
     "badges": 37,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x991b87ec4fe400178c3f54ea26ae445c2351e1ec",
-    "total_tx_count": 44798,
-    "period_tx_count": 2778,
+    "total_tx_count": 44802,
+    "period_tx_count": 2693,
     "period": "30d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 1107,
+        "tx_count": 1070,
         "top_method": "0xf5298aca"
       },
       {
@@ -25,7 +25,7 @@
         "name": "Moody Drops (Claim,NFT)",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 1098,
+        "tx_count": 1062,
         "top_method": "0x16c5aa5e"
       },
       {
@@ -33,7 +33,7 @@
         "name": "Cambria (Duel Arena)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 159,
+        "tx_count": 148,
         "top_method": "0xce55803f"
       },
       {
@@ -133,14 +133,6 @@
         "top_method": "0xb32820e9"
       },
       {
-        "address": "0x0eef9ba24c300487e7fbfed34ecd5191840d0c2f",
-        "name": "0x0eef...0c2f",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 5,
-        "top_method": "0x"
-      },
-      {
         "address": "0x686bfe70f061507065f3e939c12ac9ee5a564dcf",
         "name": "0x686b...4dcf",
         "category": "Unknown",
@@ -151,6 +143,14 @@
       {
         "address": "0xec753a52496b5bd36a7bec9e6631ae94a867786d",
         "name": "0xec75...786d",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 4,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x0eef9ba24c300487e7fbfed34ecd5191840d0c2f",
+        "name": "0x0eef...0c2f",
         "category": "Unknown",
         "is_unknown": true,
         "tx_count": 4,

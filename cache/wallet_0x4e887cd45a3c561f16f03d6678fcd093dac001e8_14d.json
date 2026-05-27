@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.439Z",
+  "fetched_at": "2026-05-27T16:05:55.271Z",
   "data": {
     "address": "0x4e887cd45a3c561f16f03d6678fcd093dac001e8",
     "name": "ericzalusky",
@@ -8,8 +8,8 @@
     "badges": 39,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x4e887cd45a3c561f16f03d6678fcd093dac001e8",
-    "total_tx_count": 8981,
-    "period_tx_count": 402,
+    "total_tx_count": 8989,
+    "period_tx_count": 408,
     "period": "14d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 188,
+        "tx_count": 192,
         "top_method": "0xf5298aca"
       },
       {
@@ -33,7 +33,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 17,
+        "tx_count": 18,
         "top_method": "0x7060a227"
       },
       {
@@ -41,7 +41,7 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 15,
+        "tx_count": 16,
         "top_method": "0x5a0694d2"
       },
       {

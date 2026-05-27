@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.590Z",
+  "fetched_at": "2026-05-27T16:05:55.367Z",
   "data": {
     "address": "0x9abbb418ddb0189b432d1b51c234345b10a9e566",
     "name": "Cavent",
@@ -8,8 +8,8 @@
     "badges": 10,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x9abbb418ddb0189b432d1b51c234345b10a9e566",
-    "total_tx_count": 5500,
-    "period_tx_count": 8,
+    "total_tx_count": 5501,
+    "period_tx_count": 7,
     "period": "7d",
     "top_contracts": [
       {
@@ -43,14 +43,6 @@
         "is_unknown": false,
         "tx_count": 1,
         "top_method": "0x05202ac1"
-      },
-      {
-        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
-        "name": "Session Key Signing",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x5a0694d2"
       }
     ]
   }

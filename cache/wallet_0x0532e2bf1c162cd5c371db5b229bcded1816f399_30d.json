@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.807Z",
+  "fetched_at": "2026-05-27T16:05:55.488Z",
   "data": {
     "address": "0x0532e2bf1c162cd5c371db5b229bcded1816f399",
     "name": "TRUMPBIG",
@@ -9,7 +9,7 @@
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x0532e2bf1c162cd5c371db5b229bcded1816f399",
     "total_tx_count": 4321,
-    "period_tx_count": 22,
+    "period_tx_count": 20,
     "period": "30d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "DEX Voter",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 7,
+        "tx_count": 6,
         "top_method": "0x7ac09bf7"
       },
       {

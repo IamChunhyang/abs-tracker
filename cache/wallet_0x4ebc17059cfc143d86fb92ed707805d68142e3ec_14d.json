@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.599Z",
+  "fetched_at": "2026-05-27T16:05:55.373Z",
   "data": {
     "address": "0x4ebc17059cfc143d86fb92ed707805d68142e3ec",
     "name": "nomorever",
@@ -8,8 +8,8 @@
     "badges": 33,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x4ebc17059cfc143d86fb92ed707805d68142e3ec",
-    "total_tx_count": 136069,
-    "period_tx_count": 6980,
+    "total_tx_count": 136321,
+    "period_tx_count": 6418,
     "period": "14d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Rugpull Bakery (Baking)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 3136,
+        "tx_count": 2466,
         "top_method": "0x"
       },
       {
@@ -25,7 +25,7 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 1548,
+        "tx_count": 1600,
         "top_method": "0xf5298aca"
       },
       {
@@ -33,7 +33,7 @@
         "name": "Moody Drops (Claim,NFT)",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 1548,
+        "tx_count": 1567,
         "top_method": "0x16c5aa5e"
       },
       {
@@ -41,7 +41,7 @@
         "name": "Tollan (Gameplay)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 109,
+        "tx_count": 112,
         "top_method": "0x8708c7fd"
       },
       {
@@ -49,7 +49,7 @@
         "name": "Blinko & Moonsheep Cannon",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 103,
+        "tx_count": 111,
         "top_method": "0xf01d14b2"
       },
       {
@@ -57,7 +57,7 @@
         "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 93,
+        "tx_count": 98,
         "top_method": "0x807ef825"
       },
       {
@@ -65,7 +65,7 @@
         "name": "Death Fun",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 89,
+        "tx_count": 93,
         "top_method": "0x001308d8"
       },
       {
@@ -73,7 +73,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 62,
+        "tx_count": 64,
         "top_method": "0x7060a227"
       },
       {
@@ -81,7 +81,7 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 45,
+        "tx_count": 47,
         "top_method": "0x5a0694d2"
       },
       {
@@ -89,8 +89,16 @@
         "name": "Gacha",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 28,
+        "tx_count": 30,
         "top_method": "0x379607f5"
+      },
+      {
+        "address": "0x270bbb21b1187bc6e694f428dcb51432958eb3d9",
+        "name": "Rugpull Bakery",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 28,
+        "top_method": "0xb27a78e3"
       },
       {
         "address": "0x911dbdd9841b53ee5a08170109daf7ad82684108",
@@ -99,14 +107,6 @@
         "is_unknown": false,
         "tx_count": 25,
         "top_method": "0x92971a31"
-      },
-      {
-        "address": "0x270bbb21b1187bc6e694f428dcb51432958eb3d9",
-        "name": "Rugpull Bakery",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 24,
-        "top_method": "0xb27a78e3"
       },
       {
         "address": "0x5c9ce8be7aa92fd089be31b154be47a0e59d4282",
@@ -121,7 +121,7 @@
         "name": "DYLI",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 19,
+        "tx_count": 20,
         "top_method": "0x7f58b4bf"
       },
       {
@@ -129,7 +129,7 @@
         "name": "COSMO",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 15,
+        "tx_count": 16,
         "top_method": "0x23b872dd"
       },
       {
@@ -137,7 +137,7 @@
         "name": "Gacha Mall",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 14,
+        "tx_count": 15,
         "top_method": "0x581644ae"
       },
       {
@@ -145,7 +145,7 @@
         "name": "Gacha PvP",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 14,
+        "tx_count": 15,
         "top_method": "0x107cc1ec"
       },
       {
@@ -161,16 +161,16 @@
         "name": "Shiny",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 9,
+        "tx_count": 11,
         "top_method": "0xd8182233"
       },
       {
-        "address": "0x0000000000000068f116a894984e2db1123eb395",
-        "name": "OpenSea",
-        "category": "NFT",
-        "is_unknown": false,
+        "address": "0x715401335704d81216324ed50bbdaab119a99a55",
+        "name": "0x7154...9a55",
+        "category": "Unknown",
+        "is_unknown": true,
         "tx_count": 6,
-        "top_method": "0x87201b41"
+        "top_method": "0xf7d7cddb"
       }
     ]
   }

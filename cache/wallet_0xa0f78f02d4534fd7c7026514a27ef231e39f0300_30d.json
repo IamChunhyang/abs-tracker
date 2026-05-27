@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.581Z",
+  "fetched_at": "2026-05-27T16:05:55.360Z",
   "data": {
     "address": "0xa0f78f02d4534fd7c7026514a27ef231e39f0300",
     "name": "elev8blyss",
@@ -8,8 +8,8 @@
     "badges": 35,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xa0f78f02d4534fd7c7026514a27ef231e39f0300",
-    "total_tx_count": 38836,
-    "period_tx_count": 679,
+    "total_tx_count": 38913,
+    "period_tx_count": 756,
     "period": "30d",
     "top_contracts": [
       {
@@ -17,8 +17,24 @@
         "name": "DYLI",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 343,
+        "tx_count": 346,
         "top_method": "0x7f58b4bf"
+      },
+      {
+        "address": "0x268031de8363401d61b6a256bea009bb57277619",
+        "name": "Gacha Mall",
+        "category": "Arcade",
+        "is_unknown": false,
+        "tx_count": 86,
+        "top_method": "0x581644ae"
+      },
+      {
+        "address": "0x516dce03bbb9d686e567a15ba3b7d061e394ab7a",
+        "name": "Gacha PvP",
+        "category": "Arcade",
+        "is_unknown": false,
+        "tx_count": 56,
+        "top_method": "0x107cc1ec"
       },
       {
         "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
@@ -27,22 +43,6 @@
         "is_unknown": true,
         "tx_count": 50,
         "top_method": "0x2752571e"
-      },
-      {
-        "address": "0x516dce03bbb9d686e567a15ba3b7d061e394ab7a",
-        "name": "Gacha PvP",
-        "category": "Arcade",
-        "is_unknown": false,
-        "tx_count": 40,
-        "top_method": "0x107cc1ec"
-      },
-      {
-        "address": "0x268031de8363401d61b6a256bea009bb57277619",
-        "name": "Gacha Mall",
-        "category": "Arcade",
-        "is_unknown": false,
-        "tx_count": 39,
-        "top_method": "0x581644ae"
       },
       {
         "address": "0x270bbb21b1187bc6e694f428dcb51432958eb3d9",
@@ -57,8 +57,16 @@
         "name": "DEPTH Protocol",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 24,
+        "tx_count": 26,
         "top_method": "0x0962ef79"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 21,
+        "top_method": "0x7060a227"
       },
       {
         "address": "0x0000000000000068f116a894984e2db1123eb395",
@@ -69,19 +77,11 @@
         "top_method": "0xe7acab24"
       },
       {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "Abstract Voting",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 17,
-        "top_method": "0x7060a227"
-      },
-      {
         "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 10,
+        "tx_count": 12,
         "top_method": "0x5a0694d2"
       },
       {
@@ -93,6 +93,14 @@
         "top_method": "0x7ac09bf7"
       },
       {
+        "address": "0x5e2d57b022f0905d4981f0803560e23cde322ce2",
+        "name": "0x5e2d...2ce2",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 6,
+        "top_method": "0x8627df46"
+      },
+      {
         "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
         "name": "Aborean",
         "category": "DeFi",
@@ -101,20 +109,20 @@
         "top_method": "0x903638a4"
       },
       {
-        "address": "0x5e2d57b022f0905d4981f0803560e23cde322ce2",
-        "name": "0x5e2d...2ce2",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 5,
-        "top_method": "0x8627df46"
-      },
-      {
         "address": "0x36cbf77d8f8355d7a077d670c29e290e41367072",
         "name": "Rewards Claim",
         "category": "Rewards",
         "is_unknown": false,
         "tx_count": 5,
         "top_method": "0x379607f5"
+      },
+      {
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "Others",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x095ea7b3"
       },
       {
         "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
@@ -163,14 +171,6 @@
         "is_unknown": false,
         "tx_count": 2,
         "top_method": "0x05202ac1"
-      },
-      {
-        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
-        "name": "USDC",
-        "category": "Others",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0x095ea7b3"
       }
     ]
   }

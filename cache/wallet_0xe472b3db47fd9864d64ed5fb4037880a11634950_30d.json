@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.893Z",
+  "fetched_at": "2026-05-27T16:05:55.537Z",
   "data": {
     "address": "0xe472b3db47fd9864d64ed5fb4037880a11634950",
     "name": "JeffT",
@@ -8,8 +8,8 @@
     "badges": 40,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xe472b3db47fd9864d64ed5fb4037880a11634950",
-    "total_tx_count": 90304,
-    "period_tx_count": 30000,
+    "total_tx_count": 90453,
+    "period_tx_count": 29000,
     "period": "30d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Rugpull Bakery (Baking)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 27589,
+        "tx_count": 26702,
         "top_method": "0x"
       },
       {
@@ -25,7 +25,7 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 886,
+        "tx_count": 839,
         "top_method": "0xf5298aca"
       },
       {
@@ -33,7 +33,7 @@
         "name": "Moody Drops (Claim,NFT)",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 851,
+        "tx_count": 805,
         "top_method": "0x16c5aa5e"
       },
       {
@@ -49,7 +49,7 @@
         "name": "Tollan (Gameplay)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 91,
+        "tx_count": 76,
         "top_method": "0x8708c7fd"
       },
       {
@@ -65,7 +65,7 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 49,
+        "tx_count": 47,
         "top_method": "0x5a0694d2"
       },
       {
@@ -73,8 +73,16 @@
         "name": "Rugpull Bakery (Boost&Rug)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 34,
+        "tx_count": 32,
         "top_method": "0xf20c3fb4"
+      },
+      {
+        "address": "0x89e9d9b7d87591875359247f7d8eb786e7ea6910",
+        "name": "Kona",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 28,
+        "top_method": "0x3ac795de"
       },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
@@ -85,19 +93,11 @@
         "top_method": "0x7060a227"
       },
       {
-        "address": "0x89e9d9b7d87591875359247f7d8eb786e7ea6910",
-        "name": "Kona",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 27,
-        "top_method": "0x3ac795de"
-      },
-      {
         "address": "0x270bbb21b1187bc6e694f428dcb51432958eb3d9",
         "name": "Rugpull Bakery",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 22,
+        "tx_count": 20,
         "top_method": "0xb27a78e3"
       },
       {
@@ -113,7 +113,7 @@
         "name": "Gacha Mall",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 13,
+        "tx_count": 15,
         "top_method": "0x581644ae"
       },
       {
@@ -121,8 +121,16 @@
         "name": "Gacha PvP",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 13,
+        "tx_count": 15,
         "top_method": "0x107cc1ec"
+      },
+      {
+        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
+        "name": "Portal Proxy",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 12,
+        "top_method": "0x"
       },
       {
         "address": "0x8ef75a4fb289dbfb98503ba1c9d69b0c1188f035",
@@ -131,14 +139,6 @@
         "is_unknown": true,
         "tx_count": 12,
         "top_method": "0x1c4b774b"
-      },
-      {
-        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
-        "name": "Portal Proxy",
-        "category": "Infra",
-        "is_unknown": false,
-        "tx_count": 11,
-        "top_method": "0x"
       },
       {
         "address": "0x514c8f0d262c55d4f22719c6eb103707bbd9d060",
@@ -153,7 +153,7 @@
         "name": "Aave V3 Pool",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 11,
+        "tx_count": 10,
         "top_method": "0xbf90f63a"
       },
       {

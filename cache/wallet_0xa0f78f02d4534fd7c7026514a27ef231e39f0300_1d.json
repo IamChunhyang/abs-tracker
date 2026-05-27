@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.579Z",
+  "fetched_at": "2026-05-27T16:05:55.357Z",
   "data": {
     "address": "0xa0f78f02d4534fd7c7026514a27ef231e39f0300",
     "name": "elev8blyss",
@@ -8,24 +8,16 @@
     "badges": 35,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xa0f78f02d4534fd7c7026514a27ef231e39f0300",
-    "total_tx_count": 38836,
-    "period_tx_count": 242,
+    "total_tx_count": 38913,
+    "period_tx_count": 77,
     "period": "1d",
     "top_contracts": [
-      {
-        "address": "0x458422e93bf89a109afc4fac00aacf2f18fcf541",
-        "name": "DYLI",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 218,
-        "top_method": "0x7f58b4bf"
-      },
       {
         "address": "0x268031de8363401d61b6a256bea009bb57277619",
         "name": "Gacha Mall",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 6,
+        "tx_count": 47,
         "top_method": "0x581644ae"
       },
       {
@@ -33,64 +25,48 @@
         "name": "Gacha PvP",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 6,
+        "tx_count": 16,
         "top_method": "0x107cc1ec"
       },
       {
-        "address": "0x0000000000000068f116a894984e2db1123eb395",
-        "name": "OpenSea",
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x458422e93bf89a109afc4fac00aacf2f18fcf541",
+        "name": "DYLI",
         "category": "NFT",
         "is_unknown": false,
         "tx_count": 3,
-        "top_method": "0xe7acab24"
+        "top_method": "0x42d96dd7"
+      },
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "DEPTH Protocol",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x0962ef79"
+      },
+      {
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "Others",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x095ea7b3"
       },
       {
         "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 1,
+        "tx_count": 2,
         "top_method": "0x5a0694d2"
-      },
-      {
-        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
-        "name": "WETH9",
-        "category": "Others",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x2e1a7d4d"
-      },
-      {
-        "address": "0x265f307c1bdbb6f5d4b174d47f363ef5837be98b",
-        "name": "0x265f...e98b",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0xa22cb465"
-      },
-      {
-        "address": "0x8d1efb8ab4f74607fb9df73c065df627fe0f3b6d",
-        "name": "0x8d1e...3b6d",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0xa22cb465"
-      },
-      {
-        "address": "0x86880e120a0c91350f1dff5deed94f620c2446ee",
-        "name": "0x8688...46ee",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0xa22cb465"
-      },
-      {
-        "address": "0x8407a1010943427b134f002586c75b2b2c0edd28",
-        "name": "0x8407...dd28",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0xa22cb465"
       },
       {
         "address": "0x5e2d57b022f0905d4981f0803560e23cde322ce2",
@@ -99,14 +75,6 @@
         "is_unknown": true,
         "tx_count": 1,
         "top_method": "0x8627df46"
-      },
-      {
-        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
-        "name": "DEPTH Protocol",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x0962ef79"
       }
     ]
   }

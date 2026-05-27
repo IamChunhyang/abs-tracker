@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.157Z",
+  "fetched_at": "2026-05-27T16:05:55.096Z",
   "data": {
     "address": "0x161f91374506a85ed9063e90c4c217d8697d6471",
     "name": "Ely",
@@ -8,8 +8,8 @@
     "badges": 37,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x161f91374506a85ed9063e90c4c217d8697d6471",
-    "total_tx_count": 31697,
-    "period_tx_count": 8,
+    "total_tx_count": 31698,
+    "period_tx_count": 7,
     "period": "7d",
     "top_contracts": [
       {
@@ -21,12 +21,12 @@
         "top_method": "0x884baedc"
       },
       {
-        "address": "0x448557eff9f4745a85b7c4e74e2aa9c7e9c655de",
-        "name": "0x4485...55de",
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 2,
-        "top_method": "0x5dc403d6"
+        "tx_count": 1,
+        "top_method": "0x4b61cd6f"
       },
       {
         "address": "0x4640d7701ba76fcd1df58f55a2bc5c63aa8199a1",

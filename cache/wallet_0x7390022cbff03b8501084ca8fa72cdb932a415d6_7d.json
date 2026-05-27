@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:58.030Z",
+  "fetched_at": "2026-05-27T16:05:55.609Z",
   "data": {
     "address": "0x7390022cbff03b8501084ca8fa72cdb932a415d6",
     "name": "blairbear",
@@ -8,8 +8,8 @@
     "badges": 24,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x7390022cbff03b8501084ca8fa72cdb932a415d6",
-    "total_tx_count": 714325,
-    "period_tx_count": 52058,
+    "total_tx_count": 714335,
+    "period_tx_count": 45656,
     "period": "7d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Rugpull Bakery (Baking)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 51355,
+        "tx_count": 44935,
         "top_method": "0x"
       },
       {
@@ -25,7 +25,7 @@
         "name": "Rugpull Bakery (Boost&Rug)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 225,
+        "tx_count": 193,
         "top_method": "0xb3648e8f"
       },
       {
@@ -97,36 +97,12 @@
         "name": "0x4f43...8fab",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 13,
+        "tx_count": 12,
         "top_method": "0x"
       },
       {
         "address": "0x16e52993353ff958dbbd503ed526f32a4552b77f",
         "name": "0x16e5...b77f",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 13,
-        "top_method": "0x"
-      },
-      {
-        "address": "0xd7905c8d8394a4e7ed8cd8b38c6866efdb39724c",
-        "name": "0xd790...724c",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 12,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x5171c2bb39cc830ed1673ea6a8d032169319ea6c",
-        "name": "0x5171...ea6c",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 12,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x400dc2e09fca45c4f3a79856fddcf67356b0dabe",
-        "name": "0x400d...dabe",
         "category": "Unknown",
         "is_unknown": true,
         "tx_count": 12,
@@ -135,6 +111,30 @@
       {
         "address": "0xae639194d54cf8064f7d84dc127ea81aae2ebebe",
         "name": "0xae63...bebe",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 11,
+        "top_method": "0x"
+      },
+      {
+        "address": "0xd7905c8d8394a4e7ed8cd8b38c6866efdb39724c",
+        "name": "0xd790...724c",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 11,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x5171c2bb39cc830ed1673ea6a8d032169319ea6c",
+        "name": "0x5171...ea6c",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 11,
+        "top_method": "0x"
+      },
+      {
+        "address": "0x400dc2e09fca45c4f3a79856fddcf67356b0dabe",
+        "name": "0x400d...dabe",
         "category": "Unknown",
         "is_unknown": true,
         "tx_count": 11,

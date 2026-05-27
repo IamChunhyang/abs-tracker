@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.501Z",
+  "fetched_at": "2026-05-27T16:05:55.310Z",
   "data": {
     "address": "0x27db47dbb87e66af0b27d4746aa718acc977de75",
     "name": "Xen",
@@ -9,7 +9,7 @@
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x27db47dbb87e66af0b27d4746aa718acc977de75",
     "total_tx_count": 23135,
-    "period_tx_count": 97,
+    "period_tx_count": 93,
     "period": "30d",
     "top_contracts": [
       {
@@ -25,7 +25,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 14,
+        "tx_count": 12,
         "top_method": "0x7060a227"
       },
       {
@@ -51,14 +51,6 @@
         "is_unknown": true,
         "tx_count": 5,
         "top_method": "0xb88d4fde"
-      },
-      {
-        "address": "0xad1eca41e6f772be3cb5a48a6141f9bcc1af9f7c",
-        "name": "Uniswap",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0x791ac947"
       },
       {
         "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",

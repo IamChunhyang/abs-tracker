@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.713Z",
+  "fetched_at": "2026-05-27T16:05:55.438Z",
   "data": {
     "address": "0x5f3e5f2532cbc7ace86b05ac5a8eddec09f44ff4",
     "name": "UkrBot",
@@ -8,8 +8,8 @@
     "badges": 30,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x5f3e5f2532cbc7ace86b05ac5a8eddec09f44ff4",
-    "total_tx_count": 6233,
-    "period_tx_count": 53,
+    "total_tx_count": 6237,
+    "period_tx_count": 54,
     "period": "14d",
     "top_contracts": [
       {
@@ -25,7 +25,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 2,
+        "tx_count": 3,
         "top_method": "0x7060a227"
       },
       {

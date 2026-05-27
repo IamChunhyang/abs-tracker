@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.667Z",
+  "fetched_at": "2026-05-27T16:05:55.414Z",
   "data": {
     "address": "0xe4c92dfd2b82ff488ee4e0744e78959f8cc2c24c",
     "name": "Jonh",
@@ -8,8 +8,8 @@
     "badges": 41,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xe4c92dfd2b82ff488ee4e0744e78959f8cc2c24c",
-    "total_tx_count": 24636,
-    "period_tx_count": 152,
+    "total_tx_count": 24645,
+    "period_tx_count": 153,
     "period": "30d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 47,
+        "tx_count": 51,
         "top_method": "0x807ef825"
       },
       {
@@ -33,7 +33,7 @@
         "name": "Gigaverse",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 23,
+        "tx_count": 19,
         "top_method": "0x807ef825"
       },
       {
@@ -65,7 +65,7 @@
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 2,
+        "tx_count": 3,
         "top_method": "0xc00007b0"
       },
       {

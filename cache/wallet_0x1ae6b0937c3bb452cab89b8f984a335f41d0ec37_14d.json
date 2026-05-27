@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.711Z",
+  "fetched_at": "2026-05-27T16:05:55.437Z",
   "data": {
     "address": "0x1ae6b0937c3bb452cab89b8f984a335f41d0ec37",
     "name": "captainobvious",
@@ -8,8 +8,8 @@
     "badges": 23,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x1ae6b0937c3bb452cab89b8f984a335f41d0ec37",
-    "total_tx_count": 3934,
-    "period_tx_count": 20,
+    "total_tx_count": 3935,
+    "period_tx_count": 21,
     "period": "14d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 13,
+        "tx_count": 14,
         "top_method": "0x7060a227"
       },
       {

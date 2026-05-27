@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.899Z",
+  "fetched_at": "2026-05-27T16:05:55.541Z",
   "data": {
     "address": "0x991b87ec4fe400178c3f54ea26ae445c2351e1ec",
     "name": "Cyro",
@@ -8,8 +8,8 @@
     "badges": 37,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x991b87ec4fe400178c3f54ea26ae445c2351e1ec",
-    "total_tx_count": 44798,
-    "period_tx_count": 2,
+    "total_tx_count": 44802,
+    "period_tx_count": 3,
     "period": "1d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 1,
+        "tx_count": 2,
         "top_method": "0x7060a227"
       },
       {

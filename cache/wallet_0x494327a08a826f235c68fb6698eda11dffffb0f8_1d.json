@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.554Z",
+  "fetched_at": "2026-05-27T16:05:55.344Z",
   "data": {
     "address": "0x494327a08a826f235c68fb6698eda11dffffb0f8",
     "name": "Pixelcollector",
@@ -8,7 +8,7 @@
     "badges": 31,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x494327a08a826f235c68fb6698eda11dffffb0f8",
-    "total_tx_count": 25956,
+    "total_tx_count": 25957,
     "period_tx_count": 2,
     "period": "1d",
     "top_contracts": [

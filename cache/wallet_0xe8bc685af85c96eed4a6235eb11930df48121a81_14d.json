@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:58.070Z",
+  "fetched_at": "2026-05-27T16:05:55.632Z",
   "data": {
     "address": "0xe8bc685af85c96eed4a6235eb11930df48121a81",
     "name": "JogaNifty",
@@ -8,8 +8,8 @@
     "badges": 22,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xe8bc685af85c96eed4a6235eb11930df48121a81",
-    "total_tx_count": 13787,
-    "period_tx_count": 224,
+    "total_tx_count": 13801,
+    "period_tx_count": 237,
     "period": "14d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 44,
+        "tx_count": 47,
         "top_method": "0x2752571e"
       },
       {
@@ -25,7 +25,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 36,
+        "tx_count": 38,
         "top_method": "0x7060a227"
       },
       {
@@ -33,7 +33,7 @@
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 18,
+        "tx_count": 21,
         "top_method": "0xc00007b0"
       },
       {
@@ -59,6 +59,14 @@
         "is_unknown": false,
         "tx_count": 10,
         "top_method": "0xd1c2babb"
+      },
+      {
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Drops (Use)",
+        "category": "Arcade",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0xf5298aca"
       },
       {
         "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
@@ -91,14 +99,6 @@
         "is_unknown": false,
         "tx_count": 4,
         "top_method": "0x3ac795de"
-      },
-      {
-        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
-        "name": "Moody Drops (Use)",
-        "category": "Arcade",
-        "is_unknown": false,
-        "tx_count": 3,
-        "top_method": "0xf5298aca"
       },
       {
         "address": "0x9fdb8e3c8e5800d2f762919a34d9c0f1b63668a3",

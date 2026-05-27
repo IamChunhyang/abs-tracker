@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.987Z",
+  "fetched_at": "2026-05-27T16:05:55.584Z",
   "data": {
     "address": "0xda2ca34d57242cbe18f3046925645668b9e60292",
     "name": "CRYPT0BRO",
@@ -8,40 +8,24 @@
     "badges": 33,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xda2ca34d57242cbe18f3046925645668b9e60292",
-    "total_tx_count": 480086,
-    "period_tx_count": 9914,
+    "total_tx_count": 480087,
+    "period_tx_count": 119,
     "period": "1d",
     "top_contracts": [
-      {
-        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
-        "name": "Rugpull Bakery (Baking)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 9687,
-        "top_method": "0x"
-      },
       {
         "address": "0x1859072d67fdd26c8782c90a1e4f078901c0d763",
         "name": "Blinko & Moonsheep Cannon",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 100,
+        "tx_count": 96,
         "top_method": "0xf01d14b2"
-      },
-      {
-        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
-        "name": "Rugpull Bakery (Boost&Rug)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 90,
-        "top_method": "0xb3648e8f"
       },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 5,
+        "tx_count": 4,
         "top_method": "0x7060a227"
       },
       {
@@ -49,16 +33,8 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 4,
+        "tx_count": 3,
         "top_method": "0x5a0694d2"
-      },
-      {
-        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
-        "name": "Tollan (Gameplay)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 4,
-        "top_method": "0x8708c7fd"
       },
       {
         "address": "0xe34be58e965a90ff3cbd42738651a630fb2552b4",
@@ -85,14 +61,6 @@
         "top_method": "0x2ffc02e2"
       },
       {
-        "address": "0x89e9d9b7d87591875359247f7d8eb786e7ea6910",
-        "name": "Kona",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 3,
-        "top_method": "0x3ac795de"
-      },
-      {
         "address": "0xe1b076ea612db28a0d768660e4d81346c02ed75e",
         "name": "Uniswap",
         "category": "DeFi",
@@ -109,36 +77,20 @@
         "top_method": "0xac9650d8"
       },
       {
+        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
+        "name": "Tollan (Gameplay)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x8708c7fd"
+      },
+      {
         "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
         "name": "DEPTH Protocol",
         "category": "DeFi",
         "is_unknown": false,
         "tx_count": 1,
         "top_method": "0x0962ef79"
-      },
-      {
-        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
-        "name": "0x0000...4bf5",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x4b61cd6f"
-      },
-      {
-        "address": "0x4237d126713bf1faba29ed8a55a6a0634886e223",
-        "name": "Aave V3 Pool",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xbf90f63a"
-      },
-      {
-        "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
-        "name": "Portal Proxy",
-        "category": "Infra",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x"
       }
     ]
   }

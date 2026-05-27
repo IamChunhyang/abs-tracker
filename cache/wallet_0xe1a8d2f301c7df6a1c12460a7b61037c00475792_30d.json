@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.665Z",
+  "fetched_at": "2026-05-27T16:05:55.413Z",
   "data": {
     "address": "0xe1a8d2f301c7df6a1c12460a7b61037c00475792",
     "name": "Guigne",
@@ -8,7 +8,7 @@
     "badges": 37,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xe1a8d2f301c7df6a1c12460a7b61037c00475792",
-    "total_tx_count": 5653,
+    "total_tx_count": 5655,
     "period_tx_count": 177,
     "period": "30d",
     "top_contracts": [

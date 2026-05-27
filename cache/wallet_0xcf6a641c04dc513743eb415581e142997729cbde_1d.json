@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.670Z",
+  "fetched_at": "2026-05-27T16:05:55.415Z",
   "data": {
     "address": "0xcf6a641c04dc513743eb415581e142997729cbde",
     "name": "EthBurakEth",
@@ -8,24 +8,16 @@
     "badges": 39,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xcf6a641c04dc513743eb415581e142997729cbde",
-    "total_tx_count": 372512,
-    "period_tx_count": 10884,
+    "total_tx_count": 372518,
+    "period_tx_count": 111,
     "period": "1d",
     "top_contracts": [
-      {
-        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
-        "name": "Rugpull Bakery (Baking)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 10682,
-        "top_method": "0x"
-      },
       {
         "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
         "name": "Moody Drops (Claim,NFT)",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 115,
+        "tx_count": 68,
         "top_method": "0x16c5aa5e"
       },
       {
@@ -33,23 +25,15 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 55,
+        "tx_count": 34,
         "top_method": "0xf5298aca"
-      },
-      {
-        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
-        "name": "Rugpull Bakery (Boost&Rug)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 21,
-        "top_method": "0xb3648e8f"
       },
       {
         "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",
         "name": "Onchain Heroes",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 4,
+        "tx_count": 5,
         "top_method": "0xb32820e9"
       },
       {
@@ -57,7 +41,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 3,
+        "tx_count": 2,
         "top_method": "0x7060a227"
       },
       {
@@ -65,16 +49,16 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0x5a0694d2"
+        "tx_count": 1,
+        "top_method": "0x3ec59279"
       },
       {
-        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
-        "name": "0x0000...4bf5",
-        "category": "Unknown",
-        "is_unknown": true,
+        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
+        "name": "Tollan (Gameplay)",
+        "category": "Gaming",
+        "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0x4b61cd6f"
+        "top_method": "0x8708c7fd"
       }
     ]
   }

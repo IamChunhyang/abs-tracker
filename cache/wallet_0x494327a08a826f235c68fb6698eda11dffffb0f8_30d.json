@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.556Z",
+  "fetched_at": "2026-05-27T16:05:55.345Z",
   "data": {
     "address": "0x494327a08a826f235c68fb6698eda11dffffb0f8",
     "name": "Pixelcollector",
@@ -8,8 +8,8 @@
     "badges": 31,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x494327a08a826f235c68fb6698eda11dffffb0f8",
-    "total_tx_count": 25956,
-    "period_tx_count": 128,
+    "total_tx_count": 25957,
+    "period_tx_count": 129,
     "period": "30d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 52,
+        "tx_count": 53,
         "top_method": "0x7060a227"
       },
       {

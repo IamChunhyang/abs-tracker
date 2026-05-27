@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.902Z",
+  "fetched_at": "2026-05-27T16:05:55.543Z",
   "data": {
     "address": "0x439a339d6c89163af57834b26e1e40f29e65a188",
     "name": "DreadPiratesRob",
@@ -8,7 +8,7 @@
     "badges": 9,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x439a339d6c89163af57834b26e1e40f29e65a188",
-    "total_tx_count": 6519,
+    "total_tx_count": 6521,
     "period_tx_count": 442,
     "period": "30d",
     "top_contracts": [

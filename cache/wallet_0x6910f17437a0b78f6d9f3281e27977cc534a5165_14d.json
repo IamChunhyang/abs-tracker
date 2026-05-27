@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.588Z",
+  "fetched_at": "2026-05-27T16:05:55.365Z",
   "data": {
     "address": "0x6910f17437a0b78f6d9f3281e27977cc534a5165",
     "name": "l2oju",
@@ -8,8 +8,8 @@
     "badges": 40,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x6910f17437a0b78f6d9f3281e27977cc534a5165",
-    "total_tx_count": 22662,
-    "period_tx_count": 2596,
+    "total_tx_count": 22875,
+    "period_tx_count": 2780,
     "period": "14d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 1245,
+        "tx_count": 1335,
         "top_method": "0xf5298aca"
       },
       {
@@ -25,7 +25,7 @@
         "name": "Moody Drops (Claim,NFT)",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 1197,
+        "tx_count": 1287,
         "top_method": "0x16c5aa5e"
       },
       {
@@ -33,7 +33,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 32,
+        "tx_count": 33,
         "top_method": "0x7060a227"
       },
       {
@@ -41,8 +41,8 @@
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 31,
-        "top_method": "0xc00007b0"
+        "tx_count": 32,
+        "top_method": "0xb6b55f25"
       },
       {
         "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
@@ -73,7 +73,7 @@
         "name": "DEPTH Protocol",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 14,
+        "tx_count": 15,
         "top_method": "0x0962ef79"
       },
       {
@@ -81,7 +81,7 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 11,
+        "tx_count": 12,
         "top_method": "0x5a0694d2"
       },
       {

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.278Z",
+  "fetched_at": "2026-05-27T16:05:55.178Z",
   "data": {
     "address": "0x94692aeb630122b221b2950c2fef4f4f4a5fdf78",
     "name": "RubiksGus",
@@ -8,8 +8,8 @@
     "badges": 42,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x94692aeb630122b221b2950c2fef4f4f4a5fdf78",
-    "total_tx_count": 8054,
-    "period_tx_count": 260,
+    "total_tx_count": 8074,
+    "period_tx_count": 268,
     "period": "30d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 106,
+        "tx_count": 114,
         "top_method": "0xf5298aca"
       },
       {
@@ -41,7 +41,7 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 34,
+        "tx_count": 35,
         "top_method": "0x5a0694d2"
       },
       {
@@ -163,14 +163,6 @@
         "is_unknown": false,
         "tx_count": 1,
         "top_method": "0x095ea7b3"
-      },
-      {
-        "address": "0x8ed20f071287100fafca51c94b5d6d0d8340aef9",
-        "name": "0x8ed2...aef9",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x"
       }
     ]
   }

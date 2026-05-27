@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.357Z",
+  "fetched_at": "2026-05-27T16:05:55.224Z",
   "data": {
     "address": "0x15c821c18ff36b24efd0a338989281107ae26f90",
     "name": "Cody",
@@ -8,8 +8,8 @@
     "badges": 38,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x15c821c18ff36b24efd0a338989281107ae26f90",
-    "total_tx_count": 133217,
-    "period_tx_count": 573,
+    "total_tx_count": 133224,
+    "period_tx_count": 572,
     "period": "7d",
     "top_contracts": [
       {
@@ -81,7 +81,7 @@
         "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 2,
+        "tx_count": 1,
         "top_method": "0x807ef825"
       },
       {

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.816Z",
+  "fetched_at": "2026-05-27T16:05:55.494Z",
   "data": {
     "address": "0x917c1aae361c00520d5afea7277338bbb7edd68c",
     "name": "dosaklon",
@@ -8,34 +8,10 @@
     "badges": 33,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x917c1aae361c00520d5afea7277338bbb7edd68c",
-    "total_tx_count": 139824,
-    "period_tx_count": 7054,
+    "total_tx_count": 139848,
+    "period_tx_count": 49,
     "period": "1d",
     "top_contracts": [
-      {
-        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
-        "name": "Rugpull Bakery (Baking)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 6940,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x4f97015601863c256892e0a5e2710b48e149948c",
-        "name": "Rugpull Bakery (Boost&Rug)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 75,
-        "top_method": "0xb3648e8f"
-      },
-      {
-        "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
-        "name": "0x37d6...1afe",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 12,
-        "top_method": "0x807ef825"
-      },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",
@@ -43,6 +19,22 @@
         "is_unknown": false,
         "tx_count": 12,
         "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
+        "name": "0x37d6...1afe",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 11,
+        "top_method": "0x807ef825"
+      },
+      {
+        "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
+        "name": "Moody Drops (Claim,NFT)",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 10,
+        "top_method": "0x16c5aa5e"
       },
       {
         "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
@@ -67,6 +59,14 @@
         "is_unknown": false,
         "tx_count": 2,
         "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0xa688a6a53a26b6f0702a9a518482151415be1ff7",
+        "name": "Tollan (Buy,NFT Claim)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x"
       },
       {
         "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",

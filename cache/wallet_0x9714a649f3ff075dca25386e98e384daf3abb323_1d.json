@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.300Z",
+  "fetched_at": "2026-05-27T16:05:55.192Z",
   "data": {
     "address": "0x9714a649f3ff075dca25386e98e384daf3abb323",
     "name": "jellothefox",
@@ -8,10 +8,26 @@
     "badges": 36,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x9714a649f3ff075dca25386e98e384daf3abb323",
-    "total_tx_count": 19695,
-    "period_tx_count": 19,
+    "total_tx_count": 19708,
+    "period_tx_count": 17,
     "period": "1d",
     "top_contracts": [
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "OpenSea",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 5,
+        "top_method": "0x00000000"
+      },
+      {
+        "address": "0x920fefb4e92dbba0393ba233cecb1051a0dde25c",
+        "name": "0x920f...e25c",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0xdafa1d2d"
+      },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",
@@ -21,28 +37,20 @@
         "top_method": "0x7060a227"
       },
       {
-        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
-        "name": "USDC",
-        "category": "Others",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0x095ea7b3"
-      },
-      {
-        "address": "0x270bbb21b1187bc6e694f428dcb51432958eb3d9",
-        "name": "Rugpull Bakery",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0xb27a78e3"
-      },
-      {
         "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 2,
+        "tx_count": 1,
         "top_method": "0xf5298aca"
+      },
+      {
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "DEPTH Protocol",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x0962ef79"
       },
       {
         "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
@@ -51,70 +59,6 @@
         "is_unknown": true,
         "tx_count": 1,
         "top_method": "0x4b61cd6f"
-      },
-      {
-        "address": "0x920fefb4e92dbba0393ba233cecb1051a0dde25c",
-        "name": "0x920f...e25c",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0xdafa1d2d"
-      },
-      {
-        "address": "0x55e1c2da46c36e18a956151ec1b4b2f39bd8571a",
-        "name": "Shiny",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xd8182233"
-      },
-      {
-        "address": "0xc74d5002c10c13d2ad258b4584690829387f84dc",
-        "name": "DYLI",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x2b1fd58a"
-      },
-      {
-        "address": "0x458422e93bf89a109afc4fac00aacf2f18fcf541",
-        "name": "DYLI",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xa22cb465"
-      },
-      {
-        "address": "0xb60fa32c8041c8b0f56220420b56ce6b86decde9",
-        "name": "Ruyui Staking",
-        "category": "Staking",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x0fbf0a93"
-      },
-      {
-        "address": "0x9ce89a1303f2d52a9d7840fcd5a6870c2a8550c0",
-        "name": "0x9ce8...50c0",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0xa22cb465"
-      },
-      {
-        "address": "0x0000000000000068f116a894984e2db1123eb395",
-        "name": "OpenSea",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xe7acab24"
-      },
-      {
-        "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
-        "name": "Moody Drops (Claim,NFT)",
-        "category": "Rewards",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x16c5aa5e"
       }
     ]
   }

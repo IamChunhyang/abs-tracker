@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.278Z",
+  "fetched_at": "2026-05-27T16:05:55.179Z",
   "data": {
     "address": "0xaa9f002000c4f34727e1f0407f363e4ee0be4c27",
     "name": "cardman",
@@ -9,7 +9,7 @@
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xaa9f002000c4f34727e1f0407f363e4ee0be4c27",
     "total_tx_count": 4358,
-    "period_tx_count": 2,
+    "period_tx_count": 1,
     "period": "1d",
     "top_contracts": [
       {
@@ -19,14 +19,6 @@
         "is_unknown": false,
         "tx_count": 1,
         "top_method": "0x7060a227"
-      },
-      {
-        "address": "0xb92fe925dc43a0ecde6c8b1a2709c170ec4fff4f",
-        "name": "Relay (Contract)",
-        "category": "Infra",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xcd6e13f7"
       }
     ]
   }

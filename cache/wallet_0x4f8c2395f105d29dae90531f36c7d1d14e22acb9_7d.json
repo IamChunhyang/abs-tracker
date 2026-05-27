@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:58.077Z",
+  "fetched_at": "2026-05-27T16:05:55.637Z",
   "data": {
     "address": "0x4f8c2395f105d29dae90531f36c7d1d14e22acb9",
     "name": "PhanGu",
@@ -8,8 +8,8 @@
     "badges": 16,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x4f8c2395f105d29dae90531f36c7d1d14e22acb9",
-    "total_tx_count": 53716,
-    "period_tx_count": 2941,
+    "total_tx_count": 53720,
+    "period_tx_count": 2937,
     "period": "7d",
     "top_contracts": [
       {
@@ -25,7 +25,7 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 18,
+        "tx_count": 20,
         "top_method": "0x5a0694d2"
       },
       {
@@ -45,20 +45,20 @@
         "top_method": "0x2752571e"
       },
       {
-        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 8,
-        "top_method": "0xc6b7f1b6"
-      },
-      {
         "address": "0x4cd00e387622c35bddb9b4c962c136462338bc31",
         "name": "Relay (Contract)",
         "category": "Infra",
         "is_unknown": false,
-        "tx_count": 4,
+        "tx_count": 3,
         "top_method": "0x49290c1c"
+      },
+      {
+        "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0xc6b7f1b6"
       },
       {
         "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",

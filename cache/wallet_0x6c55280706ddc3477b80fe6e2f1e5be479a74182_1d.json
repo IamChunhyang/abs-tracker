@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.280Z",
+  "fetched_at": "2026-05-27T16:05:55.180Z",
   "data": {
     "address": "0x6c55280706ddc3477b80fe6e2f1e5be479a74182",
     "name": "Breezeonhodl",
@@ -8,9 +8,18 @@
     "badges": 38,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x6c55280706ddc3477b80fe6e2f1e5be479a74182",
-    "total_tx_count": 14792,
-    "period_tx_count": 0,
+    "total_tx_count": 14793,
+    "period_tx_count": 1,
     "period": "1d",
-    "top_contracts": []
+    "top_contracts": [
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      }
+    ]
   }
 }

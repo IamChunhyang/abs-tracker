@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.932Z",
+  "fetched_at": "2026-05-27T16:05:55.557Z",
   "data": {
     "address": "0xeed7c6b2af48249a040c9e5d59437670889c7e07",
     "name": "lilwassie",
@@ -8,8 +8,8 @@
     "badges": 37,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xeed7c6b2af48249a040c9e5d59437670889c7e07",
-    "total_tx_count": 154516,
-    "period_tx_count": 75142,
+    "total_tx_count": 154537,
+    "period_tx_count": 75157,
     "period": "30d",
     "top_contracts": [
       {
@@ -33,7 +33,7 @@
         "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 63,
+        "tx_count": 66,
         "top_method": "0x807ef825"
       },
       {
@@ -41,7 +41,7 @@
         "name": "OpenSea",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 41,
+        "tx_count": 43,
         "top_method": "0x87201b41"
       },
       {
@@ -49,7 +49,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 36,
+        "tx_count": 37,
         "top_method": "0x7060a227"
       },
       {
@@ -57,7 +57,7 @@
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 32,
+        "tx_count": 33,
         "top_method": "0x12bc3aca"
       },
       {
@@ -65,7 +65,7 @@
         "name": "DEPTH Protocol",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 32,
+        "tx_count": 33,
         "top_method": "0x0962ef79"
       },
       {

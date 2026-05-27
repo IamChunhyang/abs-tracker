@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.900Z",
+  "fetched_at": "2026-05-27T16:05:55.541Z",
   "data": {
     "address": "0x991b87ec4fe400178c3f54ea26ae445c2351e1ec",
     "name": "Cyro",
@@ -8,8 +8,8 @@
     "badges": 37,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x991b87ec4fe400178c3f54ea26ae445c2351e1ec",
-    "total_tx_count": 44798,
-    "period_tx_count": 670,
+    "total_tx_count": 44802,
+    "period_tx_count": 652,
     "period": "14d",
     "top_contracts": [
       {
@@ -61,19 +61,11 @@
         "top_method": "0xb88d4fde"
       },
       {
-        "address": "0x0000000000000068f116a894984e2db1123eb395",
-        "name": "OpenSea",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 9,
-        "top_method": "0x87201b41"
-      },
-      {
         "address": "0xca4a7c4a191de94af2c91487d0be34a0205b89ab",
         "name": "NFT Staking",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 7,
+        "tx_count": 6,
         "top_method": "0x05202ac1"
       },
       {
@@ -93,12 +85,12 @@
         "top_method": "0xb88d4fde"
       },
       {
-        "address": "0xec753a52496b5bd36a7bec9e6631ae94a867786d",
-        "name": "0xec75...786d",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 4,
-        "top_method": "0x"
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "OpenSea",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0xe7acab24"
       },
       {
         "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
@@ -117,44 +109,20 @@
         "top_method": "0x29efcf80"
       },
       {
+        "address": "0xec753a52496b5bd36a7bec9e6631ae94a867786d",
+        "name": "0xec75...786d",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
+      },
+      {
         "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
         "name": "USDC",
         "category": "Others",
         "is_unknown": false,
         "tx_count": 1,
         "top_method": "0xa9059cbb"
-      },
-      {
-        "address": "0x7af6ce720a1ad8c985146261652904cbdaf43d24",
-        "name": "0x7af6...3d24",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x"
-      },
-      {
-        "address": "0xb193e9cf5235eb81b98103a64546f723bf80b9d2",
-        "name": "0xb193...b9d2",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x5a7d17b35619d92bbf0dcfb6edef4b96035a35f9",
-        "name": "0x5a7d...35f9",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x"
-      },
-      {
-        "address": "0xa94f6af4651115d0c39e3ef8f840933da42834d1",
-        "name": "0xa94f...34d1",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x"
       }
     ]
   }

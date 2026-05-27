@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.156Z",
+  "fetched_at": "2026-05-27T16:05:55.095Z",
   "data": {
     "address": "0xfb6954ea6b0f8e9eea008a2cffc26eadce0e69aa",
     "name": "greenchain",
@@ -8,8 +8,8 @@
     "badges": 21,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xfb6954ea6b0f8e9eea008a2cffc26eadce0e69aa",
-    "total_tx_count": 82511,
-    "period_tx_count": 48778,
+    "total_tx_count": 82517,
+    "period_tx_count": 48783,
     "period": "30d",
     "top_contracts": [
       {
@@ -49,7 +49,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 31,
+        "tx_count": 32,
         "top_method": "0x7060a227"
       },
       {
@@ -57,7 +57,7 @@
         "name": "Rewards Claim",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 27,
+        "tx_count": 30,
         "top_method": "0x379607f5"
       },
       {
@@ -73,7 +73,7 @@
         "name": "Portal Proxy",
         "category": "Infra",
         "is_unknown": false,
-        "tx_count": 12,
+        "tx_count": 13,
         "top_method": "0x"
       },
       {

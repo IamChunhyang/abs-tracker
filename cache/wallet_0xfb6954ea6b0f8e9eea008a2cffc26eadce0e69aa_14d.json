@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.150Z",
+  "fetched_at": "2026-05-27T16:05:55.088Z",
   "data": {
     "address": "0xfb6954ea6b0f8e9eea008a2cffc26eadce0e69aa",
     "name": "greenchain",
@@ -8,8 +8,8 @@
     "badges": 21,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xfb6954ea6b0f8e9eea008a2cffc26eadce0e69aa",
-    "total_tx_count": 82511,
-    "period_tx_count": 35546,
+    "total_tx_count": 82517,
+    "period_tx_count": 32904,
     "period": "14d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Rugpull Bakery (Baking)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 35375,
+        "tx_count": 32746,
         "top_method": "0x"
       },
       {
@@ -25,7 +25,7 @@
         "name": "Rugpull Bakery (Boost&Rug)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 63,
+        "tx_count": 47,
         "top_method": "0xf20c3fb4"
       },
       {
@@ -41,7 +41,7 @@
         "name": "Rewards Claim",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 13,
+        "tx_count": 16,
         "top_method": "0x379607f5"
       },
       {
@@ -49,7 +49,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 11,
+        "tx_count": 13,
         "top_method": "0x7060a227"
       },
       {
@@ -57,7 +57,7 @@
         "name": "DEX Voter",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 11,
+        "tx_count": 10,
         "top_method": "0x7ac09bf7"
       },
       {
@@ -65,7 +65,7 @@
         "name": "Portal Proxy",
         "category": "Infra",
         "is_unknown": false,
-        "tx_count": 5,
+        "tx_count": 6,
         "top_method": "0x"
       },
       {
@@ -81,7 +81,7 @@
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 4,
+        "tx_count": 3,
         "top_method": "0xe75b1c2e"
       },
       {

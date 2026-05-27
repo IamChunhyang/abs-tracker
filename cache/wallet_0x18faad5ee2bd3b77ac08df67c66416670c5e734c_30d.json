@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.582Z",
+  "fetched_at": "2026-05-27T16:05:55.361Z",
   "data": {
     "address": "0x18faad5ee2bd3b77ac08df67c66416670c5e734c",
     "name": "Cubsfan",
@@ -8,8 +8,8 @@
     "badges": 8,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x18faad5ee2bd3b77ac08df67c66416670c5e734c",
-    "total_tx_count": 13530,
-    "period_tx_count": 89,
+    "total_tx_count": 13531,
+    "period_tx_count": 90,
     "period": "30d",
     "top_contracts": [
       {
@@ -45,20 +45,20 @@
         "top_method": "0xb88d4fde"
       },
       {
+        "address": "0xaeda3cc1116ce38adf2650b3f5d6bc70315f7aaa",
+        "name": "0xaeda...7aaa",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 4,
+        "top_method": "0x"
+      },
+      {
         "address": "0x219260d8470d8211ad66eb69206bdf72a4218b65",
         "name": "Onchain Heroes",
         "category": "Gaming",
         "is_unknown": false,
         "tx_count": 4,
         "top_method": "0xf7345f9c"
-      },
-      {
-        "address": "0xaeda3cc1116ce38adf2650b3f5d6bc70315f7aaa",
-        "name": "0xaeda...7aaa",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 3,
-        "top_method": "0x"
       },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",

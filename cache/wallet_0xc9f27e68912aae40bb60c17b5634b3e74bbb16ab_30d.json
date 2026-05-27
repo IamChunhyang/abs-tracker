@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.208Z",
+  "fetched_at": "2026-05-27T16:05:55.127Z",
   "data": {
     "address": "0xc9f27e68912aae40bb60c17b5634b3e74bbb16ab",
     "name": "Minebuu",
@@ -8,8 +8,8 @@
     "badges": 42,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xc9f27e68912aae40bb60c17b5634b3e74bbb16ab",
-    "total_tx_count": 71046,
-    "period_tx_count": 6415,
+    "total_tx_count": 71058,
+    "period_tx_count": 6427,
     "period": "30d",
     "top_contracts": [
       {
@@ -41,7 +41,7 @@
         "name": "Death Fun",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 128,
+        "tx_count": 134,
         "top_method": "0x001308d8"
       },
       {
@@ -49,7 +49,7 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 28,
+        "tx_count": 30,
         "top_method": "0x5a0694d2"
       },
       {
@@ -57,7 +57,7 @@
         "name": "Gacha PvP",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 23,
+        "tx_count": 24,
         "top_method": "0x107cc1ec"
       },
       {
@@ -65,7 +65,7 @@
         "name": "Gacha Mall",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 19,
+        "tx_count": 20,
         "top_method": "0x581644ae"
       },
       {
@@ -73,7 +73,7 @@
         "name": "Shiny",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 18,
+        "tx_count": 19,
         "top_method": "0xf23a27bd"
       },
       {
@@ -81,7 +81,7 @@
         "name": "Shiny",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 16,
+        "tx_count": 17,
         "top_method": "0x92971a31"
       },
       {

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.223Z",
+  "fetched_at": "2026-05-27T16:05:55.137Z",
   "data": {
     "address": "0x7a84af82a3d5c913fc42f333d709fe706160e258",
     "name": "FroggyCyborg",
@@ -8,8 +8,8 @@
     "badges": 39,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x7a84af82a3d5c913fc42f333d709fe706160e258",
-    "total_tx_count": 101657,
-    "period_tx_count": 12015,
+    "total_tx_count": 101938,
+    "period_tx_count": 10390,
     "period": "7d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Rugpull Bakery (Baking)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 10917,
+        "tx_count": 9017,
         "top_method": "0x"
       },
       {
@@ -25,7 +25,7 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 524,
+        "tx_count": 663,
         "top_method": "0xf5298aca"
       },
       {
@@ -33,7 +33,7 @@
         "name": "Moody Drops (Claim,NFT)",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 521,
+        "tx_count": 660,
         "top_method": "0x16c5aa5e"
       },
       {
@@ -49,7 +49,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 11,
+        "tx_count": 10,
         "top_method": "0x7060a227"
       },
       {
@@ -65,7 +65,7 @@
         "name": "0x19b1...53f7",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 5,
+        "tx_count": 3,
         "top_method": "0x34d55309"
       },
       {

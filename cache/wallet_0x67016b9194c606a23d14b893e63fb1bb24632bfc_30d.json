@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.434Z",
+  "fetched_at": "2026-05-27T16:05:55.265Z",
   "data": {
     "address": "0x67016b9194c606a23d14b893e63fb1bb24632bfc",
     "name": "skarly",
@@ -9,7 +9,7 @@
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x67016b9194c606a23d14b893e63fb1bb24632bfc",
     "total_tx_count": 1437,
-    "period_tx_count": 29,
+    "period_tx_count": 28,
     "period": "30d",
     "top_contracts": [
       {
@@ -21,20 +21,20 @@
         "top_method": "0x5a0694d2"
       },
       {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "Abstract Voting",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 5,
-        "top_method": "0x7060a227"
-      },
-      {
         "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",
         "name": "Onchain Heroes",
         "category": "Gaming",
         "is_unknown": false,
         "tx_count": 4,
         "top_method": "0xb32820e9"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x7060a227"
       },
       {
         "address": "0x2ddf2129a55cf132e580cc5d69fad1de3d213bba",

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.486Z",
+  "fetched_at": "2026-05-27T16:05:55.299Z",
   "data": {
     "address": "0xc28f9e50946a03c73c65ed0a47abf9d32b92e237",
     "name": "B92e237",
@@ -8,8 +8,8 @@
     "badges": 42,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xc28f9e50946a03c73c65ed0a47abf9d32b92e237",
-    "total_tx_count": 29023,
-    "period_tx_count": 2540,
+    "total_tx_count": 29038,
+    "period_tx_count": 2543,
     "period": "30d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 1167,
+        "tx_count": 1175,
         "top_method": "0xf5298aca"
       },
       {
@@ -49,16 +49,8 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 19,
+        "tx_count": 20,
         "top_method": "0x5a0694d2"
-      },
-      {
-        "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 17,
-        "top_method": "0xac9650d8"
       },
       {
         "address": "0x42ab8092bfb701f34c47273df83d90d8169ad982",
@@ -83,6 +75,14 @@
         "is_unknown": false,
         "tx_count": 14,
         "top_method": "0xc6b7f1b6"
+      },
+      {
+        "address": "0xada5d0e79681038a9547fe6a59f1413f3e720839",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 13,
+        "top_method": "0xac9650d8"
       },
       {
         "address": "0x0000000000000068f116a894984e2db1123eb395",
@@ -117,20 +117,20 @@
         "top_method": "0x807ef825"
       },
       {
-        "address": "0x3e0f5f8f5fb043abfa475c0308417bf72c463289",
-        "name": "Prediction Market",
-        "category": "Arcade",
-        "is_unknown": false,
-        "tx_count": 6,
-        "top_method": "0x3620875e"
-      },
-      {
         "address": "0x20418564070d574e4eb546782792e54091f524df",
         "name": "0x2041...24df",
         "category": "Unknown",
         "is_unknown": true,
         "tx_count": 5,
         "top_method": "0x"
+      },
+      {
+        "address": "0x3e0f5f8f5fb043abfa475c0308417bf72c463289",
+        "name": "Prediction Market",
+        "category": "Arcade",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x3620875e"
       },
       {
         "address": "0xa171bb8b0805ddccc8721ccb1e13f6dd09633cfc",

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.546Z",
+  "fetched_at": "2026-05-27T16:05:55.339Z",
   "data": {
     "address": "0xa8a956a5690cc81bb367da2c2f6f1796be2b3c30",
     "name": "scottco",
@@ -9,7 +9,7 @@
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xa8a956a5690cc81bb367da2c2f6f1796be2b3c30",
     "total_tx_count": 28990,
-    "period_tx_count": 136,
+    "period_tx_count": 131,
     "period": "30d",
     "top_contracts": [
       {
@@ -59,14 +59,6 @@
         "is_unknown": false,
         "tx_count": 7,
         "top_method": "0x379607f5"
-      },
-      {
-        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
-        "name": "DEX Voter",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 5,
-        "top_method": "0x7ac09bf7"
       },
       {
         "address": "0x19e547f1bd342094bc4318c539dbb91a8f52786c",

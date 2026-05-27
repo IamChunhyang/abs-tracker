@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.982Z",
+  "fetched_at": "2026-05-27T16:05:55.582Z",
   "data": {
     "address": "0x90c1ed16e9b16db7d031f573d20bead430feb107",
     "name": "Jablko",
@@ -8,8 +8,8 @@
     "badges": 27,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x90c1ed16e9b16db7d031f573d20bead430feb107",
-    "total_tx_count": 41777,
-    "period_tx_count": 41,
+    "total_tx_count": 41786,
+    "period_tx_count": 44,
     "period": "7d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Tollan (Gameplay)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 22,
+        "tx_count": 19,
         "top_method": "0x8708c7fd"
       },
       {
@@ -25,7 +25,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 7,
+        "tx_count": 8,
         "top_method": "0x7060a227"
       },
       {
@@ -35,6 +35,30 @@
         "is_unknown": false,
         "tx_count": 3,
         "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x7ac09bf7"
+      },
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "OpenSea",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xe7acab24"
+      },
+      {
+        "address": "0x9877d51d213c06395e1b96de7020f32184fead11",
+        "name": "0x9877...ad11",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xa22cb465"
       },
       {
         "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.571Z",
+  "fetched_at": "2026-05-27T16:05:55.353Z",
   "data": {
     "address": "0xc60a6d12a073957b403abf414fe7b0c6abab67ca",
     "name": "absforever",
@@ -8,8 +8,8 @@
     "badges": 40,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xc60a6d12a073957b403abf414fe7b0c6abab67ca",
-    "total_tx_count": 247226,
-    "period_tx_count": 60768,
+    "total_tx_count": 247232,
+    "period_tx_count": 59631,
     "period": "14d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Rugpull Bakery (Baking)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 60659,
+        "tx_count": 59520,
         "top_method": "0x"
       },
       {
@@ -27,6 +27,14 @@
         "is_unknown": false,
         "tx_count": 18,
         "top_method": "0xf20c3fb4"
+      },
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "OpenSea",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 15,
+        "top_method": "0x87201b41"
       },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
@@ -43,14 +51,6 @@
         "is_unknown": false,
         "tx_count": 14,
         "top_method": "0x7ac09bf7"
-      },
-      {
-        "address": "0x0000000000000068f116a894984e2db1123eb395",
-        "name": "OpenSea",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 13,
-        "top_method": "0x87201b41"
       },
       {
         "address": "0xb60fa32c8041c8b0f56220420b56ce6b86decde9",
@@ -81,8 +81,16 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 4,
+        "tx_count": 3,
         "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0x9877d51d213c06395e1b96de7020f32184fead11",
+        "name": "0x9877...ad11",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0xa22cb465"
       },
       {
         "address": "0x7e3059b08e981a369f99db26487ab4cbffdfef29",
@@ -163,14 +171,6 @@
         "is_unknown": false,
         "tx_count": 1,
         "top_method": "0x29efcf80"
-      },
-      {
-        "address": "0x9ce89a1303f2d52a9d7840fcd5a6870c2a8550c0",
-        "name": "0x9ce8...50c0",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0xa22cb465"
       }
     ]
   }

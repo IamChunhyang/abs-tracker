@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.754Z",
+  "fetched_at": "2026-05-27T16:05:55.460Z",
   "data": {
     "address": "0xec753a52496b5bd36a7bec9e6631ae94a867786d",
     "name": "KanaArima",
@@ -8,8 +8,8 @@
     "badges": 11,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xec753a52496b5bd36a7bec9e6631ae94a867786d",
-    "total_tx_count": 26481,
-    "period_tx_count": 68,
+    "total_tx_count": 26483,
+    "period_tx_count": 59,
     "period": "14d",
     "top_contracts": [
       {
@@ -25,7 +25,7 @@
         "name": "Onchain Heroes",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 11,
+        "tx_count": 9,
         "top_method": "0x3c28402b"
       },
       {
@@ -37,20 +37,20 @@
         "top_method": "0x01608d9c"
       },
       {
-        "address": "0x4cd00e387622c35bddb9b4c962c136462338bc31",
-        "name": "Relay (Contract)",
-        "category": "Infra",
-        "is_unknown": false,
-        "tx_count": 5,
-        "top_method": "0x49290c1c"
-      },
-      {
         "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
         "name": "WETH9",
         "category": "Others",
         "is_unknown": false,
         "tx_count": 4,
         "top_method": "0x2e1a7d4d"
+      },
+      {
+        "address": "0x4cd00e387622c35bddb9b4c962c136462338bc31",
+        "name": "Relay (Contract)",
+        "category": "Infra",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x49290c1c"
       },
       {
         "address": "0xca4a7c4a191de94af2c91487d0be34a0205b89ab",

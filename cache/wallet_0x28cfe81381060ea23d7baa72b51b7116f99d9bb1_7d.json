@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.647Z",
+  "fetched_at": "2026-05-27T16:05:55.402Z",
   "data": {
     "address": "0x28cfe81381060ea23d7baa72b51b7116f99d9bb1",
     "name": "jsteezy",
@@ -8,8 +8,8 @@
     "badges": 14,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x28cfe81381060ea23d7baa72b51b7116f99d9bb1",
-    "total_tx_count": 10025,
-    "period_tx_count": 11,
+    "total_tx_count": 10026,
+    "period_tx_count": 10,
     "period": "7d",
     "top_contracts": [
       {
@@ -17,8 +17,16 @@
         "name": "0x2ddf...3bba",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 7,
+        "tx_count": 5,
         "top_method": "0x"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Signing",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x5a0694d2"
       },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
@@ -27,14 +35,6 @@
         "is_unknown": false,
         "tx_count": 2,
         "top_method": "0x7060a227"
-      },
-      {
-        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
-        "name": "Session Key Signing",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0x5a0694d2"
       }
     ]
   }

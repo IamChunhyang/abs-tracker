@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:58.084Z",
+  "fetched_at": "2026-05-27T16:05:55.644Z",
   "data": {
     "address": "0x07484da0b968e4ca353d0a1fae0572a453768279",
     "name": "changhyuk",
@@ -8,9 +8,18 @@
     "badges": 13,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x07484da0b968e4ca353d0a1fae0572a453768279",
-    "total_tx_count": 209,
-    "period_tx_count": 0,
+    "total_tx_count": 210,
+    "period_tx_count": 1,
     "period": "1d",
-    "top_contracts": []
+    "top_contracts": [
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      }
+    ]
   }
 }

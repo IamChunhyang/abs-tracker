@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.750Z",
+  "fetched_at": "2026-05-27T16:05:55.457Z",
   "data": {
     "address": "0xb5748a472adfa371244cdc5a0a13189410cf8097",
     "name": "AziNo",
@@ -8,7 +8,7 @@
     "badges": 44,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xb5748a472adfa371244cdc5a0a13189410cf8097",
-    "total_tx_count": 696744,
+    "total_tx_count": 696852,
     "period_tx_count": 100000,
     "period": "30d",
     "top_contracts": [
@@ -17,7 +17,7 @@
         "name": "Rugpull Bakery (Baking)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 97370,
+        "tx_count": 97314,
         "top_method": "0x"
       },
       {
@@ -33,7 +33,7 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 867,
+        "tx_count": 875,
         "top_method": "0xf5298aca"
       },
       {
@@ -57,7 +57,7 @@
         "name": "Tollan (Gameplay)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 82,
+        "tx_count": 86,
         "top_method": "0x8708c7fd"
       },
       {
@@ -65,7 +65,7 @@
         "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 64,
+        "tx_count": 69,
         "top_method": "0x807ef825"
       },
       {
@@ -73,7 +73,7 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 28,
+        "tx_count": 35,
         "top_method": "0x3ec59279"
       },
       {
@@ -81,7 +81,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 12,
+        "tx_count": 14,
         "top_method": "0x7060a227"
       },
       {
@@ -133,6 +133,22 @@
         "top_method": "0x01608d9c"
       },
       {
+        "address": "0x219260d8470d8211ad66eb69206bdf72a4218b65",
+        "name": "Onchain Heroes",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0xf7345f9c"
+      },
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "OpenSea",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0xe7acab24"
+      },
+      {
         "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
         "name": "Portal Proxy",
         "category": "Infra",
@@ -149,24 +165,8 @@
         "top_method": "0x4b61cd6f"
       },
       {
-        "address": "0x14b2cf63a64ca7500432c56b9d2d7216137cc2cc",
-        "name": "0x14b2...c2cc",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 2,
-        "top_method": "0x"
-      },
-      {
-        "address": "0xd48c8b0311b6366ab00fbfa2f63acbfaa006d6e5",
-        "name": "0xd48c...d6e5",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 2,
-        "top_method": "0x"
-      },
-      {
-        "address": "0xd8aa11d466eac928489d3717d03826656c591249",
-        "name": "0xd8aa...1249",
+        "address": "0xe44fcf259aece69b77fb8bd3bdbe9c56a4e1d24e",
+        "name": "0xe44f...d24e",
         "category": "Unknown",
         "is_unknown": true,
         "tx_count": 2,

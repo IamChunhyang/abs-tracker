@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.500Z",
+  "fetched_at": "2026-05-27T16:05:55.309Z",
   "data": {
     "address": "0x27db47dbb87e66af0b27d4746aa718acc977de75",
     "name": "Xen",
@@ -9,7 +9,7 @@
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x27db47dbb87e66af0b27d4746aa718acc977de75",
     "total_tx_count": 23135,
-    "period_tx_count": 8,
+    "period_tx_count": 6,
     "period": "7d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 4,
+        "tx_count": 2,
         "top_method": "0x7060a227"
       },
       {

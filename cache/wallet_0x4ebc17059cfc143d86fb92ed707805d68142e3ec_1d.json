@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.597Z",
+  "fetched_at": "2026-05-27T16:05:55.371Z",
   "data": {
     "address": "0x4ebc17059cfc143d86fb92ed707805d68142e3ec",
     "name": "nomorever",
@@ -8,8 +8,8 @@
     "badges": 33,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x4ebc17059cfc143d86fb92ed707805d68142e3ec",
-    "total_tx_count": 136069,
-    "period_tx_count": 298,
+    "total_tx_count": 136321,
+    "period_tx_count": 548,
     "period": "1d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 124,
+        "tx_count": 226,
         "top_method": "0xf5298aca"
       },
       {
@@ -25,55 +25,55 @@
         "name": "Moody Drops (Claim,NFT)",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 117,
+        "tx_count": 217,
         "top_method": "0x16c5aa5e"
-      },
-      {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "Abstract Voting",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 15,
-        "top_method": "0x7060a227"
       },
       {
         "address": "0x1859072d67fdd26c8782c90a1e4f078901c0d763",
         "name": "Blinko & Moonsheep Cannon",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 8,
+        "tx_count": 16,
         "top_method": "0xf01d14b2"
       },
       {
-        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
-        "name": "Tollan (Gameplay)",
-        "category": "Gaming",
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 6,
-        "top_method": "0x8708c7fd"
-      },
-      {
-        "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
-        "name": "0x37d6...1afe",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 6,
-        "top_method": "0x2752571e"
+        "tx_count": 16,
+        "top_method": "0x7060a227"
       },
       {
         "address": "0x27edd16ee56958fddcba08947f12c43ddec2b20c",
         "name": "Death Fun",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 6,
+        "tx_count": 12,
         "top_method": "0xf04b8dc7"
+      },
+      {
+        "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
+        "name": "0x37d6...1afe",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 11,
+        "top_method": "0x807ef825"
+      },
+      {
+        "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
+        "name": "Tollan (Gameplay)",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 9,
+        "top_method": "0x8708c7fd"
       },
       {
         "address": "0x270bbb21b1187bc6e694f428dcb51432958eb3d9",
         "name": "Rugpull Bakery",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 4,
+        "tx_count": 8,
         "top_method": "0xb27a78e3"
       },
       {
@@ -81,15 +81,23 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 3,
+        "tx_count": 6,
         "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0x715401335704d81216324ed50bbdaab119a99a55",
+        "name": "0x7154...9a55",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 4,
+        "top_method": "0xf7d7cddb"
       },
       {
         "address": "0x3272596f776470d2d7c3f7dff3dc50888b7d8967",
         "name": "Gacha",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 2,
+        "tx_count": 4,
         "top_method": "0x379607f5"
       },
       {
@@ -97,15 +105,23 @@
         "name": "COSMO",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 1,
+        "tx_count": 2,
         "top_method": "0x23b872dd"
+      },
+      {
+        "address": "0x55e1c2da46c36e18a956151ec1b4b2f39bd8571a",
+        "name": "Shiny",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0xd8182233"
       },
       {
         "address": "0x911dbdd9841b53ee5a08170109daf7ad82684108",
         "name": "Shiny",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 1,
+        "tx_count": 2,
         "top_method": "0x92971a31"
       },
       {
@@ -113,23 +129,15 @@
         "name": "Shiny",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 1,
+        "tx_count": 2,
         "top_method": "0xf23a27bd"
-      },
-      {
-        "address": "0x465738e6d8ded1384c3e8402658257d4ae8ed17d",
-        "name": "0x4657...d17d",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0xa736a89d"
       },
       {
         "address": "0x68c137f435e8de633b9d80d914e6b7f858b2af30",
         "name": "Daily Check-in",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 1,
+        "tx_count": 2,
         "top_method": "0x"
       },
       {
@@ -137,8 +145,32 @@
         "name": "DYLI",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 1,
+        "tx_count": 2,
         "top_method": "0x7f58b4bf"
+      },
+      {
+        "address": "0x268031de8363401d61b6a256bea009bb57277619",
+        "name": "Gacha Mall",
+        "category": "Arcade",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x581644ae"
+      },
+      {
+        "address": "0x516dce03bbb9d686e567a15ba3b7d061e394ab7a",
+        "name": "Gacha PvP",
+        "category": "Arcade",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x107cc1ec"
+      },
+      {
+        "address": "0x99702d607fe4fafcee4bd08108950511d50fc1a6",
+        "name": "0x9970...c1a6",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x52b0934e"
       }
     ]
   }

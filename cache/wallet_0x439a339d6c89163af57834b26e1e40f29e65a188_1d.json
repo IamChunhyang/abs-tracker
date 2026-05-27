@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.901Z",
+  "fetched_at": "2026-05-27T16:05:55.542Z",
   "data": {
     "address": "0x439a339d6c89163af57834b26e1e40f29e65a188",
     "name": "DreadPiratesRob",
@@ -8,10 +8,18 @@
     "badges": 9,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x439a339d6c89163af57834b26e1e40f29e65a188",
-    "total_tx_count": 6519,
-    "period_tx_count": 3,
+    "total_tx_count": 6521,
+    "period_tx_count": 4,
     "period": "1d",
     "top_contracts": [
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x7060a227"
+      },
       {
         "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
         "name": "Onchain Heroes",
@@ -19,14 +27,6 @@
         "is_unknown": false,
         "tx_count": 2,
         "top_method": "0x01608d9c"
-      },
-      {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "Abstract Voting",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x7060a227"
       }
     ]
   }

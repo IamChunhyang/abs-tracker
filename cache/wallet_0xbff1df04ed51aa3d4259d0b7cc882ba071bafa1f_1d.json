@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.881Z",
+  "fetched_at": "2026-05-27T16:05:55.530Z",
   "data": {
     "address": "0xbff1df04ed51aa3d4259d0b7cc882ba071bafa1f",
     "name": "ANONS",
@@ -8,17 +8,25 @@
     "badges": 20,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xbff1df04ed51aa3d4259d0b7cc882ba071bafa1f",
-    "total_tx_count": 7726,
-    "period_tx_count": 1,
+    "total_tx_count": 7730,
+    "period_tx_count": 4,
     "period": "1d",
     "top_contracts": [
       {
-        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
-        "name": "0x0000...4bf5",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x4b61cd6f"
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "OpenSea",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x87201b41"
+      },
+      {
+        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
+        "name": "WETH9",
+        "category": "Others",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x095ea7b3"
       }
     ]
   }

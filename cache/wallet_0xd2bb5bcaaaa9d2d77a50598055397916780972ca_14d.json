@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.386Z",
+  "fetched_at": "2026-05-27T16:05:55.239Z",
   "data": {
     "address": "0xd2bb5bcaaaa9d2d77a50598055397916780972ca",
     "name": "Sinet",
@@ -9,7 +9,7 @@
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xd2bb5bcaaaa9d2d77a50598055397916780972ca",
     "total_tx_count": 27867,
-    "period_tx_count": 83,
+    "period_tx_count": 76,
     "period": "14d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 34,
+        "tx_count": 32,
         "top_method": "0x7060a227"
       },
       {
@@ -25,16 +25,8 @@
         "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 29,
+        "tx_count": 27,
         "top_method": "0x807ef825"
-      },
-      {
-        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
-        "name": "Session Key Signing",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 4,
-        "top_method": "0x5a0694d2"
       },
       {
         "address": "0x40018cbb1926dae72dcb315e89aab7320a191d02",
@@ -43,6 +35,14 @@
         "is_unknown": false,
         "tx_count": 3,
         "top_method": "0x219e0149"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Signing",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x5a0694d2"
       },
       {
         "address": "0x0000000000000068f116a894984e2db1123eb395",
@@ -59,14 +59,6 @@
         "is_unknown": false,
         "tx_count": 2,
         "top_method": "0x29efcf80"
-      },
-      {
-        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
-        "name": "WETH9",
-        "category": "Others",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0x"
       },
       {
         "address": "0x2ddf2129a55cf132e580cc5d69fad1de3d213bba",

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.924Z",
+  "fetched_at": "2026-05-27T16:05:55.552Z",
   "data": {
     "address": "0xeed7c6b2af48249a040c9e5d59437670889c7e07",
     "name": "lilwassie",
@@ -8,8 +8,8 @@
     "badges": 37,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xeed7c6b2af48249a040c9e5d59437670889c7e07",
-    "total_tx_count": 154516,
-    "period_tx_count": 74817,
+    "total_tx_count": 154537,
+    "period_tx_count": 74828,
     "period": "14d",
     "top_contracts": [
       {
@@ -41,7 +41,7 @@
         "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 23,
+        "tx_count": 24,
         "top_method": "0x807ef825"
       },
       {
@@ -57,7 +57,7 @@
         "name": "OpenSea",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 16,
+        "tx_count": 17,
         "top_method": "0xe7acab24"
       },
       {
@@ -65,7 +65,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 15,
+        "tx_count": 16,
         "top_method": "0x7060a227"
       },
       {
@@ -73,7 +73,7 @@
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 14,
+        "tx_count": 15,
         "top_method": "0x12bc3aca"
       },
       {
@@ -81,7 +81,7 @@
         "name": "DEPTH Protocol",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 14,
+        "tx_count": 15,
         "top_method": "0x0962ef79"
       },
       {
@@ -133,6 +133,22 @@
         "top_method": "0x34d55309"
       },
       {
+        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
+        "name": "WETH9",
+        "category": "Others",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x095ea7b3"
+      },
+      {
+        "address": "0xf3d2e788c24497e395197329c82117bb8d663175",
+        "name": "0xf3d2...3175",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 2,
+        "top_method": "0x095ea7b3"
+      },
+      {
         "address": "0xef625a9f0e552cac6dcedabbe3b140dba4a0babd",
         "name": "0xef62...babd",
         "category": "Unknown",
@@ -155,22 +171,6 @@
         "is_unknown": false,
         "tx_count": 2,
         "top_method": "0x05202ac1"
-      },
-      {
-        "address": "0xf3d2e788c24497e395197329c82117bb8d663175",
-        "name": "0xf3d2...3175",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x095ea7b3"
-      },
-      {
-        "address": "0xb5ec907d0e80f9a1ca9c1942d69fb558e01140d4",
-        "name": "0xb5ec...40d4",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0xa22cb465"
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.204Z",
+  "fetched_at": "2026-05-27T16:05:55.124Z",
   "data": {
     "address": "0x0dc12bad7e3d91da8d18860ca9ab76904560962d",
     "name": "MindfulMarketsOG",
@@ -9,7 +9,7 @@
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x0dc12bad7e3d91da8d18860ca9ab76904560962d",
     "total_tx_count": 26058,
-    "period_tx_count": 1827,
+    "period_tx_count": 1810,
     "period": "30d",
     "top_contracts": [
       {
@@ -41,7 +41,7 @@
         "name": "Tollan (Gameplay)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 98,
+        "tx_count": 86,
         "top_method": "0x8708c7fd"
       },
       {
@@ -73,7 +73,7 @@
         "name": "Tollan (Buy,NFT Claim)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 6,
+        "tx_count": 5,
         "top_method": "0x"
       },
       {
@@ -83,14 +83,6 @@
         "is_unknown": false,
         "tx_count": 5,
         "top_method": "0x7060a227"
-      },
-      {
-        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
-        "name": "DEX Voter",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 4,
-        "top_method": "0x7ac09bf7"
       },
       {
         "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
@@ -171,6 +163,14 @@
         "is_unknown": true,
         "tx_count": 1,
         "top_method": "0xa22cb465"
+      },
+      {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "OpenSea",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xe7acab24"
       }
     ]
   }

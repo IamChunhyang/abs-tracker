@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.350Z",
+  "fetched_at": "2026-05-27T16:05:55.220Z",
   "data": {
     "address": "0xda0d86ff957c528b3b0f81f06efd8249010a8bd6",
     "name": "OxDuck",
@@ -8,16 +8,32 @@
     "badges": 42,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xda0d86ff957c528b3b0f81f06efd8249010a8bd6",
-    "total_tx_count": 22821,
-    "period_tx_count": 64,
+    "total_tx_count": 23047,
+    "period_tx_count": 289,
     "period": "7d",
     "top_contracts": [
+      {
+        "address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
+        "name": "Moody Drops (Claim,NFT)",
+        "category": "Rewards",
+        "is_unknown": false,
+        "tx_count": 106,
+        "top_method": "0x16c5aa5e"
+      },
+      {
+        "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
+        "name": "Moody Drops (Use)",
+        "category": "Arcade",
+        "is_unknown": false,
+        "tx_count": 101,
+        "top_method": "0xf5298aca"
+      },
       {
         "address": "0xbde2483b242c266a97e39826b2b5b3c06fc02916",
         "name": "Onchain Heroes",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 27,
+        "tx_count": 34,
         "top_method": "0xb32820e9"
       },
       {
@@ -25,7 +41,7 @@
         "name": "Tollan (Gameplay)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 20,
+        "tx_count": 27,
         "top_method": "0x8708c7fd"
       },
       {
@@ -33,7 +49,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 7,
+        "tx_count": 9,
         "top_method": "0x7060a227"
       },
       {
@@ -41,7 +57,7 @@
         "name": "Onchain Heroes",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 6,
+        "tx_count": 7,
         "top_method": "0x01608d9c"
       },
       {
@@ -49,7 +65,7 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 3,
+        "tx_count": 4,
         "top_method": "0x5a0694d2"
       },
       {

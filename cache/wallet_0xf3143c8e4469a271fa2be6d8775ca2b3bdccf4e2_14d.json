@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.639Z",
+  "fetched_at": "2026-05-27T16:05:55.396Z",
   "data": {
     "address": "0xf3143c8e4469a271fa2be6d8775ca2b3bdccf4e2",
     "name": "RRPCX",
@@ -8,8 +8,8 @@
     "badges": 41,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xf3143c8e4469a271fa2be6d8775ca2b3bdccf4e2",
-    "total_tx_count": 8907,
-    "period_tx_count": 38,
+    "total_tx_count": 8910,
+    "period_tx_count": 30,
     "period": "14d",
     "top_contracts": [
       {
@@ -17,16 +17,8 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 18,
+        "tx_count": 21,
         "top_method": "0x7060a227"
-      },
-      {
-        "address": "0x8f16b5713f412c5de4951aaf678eb8409101f819",
-        "name": "Aave V3 Pool",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 6,
-        "top_method": "0x617ba037"
       },
       {
         "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
@@ -37,28 +29,20 @@
         "top_method": "0x5a0694d2"
       },
       {
+        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
+        "name": "0x0000...4bf5",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x4b61cd6f"
+      },
+      {
         "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
         "name": "Signature Minter",
         "category": "NFT",
         "is_unknown": false,
         "tx_count": 1,
         "top_method": "0x29efcf80"
-      },
-      {
-        "address": "0xa4890b89dc628bae614780079acc951fb0ecdc5f",
-        "name": "Aborean",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0xb5007d1f"
-      },
-      {
-        "address": "0xeb44e927549d715e558a8b978ce67d4ce8bf6b4b",
-        "name": "0xeb44...6b4b",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0xba087652"
       }
     ]
   }

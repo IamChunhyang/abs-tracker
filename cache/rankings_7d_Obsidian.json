@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T08:33:17.150Z",
+  "fetched_at": "2026-05-27T14:05:14.226Z",
   "data": {
     "period": "7d",
     "tier": "Obsidian",
@@ -9,7 +9,7 @@
         "contract_address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
         "contract_name": "Rugpull Bakery (Baking)",
         "category": "Gaming",
-        "tx_count": 74200,
+        "tx_count": 65902,
         "unique_users": 4,
         "is_unknown": false
       },
@@ -17,7 +17,7 @@
         "contract_address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
         "contract_name": "Moody Drops (Use)",
         "category": "Arcade",
-        "tx_count": 1575,
+        "tx_count": 1820,
         "unique_users": 4,
         "is_unknown": false
       },
@@ -25,7 +25,7 @@
         "contract_address": "0x10919961a413610cad2f3d73dc94b3f44146a5f1",
         "contract_name": "Moody Drops (Claim,NFT)",
         "category": "Rewards",
-        "tx_count": 1539,
+        "tx_count": 1778,
         "unique_users": 3,
         "is_unknown": false
       },
@@ -33,7 +33,7 @@
         "contract_address": "0x1859072d67fdd26c8782c90a1e4f078901c0d763",
         "contract_name": "Blinko & Moonsheep Cannon",
         "category": "Arcade",
-        "tx_count": 520,
+        "tx_count": 612,
         "unique_users": 2,
         "is_unknown": false
       },
@@ -41,7 +41,7 @@
         "contract_address": "0xf5005cca582cb510d15d4d025f78c9258ec07f4b",
         "contract_name": "Shiny",
         "category": "NFT",
-        "tx_count": 140,
+        "tx_count": 145,
         "unique_users": 3,
         "is_unknown": false
       },
@@ -49,48 +49,56 @@
         "contract_address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
         "contract_name": "0x37d6...1afe",
         "category": "Unknown",
-        "tx_count": 118,
-        "unique_users": 4,
+        "tx_count": 116,
+        "unique_users": 5,
         "is_unknown": true
       },
       {
         "contract_address": "0x27edd16ee56958fddcba08947f12c43ddec2b20c",
         "contract_name": "Death Fun",
         "category": "Arcade",
-        "tx_count": 103,
+        "tx_count": 108,
         "unique_users": 2,
-        "is_unknown": false
-      },
-      {
-        "contract_address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
-        "contract_name": "Tollan (Gameplay)",
-        "category": "Gaming",
-        "tx_count": 99,
-        "unique_users": 4,
         "is_unknown": false
       },
       {
         "contract_address": "0x27b04370d8087e714a9f557c1eff7901cea6bb63",
         "contract_name": "Aborean",
         "category": "DeFi",
-        "tx_count": 79,
+        "tx_count": 99,
         "unique_users": 5,
         "is_unknown": false
       },
       {
-        "contract_address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "contract_name": "Abstract Voting",
-        "category": "Abstract",
-        "tx_count": 62,
-        "unique_users": 8,
+        "contract_address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
+        "contract_name": "Tollan (Gameplay)",
+        "category": "Gaming",
+        "tx_count": 78,
+        "unique_users": 3,
         "is_unknown": false
       },
       {
         "contract_address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
         "contract_name": "DEX Voter",
         "category": "Abstract",
-        "tx_count": 56,
+        "tx_count": 67,
         "unique_users": 7,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "contract_name": "Abstract Voting",
+        "category": "Abstract",
+        "tx_count": 65,
+        "unique_users": 8,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "contract_name": "Session Key Signing",
+        "category": "Abstract",
+        "tx_count": 49,
+        "unique_users": 8,
         "is_unknown": false
       },
       {
@@ -98,22 +106,6 @@
         "contract_name": "Rugpull Bakery",
         "category": "Gaming",
         "tx_count": 48,
-        "unique_users": 2,
-        "is_unknown": false
-      },
-      {
-        "contract_address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
-        "contract_name": "Session Key Signing",
-        "category": "Abstract",
-        "tx_count": 45,
-        "unique_users": 8,
-        "is_unknown": false
-      },
-      {
-        "contract_address": "0x4f97015601863c256892e0a5e2710b48e149948c",
-        "contract_name": "Rugpull Bakery (Boost&Rug)",
-        "category": "Gaming",
-        "tx_count": 44,
         "unique_users": 1,
         "is_unknown": false
       },
@@ -121,16 +113,32 @@
         "contract_address": "0x516dce03bbb9d686e567a15ba3b7d061e394ab7a",
         "contract_name": "Gacha PvP",
         "category": "Arcade",
-        "tx_count": 34,
-        "unique_users": 2,
+        "tx_count": 39,
+        "unique_users": 3,
         "is_unknown": false
       },
       {
         "contract_address": "0x268031de8363401d61b6a256bea009bb57277619",
         "contract_name": "Gacha Mall",
         "category": "Arcade",
-        "tx_count": 33,
-        "unique_users": 2,
+        "tx_count": 38,
+        "unique_users": 3,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x4f97015601863c256892e0a5e2710b48e149948c",
+        "contract_name": "Rugpull Bakery (Boost&Rug)",
+        "category": "Gaming",
+        "tx_count": 24,
+        "unique_users": 1,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x36cbf77d8f8355d7a077d670c29e290e41367072",
+        "contract_name": "Rewards Claim",
+        "category": "Rewards",
+        "tx_count": 21,
+        "unique_users": 6,
         "is_unknown": false
       },
       {
@@ -142,18 +150,18 @@
         "is_unknown": false
       },
       {
-        "contract_address": "0x36cbf77d8f8355d7a077d670c29e290e41367072",
-        "contract_name": "Rewards Claim",
-        "category": "Rewards",
+        "contract_address": "0x920fefb4e92dbba0393ba233cecb1051a0dde25c",
+        "contract_name": "0x920f...e25c",
+        "category": "Unknown",
         "tx_count": 16,
-        "unique_users": 5,
-        "is_unknown": false
+        "unique_users": 1,
+        "is_unknown": true
       },
       {
         "contract_address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
         "contract_name": "Portal Proxy",
         "category": "Infra",
-        "tx_count": 13,
+        "tx_count": 14,
         "unique_users": 5,
         "is_unknown": false
       },
@@ -166,19 +174,19 @@
         "is_unknown": false
       },
       {
+        "contract_address": "0x42ab8092bfb701f34c47273df83d90d8169ad982",
+        "contract_name": "Free Managed Reward",
+        "category": "Rewards",
+        "tx_count": 8,
+        "unique_users": 2,
+        "is_unknown": false
+      },
+      {
         "contract_address": "0x2ddf2129a55cf132e580cc5d69fad1de3d213bba",
         "contract_name": "0x2ddf...3bba",
         "category": "Unknown",
-        "tx_count": 9,
-        "unique_users": 2,
-        "is_unknown": true
-      },
-      {
-        "contract_address": "0x19b12968f846a13b95ac13eeea6c5acd0cc153f7",
-        "contract_name": "0x19b1...53f7",
-        "category": "Unknown",
         "tx_count": 8,
-        "unique_users": 3,
+        "unique_users": 2,
         "is_unknown": true
       },
       {
@@ -188,6 +196,14 @@
         "tx_count": 7,
         "unique_users": 1,
         "is_unknown": false
+      },
+      {
+        "contract_address": "0x19b12968f846a13b95ac13eeea6c5acd0cc153f7",
+        "contract_name": "0x19b1...53f7",
+        "category": "Unknown",
+        "tx_count": 6,
+        "unique_users": 3,
+        "is_unknown": true
       },
       {
         "contract_address": "0x1e55e1a391d62b0fa80c36480b22d8445e777a4c",
@@ -209,17 +225,9 @@
         "contract_address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
         "contract_name": "0x0000...4bf5",
         "category": "Unknown",
-        "tx_count": 4,
-        "unique_users": 4,
+        "tx_count": 5,
+        "unique_users": 5,
         "is_unknown": true
-      },
-      {
-        "contract_address": "0xa688a6a53a26b6f0702a9a518482151415be1ff7",
-        "contract_name": "Tollan (Buy,NFT Claim)",
-        "category": "Gaming",
-        "tx_count": 4,
-        "unique_users": 2,
-        "is_unknown": false
       },
       {
         "contract_address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
@@ -227,6 +235,14 @@
         "category": "Others",
         "tx_count": 4,
         "unique_users": 3,
+        "is_unknown": false
+      },
+      {
+        "contract_address": "0x4237d126713bf1faba29ed8a55a6a0634886e223",
+        "contract_name": "Aave V3 Pool",
+        "category": "DeFi",
+        "tx_count": 4,
+        "unique_users": 2,
         "is_unknown": false
       },
       {
@@ -238,22 +254,6 @@
         "is_unknown": true
       },
       {
-        "contract_address": "0xbffcc2c852f6b6e5cfef8630a43b6cd06194e1ac",
-        "contract_name": "0xbffc...e1ac",
-        "category": "Unknown",
-        "tx_count": 3,
-        "unique_users": 2,
-        "is_unknown": true
-      },
-      {
-        "contract_address": "0x42ab8092bfb701f34c47273df83d90d8169ad982",
-        "contract_name": "Free Managed Reward",
-        "category": "Rewards",
-        "tx_count": 2,
-        "unique_users": 2,
-        "is_unknown": false
-      },
-      {
         "contract_address": "0xecb575651badf5277856be419a9e6dc6f19e82a9",
         "contract_name": "0xecb5...82a9",
         "category": "Unknown",
@@ -262,12 +262,12 @@
         "is_unknown": true
       },
       {
-        "contract_address": "0x448557eff9f4745a85b7c4e74e2aa9c7e9c655de",
-        "contract_name": "0x4485...55de",
-        "category": "Unknown",
+        "contract_address": "0xa688a6a53a26b6f0702a9a518482151415be1ff7",
+        "contract_name": "Tollan (Buy,NFT Claim)",
+        "category": "Gaming",
         "tx_count": 2,
         "unique_users": 1,
-        "is_unknown": true
+        "is_unknown": false
       },
       {
         "contract_address": "0x12d3e796d1f625eb6131aeb670bcd210bbb0f903",
@@ -278,20 +278,28 @@
         "is_unknown": true
       },
       {
-        "contract_address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
-        "contract_name": "Signature Minter",
-        "category": "NFT",
+        "contract_address": "0x02c80c310a2b0266d0c57b6461f2d5f043c9b11a",
+        "contract_name": "0x02c8...b11a",
+        "category": "Unknown",
         "tx_count": 2,
-        "unique_users": 2,
-        "is_unknown": false
+        "unique_users": 1,
+        "is_unknown": true
       },
       {
-        "contract_address": "0x4237d126713bf1faba29ed8a55a6a0634886e223",
-        "contract_name": "Aave V3 Pool",
-        "category": "DeFi",
+        "contract_address": "0x715401335704d81216324ed50bbdaab119a99a55",
+        "contract_name": "0x7154...9a55",
+        "category": "Unknown",
         "tx_count": 2,
-        "unique_users": 2,
-        "is_unknown": false
+        "unique_users": 1,
+        "is_unknown": true
+      },
+      {
+        "contract_address": "0xbffcc2c852f6b6e5cfef8630a43b6cd06194e1ac",
+        "contract_name": "0xbffc...e1ac",
+        "category": "Unknown",
+        "tx_count": 2,
+        "unique_users": 1,
+        "is_unknown": true
       },
       {
         "contract_address": "0x4640d7701ba76fcd1df58f55a2bc5c63aa8199a1",
@@ -316,6 +324,14 @@
         "tx_count": 1,
         "unique_users": 1,
         "is_unknown": true
+      },
+      {
+        "contract_address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
+        "contract_name": "Signature Minter",
+        "category": "NFT",
+        "tx_count": 1,
+        "unique_users": 1,
+        "is_unknown": false
       },
       {
         "contract_address": "0xe0f56eaa9d04afbff30d841d225f49e39b3a4ce3",
@@ -348,22 +364,6 @@
         "tx_count": 1,
         "unique_users": 1,
         "is_unknown": true
-      },
-      {
-        "contract_address": "0x02c80c310a2b0266d0c57b6461f2d5f043c9b11a",
-        "contract_name": "0x02c8...b11a",
-        "category": "Unknown",
-        "tx_count": 1,
-        "unique_users": 1,
-        "is_unknown": true
-      },
-      {
-        "contract_address": "0x715401335704d81216324ed50bbdaab119a99a55",
-        "contract_name": "0x7154...9a55",
-        "category": "Unknown",
-        "tx_count": 1,
-        "unique_users": 1,
-        "is_unknown": true
       }
     ],
     "wallet_ranking": [
@@ -371,37 +371,37 @@
         "address": "0x7fd643b7da56b3acb6a5a4e83a8818b14f195a50",
         "name": "marlomarlo",
         "tier": "Obsidian",
-        "tx_count": 47154
+        "tx_count": 41579
       },
       {
         "address": "0xfb6954ea6b0f8e9eea008a2cffc26eadce0e69aa",
         "name": "greenchain",
         "tier": "Obsidian",
-        "tx_count": 18337
+        "tx_count": 17601
       },
       {
         "address": "0x7a84af82a3d5c913fc42f333d709fe706160e258",
         "name": "FroggyCyborg",
         "tier": "Obsidian",
-        "tx_count": 12015
+        "tx_count": 10390
       },
       {
         "address": "0x69c4cc0147fbc23965896fb18a1ccea92230ed1b",
         "name": "afropengu",
         "tier": "Obsidian",
-        "tx_count": 770
+        "tx_count": 740
       },
       {
         "address": "0xba5257e72de3901db065e340f96bea9479b45b5e",
         "name": "sayyes",
         "tier": "Obsidian",
-        "tx_count": 455
+        "tx_count": 723
       },
       {
         "address": "0xc3ae9ac69d672368539413235938277ce19fc270",
         "name": "Bollin",
         "tier": "Obsidian",
-        "tx_count": 39
+        "tx_count": 35
       },
       {
         "address": "0x0dc12bad7e3d91da8d18860ca9ab76904560962d",
@@ -413,7 +413,13 @@
         "address": "0xc9f27e68912aae40bb60c17b5634b3e74bbb16ab",
         "name": "Minebuu",
         "tier": "Obsidian",
-        "tx_count": 22
+        "tx_count": 28
+      },
+      {
+        "address": "0xd82311e0ddcff7cad1be090763d4f6d7ba1c290a",
+        "name": "0xd82311e0ddcff7cad1be090763d4f6d7ba1c290a",
+        "tier": "Obsidian",
+        "tx_count": 23
       },
       {
         "address": "0x90d644bafa0dad528d89ebca2b2d2d51379a428c",
@@ -425,13 +431,7 @@
         "address": "0x161f91374506a85ed9063e90c4c217d8697d6471",
         "name": "Ely",
         "tier": "Obsidian",
-        "tx_count": 8
-      },
-      {
-        "address": "0xd82311e0ddcff7cad1be090763d4f6d7ba1c290a",
-        "name": "0xd82311e0ddcff7cad1be090763d4f6d7ba1c290a",
-        "tier": "Obsidian",
-        "tx_count": 8
+        "tx_count": 7
       },
       {
         "address": "0x886cbee36be572f21187b384b0ac716c560a4ccb",
@@ -447,14 +447,14 @@
       }
     ],
     "category_breakdown": {
-      "Gaming": 74415,
-      "Arcade": 2265,
-      "Rewards": 1557,
-      "NFT": 149,
-      "Unknown": 166,
-      "DeFi": 96,
-      "Abstract": 163,
-      "Infra": 13,
+      "Gaming": 66074,
+      "Arcade": 2617,
+      "Rewards": 1807,
+      "NFT": 153,
+      "Unknown": 177,
+      "DeFi": 118,
+      "Abstract": 181,
+      "Infra": 14,
       "Others": 4
     }
   }

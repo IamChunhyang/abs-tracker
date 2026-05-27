@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.935Z",
+  "fetched_at": "2026-05-27T16:05:55.559Z",
   "data": {
     "address": "0xd678b718f70389dbdd2d447df23333641e8f7480",
     "name": "yanik",
@@ -8,9 +8,18 @@
     "badges": 21,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xd678b718f70389dbdd2d447df23333641e8f7480",
-    "total_tx_count": 7997,
+    "total_tx_count": 7998,
     "period_tx_count": 1,
     "period": "1d",
-    "top_contracts": []
+    "top_contracts": [
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x7060a227"
+      }
+    ]
   }
 }

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.706Z",
+  "fetched_at": "2026-05-27T16:05:55.434Z",
   "data": {
     "address": "0x90e0ee4ebef8b1aa7295efaf8194c0f085158ceb",
     "name": "0x90e0ee4ebef8b1aa7295efaf8194c0f085158ceb",
@@ -8,25 +8,25 @@
     "badges": 25,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x90e0ee4ebef8b1aa7295efaf8194c0f085158ceb",
-    "total_tx_count": 7610,
-    "period_tx_count": 11,
+    "total_tx_count": 7616,
+    "period_tx_count": 16,
     "period": "7d",
     "top_contracts": [
-      {
-        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
-        "name": "Abstract Voting",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 6,
-        "top_method": "0x7060a227"
-      },
       {
         "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
         "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 5,
+        "tx_count": 9,
         "top_method": "0x807ef825"
+      },
+      {
+        "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
+        "name": "Abstract Voting",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 7,
+        "top_method": "0x7060a227"
       }
     ]
   }

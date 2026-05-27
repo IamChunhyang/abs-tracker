@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.751Z",
+  "fetched_at": "2026-05-27T16:05:55.458Z",
   "data": {
     "address": "0x3dc88b8884153ddfb76d177f9bb8d1b5bf377917",
     "name": "girlonabstract",
@@ -8,8 +8,8 @@
     "badges": 38,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x3dc88b8884153ddfb76d177f9bb8d1b5bf377917",
-    "total_tx_count": 19612,
-    "period_tx_count": 39,
+    "total_tx_count": 19622,
+    "period_tx_count": 46,
     "period": "7d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 30,
+        "tx_count": 36,
         "top_method": "0xf5298aca"
       },
       {
@@ -25,7 +25,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 7,
+        "tx_count": 8,
         "top_method": "0x7060a227"
       },
       {

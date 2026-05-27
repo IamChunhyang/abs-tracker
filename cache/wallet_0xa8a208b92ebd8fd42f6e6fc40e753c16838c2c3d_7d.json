@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.457Z",
+  "fetched_at": "2026-05-27T16:05:55.282Z",
   "data": {
     "address": "0xa8a208b92ebd8fd42f6e6fc40e753c16838c2c3d",
     "name": "ber",
@@ -8,8 +8,8 @@
     "badges": 39,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xa8a208b92ebd8fd42f6e6fc40e753c16838c2c3d",
-    "total_tx_count": 144172,
-    "period_tx_count": 63059,
+    "total_tx_count": 144174,
+    "period_tx_count": 60792,
     "period": "7d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Rugpull Bakery (Baking)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 62879,
+        "tx_count": 60612,
         "top_method": "0x"
       },
       {
@@ -37,20 +37,28 @@
         "top_method": "0x7ac09bf7"
       },
       {
-        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
-        "name": "Session Key Signing",
-        "category": "Abstract",
-        "is_unknown": false,
-        "tx_count": 3,
-        "top_method": "0x5a0694d2"
-      },
-      {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 1,
+        "tx_count": 2,
         "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Signing",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x5a0694d2"
+      },
+      {
+        "address": "0xed4234a5f233b5e642d47caff292bdc0591d5656",
+        "name": "0xed42...5656",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x"
       },
       {
         "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",

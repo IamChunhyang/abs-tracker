@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.226Z",
+  "fetched_at": "2026-05-27T16:05:55.140Z",
   "data": {
     "address": "0x7a84af82a3d5c913fc42f333d709fe706160e258",
     "name": "FroggyCyborg",
@@ -8,8 +8,8 @@
     "badges": 39,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x7a84af82a3d5c913fc42f333d709fe706160e258",
-    "total_tx_count": 101657,
-    "period_tx_count": 19810,
+    "total_tx_count": 101938,
+    "period_tx_count": 20091,
     "period": "14d",
     "top_contracts": [
       {
@@ -25,7 +25,7 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 850,
+        "tx_count": 989,
         "top_method": "0xf5298aca"
       },
       {
@@ -33,7 +33,7 @@
         "name": "Moody Drops (Claim,NFT)",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 842,
+        "tx_count": 981,
         "top_method": "0x16c5aa5e"
       },
       {
@@ -57,7 +57,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 26,
+        "tx_count": 28,
         "top_method": "0x7060a227"
       },
       {
@@ -65,7 +65,7 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 12,
+        "tx_count": 13,
         "top_method": "0x5a0694d2"
       },
       {

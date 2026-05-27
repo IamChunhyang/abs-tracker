@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:58.082Z",
+  "fetched_at": "2026-05-27T16:05:55.642Z",
   "data": {
     "address": "0x4f8c2395f105d29dae90531f36c7d1d14e22acb9",
     "name": "PhanGu",
@@ -8,8 +8,8 @@
     "badges": 16,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x4f8c2395f105d29dae90531f36c7d1d14e22acb9",
-    "total_tx_count": 53716,
-    "period_tx_count": 11241,
+    "total_tx_count": 53720,
+    "period_tx_count": 10924,
     "period": "30d",
     "top_contracts": [
       {
@@ -25,7 +25,7 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 1761,
+        "tx_count": 1624,
         "top_method": "0xf5298aca"
       },
       {
@@ -33,7 +33,7 @@
         "name": "Moody Drops (Claim,NFT)",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 1736,
+        "tx_count": 1602,
         "top_method": "0x16c5aa5e"
       },
       {
@@ -41,7 +41,7 @@
         "name": "Cambria (Duel Arena)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 978,
+        "tx_count": 947,
         "top_method": "0x37d8b79d"
       },
       {
@@ -65,7 +65,7 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 71,
+        "tx_count": 73,
         "top_method": "0x5a0694d2"
       },
       {
@@ -81,7 +81,7 @@
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 16,
+        "tx_count": 15,
         "top_method": "0xc6b7f1b6"
       },
       {
@@ -107,22 +107,6 @@
         "is_unknown": true,
         "tx_count": 10,
         "top_method": "0xf242432a"
-      },
-      {
-        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
-        "name": "WETH9",
-        "category": "Others",
-        "is_unknown": false,
-        "tx_count": 8,
-        "top_method": "0x"
-      },
-      {
-        "address": "0x7c47ea32fd27d1a74fc6e9f31ce8162e6ce070eb",
-        "name": "Onchain Heroes",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 7,
-        "top_method": "0x42842e0e"
       },
       {
         "address": "0xb3657c6e16569eb1b956570e900a4d0f1d174920",
@@ -171,6 +155,22 @@
         "is_unknown": false,
         "tx_count": 3,
         "top_method": "0x219e0149"
+      },
+      {
+        "address": "0x27b04370d8087e714a9f557c1eff7901cea6bb63",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x42842e0e"
+      },
+      {
+        "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
+        "name": "WETH9",
+        "category": "Others",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0x"
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.579Z",
+  "fetched_at": "2026-05-27T16:05:55.358Z",
   "data": {
     "address": "0xa0f78f02d4534fd7c7026514a27ef231e39f0300",
     "name": "elev8blyss",
@@ -8,8 +8,8 @@
     "badges": 35,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xa0f78f02d4534fd7c7026514a27ef231e39f0300",
-    "total_tx_count": 38836,
-    "period_tx_count": 293,
+    "total_tx_count": 38913,
+    "period_tx_count": 343,
     "period": "7d",
     "top_contracts": [
       {
@@ -17,31 +17,31 @@
         "name": "DYLI",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 219,
+        "tx_count": 222,
         "top_method": "0x7f58b4bf"
-      },
-      {
-        "address": "0x516dce03bbb9d686e567a15ba3b7d061e394ab7a",
-        "name": "Gacha PvP",
-        "category": "Arcade",
-        "is_unknown": false,
-        "tx_count": 17,
-        "top_method": "0x107cc1ec"
       },
       {
         "address": "0x268031de8363401d61b6a256bea009bb57277619",
         "name": "Gacha Mall",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 16,
+        "tx_count": 53,
         "top_method": "0x581644ae"
+      },
+      {
+        "address": "0x516dce03bbb9d686e567a15ba3b7d061e394ab7a",
+        "name": "Gacha PvP",
+        "category": "Arcade",
+        "is_unknown": false,
+        "tx_count": 23,
+        "top_method": "0x107cc1ec"
       },
       {
         "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
         "name": "DEPTH Protocol",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 8,
+        "tx_count": 9,
         "top_method": "0x0962ef79"
       },
       {
@@ -49,7 +49,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 5,
+        "tx_count": 7,
         "top_method": "0x7060a227"
       },
       {
@@ -57,16 +57,8 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 3,
+        "tx_count": 4,
         "top_method": "0x5a0694d2"
-      },
-      {
-        "address": "0x0000000000000068f116a894984e2db1123eb395",
-        "name": "OpenSea",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 3,
-        "top_method": "0xe7acab24"
       },
       {
         "address": "0x5e2d57b022f0905d4981f0803560e23cde322ce2",
@@ -77,20 +69,28 @@
         "top_method": "0x8627df46"
       },
       {
+        "address": "0x0000000000000068f116a894984e2db1123eb395",
+        "name": "OpenSea",
+        "category": "NFT",
+        "is_unknown": false,
+        "tx_count": 3,
+        "top_method": "0xe7acab24"
+      },
+      {
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "Others",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x095ea7b3"
+      },
+      {
         "address": "0xe8142d2f82036b6fc1e79e4ae85cf53fbffdc998",
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
         "tx_count": 2,
         "top_method": "0x903638a4"
-      },
-      {
-        "address": "0x270bbb21b1187bc6e694f428dcb51432958eb3d9",
-        "name": "Rugpull Bakery",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0xb27a78e3"
       },
       {
         "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",

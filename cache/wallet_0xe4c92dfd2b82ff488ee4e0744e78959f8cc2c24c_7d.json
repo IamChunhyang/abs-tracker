@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.666Z",
+  "fetched_at": "2026-05-27T16:05:55.413Z",
   "data": {
     "address": "0xe4c92dfd2b82ff488ee4e0744e78959f8cc2c24c",
     "name": "Jonh",
@@ -8,10 +8,34 @@
     "badges": 41,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xe4c92dfd2b82ff488ee4e0744e78959f8cc2c24c",
-    "total_tx_count": 24636,
-    "period_tx_count": 2,
+    "total_tx_count": 24645,
+    "period_tx_count": 9,
     "period": "7d",
     "top_contracts": [
+      {
+        "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
+        "name": "0x37d6...1afe",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 4,
+        "top_method": "0x807ef825"
+      },
+      {
+        "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
+        "name": "DEX Voter",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x7ac09bf7"
+      },
+      {
+        "address": "0xa171bb8b0805ddccc8721ccb1e13f6dd09633cfc",
+        "name": "Aborean",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0xc00007b0"
+      },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",
@@ -19,14 +43,6 @@
         "is_unknown": false,
         "tx_count": 1,
         "top_method": "0x7060a227"
-      },
-      {
-        "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
-        "name": "Signature Minter",
-        "category": "NFT",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x29efcf80"
       }
     ]
   }

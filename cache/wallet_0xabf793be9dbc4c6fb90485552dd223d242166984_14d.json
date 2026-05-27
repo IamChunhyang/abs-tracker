@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.626Z",
+  "fetched_at": "2026-05-27T16:05:55.388Z",
   "data": {
     "address": "0xabf793be9dbc4c6fb90485552dd223d242166984",
     "name": "northkorea",
@@ -8,7 +8,7 @@
     "badges": 42,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0xabf793be9dbc4c6fb90485552dd223d242166984",
-    "total_tx_count": 479674,
+    "total_tx_count": 479820,
     "period_tx_count": 100000,
     "period": "14d",
     "top_contracts": [
@@ -17,7 +17,7 @@
         "name": "Rugpull Bakery (Baking)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 99280,
+        "tx_count": 99134,
         "top_method": "0x"
       },
       {
@@ -25,7 +25,7 @@
         "name": "0x920f...e25c",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 446,
+        "tx_count": 546,
         "top_method": "0xdafa1d2d"
       },
       {
@@ -41,7 +41,7 @@
         "name": "Khuga Bash",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 54,
+        "tx_count": 72,
         "top_method": "0x2ffc02e2"
       },
       {
@@ -49,7 +49,7 @@
         "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 39,
+        "tx_count": 49,
         "top_method": "0x807ef825"
       },
       {
@@ -57,7 +57,7 @@
         "name": "Tollan (Gameplay)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 33,
+        "tx_count": 39,
         "top_method": "0x8708c7fd"
       },
       {
@@ -65,7 +65,7 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 19,
+        "tx_count": 25,
         "top_method": "0xf5298aca"
       },
       {
@@ -73,7 +73,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 7,
+        "tx_count": 11,
         "top_method": "0x7060a227"
       },
       {
@@ -89,7 +89,7 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 3,
+        "tx_count": 5,
         "top_method": "0x5a0694d2"
       },
       {

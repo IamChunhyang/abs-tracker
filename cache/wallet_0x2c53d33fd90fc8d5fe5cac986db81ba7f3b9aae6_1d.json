@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.392Z",
+  "fetched_at": "2026-05-27T16:05:55.242Z",
   "data": {
     "address": "0x2c53d33fd90fc8d5fe5cac986db81ba7f3b9aae6",
     "name": "Hoangry",
@@ -8,24 +8,16 @@
     "badges": 36,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x2c53d33fd90fc8d5fe5cac986db81ba7f3b9aae6",
-    "total_tx_count": 308097,
-    "period_tx_count": 8527,
+    "total_tx_count": 308234,
+    "period_tx_count": 351,
     "period": "1d",
     "top_contracts": [
-      {
-        "address": "0xfeb79a841d69c08afcdc7b2beec8a6fbbe46c455",
-        "name": "Rugpull Bakery (Baking)",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 8282,
-        "top_method": "0x"
-      },
       {
         "address": "0x35ffe9d966e35bd1b0e79f0d91e438701ea1c644",
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 108,
+        "tx_count": 106,
         "top_method": "0xf5298aca"
       },
       {
@@ -37,19 +29,27 @@
         "top_method": "0x16c5aa5e"
       },
       {
-        "address": "0x920fefb4e92dbba0393ba233cecb1051a0dde25c",
-        "name": "0x920f...e25c",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 14,
-        "top_method": "0xdafa1d2d"
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Signing",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 95,
+        "top_method": "0x3ec59279"
+      },
+      {
+        "address": "0x1859072d67fdd26c8782c90a1e4f078901c0d763",
+        "name": "Blinko & Moonsheep Cannon",
+        "category": "Arcade",
+        "is_unknown": false,
+        "tx_count": 32,
+        "top_method": "0xf01d14b2"
       },
       {
         "address": "0xc4d5107a91dd1271a4ea65a768a16aa64caca107",
         "name": "Tollan (Gameplay)",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 5,
+        "tx_count": 7,
         "top_method": "0x8708c7fd"
       },
       {
@@ -57,32 +57,24 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 2,
+        "tx_count": 3,
         "top_method": "0x7060a227"
       },
       {
-        "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
-        "name": "0x37d6...1afe",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 2,
-        "top_method": "0x807ef825"
-      },
-      {
-        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
-        "name": "Session Key Signing",
-        "category": "Abstract",
+        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
+        "name": "DEPTH Protocol",
+        "category": "DeFi",
         "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0x5a0694d2"
+        "top_method": "0x0962ef79"
       },
       {
-        "address": "0x13a59f08f11e38e4766bf206a31473a510c83475",
-        "name": "0x13a5...3475",
+        "address": "0x920fefb4e92dbba0393ba233cecb1051a0dde25c",
+        "name": "0x920f...e25c",
         "category": "Unknown",
         "is_unknown": true,
         "tx_count": 1,
-        "top_method": "0xd64abc3c"
+        "top_method": "0xdafa1d2d"
       }
     ]
   }

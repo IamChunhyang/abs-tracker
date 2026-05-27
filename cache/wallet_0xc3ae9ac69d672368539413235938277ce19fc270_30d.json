@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.211Z",
+  "fetched_at": "2026-05-27T16:05:55.129Z",
   "data": {
     "address": "0xc3ae9ac69d672368539413235938277ce19fc270",
     "name": "Bollin",
@@ -8,16 +8,24 @@
     "badges": 41,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xc3ae9ac69d672368539413235938277ce19fc270",
-    "total_tx_count": 87744,
-    "period_tx_count": 213,
+    "total_tx_count": 87764,
+    "period_tx_count": 233,
     "period": "30d",
     "top_contracts": [
+      {
+        "address": "0x920fefb4e92dbba0393ba233cecb1051a0dde25c",
+        "name": "0x920f...e25c",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 54,
+        "top_method": "0xdafa1d2d"
+      },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 48,
+        "tx_count": 50,
         "top_method": "0x7060a227"
       },
       {
@@ -29,28 +37,20 @@
         "top_method": "0x8708c7fd"
       },
       {
-        "address": "0x920fefb4e92dbba0393ba233cecb1051a0dde25c",
-        "name": "0x920f...e25c",
+        "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
+        "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 38,
-        "top_method": "0xdafa1d2d"
+        "tx_count": 17,
+        "top_method": "0x807ef825"
       },
       {
         "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 16,
+        "tx_count": 17,
         "top_method": "0x5a0694d2"
-      },
-      {
-        "address": "0x37d6dbfa9f82ac4acc86d49702ac0612d3aa1afe",
-        "name": "0x37d6...1afe",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 15,
-        "top_method": "0x807ef825"
       },
       {
         "address": "0xa688a6a53a26b6f0702a9a518482151415be1ff7",
@@ -69,14 +69,6 @@
         "top_method": "0xfe939afc"
       },
       {
-        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
-        "name": "Gigaverse",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 5,
-        "top_method": "0x807ef825"
-      },
-      {
         "address": "0xf724aec8d4a4c88f4b475d412b1f50dc35c4ae3e",
         "name": "0xf724...ae3e",
         "category": "Unknown",
@@ -91,6 +83,14 @@
         "is_unknown": false,
         "tx_count": 4,
         "top_method": "0x87201b41"
+      },
+      {
+        "address": "0x1eb36780b0ebe09b4f1fb9cba76bb1846d6343e2",
+        "name": "Gigaverse",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 4,
+        "top_method": "0x807ef825"
       },
       {
         "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",

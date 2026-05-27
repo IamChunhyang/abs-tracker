@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:58.070Z",
+  "fetched_at": "2026-05-27T16:05:55.632Z",
   "data": {
     "address": "0xe8bc685af85c96eed4a6235eb11930df48121a81",
     "name": "JogaNifty",
@@ -8,8 +8,8 @@
     "badges": 22,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xe8bc685af85c96eed4a6235eb11930df48121a81",
-    "total_tx_count": 13787,
-    "period_tx_count": 491,
+    "total_tx_count": 13801,
+    "period_tx_count": 492,
     "period": "30d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 110,
+        "tx_count": 113,
         "top_method": "0x2752571e"
       },
       {
@@ -25,7 +25,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 66,
+        "tx_count": 68,
         "top_method": "0x7060a227"
       },
       {
@@ -33,7 +33,7 @@
         "name": "DEPTH Protocol",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 43,
+        "tx_count": 44,
         "top_method": "0x0962ef79"
       },
       {
@@ -41,7 +41,7 @@
         "name": "Aborean",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 34,
+        "tx_count": 36,
         "top_method": "0xc00007b0"
       },
       {
@@ -49,16 +49,8 @@
         "name": "Gigaverse",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 27,
-        "top_method": "0x2752571e"
-      },
-      {
-        "address": "0x89e9d9b7d87591875359247f7d8eb786e7ea6910",
-        "name": "Kona",
-        "category": "DeFi",
-        "is_unknown": false,
         "tx_count": 22,
-        "top_method": "0x3ac795de"
+        "top_method": "0x2752571e"
       },
       {
         "address": "0xc0f53703e9f4b79fa2fb09a2aeba487fa97729c9",
@@ -67,6 +59,14 @@
         "is_unknown": false,
         "tx_count": 21,
         "top_method": "0x370fb5fa"
+      },
+      {
+        "address": "0x89e9d9b7d87591875359247f7d8eb786e7ea6910",
+        "name": "Kona",
+        "category": "DeFi",
+        "is_unknown": false,
+        "tx_count": 18,
+        "top_method": "0x3ac795de"
       },
       {
         "address": "0x89eb96a0a157f935de38d548b79af511d424e33a",
@@ -97,7 +97,7 @@
         "name": "Session Key Signing",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 6,
+        "tx_count": 5,
         "top_method": "0x5a0694d2"
       },
       {

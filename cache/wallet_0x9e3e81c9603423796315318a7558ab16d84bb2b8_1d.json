@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:58.066Z",
+  "fetched_at": "2026-05-27T16:05:55.630Z",
   "data": {
     "address": "0x9e3e81c9603423796315318a7558ab16d84bb2b8",
     "name": "77ai",
@@ -8,8 +8,8 @@
     "badges": 30,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x9e3e81c9603423796315318a7558ab16d84bb2b8",
-    "total_tx_count": 37024,
-    "period_tx_count": 362,
+    "total_tx_count": 37232,
+    "period_tx_count": 538,
     "period": "1d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "Moody Drops (Claim,NFT)",
         "category": "Rewards",
         "is_unknown": false,
-        "tx_count": 184,
+        "tx_count": 274,
         "top_method": "0x16c5aa5e"
       },
       {
@@ -25,7 +25,7 @@
         "name": "Moody Drops (Use)",
         "category": "Arcade",
         "is_unknown": false,
-        "tx_count": 155,
+        "tx_count": 245,
         "top_method": "0xf5298aca"
       },
       {
@@ -45,11 +45,19 @@
         "top_method": "0x7060a227"
       },
       {
+        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
+        "name": "Session Key Signing",
+        "category": "Abstract",
+        "is_unknown": false,
+        "tx_count": 2,
+        "top_method": "0x5a0694d2"
+      },
+      {
         "address": "0x89e9d9b7d87591875359247f7d8eb786e7ea6910",
         "name": "Kona",
         "category": "DeFi",
         "is_unknown": false,
-        "tx_count": 3,
+        "tx_count": 2,
         "top_method": "0x3ac795de"
       },
       {
@@ -57,16 +65,8 @@
         "name": "Onchain Heroes",
         "category": "Gaming",
         "is_unknown": false,
-        "tx_count": 2,
-        "top_method": "0xb32820e9"
-      },
-      {
-        "address": "0x34ca1501fae231cc2ebc995ce013dbe882d7d081",
-        "name": "Session Key Signing",
-        "category": "Abstract",
-        "is_unknown": false,
         "tx_count": 1,
-        "top_method": "0x5a0694d2"
+        "top_method": "0xb32820e9"
       },
       {
         "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
@@ -99,22 +99,6 @@
         "is_unknown": false,
         "tx_count": 1,
         "top_method": "0xa026383e"
-      },
-      {
-        "address": "0xd9f34cda3667e0b5be4b6fba55d854cfb2ed0694",
-        "name": "DEPTH Protocol",
-        "category": "DeFi",
-        "is_unknown": false,
-        "tx_count": 1,
-        "top_method": "0x0962ef79"
-      },
-      {
-        "address": "0x00005ea00ac477b1030ce78506496e8c2de24bf5",
-        "name": "0x0000...4bf5",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 1,
-        "top_method": "0x4b61cd6f"
       }
     ]
   }

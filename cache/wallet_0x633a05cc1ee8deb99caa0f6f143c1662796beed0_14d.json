@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.934Z",
+  "fetched_at": "2026-05-27T16:05:55.559Z",
   "data": {
     "address": "0x633a05cc1ee8deb99caa0f6f143c1662796beed0",
     "name": "gigaz",
@@ -8,8 +8,8 @@
     "badges": 9,
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x633a05cc1ee8deb99caa0f6f143c1662796beed0",
-    "total_tx_count": 14603,
-    "period_tx_count": 330,
+    "total_tx_count": 14624,
+    "period_tx_count": 345,
     "period": "14d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "0x37d6...1afe",
         "category": "Unknown",
         "is_unknown": true,
-        "tx_count": 309,
+        "tx_count": 322,
         "top_method": "0x2752571e"
       },
       {
@@ -25,7 +25,7 @@
         "name": "OpenSea",
         "category": "NFT",
         "is_unknown": false,
-        "tx_count": 14,
+        "tx_count": 15,
         "top_method": "0xfd9f1e10"
       },
       {
@@ -33,7 +33,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 2,
+        "tx_count": 3,
         "top_method": "0x7060a227"
       },
       {

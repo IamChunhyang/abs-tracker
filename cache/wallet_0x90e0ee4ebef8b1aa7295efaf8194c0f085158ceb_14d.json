@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.706Z",
+  "fetched_at": "2026-05-27T16:05:55.434Z",
   "data": {
     "address": "0x90e0ee4ebef8b1aa7295efaf8194c0f085158ceb",
     "name": "0x90e0ee4ebef8b1aa7295efaf8194c0f085158ceb",
@@ -8,8 +8,8 @@
     "badges": 25,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x90e0ee4ebef8b1aa7295efaf8194c0f085158ceb",
-    "total_tx_count": 7610,
-    "period_tx_count": 63,
+    "total_tx_count": 7616,
+    "period_tx_count": 61,
     "period": "14d",
     "top_contracts": [
       {
@@ -25,24 +25,8 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 18,
+        "tx_count": 19,
         "top_method": "0x7060a227"
-      },
-      {
-        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
-        "name": "USDC",
-        "category": "Others",
-        "is_unknown": false,
-        "tx_count": 3,
-        "top_method": "0x095ea7b3"
-      },
-      {
-        "address": "0x19e547f1bd342094bc4318c539dbb91a8f52786c",
-        "name": "0x19e5...786c",
-        "category": "Unknown",
-        "is_unknown": true,
-        "tx_count": 2,
-        "top_method": "0x70876c98"
       },
       {
         "address": "0xac5f79757a785579b9c593018efd6ab27cf8821f",
@@ -59,6 +43,22 @@
         "is_unknown": true,
         "tx_count": 1,
         "top_method": "0xf7d7cddb"
+      },
+      {
+        "address": "0x19e547f1bd342094bc4318c539dbb91a8f52786c",
+        "name": "0x19e5...786c",
+        "category": "Unknown",
+        "is_unknown": true,
+        "tx_count": 1,
+        "top_method": "0x70876c98"
+      },
+      {
+        "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+        "name": "USDC",
+        "category": "Others",
+        "is_unknown": false,
+        "tx_count": 1,
+        "top_method": "0x095ea7b3"
       }
     ]
   }

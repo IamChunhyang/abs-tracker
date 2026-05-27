@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.217Z",
+  "fetched_at": "2026-05-27T16:05:55.134Z",
   "data": {
     "address": "0x886cbee36be572f21187b384b0ac716c560a4ccb",
     "name": "PudgyGang",
@@ -9,7 +9,7 @@
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0x886cbee36be572f21187b384b0ac716c560a4ccb",
     "total_tx_count": 6595,
-    "period_tx_count": 36,
+    "period_tx_count": 32,
     "period": "30d",
     "top_contracts": [
       {
@@ -17,7 +17,7 @@
         "name": "DEX Voter",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 22,
+        "tx_count": 19,
         "top_method": "0x7ac09bf7"
       },
       {

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.755Z",
+  "fetched_at": "2026-05-27T16:05:55.460Z",
   "data": {
     "address": "0xec753a52496b5bd36a7bec9e6631ae94a867786d",
     "name": "KanaArima",
@@ -8,18 +8,10 @@
     "badges": 11,
     "streaming": true,
     "portal_link": "https://portal.abs.xyz/profile/0xec753a52496b5bd36a7bec9e6631ae94a867786d",
-    "total_tx_count": 26481,
-    "period_tx_count": 161,
+    "total_tx_count": 26483,
+    "period_tx_count": 157,
     "period": "30d",
     "top_contracts": [
-      {
-        "address": "0x219260d8470d8211ad66eb69206bdf72a4218b65",
-        "name": "Onchain Heroes",
-        "category": "Gaming",
-        "is_unknown": false,
-        "tx_count": 32,
-        "top_method": "0x3c28402b"
-      },
       {
         "address": "0x3b50de27506f0a8c1f4122a1e6f470009a76ce2a",
         "name": "Abstract Voting",
@@ -27,6 +19,14 @@
         "is_unknown": false,
         "tx_count": 31,
         "top_method": "0x7060a227"
+      },
+      {
+        "address": "0x219260d8470d8211ad66eb69206bdf72a4218b65",
+        "name": "Onchain Heroes",
+        "category": "Gaming",
+        "is_unknown": false,
+        "tx_count": 31,
+        "top_method": "0x3c28402b"
       },
       {
         "address": "0x0000000000000068f116a894984e2db1123eb395",
@@ -41,7 +41,7 @@
         "name": "WETH9",
         "category": "Others",
         "is_unknown": false,
-        "tx_count": 14,
+        "tx_count": 12,
         "top_method": "0x"
       },
       {

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-26T10:40:57.596Z",
+  "fetched_at": "2026-05-27T16:05:55.371Z",
   "data": {
     "address": "0x6707fbe9c1dafb185ddf52a5e6c9fdd1ee69c46e",
     "name": "deb",
@@ -9,7 +9,7 @@
     "streaming": false,
     "portal_link": "https://portal.abs.xyz/profile/0x6707fbe9c1dafb185ddf52a5e6c9fdd1ee69c46e",
     "total_tx_count": 11681,
-    "period_tx_count": 1488,
+    "period_tx_count": 1486,
     "period": "30d",
     "top_contracts": [
       {
@@ -25,7 +25,7 @@
         "name": "Abstract Voting",
         "category": "Abstract",
         "is_unknown": false,
-        "tx_count": 12,
+        "tx_count": 11,
         "top_method": "0x7060a227"
       },
       {
