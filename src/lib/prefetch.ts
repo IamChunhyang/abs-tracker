@@ -148,116 +148,138 @@ function computeWeeklySnapshot(
   allTxData: WalletTxData[],
   allWallets: Wallet[],
   currentBlock: number,
+  tierFetchWindows: Record<string, number>,
 ) {
   const CACHE_DIR = join(process.cwd(), "cache");
   const WEEKLY_DIR = join(CACHE_DIR, "weekly");
   if (!existsSync(WEEKLY_DIR)) mkdirSync(WEEKLY_DIR, { recursive: true });
 
   const now = new Date();
-  const dayOfWeek = now.getUTCDay();
-  const daysSincePrevTue = ((dayOfWeek - 2 + 7) % 7) + 7;
-
-  const weekStart = new Date(now);
-  weekStart.setUTCDate(weekStart.getUTCDate() - daysSincePrevTue);
-  weekStart.setUTCHours(0, 0, 0, 0);
-  const weekEnd = new Date(weekStart);
-  weekEnd.setUTCDate(weekEnd.getUTCDate() + 6);
-  weekEnd.setUTCHours(23, 59, 59, 999);
-
   const fmt = (d: Date) => d.toISOString().slice(0, 10);
-  const startStr = fmt(weekStart);
-  const endStr = fmt(weekEnd);
-
-  const secsSinceWeekStart = (now.getTime() - weekStart.getTime()) / 1000;
-  const secsSinceWeekEnd = (now.getTime() - weekEnd.getTime()) / 1000;
-  const weekStartBlock = currentBlock - Math.floor(secsSinceWeekStart * 3.52);
-  const weekEndBlock = currentBlock - Math.max(0, Math.floor(secsSinceWeekEnd * 3.52));
-
-  console.log(`[prefetch] Weekly range: ${startStr} ~ ${endStr} (blocks ${weekStartBlock}..${weekEndBlock})`);
-
-  const tiers = [...PREFETCH_TIERS, "all"];
-  for (const tier of tiers) {
-    const tierData = tier === "all"
-      ? allTxData
-      : allTxData.filter((wd) => {
-          const w = allWallets.find((ww) => ww.address === wd.address);
-          return w?.tier === tier;
-        });
-
-    const contractMap: Record<string, { count: number; users: Set<string> }> = {};
-    const walletStats: Record<string, number> = {};
-
-    for (const wd of tierData) {
-      const weekTxs = wd.txs.filter((tx) => tx.blockNumber >= weekStartBlock && tx.blockNumber <= weekEndBlock);
-      walletStats[wd.address] = weekTxs.length;
-      for (const tx of weekTxs) {
-        if (!tx.to || tx.to === wd.address.toLowerCase()) continue;
-        if (!contractMap[tx.to]) contractMap[tx.to] = { count: 0, users: new Set() };
-        contractMap[tx.to].count++;
-        contractMap[tx.to].users.add(wd.address);
-      }
-    }
-
-    const groupedMap: Record<string, { count: number; users: Set<string>; topAddress: string; topCount: number }> = {};
-    for (const [address, stats] of Object.entries(contractMap)) {
-      const info = getContractName(address);
-      const key = info.is_unknown ? address : info.name;
-      if (!groupedMap[key]) groupedMap[key] = { count: 0, users: new Set(), topAddress: address, topCount: 0 };
-      groupedMap[key].count += stats.count;
-      for (const user of stats.users) groupedMap[key].users.add(user);
-      if (stats.count > groupedMap[key].topCount) {
-        groupedMap[key].topAddress = address;
-        groupedMap[key].topCount = stats.count;
-      }
-    }
-
-    const rankings: RankingEntry[] = Object.entries(groupedMap)
-      .map(([, stats]) => {
-        const info = getContractName(stats.topAddress);
-        return {
-          contract_address: stats.topAddress,
-          contract_name: info.name,
-          category: info.category,
-          tx_count: stats.count,
-          unique_users: stats.users.size,
-          is_unknown: info.is_unknown,
-        };
-      })
-      .sort((a, b) => b.tx_count - a.tx_count)
-      .slice(0, 100);
-
-    const walletRanking = Object.entries(walletStats)
-      .map(([address, count]) => {
-        const w = allWallets.find((ww) => ww.address === address);
-        return { address, name: w?.name || address.slice(0, 10), tier: w?.tier || "Unknown", tx_count: count };
-      })
-      .sort((a, b) => b.tx_count - a.tx_count);
-
-    const weeklyData = {
-      fetched_at: new Date().toISOString(),
-      data: {
-        period: "weekly",
-        tier,
-        total_wallets: tierData.length,
-        rankings,
-        wallet_ranking: walletRanking,
-        week_start: startStr,
-        week_end: endStr,
-      },
-    };
-
-    writeFileSync(join(WEEKLY_DIR, `${startStr}_${tier}.json`), JSON.stringify(weeklyData, null, 2), "utf-8");
-  }
 
   const manifestPath = join(WEEKLY_DIR, "weeks.json");
   let weeks: { week_start: string; week_end: string; fetched_at: string }[] = [];
   if (existsSync(manifestPath)) weeks = JSON.parse(readFileSync(manifestPath, "utf-8"));
-  if (!weeks.find((w) => w.week_start === startStr)) {
+
+  const oldestBlock = Math.min(...Object.values(tierFetchWindows));
+
+  const dayOfWeek = now.getUTCDay();
+  const daysSincePrevTue = ((dayOfWeek - 2 + 7) % 7) + 7;
+  let cursor = new Date(now);
+  cursor.setUTCDate(cursor.getUTCDate() - daysSincePrevTue);
+  cursor.setUTCHours(0, 0, 0, 0);
+
+  let computed = 0;
+  while (true) {
+    const weekStart = new Date(cursor);
+    const weekEnd = new Date(weekStart);
+    weekEnd.setUTCDate(weekEnd.getUTCDate() + 6);
+    weekEnd.setUTCHours(23, 59, 59, 999);
+
+    const startStr = fmt(weekStart);
+    const endStr = fmt(weekEnd);
+
+    const secsSinceStart = (now.getTime() - weekStart.getTime()) / 1000;
+    const secsSinceEnd = (now.getTime() - weekEnd.getTime()) / 1000;
+    const wStartBlock = currentBlock - Math.floor(secsSinceStart * 3.52);
+    const wEndBlock = currentBlock - Math.max(0, Math.floor(secsSinceEnd * 3.52));
+
+    if (wStartBlock < oldestBlock) break;
+
+    if (weeks.find((w) => w.week_start === startStr)) {
+      cursor.setUTCDate(cursor.getUTCDate() - 7);
+      continue;
+    }
+
+    const coveredTiers = PREFETCH_TIERS.filter((t) => tierFetchWindows[t] <= wStartBlock);
+    const tiers = [...coveredTiers, "all"];
+
+    console.log(`[prefetch] Weekly range: ${startStr} ~ ${endStr} (blocks ${wStartBlock}..${wEndBlock}, tiers: ${coveredTiers.join(",")})`);
+
+    for (const tier of tiers) {
+      const tierData = tier === "all"
+        ? allTxData.filter((wd) => {
+            const w = allWallets.find((ww) => ww.address === wd.address);
+            return w && coveredTiers.includes(w.tier);
+          })
+        : allTxData.filter((wd) => {
+            const w = allWallets.find((ww) => ww.address === wd.address);
+            return w?.tier === tier;
+          });
+
+      const contractMap: Record<string, { count: number; users: Set<string> }> = {};
+      const walletStats: Record<string, number> = {};
+
+      for (const wd of tierData) {
+        const weekTxs = wd.txs.filter((tx) => tx.blockNumber >= wStartBlock && tx.blockNumber <= wEndBlock);
+        walletStats[wd.address] = weekTxs.length;
+        for (const tx of weekTxs) {
+          if (!tx.to || tx.to === wd.address.toLowerCase()) continue;
+          if (!contractMap[tx.to]) contractMap[tx.to] = { count: 0, users: new Set() };
+          contractMap[tx.to].count++;
+          contractMap[tx.to].users.add(wd.address);
+        }
+      }
+
+      const groupedMap: Record<string, { count: number; users: Set<string>; topAddress: string; topCount: number }> = {};
+      for (const [address, stats] of Object.entries(contractMap)) {
+        const info = getContractName(address);
+        const key = info.is_unknown ? address : info.name;
+        if (!groupedMap[key]) groupedMap[key] = { count: 0, users: new Set(), topAddress: address, topCount: 0 };
+        groupedMap[key].count += stats.count;
+        for (const user of stats.users) groupedMap[key].users.add(user);
+        if (stats.count > groupedMap[key].topCount) {
+          groupedMap[key].topAddress = address;
+          groupedMap[key].topCount = stats.count;
+        }
+      }
+
+      const rankings: RankingEntry[] = Object.entries(groupedMap)
+        .map(([, stats]) => {
+          const info = getContractName(stats.topAddress);
+          return {
+            contract_address: stats.topAddress,
+            contract_name: info.name,
+            category: info.category,
+            tx_count: stats.count,
+            unique_users: stats.users.size,
+            is_unknown: info.is_unknown,
+          };
+        })
+        .sort((a, b) => b.tx_count - a.tx_count)
+        .slice(0, 100);
+
+      const walletRanking = Object.entries(walletStats)
+        .map(([address, count]) => {
+          const w = allWallets.find((ww) => ww.address === address);
+          return { address, name: w?.name || address.slice(0, 10), tier: w?.tier || "Unknown", tx_count: count };
+        })
+        .sort((a, b) => b.tx_count - a.tx_count);
+
+      writeFileSync(join(WEEKLY_DIR, `${startStr}_${tier}.json`), JSON.stringify({
+        fetched_at: new Date().toISOString(),
+        data: {
+          period: "weekly",
+          tier,
+          total_wallets: tierData.length,
+          rankings,
+          wallet_ranking: walletRanking,
+          week_start: startStr,
+          week_end: endStr,
+        },
+      }, null, 2), "utf-8");
+    }
+
     weeks.push({ week_start: startStr, week_end: endStr, fetched_at: now.toISOString() });
-    weeks.sort((a, b) => b.week_start.localeCompare(a.week_start));
+    computed++;
+    console.log(`[prefetch] Weekly snapshot computed: ${startStr} ~ ${endStr} (${tiers.length} tiers)`);
+
+    cursor.setUTCDate(cursor.getUTCDate() - 7);
   }
+
+  weeks.sort((a, b) => b.week_start.localeCompare(a.week_start));
   writeFileSync(manifestPath, JSON.stringify(weeks, null, 2), "utf-8");
-  console.log(`[prefetch] Weekly snapshot computed: ${startStr} ~ ${endStr} (${tiers.length} tiers)`);
+  if (computed > 0) console.log(`[prefetch] ${computed} weekly snapshot(s) backfilled`);
 }
 
 export async function prefetchAll() {
@@ -374,8 +396,12 @@ export async function prefetchAll() {
       }
     }
 
-    // Compute weekly snapshot from raw tx data (Tue~Mon cycle)
-    computeWeeklySnapshot(allTxData, allWallets, currentBlock);
+    // Compute weekly snapshots from raw tx data (Tue~Mon cycle, backfills missing weeks)
+    const tierFetchWindows: Record<string, number> = {};
+    for (const tier of PREFETCH_TIERS) {
+      tierFetchWindows[tier] = tier === "Platinum" ? platinumStartBlock : startBlocks["30d"];
+    }
+    computeWeeklySnapshot(allTxData, allWallets, currentBlock, tierFetchWindows);
 
     const durationMs = Date.now() - startTime;
     const durationMin = (durationMs / 60000).toFixed(1);
