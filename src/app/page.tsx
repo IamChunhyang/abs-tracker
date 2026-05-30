@@ -99,7 +99,7 @@ function Dashboard() {
           <summary className="flex items-center gap-3 p-4 cursor-pointer select-none">
             <div className="flex-1 min-w-0">
               <span className="text-sm text-pink-300 font-semibold">
-                {l({ ko: "📌 트랜잭션 수와 관계없이 XP 효율 좋은 디앱 (4/29 기준)", en: "📌 XP-efficient dApps regardless of tx count (Apr 29)", zh: "📌 不论交易数量，XP效率高的dApp（4/29基准）", ja: "📌 トランザクション数に関係なくXP効率の良いdApp（4/29基準）" }, lang)}
+                {l({ ko: "📌 트랜잭션 수와 관계없이 XP 효율 좋은 디앱 (6/2 기준)", en: "📌 XP-efficient dApps regardless of tx count (Jun 2)", zh: "📌 不论交易数量，XP效率高的dApp（6/2基准）", ja: "📌 トランザクション数に関係なくXP効率の良いdApp（6/2基準）" }, lang)}
               </span>
               <span className="text-[10px] text-gray-500 ml-2">{l({ ko: "▼ 클릭해서 보기", en: "▼ Click to view", zh: "▼ 点击查看", ja: "▼ クリックで表示" }, lang)}</span>
             </div>
@@ -124,7 +124,7 @@ function Dashboard() {
           </summary>
           <div className="px-4 pb-4 space-y-4">
             <div className="border-t border-gray-800 pt-3"></div>
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
               <a href="https://mog.onchainheroes.xyz/" target="_blank" rel="noopener noreferrer" className="rounded-lg border border-yellow-500/20 bg-yellow-950/10 p-3 block hover:border-yellow-500/40 transition-colors">
                 <p className="text-sm font-semibold text-white hover:text-yellow-300 transition-colors">Maze of Gains (MOG) ↗</p>
                 <p className="text-xs mt-1">
@@ -144,13 +144,6 @@ function Dashboard() {
                 <p className="text-xs mt-1">
                   <span className="text-pink-400 font-medium">Top 100</span>
                   <span className="text-gray-400 ml-1">{l({ ko: "내 순위권 들기", en: "ranking goal", zh: "排名目标", ja: "ランキング目標" }, lang)}</span>
-                </p>
-              </a>
-              <a href="https://www.duper.gg/game" target="_blank" rel="noopener noreferrer" className="rounded-lg border border-green-500/20 bg-green-950/10 p-3 block hover:border-green-500/40 transition-colors">
-                <p className="text-sm font-semibold text-white hover:text-green-300 transition-colors">Duper ↗</p>
-                <p className="text-xs mt-1">
-                  <span className="text-pink-400 font-medium">{l({ ko: "출석 + 캐주얼 2판", en: "Check-in + 2 games", zh: "签到 + 休闲2局", ja: "チェックイン + カジュアル2戦" }, lang)}</span>
-                  <span className="text-gray-400 ml-1">{l({ ko: "후 데일리 보상", en: "then daily rewards", zh: "后领取每日奖励", ja: "でデイリー報酬" }, lang)}</span>
                 </p>
               </a>
             </div>

@@ -2,7 +2,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from "fs";
 import { join } from "path";
 
 const CACHE_DIR = join(process.cwd(), "cache");
-const CACHE_MAX_AGE = 7 * 24 * 60 * 60 * 1000;
+const CACHE_MAX_AGE = 14 * 24 * 60 * 60 * 1000;
 
 interface CachedData<T> {
   fetched_at: string;

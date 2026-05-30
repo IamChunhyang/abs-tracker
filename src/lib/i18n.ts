@@ -94,6 +94,8 @@ const dict = {
   "weekly.noData": { ko: "아직 주간 데이터가 없습니다", en: "No weekly data available yet", zh: "暂无每周数据", ja: "まだ週間データがありません" },
   "weekly.weekLabel": { ko: "{month}월 {week}주차", en: "{monthName} W{week}", zh: "{month}月第{week}周", ja: "{month}月第{week}週" },
   "nav.weekly": { ko: "주간 핫", en: "Weekly Hot", zh: "每周热门", ja: "週間ホット" },
+  "weekly.trendTitle": { ko: "주간 트렌드 (Top 5)", en: "Weekly Trend (Top 5)", zh: "每周趋势 (Top 5)", ja: "週間トレンド (Top 5)" },
+  "weekly.change": { ko: "변동", en: "Change", zh: "变动", ja: "変動" },
 
   // Categories
   "cat.Gaming": { ko: "게이밍", en: "Gaming", zh: "游戏", ja: "ゲーム" },

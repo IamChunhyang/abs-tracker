@@ -1,5 +1,7 @@
-import { NextRequest, NextResponse } from "next/server";
+import { NextRequest } from "next/server";
 import { loadAllWallets, getTierCounts, TIER_ORDER } from "@/lib/load-wallets";
+
+const JSON_HEADERS = { "Content-Type": "application/json; charset=utf-8" } as const;
 
 export const dynamic = "force-dynamic";
 
@@ -8,10 +10,10 @@ export async function GET(request: NextRequest) {
   const search = request.nextUrl.searchParams.get("q")?.toLowerCase();
 
   if (!tier && !search) {
-    return NextResponse.json({
+    return new Response(JSON.stringify({
       tiers: TIER_ORDER,
       counts: getTierCounts(),
-    });
+    }), { headers: JSON_HEADERS });
   }
 
   let wallets = loadAllWallets();
@@ -26,7 +28,7 @@ export async function GET(request: NextRequest) {
     );
   }
 
-  return NextResponse.json({
+  return new Response(JSON.stringify({
     total: wallets.length,
     wallets: wallets.slice(0, 200).map((w) => ({
       address: w.address,
@@ -34,5 +36,5 @@ export async function GET(request: NextRequest) {
       tier: w.tier,
       badges: w.badges,
     })),
-  });
+  }), { headers: JSON_HEADERS });
 }

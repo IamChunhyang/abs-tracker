@@ -1,12 +1,14 @@
 "use client";
 
-import { useState, useEffect, Suspense } from "react";
+import { useState, useEffect, useMemo, Suspense } from "react";
 import { RankingTable } from "@/components/ranking-table";
+import { WeeklyTrendChart } from "@/components/weekly-trend-chart";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { RankingEntry } from "@/lib/types";
+import { RankingEntry, WeeklyRankingEntry } from "@/lib/types";
+import { CATEGORY_COLORS } from "@/lib/data";
 import { useLang } from "@/lib/language-context";
-import { t, Lang } from "@/lib/i18n";
+import { t, tCat, Lang } from "@/lib/i18n";
 import { useSearchParams, useRouter } from "next/navigation";
 import { ChevronDown, Flame } from "lucide-react";
 
@@ -50,14 +52,17 @@ function WeeklyPage() {
   const [weeks, setWeeks] = useState<WeekInfo[]>([]);
   const [selectedWeek, setSelectedWeek] = useState(searchParams.get("week") || "");
   const [tier, setTierState] = useState(searchParams.get("tier") || "all");
-  const [rankings, setRankings] = useState<RankingEntry[]>([]);
+  const [rankings, setRankings] = useState<WeeklyRankingEntry[]>([]);
   const [totalWallets, setTotalWallets] = useState(0);
   const [loading, setLoading] = useState(true);
   const [weeksLoading, setWeeksLoading] = useState(true);
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [selectedCategories, setSelectedCategories] = useState<Set<string>>(new Set());
+  const [allWeeksData, setAllWeeksData] = useState<Record<string, RankingEntry[]>>({});
 
   function setTier(t: string) {
     setTierState(t);
+    setSelectedCategories(new Set());
     const params = new URLSearchParams();
     if (selectedWeek) params.set("week", selectedWeek);
     params.set("tier", t);
@@ -71,6 +76,15 @@ function WeeklyPage() {
     params.set("week", week);
     params.set("tier", tier);
     router.replace(`/weekly?${params.toString()}`, { scroll: false });
+  }
+
+  function toggleCategory(cat: string) {
+    setSelectedCategories((prev) => {
+      const next = new Set(prev);
+      if (next.has(cat)) next.delete(cat);
+      else next.add(cat);
+      return next;
+    });
   }
 
   useEffect(() => {
@@ -100,6 +114,25 @@ function WeeklyPage() {
       })
       .catch(() => setLoading(false));
   }, [selectedWeek, tier]);
+
+  useEffect(() => {
+    if (weeks.length < 2) return;
+    fetch(`/api/weekly?week=${weeks[0].week_start}&tier=${tier}&all=true`)
+      .then((res) => res.json())
+      .then((d) => setAllWeeksData(d.allWeeks || {}))
+      .catch(() => {});
+  }, [weeks, tier]);
+
+  const categories = useMemo(() => {
+    const cats = new Set<string>();
+    rankings.forEach((r) => cats.add(r.category));
+    return Array.from(cats).sort();
+  }, [rankings]);
+
+  const filteredRankings = useMemo(() => {
+    if (selectedCategories.size === 0) return rankings;
+    return rankings.filter((r) => selectedCategories.has(r.category));
+  }, [rankings, selectedCategories]);
 
   const currentWeekInfo = weeks.find((w) => w.week_start === selectedWeek);
 
@@ -187,19 +220,51 @@ function WeeklyPage() {
               <div className="bg-gray-900 border border-gray-800 rounded-lg p-4">
                 <div className="text-xs text-gray-500 mb-1">{t("stats.totalTxs", lang)}</div>
                 <div className="text-xl font-bold text-white">
-                  {rankings.reduce((sum, r) => sum + r.tx_count, 0).toLocaleString()}
+                  {filteredRankings.reduce((sum, r) => sum + r.tx_count, 0).toLocaleString()}
                 </div>
               </div>
               <div className="bg-gray-900 border border-gray-800 rounded-lg p-4">
                 <div className="text-xs text-gray-500 mb-1">{t("stats.topDapp", lang)}</div>
                 <div className="text-xl font-bold text-orange-400 truncate">
-                  {rankings[0]?.contract_name || "-"}
+                  {filteredRankings[0]?.contract_name || "-"}
                 </div>
               </div>
               <div className="bg-gray-900 border border-gray-800 rounded-lg p-4">
                 <div className="text-xs text-gray-500 mb-1">dApps</div>
-                <div className="text-xl font-bold text-white">{rankings.length}</div>
+                <div className="text-xl font-bold text-white">{filteredRankings.length}</div>
               </div>
+            </div>
+          )}
+
+          {/* Trend chart */}
+          {Object.keys(allWeeksData).length >= 2 && (
+            <WeeklyTrendChart
+              allWeeks={allWeeksData}
+              weekOrder={weeks.map((w) => w.week_start)}
+            />
+          )}
+
+          {/* Category filter */}
+          {!loading && categories.length > 1 && (
+            <div className="flex flex-wrap gap-2">
+              {categories.map((cat) => {
+                const active = selectedCategories.has(cat);
+                const color = CATEGORY_COLORS[cat] || CATEGORY_COLORS.Unknown;
+                return (
+                  <button
+                    key={cat}
+                    onClick={() => toggleCategory(cat)}
+                    className="px-3 py-1.5 rounded-full text-xs font-medium border transition-colors"
+                    style={{
+                      borderColor: active ? color : "#374151",
+                      backgroundColor: active ? `${color}20` : "transparent",
+                      color: active ? color : "#9ca3af",
+                    }}
+                  >
+                    {tCat(cat, lang)}
+                  </button>
+                );
+              })}
             </div>
           )}
 
@@ -215,7 +280,7 @@ function WeeklyPage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <RankingTable rankings={rankings} loading={loading} />
+              <RankingTable rankings={filteredRankings} loading={loading} showChangeIndicators />
             </CardContent>
           </Card>
         </>

@@ -1,4 +1,4 @@
-"tier","id","wallet","name","tierV2","badges","streaming","portal_link"
+﻿"tier","id","wallet","name","tierV2","badges","streaming","portal_link"
 "Platinum","19","0x1bde3d2861cb5216eb6ec559afde7d44f385d4f6","cygaar","10","25","yes","https://portal.abs.xyz/profile/0x1bde3d2861cb5216eb6ec559afde7d44f385d4f6"
 "Platinum","24","0xc2451c4d64e851f9f62963ca48a25471b2740e0f","doubledash","10","11","yes","https://portal.abs.xyz/profile/0xc2451c4d64e851f9f62963ca48a25471b2740e0f"
 "Platinum","30","0x1c67724acc76821c8ad1f1f87ba2751631babd0c","Phin","10","16","yes","https://portal.abs.xyz/profile/0x1c67724acc76821c8ad1f1f87ba2751631babd0c"
@@ -1462,4 +1462,3 @@
 "Platinum","1933607","0x43ba89068825704e4baf9c39df872a118e493543","0x43ba89068825704e4baf9c39df872a118e493543","10","2","no","https://portal.abs.xyz/profile/0x43ba89068825704e4baf9c39df872a118e493543"
 "Platinum","1972654","0x943c8f8b6ef01cb4e7aef836e02c7fec97a817cd","Maxia","10","9","no","https://portal.abs.xyz/profile/0x943c8f8b6ef01cb4e7aef836e02c7fec97a817cd"
 "Platinum","1991588","0x3057bfd9db1f58560f58777d1a9cb443c8d2afa4","0x3057bfd9db1f58560f58777d1a9cb443c8d2afa4","10","13","no","https://portal.abs.xyz/profile/0x3057bfd9db1f58560f58777d1a9cb443c8d2afa4"
-"Platinum","1993293","0x35a1ea8fb1c4db295820301970f5207803cdc65c","Chunhyang","10","10","yes","https://portal.abs.xyz/profile/0x35a1ea8fb1c4db295820301970f5207803cdc65c"

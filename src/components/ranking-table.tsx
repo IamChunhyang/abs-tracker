@@ -2,7 +2,7 @@
 
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Badge } from "@/components/ui/badge";
-import { RankingEntry } from "@/lib/types";
+import { RankingEntry, WeeklyRankingEntry } from "@/lib/types";
 import { CATEGORY_COLORS, getContractName } from "@/lib/data";
 import { useLang } from "@/lib/language-context";
 import { t, tCat } from "@/lib/i18n";
@@ -10,9 +10,31 @@ import { t, tCat } from "@/lib/i18n";
 interface RankingTableProps {
   rankings: RankingEntry[];
   loading: boolean;
+  showChangeIndicators?: boolean;
 }
 
-export function RankingTable({ rankings, loading }: RankingTableProps) {
+function ChangeIndicator({ entry }: { entry: WeeklyRankingEntry }) {
+  if (entry.is_new) {
+    return <span className="text-xs font-bold text-yellow-400 bg-yellow-400/10 px-1.5 py-0.5 rounded">NEW</span>;
+  }
+  if (entry.rank_change === null || entry.rank_change === 0) {
+    return <span className="text-xs text-gray-600">—</span>;
+  }
+  if (entry.rank_change > 0) {
+    return <span className="text-xs font-medium text-emerald-400">▲{entry.rank_change}</span>;
+  }
+  return <span className="text-xs font-medium text-red-400">▼{Math.abs(entry.rank_change)}</span>;
+}
+
+function TxChangeIndicator({ entry }: { entry: WeeklyRankingEntry }) {
+  if (entry.is_new || entry.tx_change_pct === null) return null;
+  const pct = entry.tx_change_pct;
+  if (pct > 0) return <span className="text-xs text-emerald-500">+{pct}%</span>;
+  if (pct < 0) return <span className="text-xs text-red-500">{pct}%</span>;
+  return <span className="text-xs text-gray-600">0%</span>;
+}
+
+export function RankingTable({ rankings, loading, showChangeIndicators }: RankingTableProps) {
   const { lang } = useLang();
 
   if (loading) {
@@ -36,6 +58,9 @@ export function RankingTable({ rankings, loading }: RankingTableProps) {
           <TableHead className="text-gray-400">{t("table.dapp", lang)}</TableHead>
           <TableHead className="text-gray-400">{t("table.category", lang)}</TableHead>
           <TableHead className="text-gray-400 text-right">{t("table.txs", lang)}</TableHead>
+          {showChangeIndicators && (
+            <TableHead className="text-gray-400 text-center w-20">{t("weekly.change", lang)}</TableHead>
+          )}
           <TableHead className="text-gray-400 text-right">{t("table.users", lang)}</TableHead>
           <TableHead className="text-gray-400 w-40">{t("table.share", lang)}</TableHead>
         </TableRow>
@@ -45,6 +70,7 @@ export function RankingTable({ rankings, loading }: RankingTableProps) {
           const totalTxs = rankings.reduce((sum, rr) => sum + rr.tx_count, 0);
           const pct = totalTxs > 0 ? (r.tx_count / totalTxs) * 100 : 0;
           const color = CATEGORY_COLORS[r.category] || CATEGORY_COLORS.Unknown;
+          const weekly = r as WeeklyRankingEntry;
 
           return (
             <TableRow key={r.contract_address} className="border-gray-800 hover:bg-gray-800/50">
@@ -76,8 +102,16 @@ export function RankingTable({ rankings, loading }: RankingTableProps) {
                 </Badge>
               </TableCell>
               <TableCell className="text-right font-mono text-white">
-                {r.tx_count.toLocaleString()}
+                <div className="flex flex-col items-end">
+                  <span>{r.tx_count.toLocaleString()}</span>
+                  {showChangeIndicators && <TxChangeIndicator entry={weekly} />}
+                </div>
               </TableCell>
+              {showChangeIndicators && (
+                <TableCell className="text-center">
+                  <ChangeIndicator entry={weekly} />
+                </TableCell>
+              )}
               <TableCell className="text-right font-mono text-gray-300">
                 {r.unique_users}
               </TableCell>

@@ -1,8 +1,10 @@
-import { NextRequest, NextResponse } from "next/server";
+import { NextRequest } from "next/server";
 import { readCache } from "@/lib/cache";
 import { loadAllWallets, loadCustomWalletCache } from "@/lib/load-wallets";
 import { getTxCount } from "@/lib/abstract-api";
 import { getContractName } from "@/lib/data";
+
+const JSON_HEADERS = { "Content-Type": "application/json; charset=utf-8" } as const;
 
 interface WalletRank {
   address: string;
@@ -21,7 +23,7 @@ export async function GET(request: NextRequest) {
   const period = request.nextUrl.searchParams.get("period") || "7d";
 
   if (!q) {
-    return NextResponse.json({ error: "q required" }, { status: 400 });
+    return new Response(JSON.stringify({ error: "q required" }), { status: 400, headers: JSON_HEADERS });
   }
 
   const allWallets = loadAllWallets();
@@ -42,13 +44,13 @@ export async function GET(request: NextRequest) {
   }
 
   if (!wallet) {
-    return NextResponse.json({ found: false });
+    return new Response(JSON.stringify({ found: false }), { headers: JSON_HEADERS });
   }
 
   const memKey = `${wallet.address}:${period}`;
   const cached = rankMemCache.get(memKey);
   if (cached && Date.now() - cached.ts < RANK_CACHE_TTL) {
-    return NextResponse.json(cached.data);
+    return new Response(JSON.stringify(cached.data), { headers: JSON_HEADERS });
   }
 
   const allRanking = readCache<{ wallet_ranking: WalletRank[] }>(`rankings_${period}_all`);
@@ -178,5 +180,5 @@ export async function GET(request: NextRequest) {
   };
 
   rankMemCache.set(memKey, { data: result, ts: Date.now() });
-  return NextResponse.json(result);
+  return new Response(JSON.stringify(result), { headers: JSON_HEADERS });
 }

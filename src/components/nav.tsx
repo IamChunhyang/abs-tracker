@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BarChart3, Search, Users, Home, Trophy, Flame } from "lucide-react";
+import { Search, Users, Home, Flame } from "lucide-react";
 import { useLang } from "@/lib/language-context";
 import { t } from "@/lib/i18n";
 
@@ -13,7 +13,6 @@ export function Nav() {
   const links = [
     { href: "/", label: t("nav.dashboard", lang), icon: Home },
     { href: "/weekly", label: t("nav.weekly", lang), icon: Flame },
-    { href: "/ranking", label: t("nav.ranking", lang), icon: BarChart3 },
     { href: "/tiers", label: t("nav.tiers", lang), icon: Users },
   ];
 
@@ -22,7 +21,7 @@ export function Nav() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center gap-2">
-            <img src="/호에엥-3.png" alt="Logo" className="w-14 h-14 rounded-full object-cover" />
+            <img src="/logo.png" alt="Logo" className="w-14 h-14 rounded-full object-cover" />
             <span className="font-bold text-white hidden sm:block">{t("nav.title", lang)}</span>
           </Link>
 

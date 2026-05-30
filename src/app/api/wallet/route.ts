@@ -1,7 +1,9 @@
-import { NextRequest, NextResponse } from "next/server";
+import { NextRequest } from "next/server";
 import { getTxCount } from "@/lib/abstract-api";
 import { findWallet, loadAllWallets } from "@/lib/load-wallets";
 import { readCache } from "@/lib/cache";
+
+const JSON_HEADERS = { "Content-Type": "application/json; charset=utf-8" } as const;
 
 export const dynamic = "force-dynamic";
 
@@ -10,7 +12,7 @@ export async function GET(request: NextRequest) {
   const period = request.nextUrl.searchParams.get("period") || "7d";
 
   if (!rawAddress) {
-    return NextResponse.json({ error: "address required" }, { status: 400 });
+    return new Response(JSON.stringify({ error: "address required" }), { status: 400, headers: JSON_HEADERS });
   }
 
   let address = rawAddress;
@@ -21,7 +23,7 @@ export async function GET(request: NextRequest) {
       (w) => w.name.toLowerCase() === q || w.name.toLowerCase().includes(q)
     );
     if (!wallet) {
-      return NextResponse.json({ error: "not_found", name: rawAddress });
+      return new Response(JSON.stringify({ error: "not_found", name: rawAddress }), { headers: JSON_HEADERS });
     }
     address = wallet.address;
   }
@@ -32,7 +34,7 @@ export async function GET(request: NextRequest) {
     if (Array.isArray(fileCache.top_contracts)) {
       fileCache.top_contracts = fileCache.top_contracts.slice(0, 10);
     }
-    return NextResponse.json(fileCache);
+    return new Response(JSON.stringify(fileCache), { headers: JSON_HEADERS });
   }
 
   const walletInfo = findWallet(address);
@@ -64,5 +66,5 @@ export async function GET(request: NextRequest) {
     top_contracts: topContracts,
   };
 
-  return NextResponse.json(result);
+  return new Response(JSON.stringify(result), { headers: JSON_HEADERS });
 }

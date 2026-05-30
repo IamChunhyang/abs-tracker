@@ -54,4 +54,10 @@ export interface TierStats {
   top_dapps: RankingEntry[];
 }
 
+export interface WeeklyRankingEntry extends RankingEntry {
+  rank_change: number | null;
+  is_new: boolean;
+  tx_change_pct: number | null;
+}
+
 export type Period = "1d" | "7d" | "14d" | "30d";

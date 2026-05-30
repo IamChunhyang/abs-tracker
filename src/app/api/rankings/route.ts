@@ -1,9 +1,11 @@
-import { NextRequest, NextResponse } from "next/server";
+import { NextRequest } from "next/server";
 import { getCurrentBlock, fetchTransactions, periodToBlocks } from "@/lib/abstract-api";
 import { getContractName } from "@/lib/data";
 import { loadAllWallets, loadCustomWalletCache } from "@/lib/load-wallets";
 import { RankingEntry } from "@/lib/types";
 import { readCache } from "@/lib/cache";
+
+const JSON_HEADERS = { "Content-Type": "application/json; charset=utf-8" } as const;
 
 export const dynamic = "force-dynamic";
 
@@ -66,14 +68,14 @@ export async function GET(request: NextRequest) {
     fileCache.wallet_ranking = walletRanking;
     fileCache.total_wallets = walletRanking.length;
 
-    return NextResponse.json(fileCache);
+    return new Response(JSON.stringify(fileCache), { headers: JSON_HEADERS });
   }
 
   // 2. In-memory cache (fallback for live fetches)
   const memKey = `${period}:${tier}`;
   const cached = memCache.get(memKey);
   if (cached && Date.now() - cached.ts < MEM_CACHE_TTL) {
-    return NextResponse.json(cached.data);
+    return new Response(JSON.stringify(cached.data), { headers: JSON_HEADERS });
   }
 
   try {
@@ -172,9 +174,9 @@ export async function GET(request: NextRequest) {
 
     memCache.set(memKey, { data: result, ts: Date.now() });
 
-    return NextResponse.json(result);
+    return new Response(JSON.stringify(result), { headers: JSON_HEADERS });
   } catch (error) {
     console.error("Rankings API error:", error);
-    return NextResponse.json({ error: "Failed to fetch rankings" }, { status: 500 });
+    return new Response(JSON.stringify({ error: "Failed to fetch rankings" }), { status: 500, headers: JSON_HEADERS });
   }
 }
